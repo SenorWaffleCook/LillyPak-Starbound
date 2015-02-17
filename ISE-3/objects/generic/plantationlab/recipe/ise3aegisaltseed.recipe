@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3aegisaltcell", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3aegisaltseed",
+    "count" : 1
+  },
+  "groups" : [ "ise3plantationlab", "all" ]
+}

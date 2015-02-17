@@ -1,0 +1,15 @@
+{
+  "input" : [
+	{ "item" : "ise3lightframe", "count" : 1 },
+    { "item" : "ise3grinder", "count" : 2 },
+	{ "item" : "ise3irongear", "count" : 20 },
+	{ "item" : "ise3tinbattery", "count" : 2 },
+	{ "item" : "ise3smallchip", "count" : 1 },
+	{ "item" : "ise3coppercable", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "ise3crusher",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "materials", "all" ]
+}

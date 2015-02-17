@@ -1,0 +1,47 @@
+{
+  "objectName" : "ise3nuclearfurnace",
+  "rarity" : "uncommon",
+  "learnBlueprintsOnPickup" : [ "ise3solariumfurnace", "ise3solarium" ],
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "ise3nuclearfurnace" ]
+  },
+  "printable" : false,
+  "description" : "The upgraded Blast furnace can also turn Titanium Bars into Durasteel bars",
+  "shortdescription" : "^orange;Nuclear Furnace^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [107, 131, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "Nuclear Furnace",
+  "avianDescription" : "Nuclear Furnace",
+  "floranDescription" : "Nuclear Furnace",
+  "glitchDescription" : "Nuclear Furnace",
+  "humanDescription" : "Nuclear Furnace",
+  "hylotlDescription" : "Nuclear Furnace",
+
+  "inventoryIcon" : "ise3nuclearfurnaceicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3nuclearfurnace.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

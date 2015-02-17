@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "refinedrubium", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3rubiumgear",
+    "count" : 5
+  },
+  "groups" : [ "ise3mechtable", "consumables", "all" ]
+}

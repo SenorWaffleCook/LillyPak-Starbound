@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "blanktechcard", "count" : 1 },
+	"groups" : [ "spawningtable", "tech" ]
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "proximitysensor",
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 800,
+  "description" : "Watch your step!",
+  "shortdescription" : "Proximity Sensor",
+  "race" : "generic",
+
+  "apexDescription" : "This will go off if I get too close.",
+  "avianDescription" : "Don't get too close!",
+  "floranDescription" : "Floran dance for thing!",
+  "glitchDescription" : "Statement. A proximity sensor.",
+  "humanDescription" : "A proximity sensor.",
+  "hylotlDescription" : "A sensor.",
+  "novakidDescription" : "Tread carefully.",
+
+  "inventoryIcon" : "proximitysensoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "proximitysensor.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/proximitysensor/proximitysensor.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationParts" : {
+    "switch" : "proximitysensor.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 0.5,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-1, 0], [1, 1] ]
+}

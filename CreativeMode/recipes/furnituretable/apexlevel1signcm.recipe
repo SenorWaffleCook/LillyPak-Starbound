@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "apexlevel1sign", "count" : 1 },
+	"groups" : [ "furnituretable", "apex" ]
+}

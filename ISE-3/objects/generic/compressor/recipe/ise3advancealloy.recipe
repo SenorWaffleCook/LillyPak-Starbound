@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3mixedmetals", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3advancealloy",
+    "count" : 1
+  },
+  "groups" : [ "ise3compressor", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "hylotlcalligraphy1",
+    "count" : 1
+  },
+  "groups" : [ "hylotlcraftingtable", "objects", "all" ]
+}

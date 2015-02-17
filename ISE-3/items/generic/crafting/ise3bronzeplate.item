@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3bronzeplate",
+  "rarity" : "common",
+  "inventoryIcon" : "ise3bronzeplate.png",
+  "description" : "A Pressed Bronze Plate",
+  "category" : "Plates",
+  "shortdescription" : "^cyan;Bronze Plate^white;"
+}

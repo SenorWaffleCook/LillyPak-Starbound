@@ -1,0 +1,62 @@
+{
+  "objectName" : "ise3crusher",
+  "rarity" : "common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "ise3crusher" ]
+  },
+  "printable" : false,
+  "description" : "Crushes all kinds of ores and bars",
+  "shortdescription" : "^orange;Crusher^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [107, 131, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "Crusher",
+  "avianDescription" : "Crusher",
+  "floranDescription" : "Crusher",
+  "glitchDescription" : "Crusher",
+  "humanDescription" : "Crusher",
+  "hylotlDescription" : "Crusher",
+
+  "inventoryIcon" : "ise3crushericon.png",
+  "orientations" : [
+	{
+	  "imageLayers" : [ { "image" : "ise3crusher.png:<color>.<frame>", "fullbright" : true }, { "image" : "ise3crusheron.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+	{
+	  "imageLayers" : [ { "image" : "ise3crusher.png:<color>.<frame>", "fullbright" : true }, { "image" : "ise3crusheron.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+	  
+	  "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+ 
+    }
+  ]
+}

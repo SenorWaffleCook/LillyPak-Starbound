@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "separatortable", "count" : 1 },
+	"groups" : [ "spawningtable", "techy" ]
+}

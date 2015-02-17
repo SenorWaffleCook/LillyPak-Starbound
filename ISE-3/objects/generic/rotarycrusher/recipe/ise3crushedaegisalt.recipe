@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "aegisaltore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3crushedaegisalt",
+    "count" : 2
+  },
+  "groups" : [ "ise3rotarycrusher" ]
+}

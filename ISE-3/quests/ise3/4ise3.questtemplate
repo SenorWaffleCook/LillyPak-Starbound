@@ -1,0 +1,16 @@
+{
+  "id" : "4ise3.gearup",
+  "title" : "^#9be3d6;Industrialization: Lv.4",
+  "text" : "The next recipe would be ^orange;Iron Gears^white;, they are fairly easy to craft, 5 Gears from 1 Iron Bar, craft some up.",
+  "completionText" : "You may need more for your Target, now, there are more recipes to focus on",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ise3irongear", 1], "consume" : false }
+  ],
+  "moneyRange" : [250, 250],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "5ise3.gearup",
+  "canBeAbandoned" : false
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "hylotltable",
+    "count" : 1
+  },
+  "groups" : [ "hylotlcraftingtable", "objects", "all" ]
+}

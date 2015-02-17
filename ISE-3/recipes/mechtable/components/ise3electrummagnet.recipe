@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 1 },
+    { "item" : "corefragmentore", "count" : 1 },
+	{ "item" : "liquidfuel", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3electrummagnet",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "weapons", "all" ]
+}

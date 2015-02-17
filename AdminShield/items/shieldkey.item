@@ -1,0 +1,8 @@
+{
+  "itemName" : "shieldkey",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "shieldkey.png",
+  "description" : "ADMIN ONLY ITEM",
+  "shortdescription" : "Shield Key",
+  "maxStack" : 1
+}

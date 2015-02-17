@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ise3ruby", "count" : 2 }
+  ],
+  "output" : { "item" : "ise3rubypickaxe", "count" : 1 },
+  "groups" : [ "metalworkstation", "tools", "all" ]
+}

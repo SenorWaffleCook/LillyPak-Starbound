@@ -1,0 +1,7 @@
+{
+  "input" : [
+
+  ],
+  "output" : { "item" : "cheatarmorpants", "count" : 1 },
+  "groups" : [ "cheatingtable", "guns", "all" ]
+}

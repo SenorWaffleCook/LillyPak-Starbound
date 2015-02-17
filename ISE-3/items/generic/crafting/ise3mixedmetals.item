@@ -1,0 +1,7 @@
+{
+  "itemName" : "ise3mixedmetals",
+  "rarity" : "Common",
+  "inventoryIcon" : "ise3mixedmetals.png",
+  "description" : "Combination of Bronze, Steel and Tin Plates",
+  "shortdescription" : "^cyan;Mixed Metals^white;"
+}

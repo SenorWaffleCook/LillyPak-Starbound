@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3crushedsilver", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "silverbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "alloyfurnace", "scififurnace", "all" ]
+}

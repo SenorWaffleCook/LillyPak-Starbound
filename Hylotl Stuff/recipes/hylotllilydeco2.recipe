@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "hylotllilydeco2",
+    "count" : 1
+  },
+  "groups" : [ "hylotlcraftingtable", "objects", "all" ]
+}

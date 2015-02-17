@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3durable",
+  "rarity" : "rare",
+  "inventoryIcon" : "ise3durable.png",
+  "description" : "The Durable Module Deck can boost the Carbon Pickaxe Axe health by a further 500%",
+  "category" : "Upgrade Part",
+  "shortdescription" : "Durable Upgrade Deck"
+}

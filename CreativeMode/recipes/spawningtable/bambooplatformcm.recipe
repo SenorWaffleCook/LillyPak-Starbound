@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "bambooplatform", "count" : 1 },
+	"groups" : [ "spawningtable", "blocks" ]
+}

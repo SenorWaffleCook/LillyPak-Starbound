@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 10 },
+	{ "item" : "plantfibre", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "hylotlshojiscreen",
+    "count" : 1
+  },
+  "groups" : [ "hylotlcraftingtable", "objects", "all" ]
+}

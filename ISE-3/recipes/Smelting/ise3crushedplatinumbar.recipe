@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3crushedplatinum", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "platinumbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "alloyfurnace", "scififurnace", "all" ]
+}

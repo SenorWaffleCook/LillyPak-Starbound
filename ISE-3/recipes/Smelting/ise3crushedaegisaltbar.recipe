@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3crushedaegisalt", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "refinedaegisalt",
+    "count" : 1
+  },
+  "groups" : [ "scififurnace", "all" ]
+}

@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "purplecrystalmaterial", "count" : 250 }],
+	"output" : { "item" : "crystal", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

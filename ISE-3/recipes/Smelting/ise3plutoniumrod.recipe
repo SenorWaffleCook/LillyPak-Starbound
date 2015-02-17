@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3plutoniumdust", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "plutoniumrod",
+    "count" : 1
+  },
+  "groups" : [ "scififurnace", "all" ]
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "ise3massfabricator",
+  "rarity" : "legendary",
+  "learnBlueprintsOnPickup" : [ "ise3ualiquid", "ise3uaassembler" ],
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "ise3massfabricator" ]
+  },
+  "description" : "This rather Expensive, Over-the top Machine, will produce you UA-Liquid, which is then used to fabricate materials",
+  "shortdescription" : "^orange;Mass Fabricator^white;",
+  "race" : "generic",
+  "subtitle" : "Turns Scrap into UA-Liquid",
+  "category" : "crafting",
+  "price" : 200,
+  "printable" : false,
+
+  "apexDescription" : "A Mass Fabricator",
+  "avianDescription" : "A Mass Fabricator",
+  "floranDescription" : "A Mass Fabricator",
+  "glitchDescription" : "A Mass Fabricator",
+  "humanDescription" : "A Mass Fabricator",
+  "hylotlDescription" : "A Mass Fabricator",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "ise3massfabricatoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3massfabricator.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "refinedaegisalt", "count" : 1 },
+	"groups" : [ "spawningtable", "crafting" ]
+}

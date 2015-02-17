@@ -1,0 +1,11 @@
+{
+  "name" : "IlluminatedOres",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata": {
+    "author" : "Amadox",
+    "description" : "Slightly glowing ores to make them easier visible",
+    "version" : "1.1a"
+  }
+}

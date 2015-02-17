@@ -1,0 +1,19 @@
+{
+  "itemName" : "retrodrumkit",
+  "inventoryIcon" : "10.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A drumkit with a rather retro touch to it.",
+  "shortdescription" : "Retro Drumkit",
+  "largeImage" : "10.png",
+  "image" : "10.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "10.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.1, 0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "8BDK"
+}

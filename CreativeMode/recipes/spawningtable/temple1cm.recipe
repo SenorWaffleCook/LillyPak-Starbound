@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "temple1", "count" : 1 },
+	"groups" : [ "spawningtable", "blocks" ]
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "ReducedRespawnCost",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata": {
+    "author" : "Retr0",
+    "description" : "Changes respawn pixel cost to 10%",
+    "version" : "1.0a"
+  }
+}

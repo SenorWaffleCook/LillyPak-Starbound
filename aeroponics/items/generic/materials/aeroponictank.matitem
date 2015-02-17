@@ -1,0 +1,19 @@
+{
+	"itemName" : "aeroponictank",
+	"rarity" : "Common",
+	"inventoryIcon" : "aeroponictank.png",
+	"dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+	
+	"description" : "Plants hang in the air and are sprayed with a fine mist.",
+	"shortdescription" : "Aeroponics Tank",
+	"glitchDescription" : "Will save space. Space gardening: upgraded. More efficient. ",
+	"floranDescription" : "Plantsss grow better! Floran wonder if meat grow thisss way, too.",
+	"apexDescription" : "Genius. Better CO2 access for roots.",
+	"avianDescription" : "How appropriate!  Aeroponics in space.",
+	"humanDescription" : "My garden tanks. System uses 60% less water.",
+	"hylotlDescription" : "For my planet, hydroponics makes more sense.",
+	
+	"materialId" : 11000,
+	"footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+	"itemDrop" : "aeroponictank"
+}

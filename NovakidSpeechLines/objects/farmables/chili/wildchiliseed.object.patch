@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "Hot, hot, hot fiesta!! Extra hot to anyone but humans and the novakid."
+  },
+  {
+   "op" : "add",
+   "path" : "/novakidDescription",
+   "value" : "Eatin' chillis can make a Novakid hyper as a tick."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3powercore",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "ise3powercore.png",
+  "description" : "A simple yet powerful gem based Power Core",
+  "category" : "Cores",
+  "shortdescription" : "^cyan;Power Core^white;"
+}

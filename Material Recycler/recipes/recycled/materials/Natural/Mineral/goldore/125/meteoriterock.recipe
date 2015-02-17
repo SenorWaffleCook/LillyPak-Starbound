@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "meteoriterock", "count" : 125 }],
+	"output" : { "item" : "goldore", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

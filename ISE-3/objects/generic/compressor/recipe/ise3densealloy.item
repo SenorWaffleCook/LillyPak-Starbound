@@ -1,0 +1,11 @@
+{
+  "itemName" : "ise3densealloy",
+  "rarity" : "rare",
+  "inventoryIcon" : "ise3densealloy.png",
+  "description" : "Aegisalt, Violium and Rubium have formed this into a Dense Alloy",
+  "category" : "Alloys",
+  "shortdescription" : "Dense Alloy",
+  "learnBlueprintsOnPickup" : [ 
+  "ise3heavyframe"
+  ]
+}

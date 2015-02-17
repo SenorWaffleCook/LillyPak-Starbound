@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3cpu",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "ise3cpu.png",
+  "description" : "This CPU has an Intelligence system that keeps your machines Running smooth",
+  "category" : "Circuit Chips",
+  "shortdescription" : "^cyan;CPU^white;"
+}

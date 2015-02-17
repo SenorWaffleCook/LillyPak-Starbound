@@ -1,0 +1,9 @@
+{
+  "name" : "Hylotl Stuff",
+  "version" : "Beta v. Upbeat Giraffe - Update 2",
+  "path" : ".",
+  "dependencies" : [],
+  "modauthor": "Alex Dyre",
+  "modversion": "1.0.2",
+  "moddescription": "Allows the user to craft the various Hylotl materials/objects in the game."
+}

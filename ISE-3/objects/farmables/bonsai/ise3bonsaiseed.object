@@ -1,0 +1,45 @@
+{
+  "objectName" : "ise3bonsaiseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Can grow miniture trees for wood, must be placed on Tilled Ground for it to grow.",
+  "shortdescription" : "Bonsai Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Bonsai Seed.",
+  "avianDescription" : "A Bonsai Seed.",
+  "floranDescription" : "A Bonsai Seed.",
+  "glitchDescription" : "A Bonsai Seed.",
+  "humanDescription" : "A Bonsai Seed.",
+  "hylotlDescription" : "A Bonsai Seed.",
+
+  "inventoryIcon" : "ise3bonsaiseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3bonsaiseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [100, 120]
+    },
+    {
+      "duration" : [100, 120]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "ise3bonsaiseed",
+      "resetToStage" : 0
+    }
+  ]
+  }

@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3blackhole",
+  "rarity" : "rare",
+  "inventoryIcon" : "ise3blackhole.png",
+  "description" : "Don't be worried by its name, this module is for the Super Crates, it expands the storage size to a whopping 64 slots",
+  "category" : "Upgrade Deck",
+  "shortdescription" : "Black Hole Deck"
+}

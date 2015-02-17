@@ -1,0 +1,8 @@
+{
+  "itemName" : "grantflighttech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "flight.png",
+  "description" : "Starts a quest to unlock the Creative Flight tech.",
+  "shortdescription" : "Creative Flight",
+  "pickupQuestTemplates" : ["flighttech.gearup"]
+}

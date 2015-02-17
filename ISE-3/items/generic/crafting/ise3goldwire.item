@@ -1,0 +1,7 @@
+{
+  "itemName" : "ise3goldwire",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "ise3goldwire.png",
+  "description" : "A thin strip of fine wire",
+  "shortdescription" : "^cyan;Gold Wire^white;"
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "woodencraftingtable", "count" : 1 },
+    { "item" : "ironbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "ise3mechtable",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "all", "other" ]
+}

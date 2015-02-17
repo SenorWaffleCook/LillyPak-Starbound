@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "petalblock", "count" : 250 }],
+	"output" : { "item" : "giantflowerpetal", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

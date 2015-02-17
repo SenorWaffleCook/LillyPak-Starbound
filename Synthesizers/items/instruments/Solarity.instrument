@@ -1,0 +1,19 @@
+{
+  "itemName" : "solarity",
+  "inventoryIcon" : "9icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "With its blinding voice, you'll conquer the universe for sure!",
+  "shortdescription" : "Solarity Synthesizer",
+  "largeImage" : "9.png",
+  "image" : "9.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "9.png",
+  "activeAngle" : -20,
+  "activeHandPosition" : [0.1, 0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "Fatsaw"
+}

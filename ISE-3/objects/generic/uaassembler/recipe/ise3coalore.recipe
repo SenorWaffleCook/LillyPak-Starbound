@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3ualiquid", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "coalore",
+    "count" : 25
+  },
+  "groups" : [ "ise3uaassembler", "all" ]
+}

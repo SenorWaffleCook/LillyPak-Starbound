@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "copperbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3copperplate",
+    "count" : 2
+  },
+  "groups" : [ "ise3metalformer", "consumables", "all" ]
+}

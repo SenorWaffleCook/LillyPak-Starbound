@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3tinbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3emptycell",
+    "count" : 3
+  },
+  "groups" : [ "ise3metalformer", "other", "all" ]
+}

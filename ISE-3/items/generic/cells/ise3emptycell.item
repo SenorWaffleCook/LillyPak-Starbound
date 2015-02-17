@@ -1,0 +1,9 @@
+{
+  "itemName" : "ise3emptycell",
+  "rarity" : "Common",
+  "inventoryIcon" : "ise3emptycell.png",
+  "description" : "An empty cell, can be filled with either crushed or liquid materials",
+  "category" : "Cells",
+  "shortdescription" : "Empty Cell",
+  "learnBlueprintsOnPickup" : [ "" ]
+}

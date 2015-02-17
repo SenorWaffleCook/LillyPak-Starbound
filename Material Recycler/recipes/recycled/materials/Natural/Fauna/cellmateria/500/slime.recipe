@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "slime", "count" : 500 }],
+	"output" : { "item" : "cellmateria", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

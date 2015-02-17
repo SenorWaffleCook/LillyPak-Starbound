@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ise3blackhole", "count" : 1 },
+    { "item" : "ise3diamondcrate", "count" : 2 },
+	{ "item" : "diamond", "count" : 10 },
+	{ "item" : "ise3advancealloy", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ise3superdiamondcrate",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "other", "all" ]
+}

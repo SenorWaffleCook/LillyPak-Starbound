@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "plantdrysapdispenser", "count" : 1 },
+	"groups" : [ "furnituretable", "floran" ]
+}

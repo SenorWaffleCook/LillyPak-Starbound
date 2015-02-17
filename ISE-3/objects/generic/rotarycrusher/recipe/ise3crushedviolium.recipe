@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "violiumore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3crushedviolium",
+    "count" : 2
+  },
+  "groups" : [ "ise3rotarycrusher" ]
+}

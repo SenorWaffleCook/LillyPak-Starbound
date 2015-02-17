@@ -1,0 +1,44 @@
+{
+  "objectName" : "ise3sapphirecrate",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ "ise3supersapphirecrate" ],
+
+  "category" : "storage",
+  "price" : 1000,
+  "description" : "A Special Gem Crate, it can hold 32 items.",
+  "shortdescription" : "Sapphire Crate",
+  "race" : "generic",
+
+  "apexDescription" : "A Sapphire crate.",
+  "avianDescription" : "A storage box.",
+  "floranDescription" : "Box!",
+  "glitchDescription" : "Curiosity. Is there anything inside?",
+  "humanDescription" : "A Sapphire crate. It's open.",
+  "hylotlDescription" : "An open crate.",
+
+  "inventoryIcon" : "ise3sapphirecrateicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "ise3sapphirecrateleft.png:default",
+      "rightImage" : "ise3sapphirecrateright.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

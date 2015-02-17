@@ -1,0 +1,15 @@
+{
+  "input" : [
+	{ "item" : "ise3heavyframe", "count" : 2 },
+	{ "item" : "ise3circuitboard", "count" : 5 },
+	{ "item" : "ise3rubiumgear", "count" : 100 },
+	{ "item" : "ise3violiumbatterydock", "count" : 8 },
+	{ "item" : "ise3advancecore", "count" : 5 },
+	{ "item" : "ise3electrummagnet", "count" : 300}
+  ],
+  "output" : {
+    "item" : "ise3massfabricator",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "materials", "all" ]
+}

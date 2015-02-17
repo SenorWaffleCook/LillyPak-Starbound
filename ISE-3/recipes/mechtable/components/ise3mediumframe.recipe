@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ise3lightframe", "count" : 1 },
+	{ "item" : "ise3carbonplate", "count" : 2 },
+	{ "item" : "ise3advancealloy", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ise3mediumframe",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "materials", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3violiumcell", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3violiumseed",
+    "count" : 1
+  },
+  "groups" : [ "ise3plantationlab", "all" ]
+}

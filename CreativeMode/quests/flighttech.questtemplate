@@ -1,0 +1,20 @@
+  {
+  "id" : "flighttech.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Unlock Creative Flight!",
+  "text" : "Once you accept this quest, you'll immediately have the Creative Flight tech for your character. ^red;WARNING: ^white;This is irreversable!",
+  "completionText" : "Creative Flight tech unlocked! Have fun!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "grantflighttech", 1], "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "enableTech" : [
+    "cheatflighttech"
+  ],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

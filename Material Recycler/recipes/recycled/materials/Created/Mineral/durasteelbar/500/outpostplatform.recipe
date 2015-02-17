@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "outpostplatform", "count" : 500 }],
+	"output" : { "item" : "durasteelbar", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "skyrail_diodeL", "count" : 1 },
+	"groups" : [ "spawningtable", "blocks" ]
+}

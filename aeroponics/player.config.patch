@@ -1,0 +1,11 @@
+[
+	{
+		"op": "add",
+		"path": "/defaultBlueprints/tier1/-",
+		"value":
+		{
+			{ "item": "polymer" },
+			{ "item": "aeroponicstank" }
+		}
+	}
+]

@@ -1,0 +1,65 @@
+{
+  "objectName" : "cheatingtable",
+  "rarity" : "Legendary",
+  "scripts" : [ "/objects/wired/cheatingtable/cheatingtable.lua" ],
+  "scriptDelta" : 5,
+ 
+  
+
+  "filterButtons" : [ 
+    {
+    "baseImage" : "/objects/wired/cheatingtable/icons/boxes.png",
+    "baseImageChecked" : "/objects/wired/cheatingtable/icons/boxespressed.png",
+    "filter" : "boxes"
+	},
+    {
+    "baseImage" : "/objects/wired/cheatingtable/icons/guns.png",
+    "baseImageChecked" : "/objects/wired/cheatingtable/icons/gunspressed.png",
+    "filter" : "guns"
+	},
+    {
+    "baseImage" : "/objects/wired/cheatingtable/icons/unlockers.png",
+    "baseImageChecked" : "/objects/wired/cheatingtable/icons/unlockerspressed.png",
+    "filter" : "unlockers"
+	},
+    {
+    "baseImage" : "/objects/wired/cheatingtable/icons/misc.png",
+    "baseImageChecked" : "/objects/wired/cheatingtable/icons/miscpressed.png",
+    "filter" : "misc"
+	}
+  ],
+  
+  "printable" : false,
+  "description" : "An ultimate box for ultimate purposes.",
+  "shortdescription" : "^orange;Ultimate Box^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "For testing!",
+  "avianDescription" : "For testing!",
+  "floranDescription" : "For testing!",
+  "glitchDescription" : "For testing!",
+  "humanDescription" : "For testing!",
+  "hylotlDescription" : "For testing!",
+
+  "inventoryIcon" : "cheatingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cheatingtable.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 14,
+      "animationCycle" : 3.5,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ],
+  
+  "animation" : "/objects/wired/cheatingtable/cheatingtable.animation",
+  "animationParts" : {
+    "tabula" : "cheatingtable.png"
+  },
+  "animationPosition" : [0, 0]
+}

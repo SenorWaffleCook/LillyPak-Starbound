@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3crushedplatinum",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "ise3crushedplatinum.png",
+  "description" : "Crushed Platinum Ore",
+  "shortdescription" : "Crushed Platinum",
+  "learnBlueprintsOnPickup" : [ "ise3platinumcell" ]
+}

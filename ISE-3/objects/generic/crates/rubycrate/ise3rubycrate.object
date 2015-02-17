@@ -1,0 +1,44 @@
+{
+  "objectName" : "ise3rubycrate",
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ "ise3superrubycrate" ],
+
+  "category" : "storage",
+  "price" : 100,
+  "description" : "A Special Gem Crate, it can hold 32 items.",
+  "shortdescription" : "Ruby Crate",
+  "race" : "generic",
+
+  "apexDescription" : "A Ruby crate.",
+  "avianDescription" : "A storage box.",
+  "floranDescription" : "Box!",
+  "glitchDescription" : "Curiosity. Is there anything inside?",
+  "humanDescription" : "A Ruby crate. It's open.",
+  "hylotlDescription" : "An open crate.",
+
+  "inventoryIcon" : "ise3rubycrateicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "ise3rubycrateleft.png:default",
+      "rightImage" : "ise3rubycrateright.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

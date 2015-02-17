@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "smallsnowflake", "count" : 1 },
+	"groups" : [ "spawningtable", "season" ]
+}

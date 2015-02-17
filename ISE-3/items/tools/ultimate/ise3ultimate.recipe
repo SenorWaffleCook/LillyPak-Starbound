@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : { "item" : "ise3ultimate", "count" : 1 },
+  "groups" : [ "ise3mechtable", "tools", "all" ]
+}

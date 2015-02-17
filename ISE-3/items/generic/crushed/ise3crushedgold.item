@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3crushedgold",
+  "rarity" : "common",
+  "inventoryIcon" : "ise3crushedgold.png",
+  "description" : "Crushed Gold Ore",
+  "shortdescription" : "Crushed Gold",
+  "learnBlueprintsOnPickup" : [ "ise3goldcell" ]
+}

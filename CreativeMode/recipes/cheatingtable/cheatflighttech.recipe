@@ -1,0 +1,10 @@
+{
+  "input" : [
+
+  ],
+  "output" : {
+    "item" : "grantflighttech",
+    "count" : 1
+  },
+  "groups" : [ "cheatingtable", "misc", "other" ]
+}

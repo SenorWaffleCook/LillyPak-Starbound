@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3tinbar",
+  "rarity" : "Common",
+  "inventoryIcon" : "ise3tinbar.png",
+  "description" : "It's a Tin bar. Can be turned into a Plate, Can be Combined to make Bronze",
+  "shortdescription" : "Tin Bar",
+  "learnBlueprintsOnPickup" : [ "ise3emptycell" ]
+}

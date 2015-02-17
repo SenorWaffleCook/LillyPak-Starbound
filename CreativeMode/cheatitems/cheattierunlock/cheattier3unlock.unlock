@@ -1,0 +1,15 @@
+{
+  "itemName" : "cheattier3unlock",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheattier3unlock.png",
+  "image" : "cheattier3unlock.png",
+
+  "shortdescription" : "Tier 3 Recipes Unlock",
+  "description" : "Unlocks all tier 3 crafting recipes.",
+
+  // Remember you can override this with parameters, no need for more than one
+  // unlock item
+  "sectorUnlock" : "alpha",
+  "tierRecipesUnlock" : "tier3",
+  "unlockMessage" : "Tier 3 recipes unlocked."
+}

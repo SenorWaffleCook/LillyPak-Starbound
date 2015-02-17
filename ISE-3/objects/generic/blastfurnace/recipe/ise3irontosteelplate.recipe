@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3ironplate", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3steelplate",
+    "count" : 1
+  },
+  "groups" : [ "ise3blastfurnace", "ise3nuclearfurnace", "ise3solariumfurnace", "all" ]
+}

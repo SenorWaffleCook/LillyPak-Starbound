@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ise3ironplate", "count" : 5 },
+	{ "item" : "stonefurnace", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3ironfurnace",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "materials", "all" ]
+}

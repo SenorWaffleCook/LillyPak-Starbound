@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3amethyst",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ise3amethyst.png",
+  "description" : "It's a beautiful Amethyst.",
+  "shortdescription" : "Amethyst",
+  "learnBlueprintsOnPickup" : [ "" ]
+}

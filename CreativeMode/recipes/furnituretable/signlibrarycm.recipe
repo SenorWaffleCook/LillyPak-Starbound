@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "signlibrary", "count" : 1 },
+	"groups" : [ "furnituretable", "glitch" ]
+}

@@ -1,0 +1,39 @@
+{
+  "objectName" : "duplicator",
+  "rarity" : "Legendary",
+  "description" : "Duplicates any (non-randomly-generated) item you're holding in your hand.",
+  "shortdescription" : "Duplicator",
+  "race" : "generic",
+  "category" : "tools",
+  "apexDescription" : "For testing!",
+  "avianDescription" : "For testing!",
+  "floranDescription" : "For testing!",
+  "glitchDescription" : "For testing!",
+  "humanDescription" : "For testing!",
+  "hylotlDescription" : "For testing!",
+
+  "inventoryIcon" : "duplicatoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "duplicator.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "animation" : "/objects/boss/duplicator.animation",
+  "animationParts" : {
+    "beacon" : "duplicator.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/ironbeacon/duplicator.lua" ],
+  "scriptDelta" : 5
+
+}

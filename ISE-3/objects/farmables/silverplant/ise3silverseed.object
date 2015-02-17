@@ -1,0 +1,45 @@
+{
+  "objectName" : "ise3silverseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Planting will produce Tiny Piles of Silver",
+  "shortdescription" : "Silver Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Silver Seed.",
+  "avianDescription" : "A Silver Seed.",
+  "floranDescription" : "A Silver Seed.",
+  "glitchDescription" : "A Silver Seed.",
+  "humanDescription" : "A Silver Seed.",
+  "hylotlDescription" : "A Silver Seed.",
+
+  "inventoryIcon" : "ise3silverseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3silverseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [145, 160]
+    },
+    {
+      "duration" : [145, 160]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "ise3silverseed",
+      "resetToStage" : 0
+    }
+  ]
+  }

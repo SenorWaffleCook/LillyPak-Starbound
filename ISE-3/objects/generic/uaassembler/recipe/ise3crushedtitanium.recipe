@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3ualiquid", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3crushedtitanium",
+    "count" : 12
+  },
+  "groups" : [ "ise3uaassembler", "all" ]
+}

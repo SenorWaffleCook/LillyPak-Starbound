@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "smallwallswitch", "count" : 1 },
+	"groups" : [ "spawningtable", "wired" ]
+}

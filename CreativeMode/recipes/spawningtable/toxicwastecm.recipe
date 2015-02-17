@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "toxicwaste", "count" : 1 },
+	"groups" : [ "spawningtable", "crafting" ]
+}

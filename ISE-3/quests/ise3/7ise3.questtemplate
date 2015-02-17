@@ -1,0 +1,16 @@
+{
+  "id" : "7ise3.gearup",
+  "title" : "^#9be3d6;Industrialization: Lv.6",
+  "text" : "Now before you continue working on towards the ^orange;Extractor^white;, you need Cables, Produce ^orange;Copper Plates^white;, then ^orange;Wires^white;, finally make ^orange;Cables^white; with the rubber you've obtained, make sure you have enough rubber though.",
+  "completionText" : "Now you can progress on your development of the ^orange;Extractor^white;",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ise3coppercable", 1], "consume" : false }
+  ],
+  "moneyRange" : [0, 0],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "8ise3.gearup",
+  "canBeAbandoned" : false
+}
+
+

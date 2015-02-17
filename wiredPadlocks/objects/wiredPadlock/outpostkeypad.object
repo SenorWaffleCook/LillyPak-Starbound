@@ -1,0 +1,48 @@
+{
+  "objectName" : "wiredPadlock",
+  "rarity" : "Common",
+  "description" : "A combination keypad.",
+  "shortdescription" : "Combination Keypad",
+  "race" : "generic",
+
+  "floranDescription" : "Floran type rude word on keypad. Fish.",
+  "glitchDescription" : "Statement. A keypad.",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "outpostkeypad.png:<color>.off",
+      "imagePosition" : [-8, -8],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "outpostkeypad.png:<color>.off",
+      "imagePosition" : [-8, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "keypad.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "outpostkeypad.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "outboundNodes" : [ [0, -1] ],
+
+  "interval" : 13
+}

@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "redtoyblock", "count" : 250 }],
+	"output" : { "item" : "money", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ise3blackhole", "count" : 1 },
+    { "item" : "ise3topazcrate", "count" : 2 },
+	{ "item" : "ise3topaz", "count" : 10 },
+	{ "item" : "ise3advancealloy", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ise3supertopazcrate",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "other", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3woodchunk", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3charcoal",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "alloyfurnace", "scififurnace", "all" ]
+}

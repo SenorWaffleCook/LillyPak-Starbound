@@ -1,0 +1,41 @@
+{
+  "objectName" : "medievalcabinet",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "I wonder if there's a gateway to another world in here.",
+  "shortdescription" : "Glitch Cabinet",
+  "race" : "glitch",
+  "category" : "storage",
+  "price" : 750,
+
+  "apexDescription" : "A well-made wooden cabinet. Charming.",
+  "avianDescription" : "A tall wooden cabinet. Lots of storage.",
+  "floranDescription" : "Tall wood box. Good for Floran to hide in.",
+  "glitchDescription" : "Observation. A wooden cabinet. Likely belongs to a commoner.",
+  "humanDescription" : "An roomy cabinet. Not to be mistaken for an outhouse.",
+  "hylotlDescription" : "An attractive cabinet made of wood with an intricate grain.",
+
+  "inventoryIcon" : "medievalcabineticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "medievalcabinet.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodendoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodendoor_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

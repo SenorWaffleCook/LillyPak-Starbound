@@ -1,0 +1,16 @@
+{
+  "id" : "11ise3.gearup",
+  "title" : "^#9be3d6;Industrialization: Lv.10",
+  "text" : "Now, for your first and many to come true tasks, lets see what you've learned, Craft up some ^orange;Grinders^white;",
+  "completionText" : "I guessed you know where this is heading",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ise3grinder", 1], "consume" : false }
+  ],
+  "moneyRange" : [300, 300],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "12ise3.gearup",
+  "canBeAbandoned" : false
+}
+
+

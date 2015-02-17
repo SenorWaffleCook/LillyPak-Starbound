@@ -1,0 +1,12 @@
+{
+  "itemName" : "ise3ironplate",
+  "rarity" : "common",
+  "inventoryIcon" : "ise3ironplate.png",
+  "description" : "A thick plate made of Iron, good enough for basic Designs",
+  "category" : "Plates",
+  "shortdescription" : "^cyan;Iron Plate^white;",
+  "learnBlueprintsOnPickup" : [ 
+  "ise3lightframe"
+  ]
+}
+

@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "ise3sapphire", "count" : 1 },
+	{ "item" : "ise3glassbar", "count" : 10 },
+	{ "item" : "liquidfuel", "count" : 30 },
+	{ "item" : "ise3electrummagnet", "count" : 3}
+  ],
+  "output" : {
+    "item" : "ise3sapphirepowergem",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "objects", "all" ]
+}

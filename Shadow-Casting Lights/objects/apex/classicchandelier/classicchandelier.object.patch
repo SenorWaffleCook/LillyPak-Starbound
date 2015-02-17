@@ -1,0 +1,22 @@
+[
+{
+        "op": "add",
+        "path": "/pointLight",
+        "value": true
+},
+{
+        "op": "add",
+        "path": "/pointBeam",
+        "value": 1
+},
+{
+        "op": "add",
+        "path": "/pointAngle",
+        "value": 0
+},
+{
+        "op": "add",
+        "path": "/lightPosition",
+        "value": [0, 0]
+}
+]

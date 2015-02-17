@@ -1,0 +1,105 @@
+{
+  "objectName" : "spawningtable",
+  "rarity" : "Legendary",
+  "scripts" : [ "/objects/wired/spawningtable/spawningtable.lua" ],
+  "scriptDelta" : 5,
+ 
+  
+
+  "filterButtons" : [ 
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/codex.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/codexpressed.png",
+    "filter" : "codex"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/racialarmor.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/racialarmorpressed.png",
+    "filter" : "racialarmor"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/armor.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/armorpressed.png",
+    "filter" : "armor"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/misc.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/miscpressed.png",
+    "filter" : "misc"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/tech.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/techpressed.png",
+    "filter" : "techy"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/crafting.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/craftingpressed.png",
+    "filter" : "crafting"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/farmables.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/farmablespressed.png",
+    "filter" : "farmables"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/weapons.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/weaponspressed.png",
+    "filter" : "weapons"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/blocks.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/blockspressed.png",
+    "filter" : "blocks"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/tools.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/toolspressed.png",
+    "filter" : "tools"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/season.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/seasonpressed.png",
+    "filter" : "season"
+	},
+    {
+    "baseImage" : "/objects/wired/spawningtable/icons/wired.png",
+    "baseImageChecked" : "/objects/wired/spawningtable/icons/wiredpressed.png",
+    "filter" : "wired"
+	}
+  ],
+  
+  "printable" : false,
+  "description" : "For all your building needs.",
+  "shortdescription" : "^orange;Spawning Box^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "For testing!",
+  "avianDescription" : "For testing!",
+  "floranDescription" : "For testing!",
+  "glitchDescription" : "For testing!",
+  "humanDescription" : "For testing!",
+  "hylotlDescription" : "For testing!",
+
+  "inventoryIcon" : "spawningtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "spawningtable.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 14,
+      "animationCycle" : 3.5,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ],
+  
+  "animation" : "/objects/wired/spawningtable/spawningtable.animation",
+  "animationParts" : {
+    "tabula" : "spawningtable.png"
+  },
+  "animationPosition" : [0, 0]
+}

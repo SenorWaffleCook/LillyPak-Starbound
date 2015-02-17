@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ise3bronzeplate", "count" : 2 },
+	{ "item" : "ise3tinplate", "count" : 2 },
+    { "item" : "ise3steelplate", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ise3mixedmetals",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "weapons", "all" ]
+}

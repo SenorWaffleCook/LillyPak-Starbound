@@ -1,0 +1,46 @@
+{
+  "objectName" : "ise3solariumfurnace",
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "ise3solariumfurnace" ]
+  },
+  "printable" : false,
+  "description" : "As well as the added bonus of Steel and Durasteel, the Solarium Furnace can also make Compounds",
+  "shortdescription" : "^orange;Solarium Furnace^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [107, 131, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "Solarium Furnace",
+  "avianDescription" : "Solarium Furnace",
+  "floranDescription" : "Solarium Furnace",
+  "glitchDescription" : "Solarium Furnace",
+  "humanDescription" : "Solarium Furnace",
+  "hylotlDescription" : "Solarium Furnace",
+
+  "inventoryIcon" : "ise3solariumfurnaceicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3solariumfurnace.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

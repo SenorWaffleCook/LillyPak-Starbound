@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "markergroundplaque", "count" : 1 },
+	"groups" : [ "furnituretable", "otherfurn" ]
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "container(medium)",
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 1500,
+  "description" : "Container 128 slot.",
+  "shortdescription" : "container(medium)",
+  "race" : "generic",
+
+  "apexDescription" : "container (medium).",
+  "avianDescription" : "container (medium).",
+  "floranDescription" : "container (medium).",
+  "glitchDescription" : "container (medium).",
+  "humanDescription" : "container (medium).",
+  "hylotlDescription" : "container (medium).",
+
+  "inventoryIcon" : "container(medium)icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "container(medium).png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/shippingcontainer_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/shippingcontainer_close.wav" ],
+  "slotCount" : 128,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

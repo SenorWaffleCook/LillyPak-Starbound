@@ -1,0 +1,9 @@
+{
+  "itemName" : "ise3rubiumplate",
+  "rarity" : "rare",
+  "inventoryIcon" : "ise3rubiumplate.png",
+  "description" : "A Pressed Rubium Plate",
+  "category" : "Plates",
+  "learnBlueprintsOnPickup" : [ "ise3densemixedmetals" ],
+  "shortdescription" : "^cyan;Rubium Plate^white;"
+}

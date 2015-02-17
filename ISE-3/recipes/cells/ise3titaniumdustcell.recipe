@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ise3crushedtitanium", "count" : 50 },
+	{ "item" : "ise3emptycell", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3titaniumcell",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "other", "all" ]
+}

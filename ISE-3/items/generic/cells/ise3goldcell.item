@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3goldcell",
+  "rarity" : "Common",
+  "inventoryIcon" : "ise3goldcell.png",
+  "description" : "A filled cell, its worth running it through the Plantation Lab",
+  "category" : "Seeding Cells",
+  "shortdescription" : "Gold Cell"
+}

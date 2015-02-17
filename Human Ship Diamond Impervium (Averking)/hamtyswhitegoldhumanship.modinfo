@@ -1,0 +1,11 @@
+{
+  "name" : "Hamty's White Gold Human Ship",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata": {
+    "author" : "Hamty",
+    "description" : "Changes the appearance of the human ship.",
+    "support_url" : ""
+  }
+}

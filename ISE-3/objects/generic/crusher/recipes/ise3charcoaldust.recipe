@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3charcoal", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3coaldust",
+    "count" : 1
+  },
+  "groups" : [ "ise3crusher", "ise3rotarycrusher", "all" ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "ise3metalformer",
+  "rarity" : "uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "ise3metalformer" ]
+  },
+  "printable" : false,
+  "description" : "Improved in making more plates from bars, More wires from Plates and also able to produce Empty Cells",
+  "shortdescription" : "^orange;Metal Former^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [107, 131, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "Metal Former",
+  "avianDescription" : "Metal Former",
+  "floranDescription" : "Metal Former",
+  "glitchDescription" : "Metal Former",
+  "humanDescription" : "Metal Former",
+  "hylotlDescription" : "Metal Former",
+
+  "inventoryIcon" : "ise3metalformericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3metalformer.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

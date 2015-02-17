@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "copperore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3crushedcopper",
+    "count" : 2
+  },
+  "groups" : [ "ise3crusher", "ise3rotarycrusher", "all" ]
+}

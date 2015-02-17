@@ -1,0 +1,15 @@
+{
+  "input" : [
+	{ "item" : "ise3lightframe", "count" : 1 },
+    { "item" : "ise3compressorbit", "count" : 2 },
+	{ "item" : "ise3irongear", "count" : 20 },
+	{ "item" : "ise3tinbattery", "count" : 2 },
+	{ "item" : "ise3smallchip", "count" : 1 },
+	{ "item" : "ise3lubricant", "count" : 60 }
+  ],
+  "output" : {
+    "item" : "ise3compressor",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "materials", "all" ]
+}

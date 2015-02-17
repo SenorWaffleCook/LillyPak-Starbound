@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "FTLrepairkit", "count" : 1 },
+	"groups" : [ "spawningtable", "techy" ]
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "ise3autoanvil",
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/stonefurnace.config",
+    "filter" : [ "anvil", "metalworkstation", "scifianvil" ]
+  },
+  "description" : "The Auto Anvil merges all 3 metal work stations into one small package",
+  "shortdescription" : "^orange;Auto Anvil^white;",
+  "race" : "generic",
+  "subtitle" : "Advanced Crafting Station",
+  "category" : "crafting",
+  "price" : 200,
+  "printable" : false,
+
+  "apexDescription" : "Auto Anvil",
+  "avianDescription" : "Auto Anvil",
+  "floranDescription" : "Auto Anvil",
+  "glitchDescription" : "Auto Anvil",
+  "humanDescription" : "Auto Anvil",
+  "hylotlDescription" : "Auto Anvil",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "ise3autoanvilicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3autoanvil.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

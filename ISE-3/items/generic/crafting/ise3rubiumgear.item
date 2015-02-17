@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3rubiumgear",
+  "rarity" : "rare",
+  "inventoryIcon" : "ise3rubiumgear.png",
+  "description" : "Its a Rubium Gear",
+  "category" : "Gears",
+  "shortdescription" : "^cyan;Rubium Gear^white;"
+}

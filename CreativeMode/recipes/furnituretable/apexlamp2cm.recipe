@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "apexlamp2", "count" : 1 },
+	"groups" : [ "furnituretable", "apex" ]
+}

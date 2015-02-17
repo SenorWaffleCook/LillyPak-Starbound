@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "sewerpipeNE", "count" : 100 }],
+	"output" : { "item" : "perfectlygenericitem", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

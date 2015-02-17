@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "feroziumcompound",
+    "count" : 1
+  },
+  "groups" : [ "ise3solariumfurnace", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "durasteelbar",
+    "count" : 1
+  },
+  "groups" : [ "ise3nuclearfurnace", "ise3solariumfurnace", "all" ]
+}

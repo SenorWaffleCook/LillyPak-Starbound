@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "platinumblock", "count" : 250 }],
+	"output" : { "item" : "platinumbar", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

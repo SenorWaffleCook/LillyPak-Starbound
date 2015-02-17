@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "treasuredtrophies", "count" : 1 },
+	"groups" : [ "furnituretable", "otherfurn" ]
+}

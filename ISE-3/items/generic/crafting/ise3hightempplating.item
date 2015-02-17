@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3hightempplating",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "ise3hightempplating.png",
+  "description" : "A very high Temperature Plating, capable of cooking metal for short periods of time",
+  "category" : "Component Module",
+  "shortdescription" : "^cyan;High Temp. Plating^white;"
+}

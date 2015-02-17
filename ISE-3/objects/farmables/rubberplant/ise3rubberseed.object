@@ -1,0 +1,45 @@
+{
+  "objectName" : "ise3rubberseed",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Can grow Rubber Plants, it produces Resin for Rubber, must be placed on Tilled Ground for it to grow.",
+  "shortdescription" : "Rubber Seed",
+  "objectType" : "farmable",
+  "printable" : false, 
+  
+  "apexDescription" : "A Rubber Plant Seed.",
+  "avianDescription" : "A Rubber Plant Seed.",
+  "floranDescription" : "A Rubber Plant Seed.",
+  "glitchDescription" : "A Rubber Plant Seed.",
+  "humanDescription" : "A Rubber Plant Seed.",
+  "hylotlDescription" : "A Rubber Plant Seed.",
+
+  "inventoryIcon" : "ise3rubberseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3rubberseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [120, 135]
+    },
+    {
+      "duration" : [120, 135]
+    },
+    {
+      "alts" : 4,
+      "harvestPool" : "ise3rubberseed",
+      "resetToStage" : 0
+    }
+  ]
+  }

@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "ise3goldplate", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3goldwire",
+    "count" : 4
+  },
+  "groups" : [ "ise3metalformer", "armors", "all" ]
+}

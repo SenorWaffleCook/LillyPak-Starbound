@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "brokennovakidfuelhatchTier0", "count" : 1 },
+	"groups" : [ "furnituretable", "otherfurn" ]
+}

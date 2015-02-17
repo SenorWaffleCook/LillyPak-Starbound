@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "rudeawakeningCodex", "count" : 1 },
+	"groups" : [ "spawningtable", "codex" ]
+}

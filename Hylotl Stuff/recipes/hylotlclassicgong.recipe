@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15 },
+	{ "item" : "copperbar", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "hylotlclassicgong",
+    "count" : 1
+  },
+  "groups" : [ "hylotlcraftingtable", "objects", "all" ]
+}

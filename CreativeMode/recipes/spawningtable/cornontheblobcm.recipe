@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "cornontheblob", "count" : 1 },
+	"groups" : [ "spawningtable", "farmables" ]
+}

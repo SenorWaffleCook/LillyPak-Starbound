@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "humanshiplockerTier0", "count" : 1 },
+	"groups" : [ "furnituretable", "human" ]
+}

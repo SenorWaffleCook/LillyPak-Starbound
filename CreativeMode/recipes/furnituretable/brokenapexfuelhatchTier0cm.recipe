@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "brokenapexfuelhatchTier0", "count" : 1 },
+	"groups" : [ "furnituretable", "apex" ]
+}

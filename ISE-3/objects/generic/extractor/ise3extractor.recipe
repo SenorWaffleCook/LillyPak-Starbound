@@ -1,0 +1,15 @@
+{
+  "input" : [
+	{ "item" : "ise3lightframe", "count" : 1 },
+    { "item" : "ise3fluidpipe", "count" : 8 },
+	{ "item" : "ise3irongear", "count" : 15 },
+	{ "item" : "ise3tinbattery", "count" : 2 },
+	{ "item" : "ise3smallchip", "count" : 1 },
+	{ "item" : "ise3coppercable", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "ise3extractor",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "materials", "all" ]
+}

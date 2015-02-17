@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3crushedcopper", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "copperbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "alloyfurnace", "scififurnace", "all" ]
+}

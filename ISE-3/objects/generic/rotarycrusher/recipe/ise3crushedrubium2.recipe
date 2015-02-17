@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedrubium", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3crushedrubium",
+    "count" : 2
+  },
+  "groups" : [ "ise3rotarycrusher" ]
+}

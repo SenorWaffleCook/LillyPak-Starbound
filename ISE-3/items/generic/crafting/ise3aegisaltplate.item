@@ -1,0 +1,9 @@
+{
+  "itemName" : "ise3aegisaltplate",
+  "rarity" : "rare",
+  "inventoryIcon" : "ise3aegisaltplate.png",
+  "description" : "A Pressed Aegisalt Plate",
+  "category" : "Plates",
+  "learnBlueprintsOnPickup" : [ "ise3densemixedmetals" ],
+  "shortdescription" : "^cyan;Aegisalt Plate^white;"
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "ise3advancealloy",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "ise3advancealloy.png",
+  "description" : "Compression of various metals has resulted in a super strong metal plating.",
+  "category" : "Alloys",
+  "shortdescription" : "Advance Alloy",
+  "learnBlueprintsOnPickup" : [ 
+  "ise3mediumframe",
+  "ise3superamethystcrate",
+  "ise3superdiamondcrate",
+  "ise3superemeraldcrate",
+  "ise3superrubycrate",
+  "ise3supersapphirecrate",
+  "ise3supertopazcrate",
+  "ise3carbonbow"
+  ]
+}

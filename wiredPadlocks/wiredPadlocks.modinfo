@@ -1,0 +1,10 @@
+{
+  "name" : "Wired Padlocks",
+  "version" : "Beta v. Enraged Koala",
+  "path" : ".",
+  "dependencies" : [],
+  "modauthor" : "SeveredSkullz",
+  "modversion" : "0.0.0",
+  "moddescription" : "Adds a crappy padlock",
+  "modsupporturl" : "http://community.playstarbound.com/index.php?members/severedskullz.134717/"
+}

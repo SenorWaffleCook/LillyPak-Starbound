@@ -1,0 +1,46 @@
+{
+  "objectName" : "ise3compressor",
+  "rarity" : "common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "ise3compressor" ]
+  },
+  "printable" : false,
+  "description" : "Can ise3compressor certain items into stronger ones",
+  "shortdescription" : "^orange;Compressor^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [107, 131, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "Compressor",
+  "avianDescription" : "Compressor",
+  "floranDescription" : "Compressor",
+  "glitchDescription" : "Compressor",
+  "humanDescription" : "Compressor",
+  "hylotlDescription" : "Compressor",
+
+  "inventoryIcon" : "ise3compressoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3compressor.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

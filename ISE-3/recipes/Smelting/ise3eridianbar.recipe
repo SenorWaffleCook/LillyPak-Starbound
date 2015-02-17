@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3eridianore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ise3eridianbar",
+    "count" : 1
+  },
+  "groups" : [ "scififurnace", "all" ]
+}

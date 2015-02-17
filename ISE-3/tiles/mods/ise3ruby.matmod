@@ -1,0 +1,20 @@
+{
+  "modId" : 1002,
+  "modName" : "ise3ruby",
+  "itemDrop" : "ise3ruby",
+  "Description" : "ise3rubya.",
+  "health" : 20,
+  "harvestLevel" : 6,
+  "breaksWithTile" : true,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.wav", "/sfx/tools/pickaxe_ore2.wav" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ise3ruby.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

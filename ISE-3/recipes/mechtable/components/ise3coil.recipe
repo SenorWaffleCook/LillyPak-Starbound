@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "ise3copperwire", "count" : 4 },
+	{ "item" : "ironbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ise3coil",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "consumables", "all" ]
+}

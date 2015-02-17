@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "ruinsplatform", "count" : 500 }],
+	"output" : { "item" : "paper", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

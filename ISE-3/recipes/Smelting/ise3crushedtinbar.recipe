@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ise3crushedtin", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ise3tinbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "alloyfurnace", "scififurnace", "all" ]
+}

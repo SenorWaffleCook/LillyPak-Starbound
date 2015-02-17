@@ -1,0 +1,40 @@
+{
+  "objectName" : "cheatcontainer",
+  "rarity" : "Legendary",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 300,
+  "description" : "Use Narnia as extra storage.",
+  "shortdescription" : "Ultimate Chest",
+  "race" : "generic",
+
+  "apexDescription" : "For testing!",
+  "avianDescription" : "For testing!",
+  "floranDescription" : "For testing!",
+  "glitchDescription" : "For testing!",
+  "humanDescription" : "For testing!",
+  "hylotlDescription" : "For testing!",
+
+  "inventoryIcon" : "cheatcontainericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cheatcontainer.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 11,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.wav" ],
+  "slotCount" : 256,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600
+}

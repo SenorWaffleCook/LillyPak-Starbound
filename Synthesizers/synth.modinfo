@@ -1,0 +1,12 @@
+{
+  "name" : "Archer's Synthesizers",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+	"version" : "0.5",
+    "author" : "Archer",
+    "description" : "14 New and synthetic instruments, entirely home-made, also added to loot tables",
+    "support_url" : "."
+  }
+}

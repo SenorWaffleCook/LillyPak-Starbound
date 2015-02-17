@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3violiumbatterydock",
+  "rarity" : "rare",
+  "inventoryIcon" : "ise3violiumbatterydock.png",
+  "description" : "Powered by Violium, this makes the Battery Dock very unstable",
+  "category" : "Batteries",
+  "shortdescription" : "^cyan;Violium Battery Dock^white;"
+}

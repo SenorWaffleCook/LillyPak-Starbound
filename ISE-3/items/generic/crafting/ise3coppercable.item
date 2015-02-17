@@ -1,0 +1,7 @@
+{
+  "itemName" : "ise3coppercable",
+  "rarity" : "Common",
+  "inventoryIcon" : "ise3coppercable.png",
+  "description" : "this basic insulated cable, good for wiring up machines",
+  "shortdescription" : "^cyan;Ins. Copper Cable^white;"
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/converse/dialog/hylotl/novakid",
+    "value": [
+      "What do you call a strong Novakid? A Super Nova!"
+    ]
+  }
+]

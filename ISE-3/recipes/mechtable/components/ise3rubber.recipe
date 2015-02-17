@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ise3stickyresin", "count" : 1 }
+  ],
+  "output" : { "item" : "ise3rubber", "count" : 1 },
+  "groups" : [ "stonefurnace", "alloyfurnace", "scififurnace", "all" ]
+}

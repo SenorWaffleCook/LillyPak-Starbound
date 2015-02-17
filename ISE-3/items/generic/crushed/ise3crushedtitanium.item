@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3crushedtitanium",
+  "rarity" : "uncommon",
+  "inventoryIcon" : "ise3crushedtitanium.png",
+  "description" : "Crushed Titanium Ore",
+  "shortdescription" : "Crushed Titanium",
+  "learnBlueprintsOnPickup" : [ "ise3titaniumcell" ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/converse/dialog/novakid",
+    "value": [
+      "I'm hiding in here until those monsters disappear.",
+      "I wonder how I'll get off this moon...",
+      "If I keep out of the way, those monsters might ignore me...",
+      "Why would you come to this place? Are you here to mine?",
+      "I'm hiding in here until those monsters disappear.",
+      "I'm a Miner, I'm not trained to deal with a situation like this!",
+      "Those creatures... Where did they come from?",
+      "Those slimy creatures nearly got me!",
+      "I can't hide here forever - My supplies will run out eventually!"
+    ]
+  }
+]

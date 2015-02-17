@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "biosample", "count" : 1 },
+	"groups" : [ "spawningtable", "crafting" ]
+}

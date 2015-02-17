@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "drysand", "count" : 500 }],
+	"output" : { "item" : "copperore", "count" : 1 },
+	"groups" : [ "recycled" ]
+}

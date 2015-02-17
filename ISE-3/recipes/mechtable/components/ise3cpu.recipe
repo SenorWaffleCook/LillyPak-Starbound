@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "ise3bronzeplate", "count" : 2 },
+	{ "item" : "ise3smallchip", "count" : 2 },
+	{ "item" : "ise3goldwire", "count" : 6 },
+	{ "item" : "ise3rubber", "count" : 24 }
+  ],
+  "output" : {
+    "item" : "ise3cpu",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "consumables", "all" ]
+}

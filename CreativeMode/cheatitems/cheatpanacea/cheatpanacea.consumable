@@ -1,0 +1,32 @@
+{
+  "itemName" : "cheatpanacea",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheatpanacea.png",
+  "description" : "Heals, feeds, buffs, provides fuel. Everything you want in a single panacea.",
+  "shortdescription" : "Creative Panacea",
+  "fuelAmount" : 100,
+  "effects" : [ [
+      {
+        "effect" : "foodheal95",
+        "duration" : 1000
+      },
+	  {
+        "effect" : "regeneration4",
+        "duration" : 1000
+      },
+	  {
+        "effect" : "jumpboost",
+        "duration" : 1000
+      },
+	  {
+        "effect" : "runboost",
+        "duration" : 1000
+      },
+	  {
+	    "effect" : "glow",
+		"duration" : 1000
+	  }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

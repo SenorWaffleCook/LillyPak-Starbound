@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "holidaycraftingtable", "count" : 1 },
+	"groups" : [ "spawningtable", "season" ]
+}

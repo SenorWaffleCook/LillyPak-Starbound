@@ -1,0 +1,13 @@
+{
+  "input" : [
+  	{ "item" : "money", "count" : 2000 },
+	{ "item" : "ise3densealloy", "count" : 4 },
+	{ "item" : "ise3aegisaltcable", "count" : 16 },
+	{ "item" : "ise3electrummagnet", "count" : 50}
+  ],
+  "output" : {
+    "item" : "ise3enhancer",
+    "count" : 1
+  },
+  "groups" : [ "ise3moduletable", "armors", "all" ]
+}

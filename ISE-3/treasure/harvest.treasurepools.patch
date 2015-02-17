@@ -1,0 +1,478 @@
+[ 
+{ "op": "add", "path": "/ise3bonsaiseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "fullwood1"
+          },
+		  {
+            "weight": 0.1,
+            "item": "ise3bonsaiseed"
+          },
+		  {
+            "weight": 0.6,
+            "item": "plantfibre"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.6,
+            2
+          ],
+          [
+            0.4,
+            4
+          ],
+          [
+            0.2,
+            6
+          ],
+          [
+            0.1,
+            10
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3rubberseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3stickyresin"
+          },
+		  {
+            "weight": 0.1,
+            "item": "ise3rubberseed"
+          },
+		  {
+            "weight": 0.6,
+            "item": "plantfibre"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.6,
+            1
+          ],
+          [
+            0.4,
+            2
+          ],
+          [
+            0.2,
+            3
+          ],
+          [
+            0.1,
+            4
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3tinseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinytindust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3tinseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3copperseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinycopperdust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3copperseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3silverseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinysilverdust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3silverseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3goldseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinygolddust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3goldseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3platinumseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinyplatinumdust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3platinumseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3ironseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinyirondust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3ironseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3titaniumseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinytitaniumdust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3titaniumseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3aegisaltseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinyaegisaltdust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3aegisaltseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3violiumseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinyvioliumdust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3violiumseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ },
+{ "op": "add", "path": "/ise3rubiumseed", "value": 
+ [
+    [
+      0,
+      {
+        "pool": [
+          {
+            "weight": 1.0,
+            "item": "ise3tinyrubiumdust"
+          },
+		  {
+            "weight": 0.01,
+            "item": "ise3rubiumseed"
+          }
+        ],
+        "poolRounds": [
+          [
+            0.7,
+            1
+          ],
+          [
+            0.5,
+            2
+          ],
+          [
+            0.2,
+            4
+          ],
+          [
+            0.1,
+            8
+          ]
+        ]
+      }
+    ]
+
+]
+
+ }
+]

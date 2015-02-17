@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ise3carbonplate", "count" : 6 },
+    { "item" : "ise3advancealloy", "count" : 6 },
+	{ "item" : "ise3powercore", "count" : 1 }
+  ],
+  "output" : { "item" : "ise3carbonbow", "count" : 1 },
+  "groups" : [ "roboticcraftingtable", "weapons", "all" ]
+}

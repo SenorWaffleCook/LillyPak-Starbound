@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 400 }
+  ],
+  "output" : {
+    "item" : "ise3rubberseed",
+    "count" : 1
+  },
+  "groups" : [ "terramart", "objects", "all", "tools" ]
+}

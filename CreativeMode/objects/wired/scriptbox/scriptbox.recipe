@@ -1,0 +1,7 @@
+{
+  "input" : [
+
+  ],
+  "output" : { "item" : "scriptbox", "count" : 1 },
+  "groups" : [ "cheatingtable", "boxes", "all" ]
+}

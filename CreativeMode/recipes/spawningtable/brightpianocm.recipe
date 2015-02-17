@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "brightpiano", "count" : 1 },
+	"groups" : [ "spawningtable", "misc" ]
+}

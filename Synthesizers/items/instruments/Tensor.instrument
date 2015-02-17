@@ -1,0 +1,19 @@
+{
+  "itemName" : "tensor",
+  "inventoryIcon" : "13icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Bring up the tension with this tight bass.",
+  "shortdescription" : "Tensor Synthesizer",
+  "largeImage" : "13.png",
+  "image" : "13.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "13.png",
+  "activeAngle" : -20,
+  "activeHandPosition" : [0.1, 0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "Tensor"
+}

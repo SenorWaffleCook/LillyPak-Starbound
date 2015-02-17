@@ -1,0 +1,10 @@
+{
+  "name" : "ISE-3",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "modauthor" : "DraLUSAD, HuggableCreep",
+  "modversion" : "BUILD 13",
+  "moddescription" : "inspired mod from Minecraft's IC2, craft machines, tools, and modules",
+  "modsupporturl" : "http://community.playstarbound.com/index.php?resources/industrilization-3-starbound-edition-ise-3.2531/"
+}

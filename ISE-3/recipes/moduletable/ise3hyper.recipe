@@ -1,0 +1,14 @@
+{
+  "input" : [
+	{ "item" : "ise3goldcable", "count" : 16 },
+	{ "item" : "ise3cpu", "count" : 2 },
+	{ "item" : "ise3bronzeplate", "count" : 10 },
+	{ "item" : "ise3batterypack", "count" : 4 },
+	{ "item" : "ise3electrummagnet", "count" : 30}
+  ],
+  "output" : {
+    "item" : "ise3hyper",
+    "count" : 1
+  },
+  "groups" : [ "ise3moduletable", "armors", "all" ]
+}

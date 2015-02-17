@@ -1,0 +1,16 @@
+{
+  "id" : "10ise3.gearup",
+  "title" : "^#9be3d6;Industrialization: Lv.9",
+  "text" : "With all the parts you've crafted up, you can now mould in the ^orange;Extractor^white;, this will make it useful for getting more rubber from 1 resin, and you can even extract ^orange;Oil^white; to ^orange;Lubricant^white;",
+  "completionText" : "From here on out, You will be awarded Pixels for completing each tasks",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ise3extractor", 1], "consume" : false }
+  ],
+  "moneyRange" : [300, 300],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "11ise3.gearup",
+  "canBeAbandoned" : false
+}
+
+

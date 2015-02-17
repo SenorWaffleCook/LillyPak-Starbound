@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 6 },
+	{ "item" : "torch", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "hylotllantern1",
+    "count" : 1
+  },
+  "groups" : [ "hylotlcraftingtable", "objects", "all" ]
+}

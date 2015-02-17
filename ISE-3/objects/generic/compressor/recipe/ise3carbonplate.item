@@ -1,0 +1,11 @@
+{
+  "itemName" : "ise3carbonplate",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "ise3carbonplate.png",
+  "description" : "This carbon plate is used in many stronger machines and tools.",
+  "shortdescription" : "Carbon Plate",
+  "learnBlueprintsOnPickup" : [ 
+  "ise3mediumframe",
+  "ise3carbonbow"
+  ]
+}

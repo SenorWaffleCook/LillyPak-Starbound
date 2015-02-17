@@ -1,0 +1,49 @@
+{
+  "objectName" : "ise3ironfurnace",
+  "rarity" : "uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/stonefurnace.config",
+    "filter" : [ "stonefurnace" ]
+  },
+  "description" : "This furnace has no special properties, other than being an alternative to the stone furnace and looks cooler",
+  "shortdescription" : "^orange;Iron Furnace^white;",
+  "race" : "generic",
+  "subtitle" : "Old fashioned smelting.",
+  "category" : "crafting",
+  "price" : 200,
+  "printable" : false,
+
+  "apexDescription" : "An iron furnace. I can smelt things here.",
+  "avianDescription" : "A furnace perfect for crafting.",
+  "floranDescription" : "Furnace hisss, ssspit, burn. Floran brave it.",
+  "glitchDescription" : "Craftsmanship. The furnace is the perfect temperature for smelting ores",
+  "humanDescription" : "A smelting furnace. Hot.",
+  "hylotlDescription" : "A hot, imposing furnace.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "ise3ironfurnaceicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ise3ironfurnace.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

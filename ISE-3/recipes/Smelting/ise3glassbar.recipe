@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "glassmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ise3glassbar",
+    "count" : 1
+  },
+  "groups" : [ "stonefurnace", "alloyfurnace", "scififurnace", "all" ]
+}

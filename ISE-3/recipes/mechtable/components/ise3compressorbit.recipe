@@ -1,0 +1,15 @@
+{
+  "input" : [
+	{ "item" : "ise3ironplate", "count" : 10 },
+	{ "item" : "steelbar", "count" : 5 },
+	{ "item" : "silverbar", "count" : 2 },
+	{ "item" : "ise3lubricant", "count" : 32 }
+  ],
+  "output" : {
+    "item" : "ise3compressorbit",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "tools", "all" ]
+}
+
+

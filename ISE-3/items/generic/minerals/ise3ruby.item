@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3ruby",
+  "rarity" : "Rare",
+  "inventoryIcon" : "ise3ruby.png",
+  "description" : "It's a beautiful Ruby.",
+  "shortdescription" : "Ruby",
+  "learnBlueprintsOnPickup" : [ "" ]
+}

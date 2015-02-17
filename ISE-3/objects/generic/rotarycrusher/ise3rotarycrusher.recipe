@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "ise3machineupgrade", "count" : 1 },
+	{ "item" : "ise3crusher", "count" : 1 },
+	{ "item" : "ise3mediumframe", "count" : 1 },
+	{ "item" : "ise3lubricant", "count" : 150 },
+	{ "item" : "refinedaegisalt", "count" : 10 },
+	{ "item" : "refinedrubium", "count" : 10 },
+	{ "item" : "refinedviolium", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "ise3rotarycrusher",
+    "count" : 1
+  },
+  "groups" : [ "ise3mechtable", "materials", "all" ]
+}

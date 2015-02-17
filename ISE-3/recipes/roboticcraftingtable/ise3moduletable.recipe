@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ise3mechtable", "count" : 1 },
+    { "item" : "ise3advancealloy", "count" : 5 },
+    { "item" : "ise3carbonplate", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "ise3moduletable",
+    "count" : 1
+  },
+  "groups" : [ "roboticcraftingtable", "all", "other" ]
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "cheatflighttech",
+  "type" : "head",
+
+  "scripts" : ["flight.lua"],
+  "actions" : [ "boostRightUp", "boostRightDown", "boostLeftUp", "boostLeftDown", "boostRight", "boostDown", "boostLeft", "boostUp" ],
+  "animator" : "cheatflighttech.animation",
+
+  "boostControlForce" : 300,
+  "boostSpeed" : 40,
+  "energyUsagePerSecond" : 140
+}

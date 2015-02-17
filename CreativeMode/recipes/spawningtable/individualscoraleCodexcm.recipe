@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "individualscoraleCodex", "count" : 1 },
+	"groups" : [ "spawningtable", "codex" ]
+}

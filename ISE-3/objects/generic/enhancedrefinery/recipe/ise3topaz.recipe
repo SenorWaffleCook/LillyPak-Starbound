@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ise3topaz", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 240 },
+  "groups" : [ "ise3enhancedrefinery" ]
+}

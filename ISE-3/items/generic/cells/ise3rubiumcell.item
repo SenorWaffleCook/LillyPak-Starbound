@@ -1,0 +1,8 @@
+{
+  "itemName" : "ise3rubiumcell",
+  "rarity" : "rare",
+  "inventoryIcon" : "ise3rubiumcell.png",
+  "description" : "A filled cell, its worth running it through the Plantation Lab",
+  "category" : "Seeding Cells",
+  "shortdescription" : "Rubium Cell"
+}

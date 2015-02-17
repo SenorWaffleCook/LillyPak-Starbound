@@ -1,0 +1,5 @@
+{
+	"input" : [ ],
+	"output" : { "item" : "floranfurnivourlegs", "count" : 1 },
+	"groups" : [ "spawningtable", "armor" ]
+}

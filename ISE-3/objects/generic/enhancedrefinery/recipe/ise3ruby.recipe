@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ise3ruby", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 510 },
+  "groups" : [ "ise3enhancedrefinery" ]
+}

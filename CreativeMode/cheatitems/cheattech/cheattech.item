@@ -1,0 +1,8 @@
+{
+  "itemName" : "cheattech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "cheattech.png",
+  "description" : "Starts a quest to unlock all tech.",
+  "shortdescription" : "All Tech Unlocker",
+  "pickupQuestTemplates" : ["alltechscm.gearup"]
+}

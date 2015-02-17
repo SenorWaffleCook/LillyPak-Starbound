@@ -1,0 +1,16 @@
+X: 1
+T: from C:/Users/Shaad/Desktop/basstest2.mid
+M: 4/4
+L: 1/8
+Q:1/4=120
+% Last note suggests minor mode tune
+K:Eb % 3 flats
+% \0x00
+D,,/2x/2C,/2x/2 D,3/2D,,/2 x/2D,,/2C,/2x/2 D,D,,/2F,,/2| \
+D,,/2x/2C,/2x/2 D,3/2A,,/2 x/2A,,/2G,,/2x/2 F,,C,,/2C,/2| \
+D,,C,/2x/2 D,3/2D,,D,,/2C,/2x/2 D,D,,/2F,,/2| \
+D,,C, D,D,,/2A,,D,,/2G,, F,,C,,/2C,/2|
+D,,/2x/2C,/2x/2 D,3/2D,,/2 x/2D,,/2C,/2x/2 D,D,,/2F,,/2| \
+D,,/2x/2C,/2x/2 D,3/2A,,/2 x/2A,,/2G,,/2x/2 F,,C,,/2C,/2| \
+D,,C,/2x/2 D,3/2D,,D,,/2C,/2x/2 D,D,,/2F,,/2| \
+D,,C, D,D,,/2A,,D,,/2G,, F,,C,,/2C,/2|
