@@ -1,0 +1,9 @@
+## basic file to ignore
+*.exe
+*.txt
+*.pdn
+*.jpg
+*.jpeg
+*.gif
+*.apng
+*.agif
