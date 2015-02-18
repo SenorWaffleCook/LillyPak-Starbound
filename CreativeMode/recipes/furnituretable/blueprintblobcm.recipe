@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "blueprintblob", "count" : 1 },
-	"groups" : [ "furnituretable", "otherfurn" ]
-}
