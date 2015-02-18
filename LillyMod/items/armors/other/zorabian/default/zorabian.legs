@@ -14,7 +14,7 @@
 	[
 		{
 			"stat" : "maxEnergy",
-			"amount" : 35
+			"amount" : 60
 		},
 		{
 			"stat" : "protection",
