@@ -25,7 +25,8 @@
 	
 	"sitStatusEffects" :
 	[
-		"cheatregeneration"
+		"cheatregeneration",
+		"nude"
 	],
 	
 	"sitEffectEmitters" : [ "sleepbubbles" ],
