@@ -6,7 +6,7 @@
 	"rarity" : "legendary",
 	"description" : "The armor of the Void.",
 	"shortdescription" : "Zorabian troop helmet",
-	"inspectionKind" : "armor",
+	"tooltipKind" : "armor",
 
 	"maleFrames" : "head.png",
 	"femaleFrames" : "head.png",

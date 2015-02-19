@@ -6,7 +6,7 @@
 	"rarity": "Common",
 	"description": "^green;Avali, Leg Slot. ^white; Features a powered exoskeleton, allowing the user to perform ballet in full combat armour.",
 	"shortdescription": "Combat Armour",
-	"inspectionKind": "armor",
+	"tooltipKind": "armor",
 
 	"maleFrames": "pants.png",
 	"femaleFrames": "pants.png",

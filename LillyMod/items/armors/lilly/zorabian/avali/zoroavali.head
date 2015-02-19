@@ -6,7 +6,7 @@
 	"rarity": "Common",
 	"description": "^green;Avali, Head Slot. ^white; A heavy durasteel helmet, for when you absolutely positively need to keep your head on.",
 	"shortdescription": "Assault Helmet",
-	"inspectionKind": "armor",
+	"tooltipKind": "armor",
 
 	"maleFrames": "head.png",
 	"femaleFrames": "head.png",

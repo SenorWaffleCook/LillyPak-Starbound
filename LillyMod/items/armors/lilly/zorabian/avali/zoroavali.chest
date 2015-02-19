@@ -6,7 +6,7 @@
 	"rarity": "Legendary",
 	"description": "Armoured plates inserted into Avali armour. Equip these in your armour slots, and place your clothing or armour in the vanity slots.",
 	"shortdescription": "Impervium Vest Insert",
-	"inspectionKind": "armor",
+	"tooltipKind": "armor",
 
 	"maleFrames":
 	{

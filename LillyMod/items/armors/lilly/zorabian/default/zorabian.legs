@@ -6,7 +6,8 @@
 	"rarity" : "legendary",
 	"description" : "The armor of the Void.",
 	"shortdescription" : "Zorabian troop leggings",
-	"inspectionKind" : "armor",
+	"tooltipKind" : "armor",
+	
 	"maleFrames" : "pants.png",
 	"femaleFrames" : "pants.png",
 
