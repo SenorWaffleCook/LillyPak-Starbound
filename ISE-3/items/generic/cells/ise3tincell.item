@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3tincell",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3tincell.png",
-  "description" : "A filled cell, its worth running it through the Plantation Lab",
-  "category" : "Seeding Cells",
-  "shortdescription" : "Tin Cell"
-}

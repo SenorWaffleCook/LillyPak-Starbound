@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3grinder",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3grinder.png",
-  "description" : "Able to break down all kinds of ores",
-  "category" : "Component Module",
-  "shortdescription" : "^cyan;Grinder^white;"
-}

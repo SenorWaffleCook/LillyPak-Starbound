@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3tinplate",
-  "rarity" : "common",
-  "inventoryIcon" : "ise3tinplate.png",
-  "description" : "A Pressed Tin Plate",
-  "category" : "Plates",
-  "shortdescription" : "^cyan;Tin Plate^white;"
-}

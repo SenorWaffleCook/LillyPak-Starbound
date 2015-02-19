@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3steelgear",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "ise3steelgear.png",
-  "description" : "This stronger variant allows the machines to work much faster and much safer",
-  "category" : "Gears",
-  "shortdescription" : "^cyan;Steel Gear^white;"
-}

@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3topaz",
-  "rarity" : "Rare",
-  "inventoryIcon" : "ise3topaz.png",
-  "description" : "It's a beautiful Topaz.",
-  "shortdescription" : "Topaz",
-  "learnBlueprintsOnPickup" : [ "" ]
-}

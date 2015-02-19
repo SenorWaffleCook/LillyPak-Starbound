@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3circuitboard",
-  "rarity" : "rare",
-  "inventoryIcon" : "ise3circuitboard.png",
-  "description" : "Its a Circuit Board",
-  "category" : "Circuit Chips",
-  "shortdescription" : "^cyan;Circuit Board^white;"
-}

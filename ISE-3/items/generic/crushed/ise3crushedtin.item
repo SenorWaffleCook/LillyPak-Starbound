@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3crushedtin",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3crushedtin.png",
-  "description" : "Crushed Tin Ore",
-  "shortdescription" : "Crushed Tin",
-  "learnBlueprintsOnPickup" : [ "ise3tincell" ]
-}

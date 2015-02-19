@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3compressorbit",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3compressorbit.png",
-  "description" : "Can press and make strong alloys",
-  "category" : "Component Module",
-  "shortdescription" : "^cyan;Compressor Bit^white;"
-}

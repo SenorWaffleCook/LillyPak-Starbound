@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3crushedsilver",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3crushedsilver.png",
-  "description" : "Crushed Silver Ore",
-  "shortdescription" : "Crushed Silver",
-  "learnBlueprintsOnPickup" : [ "ise3silvercell" ]
-}

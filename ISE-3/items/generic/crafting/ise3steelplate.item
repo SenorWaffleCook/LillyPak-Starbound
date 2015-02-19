@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3steelplate",
-  "rarity" : "common",
-  "inventoryIcon" : "ise3steelplate.png",
-  "description" : "A Pressed Steel Plate",
-  "category" : "Plates",
-  "shortdescription" : "^cyan;Steel Plate^white;"
-}

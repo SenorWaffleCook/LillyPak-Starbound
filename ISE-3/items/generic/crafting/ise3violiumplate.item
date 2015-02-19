@@ -1,9 +1,0 @@
-{
-  "itemName" : "ise3violiumplate",
-  "rarity" : "rare",
-  "inventoryIcon" : "ise3violiumplate.png",
-  "description" : "A Pressed Violium Plate",
-  "category" : "Plates",
-  "learnBlueprintsOnPickup" : [ "ise3densemixedmetals" ],
-  "shortdescription" : "^cyan;Violium Plate^white;"
-}

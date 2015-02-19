@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3copperplate",
-  "rarity" : "common",
-  "inventoryIcon" : "ise3copperplate.png",
-  "description" : "A Pressed Copper Plate",
-  "category" : "Plates",
-  "shortdescription" : "^cyan;Copper Plate^white;"
-}

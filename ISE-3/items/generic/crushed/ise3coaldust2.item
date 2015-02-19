@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3charcoaldust",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3charcoaldust.png",
-  "description" : "This powdery substance of Char coal can make specialized Carbon Mesh",
-  "shortdescription" : "Char Coal Dust",
-  "learnBlueprintsOnPickup" : [ "ise3carbonmesh" ]
-}

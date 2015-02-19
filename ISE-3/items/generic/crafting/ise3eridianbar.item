@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3eridianbar",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "ise3eridianbar.png",
-  "description" : "It's an Eridian bar, What kind of stuff can this actually make?",
-  "shortdescription" : "Eridian Bar",
-  "learnBlueprintsOnPickup" : []
-}

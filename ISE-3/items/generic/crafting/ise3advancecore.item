@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3advancecore",
-  "rarity" : "rare",
-  "inventoryIcon" : "ise3advancecore.png",
-  "description" : "An advanced version of the power core",
-  "category" : "Cores",
-  "shortdescription" : "^cyan;Advance Core^white;"
-}

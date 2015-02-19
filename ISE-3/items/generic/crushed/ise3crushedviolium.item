@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3crushedviolium",
-  "rarity" : "rare",
-  "inventoryIcon" : "ise3crushedviolium.png",
-  "description" : "Crushed Violium Ore",
-  "shortdescription" : "Crushed Violium",
-  "learnBlueprintsOnPickup" : [ "ise3violiumcell" ]
-}

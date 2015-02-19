@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3tinbattery",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3tinbattery.png",
-  "description" : "A self charging battery which can sustain pretty much anything",
-  "category" : "Batteries",
-  "shortdescription" : "^cyan;Tin Battery^white;"
-}

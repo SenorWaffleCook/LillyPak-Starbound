@@ -1,7 +1,0 @@
-{
-  "itemName" : "ise3carbonmesh",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3carbonmesh.png",
-  "description" : "This mesh can be compressed to form the carbon plate.",
-  "shortdescription" : "^cyan;Carbon Mesh^white;"
-}

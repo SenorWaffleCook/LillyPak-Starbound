@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ise3carbonpickaxe", "count" : 1 },
-	{ "item" : "ise3combo", "count" : 1 }
-  ],
-  "output" : { "item" : "4ise3carbonpickaxe", "count" : 1 },
-  "groups" : [ "scifianvil", "tools", "all" ]
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ise3sapphire", "count" : 2 }
-  ],
-  "output" : { "item" : "ise3sapphirepickaxe", "count" : 1 },
-  "groups" : [ "metalworkstation", "tools", "all" ]
-}

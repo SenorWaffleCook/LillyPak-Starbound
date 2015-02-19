@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3sapphire",
-  "rarity" : "Rare",
-  "inventoryIcon" : "ise3sapphire.png",
-  "description" : "It's a beautiful Sapphire.",
-  "shortdescription" : "Sapphire",
-  "learnBlueprintsOnPickup" : [ "" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ise3groundedminerals", "count" : 5 }
-  ],
-  "output" : { "item" : "ise3ualiquid", "count" : 1 },
-  
-  "groups" : [ "ise3massfabricator", "all" ]
-}

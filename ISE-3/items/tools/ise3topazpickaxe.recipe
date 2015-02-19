@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ise3topaz", "count" : 2 }
-  ],
-  "output" : { "item" : "ise3topazpickaxe", "count" : 1 },
-  "groups" : [ "metalworkstation", "tools", "all" ]
-}

@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3crushediron",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3crushediron.png",
-  "description" : "Crushed Iron Ore",
-  "shortdescription" : "Crushed Iron",
-  "learnBlueprintsOnPickup" : [ "ise3ironcell" ]
-}

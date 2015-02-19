@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3goldplate",
-  "rarity" : "common",
-  "inventoryIcon" : "ise3goldplate.png",
-  "description" : "A Pressed Gold Plate",
-  "category" : "Plates",
-  "shortdescription" : "^cyan;Gold Plate^white;"
-}

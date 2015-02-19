@@ -1,9 +1,0 @@
-{
-  "itemName" : "ise3fluidpipe",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3fluidpipe.png",
-  "description" : "Essentially needed for most fluid based machines",
-  "category" : "Component Module",
-  "shortdescription" : "^cyan;Fluid Pipe^white;"
-  
-}

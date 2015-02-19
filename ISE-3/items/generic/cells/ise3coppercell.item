@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3coppercell",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3coppercell.png",
-  "description" : "A filled cell, its worth running it through the Plantation Lab",
-  "category" : "Seeding Cells",
-  "shortdescription" : "Copper Cell"
-}

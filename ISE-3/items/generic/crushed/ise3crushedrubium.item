@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3crushedrubium",
-  "rarity" : "rare",
-  "inventoryIcon" : "ise3crushedrubium.png",
-  "description" : "Crushed Rubium Ore",
-  "shortdescription" : "Crushed Rubium",
-  "learnBlueprintsOnPickup" : [ "ise3rubiumcell" ]
-}

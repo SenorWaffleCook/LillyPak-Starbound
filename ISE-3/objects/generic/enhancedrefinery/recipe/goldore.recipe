@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "goldore", "count" : 1 }
-  ],
-  "output" : { "item" : "money", "count" : 37 },
-  "groups" : [ "ise3enhancedrefinery" ]
-}

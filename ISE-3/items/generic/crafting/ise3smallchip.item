@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3smallchip",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3smallchip.png",
-  "description" : "A basic and simple chip",
-  "category" : "Circuit Chips",
-  "shortdescription" : "^cyan;Small Chip^white;"
-}

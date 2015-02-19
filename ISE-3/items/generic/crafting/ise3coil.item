@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3coil",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3coil.png",
-  "description" : "Special electrical coil, it has the ability to charge its self",
-  "category" : "Fixture Part",
-  "shortdescription" : "^cyan;Coil^white;"
-}

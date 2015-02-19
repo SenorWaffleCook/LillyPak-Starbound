@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ise3tinbar", "count" : 2 }
-  ],
-  "output" : { "item" : "ise3tinpickaxe", "count" : 1 },
-  "groups" : [ "anvil", "tools", "all" ]
-}

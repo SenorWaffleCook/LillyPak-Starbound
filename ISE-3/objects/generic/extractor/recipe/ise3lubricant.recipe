@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "liquidoil", "count" : 2 }
-  ],
-  "output" : { "item" : "ise3lubricant", "count" : 1 },
-  
-  "groups" : [ "ise3extractor", "all" ]
-}

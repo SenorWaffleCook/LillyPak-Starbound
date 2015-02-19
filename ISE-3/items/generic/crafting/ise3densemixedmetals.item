@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3densemixedmetals",
-  "rarity" : "rare",
-  "inventoryIcon" : "ise3densemixedmetals.png",
-  "description" : "Combination of Aegisalt, Violium and Rubium Plates",
-  "learnBlueprintsOnPickup" : [ "ise3densealloy" ],
-  "shortdescription" : "^cyan;Dense Mixed Metals^white;"
-}

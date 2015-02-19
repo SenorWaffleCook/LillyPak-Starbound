@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3batterypack",
-  "rarity" : "uncommon",
-  "inventoryIcon" : "ise3batterypack.png",
-  "description" : "Sophisticated machines demand more energy, with this Battery Pack, you get just that",
-  "category" : "Batteries",
-  "shortdescription" : "^cyan;Battery Pack^white;"
-}

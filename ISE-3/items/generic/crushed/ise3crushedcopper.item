@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3crushedcopper",
-  "rarity" : "Common",
-  "inventoryIcon" : "ise3crushedcopper.png",
-  "description" : "Crushed Copper Ore",
-  "shortdescription" : "Crushed Copper",
-  "learnBlueprintsOnPickup" : [ "ise3coppercell" ]
-}

@@ -1,8 +1,0 @@
-{
-  "itemName" : "ise3crushedaegisalt",
-  "rarity" : "rare",
-  "inventoryIcon" : "ise3crushedaegisalt.png",
-  "description" : "Crushed Aegisalt Ore",
-  "shortdescription" : "Crushed Aegisalt",
-  "learnBlueprintsOnPickup" : [ "ise3aegisaltcell" ]
-}
