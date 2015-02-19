@@ -25,7 +25,7 @@
 	
 	"sitStatusEffects" :
 	[
-		"cheatregeneration",
+		"regeneration4",
 		"nude"
 	],
 	
@@ -35,7 +35,7 @@
 	"orientations" :
 	[
 		{
-			"imageLayers" : [ { "image" : "healthpod.png:<color>", "fullbright" : true }, { "image" : "healthpodlit.png:<color>" } ],
+			"imageLayers" : [ { "image" : "healthpod.png:<color>", "fullbright" : true } ],
 			"flipImages" : true,
 			"imagePosition" : [-16, 0],
 			"frames" : 1,
@@ -50,7 +50,7 @@
 			"direction" : "left"
 		},
 		{
-			"imageLayers" : [ { "image" : "healthpod.png:<color>", "fullbright" : true }, { "image" : "healthpodlit.png:<color>"} ],
+			"imageLayers" : [ { "image" : "healthpod.png:<color>", "fullbright" : true } ],
 			"imagePosition" : [-16, 0],
 			"frames" : 1,
 			"animationCycle" : 1.0,

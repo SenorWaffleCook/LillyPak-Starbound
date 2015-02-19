@@ -1,0 +1,18 @@
+{
+	"itemName" : "zorcanbar",
+	"rarity" : "Uncommon",
+	"inventoryIcon" : "zorcanbar.png",
+	"description" : "It's a zorcan bar.",
+	"shortdescription" : "Zorcan Bar",
+	
+	"learnBlueprintsOnPickup":
+	[
+		"voidexcalibur",
+		"zorohead",
+		"zorochest",
+		"zoropants",
+		"zoroavalihead",
+		"zoroavalichest",
+		"zoroavalipants"
+	]
+}
