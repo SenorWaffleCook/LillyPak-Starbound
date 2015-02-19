@@ -1,9 +1,9 @@
-# LillyPak-Starbound
-This is my mod pack for Starbound.
+# **LillyPak-Starbound**
+This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
 
 ----------
 
-## Included Mods:
+## **Included Mods**:
 
  1. [Industrilization 3](http://forums.playstarbound.com/index.php?resources/2531/) - by DraLUSAD
  2. [Lightdrones Continued](http://forums.playstarbound.com/index.php?resources/2541/) - by Jellyblade
@@ -27,14 +27,16 @@ This is my mod pack for Starbound.
  20. [Illuminated Ores](http://forums.playstarbound.com/index.php?resources/2429/) - by Amadox
  21. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
 
-## Legal:
+----------
 
-None, but one, of these mods are owned by Nire Inicana, or thakyZ
-I did not ask for permission to use these mods in my mod pack - yet.
-This mod pack is supposed to be private but is posted on here for the convenience of Github.
+## **Legal**:
+
+   None, but one, of these mods are owned by Nire Inicana, or thakyZ   
+   I did not ask for permission to use these mods in my mod pack - **YET**   
+   This mod pack is **supposed to be private** but is posted on here for the convenience of Github.
 
 ----------
 
-## My mods Legal:
+## **My mods Legal**:
 
-The Lilly Co. Mods are under the MIT licence.
+The Lilly Co. Mods are under the **MIT licence**.
