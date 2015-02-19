@@ -1,0 +1,21 @@
+{
+  "materialId" : 15621,
+  "materialName" : "kinepticwoodpillar2",
+  "particleColor" : [85, 65, 43, 255],
+  "itemDrop" : "kinepticwoodpillar2",
+  "description" : "A smooth wooden board.",
+  "shortdescription" : "Wooden Board",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 1.0,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kinepticwoodpillar2.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 1
+  }
+}

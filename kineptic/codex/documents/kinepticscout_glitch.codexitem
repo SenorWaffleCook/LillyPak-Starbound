@@ -1,0 +1,10 @@
+{
+  "codexId" : "kinepticscout_glitch",
+  "title" : "Nyudefra's Log - The Glitch",
+  "inventoryIcon" : "kinepticscoutlog_01.png",
+  "codexkind" : "codex",
+  "itemName" : "kinepticscout_glitchCodex",
+  "rarity" : "common",
+  "description" : "Nyudefra's Log - The Glitch",
+  "shortdescription" : "Nyudefra's Log #1"
+}

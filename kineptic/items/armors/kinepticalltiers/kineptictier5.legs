@@ -1,0 +1,31 @@
+{
+	"itemName" : "kineptictier5pants",
+	"inventoryIcon" : "icons.png:pants",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "Commonly worn when entering a new environment with unknown threats. Affectionately called the 'cover-your-tail' anklet.",
+	"shortdescription" : "Anklet of Balance",
+	"inspectionKind" : "armor",
+	"maleFrames" : "pants.png",
+	"femaleFrames" : "pants.png",
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 45
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 50
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 25
+		}
+	],
+	"triggerKeys" : ["tier5armor"],
+	"colorOptions" : [{
+			"ffca8a" : "d1e160",
+			"e0975c" : "9bba3d",
+			"a85636" : "48832f",
+			"6f2919" : "1b4c2a"
+		}
+	]
+}

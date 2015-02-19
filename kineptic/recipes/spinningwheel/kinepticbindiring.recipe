@@ -1,0 +1,7 @@
+{
+  "input" : [
+	{ "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : { "item" : "kinepticbindiring", "count" : 1 },
+  "groups" : [ "spinningwheel", "armor", "head" ]
+}

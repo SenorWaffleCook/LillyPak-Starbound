@@ -1,0 +1,31 @@
+{
+	"itemName" : "kineptictier10head",
+	"inventoryIcon" : "icons.png:head",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "It's said this device was originally made to protect kittens with a propensity for falling on their heads.",
+	"shortdescription" : "Shielding Pendant",
+	"inspectionKind" : "armor",
+	"maleFrames" : "head.png",
+	"femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 105
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 35
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 60
+		}
+	],
+	"colorOptions" : [{
+			"ffca8a" : "838383",
+			"e0975c" : "555555",
+			"a85636" : "383838",
+			"6f2919" : "151515"
+		}
+	]
+}

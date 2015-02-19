@@ -1,0 +1,10 @@
+{
+  "itemName" : "kinepticcrystal",
+  "rarity" : "Common",
+  "inventoryIcon" : "kinepticcrystal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Smooth, gleaming crystal.",
+  "shortdescription" : "Polished Crystal",
+
+  "materialId" : 15614
+}

@@ -1,0 +1,58 @@
+{
+  "projectileName" : "kinepticfireball",
+  
+  "physics" : "default",
+  "hydrophobic" : true,
+  "damageKind" : "fire",
+  
+  "animationCycle" : 0.3,
+  "frames" : "kinepticfireball.png",
+  "frameNumber" : 4,
+  "timeToLive" : 3,
+  "lightColor" : [255, 113, 0],
+  "statusEffects" : [
+	"burning"
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/smallregularexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 30,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : -35,
+	  "config" : {
+	    "hydrophobic" : true,
+        "timeToLive" : 1.4
+      }
+    },
+	{
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 30,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : 35,
+	  "config" : {
+	    "hydrophobic" : true,
+        "timeToLive" : 1.4
+      }
+    },
+	{
+      "action" : "projectile",
+      "type" : "molotovflame",
+      "fuzzAngle" : 30,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : 0,
+	  "config" : {
+	    "hydrophobic" : true,
+        "timeToLive" : 1.4
+      }
+    }
+  ],
+  "emitters" : [ "javelinred" ]
+}
+
+

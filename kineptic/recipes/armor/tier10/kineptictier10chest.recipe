@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 10 }
+  ],
+  "output" : { "item" : "kineptictier10chest", "count" : 1 },
+  "groups" : [ "separatortable", "armors", "all" ]
+}

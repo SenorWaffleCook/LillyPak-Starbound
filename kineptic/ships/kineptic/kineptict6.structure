@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "kinepticT6.png",
+      "position" : [4.62, 12.37],
+	  "fullbright" : true
+    },
+    {
+      "image" : "kinepticT6lit.png",
+      "position" : [4.62, 12.37]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "kinepticT6blocks.png"
+}

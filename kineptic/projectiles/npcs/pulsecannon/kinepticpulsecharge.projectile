@@ -1,0 +1,17 @@
+{
+  "projectileName" : "kinepticpulsecharge",
+  "frames" : "pulsecannon.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "pointLight" : true,
+  "lightColor" : [155, 212, 255],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "power" : 10.0,
+  "damageKind" : "plasma",
+  "physics" : "laser"
+}

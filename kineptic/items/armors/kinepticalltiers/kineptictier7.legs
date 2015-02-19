@@ -1,0 +1,30 @@
+{
+	"itemName" : "kineptictier7pants",
+	"inventoryIcon" : "icons.png:pants",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "Discover how truly deep your energy reserves are.",
+	"shortdescription" : "Sorcerer's Anklet",
+	"inspectionKind" : "armor",
+	"maleFrames" : "pants.png",
+	"femaleFrames" : "pants.png",
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 50
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 150
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 30
+		}
+	],
+	"colorOptions" : [{
+			"ffca8a" : "96cbe7",
+			"e0975c" : "5588d4",
+			"a85636" : "344495",
+			"6f2919" : "1a1c51"
+		}
+	]
+}

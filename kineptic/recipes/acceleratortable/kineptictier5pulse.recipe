@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "kineptictier4pulse", "count" : 1 },
+	{ "item" : "plutoniumrod", "count" : 10 },
+	{ "item" : "refinedaegisalt", "count" : 5 },
+	{ "item" : "crystal", "count" : 60 }
+  ],
+  "output" : { "item" : "kineptictier5pulse", "count" : 1 },
+  "groups" : [ "acceleratortable", "all" ]
+}

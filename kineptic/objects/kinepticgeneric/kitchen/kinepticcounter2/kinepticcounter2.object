@@ -1,0 +1,33 @@
+{
+  "objectName" : "kinepticcounter2",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "It begs for things to be put on it.",
+  "shortdescription" : "Monolithic Countertop",
+  "race" : "kineptic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "apexDescription" : "This looks like polished black granite.",
+  "avianDescription" : "Black marble smoothed and polished to the point you can see yourself in it.",
+  "floranDescription" : "Is coal that learned to be shhhiny.",
+  "glitchDescription" : "Investigate. I would need a sample of this material to determine what it is.",
+  "humanDescription" : "This is what happens when the counters force their culture on the rest of the kitchen.",
+  "hylotlDescription" : "Black Quartz countertops are modern. This is a bit tacky.",
+  "novakidDescription" : "That looks perdy heavy. Musta been hard gettin' it there.",
+  "kinepticDescription" : "Would you believe me if I told you it's made of paper mache?",
+
+  "inventoryIcon" : "kinepticcounter2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticcounter2.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ]
+}

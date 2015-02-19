@@ -1,0 +1,32 @@
+{
+	"itemName" : "kineptictier9head",
+	"inventoryIcon" : "icons.png:head",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "Manipulation-class peripherals focus on optimizing the availability of one's own stored energy.",
+	"shortdescription" : "Magician's Lens",
+	"inspectionKind" : "armor",
+	"maleFrames" : "head.png",
+	"femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 60
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 185
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 30
+		}
+	],
+	"triggerKeys" : ["tier5armor"],
+	"colorOptions" : [{
+			"ffca8a" : "f4988c",
+			"e0975c" : "d93a3a",
+			"a85636" : "932625",
+			"6f2919" : "601119"
+		}
+	]
+}

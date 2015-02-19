@@ -1,0 +1,22 @@
+{
+  "materialId" : 15619,
+  "materialName" : "kinepticmonolithicplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "kinepticmonolithicplatform",
+  "shortdescription" : "Stepstone Path",
+  "description" : "A stone path that glows faintly.",
+  "footstepSound" : "/sfx/blocks/footstep_rock.wav",
+  "category": "supports",
+  
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "kinepticmonolithicplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multicolored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

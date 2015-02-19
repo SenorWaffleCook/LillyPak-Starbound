@@ -1,0 +1,39 @@
+{
+	"itemName" : "kineptictier9chest",
+	"inventoryIcon" : "icons.png:chest",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "Does not improve attendance at your grand debut.",
+	"shortdescription" : "Magician's Pendant",
+	"inspectionKind" : "armor",
+	"maleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"femaleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 100
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 310
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 50
+		}
+	],
+	"triggerKeys" : ["tier5armor"],
+	"colorOptions" : [{
+			"ffca8a" : "f4988c",
+			"e0975c" : "d93a3a",
+			"a85636" : "932625",
+			"6f2919" : "601119"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "kinepticfireball",
+  
+  "image" : "/items/spells/invisibleweapon.png",
+  "inventoryIcon" : "kinepticfiregloveicon.png",
+  "description" : "Quite literally a fat-burning workout.",
+  "shortdescription" : "Fireball",
+  "level" : 5,
+  "rarity" : "common",
+  "maxStack" : 1,
+  
+  "handPosition" : [0, 0],
+  "firePosition" : [0, 0],
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  
+  "fireTime" : 0.5,
+  "twoHanded" : true,
+  
+  "projectileType" : "kinepticfireball",
+  "projectile" : {
+	"speed" : 60,
+    "power" : 5
+  },
+  
+  "muzzleEffect" : {
+    "animation" : "/animations/kineptic/kinepticfireflash.animation",  
+    "fireSound" : [ { "file" : "/sfx/projectiles/swing_fire2.wav" } ]
+  }
+}

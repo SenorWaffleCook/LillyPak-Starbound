@@ -1,0 +1,59 @@
+{
+  "kinepticTemporaryLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.36, "item" : [ "kinepticfishtank", 1] },
+          {"weight" : 0.26, "item" : [ "kinepticshrine", 1] },
+          {"weight" : 0.18, "item" : [ "kinepticudderfishtank", 1] }
+        ],
+        "poolRounds" : [
+          [0.20, 1],
+          [0.80, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "kinepticfishtankHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "rawfish"},
+        {"weight" : 0.001, "item" : "sushi"}
+      ],
+      "poolRounds" : [
+        [0.9, 3],
+        [0.1, 4]
+      ]
+    } ]
+  ],
+  "kinepticudderfishtankHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.999, "item" : "milk"},
+        {"weight" : 0.001, "item" : "cheese"}
+      ],
+      "poolRounds" : [
+        [0.9, 1],
+        [0.1, 2]
+      ]
+    } ]
+  ],
+  "kinepticCodexLoot" : [
+    [1, {
+        "pool" : [
+          {"weight" : 0.36, "item" : [ "money", 10] },
+          {"weight" : 0.26, "item" : [ "money", 25] },
+          {"weight" : 0.20, "item" : [ "kinepticscout_glitchCodex", 1] },
+          {"weight" : 0.18, "item" : [ "money", 50] }
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ]
+}
+
+
+

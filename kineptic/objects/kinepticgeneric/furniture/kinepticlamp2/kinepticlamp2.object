@@ -1,0 +1,45 @@
+{
+  "objectName" : "kinepticlamp2",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 50,
+  "retainObjectParametersInItem" : true, 
+  "printable" : false,
+  "description" : "Don't be fooled. It's taller than it looks.",
+  "shortdescription" : "Ornate Crystalabrum",
+  "race" : "kineptic",
+
+  "apexDescription" : "Big Ape would probably have me arrested for having this in my possession.",
+  "avianDescription" : "I'm used to seeing these with bloodspatter.",
+  "floranDescription" : "Kitties ssshoot fire from handsss but like cold lightsss.",
+  "glitchDescription" : "Appreciation. This appears to have been an artistic exercise that turned out better than expected.",
+  "humanDescription" : "I kinda feel like there should be some kind of incense being burned nearby.",
+  "hylotlDescription" : "Shoddy craftsmanship at its finest. Even so, I've seen worse.",
+  "novakidDescription" : "Looks like someone was experimentin' when they made this.",
+  "kinepticDescription" : "Technically it's a crystalstick, but the designer insisted crystalabrum sounded cooler.",
+  
+  "lightColors" : {
+    "default" :  [3, 155, 160],
+	"red" : [160, 26, 3],
+	"blue" : [3, 100, 160],
+	"green" : [90, 160, 3],
+	"yellow" : [160, 152, 3],
+	"orange" : [160, 97, 3],
+	"pink" : [131, 3, 160],
+	"black" : [50, 50, 50],
+	"white" : [110, 110, 110]
+  },
+  
+  "inventoryIcon" : "kinepticlamp2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticlamp2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

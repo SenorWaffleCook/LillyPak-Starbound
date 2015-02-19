@@ -1,0 +1,21 @@
+{
+  "materialId" : 15620,
+  "materialName" : "kinepticwoodpillar",
+  "particleColor" : [85, 65, 43, 255],
+  "itemDrop" : "kinepticwoodpillar",
+  "description" : "A wooden support beam.",
+  "shortdescription" : "Wooden Beam",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 1.0,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kinepticwoodpillar.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 1
+  }
+}

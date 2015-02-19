@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "kinepticconcussion", "count" : 1 },
+	{ "item" : "ceruliumcompound", "count" : 3 },
+	{ "item" : "solariumstar", "count" : 10 },
+	{ "item" : "diamond", "count" : 10 }
+  ],
+  "output" : { "item" : "kinepticconcussion2", "count" : 1 },
+  "groups" : [ "manipulatortable", "all" ]
+}

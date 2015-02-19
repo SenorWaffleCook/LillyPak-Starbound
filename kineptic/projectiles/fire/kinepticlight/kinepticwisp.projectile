@@ -1,0 +1,20 @@
+{
+  "projectileName" : "kinepticwisp",
+  "frames" : "kinepticlight.png",
+  "physics" : "hover",
+  "hydrophobic" : true,
+  "flippable" : true,
+  "bounces" : -1,
+  "animationCycle" : 1,
+  "frameNumber" : 4,
+  "timeToLive" : 3,
+  "speed" : 10,
+  "lightColor" : [255, 180, 0],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallregularexplosion/kinepticsmallregularexplosion.config"
+    }
+  ],
+  "damageKind" : "default"
+}

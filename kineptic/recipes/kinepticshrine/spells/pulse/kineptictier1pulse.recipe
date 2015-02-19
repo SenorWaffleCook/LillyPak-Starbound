@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "kineptictier0pulse", "count" : 1 },
+	{ "item" : "kinepticcrystalball", "count" : 5 }
+  ],
+  "output" : { "item" : "kineptictier1pulse", "count" : 1 },
+  "groups" : [ "kinepticshrine", "all" ]
+}

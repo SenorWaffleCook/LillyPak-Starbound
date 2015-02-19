@@ -1,0 +1,21 @@
+{
+  "materialId" : 15600,
+  "materialName" : "kinepticrug",
+  "particleColor" : [85, 65, 43, 255],
+  "itemDrop" : "kinepticrug",
+  "description" : "Keep the claws off upholstery!",
+  "shortdescription" : "Fancy Curtain",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "health" : 1.0,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kinepticrug.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3
+  }
+}

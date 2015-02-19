@@ -1,0 +1,82 @@
+{
+  "itemName" : "kinepticflamethrower",
+  
+  "image" : "/items/spells/invisibleweapon.png",
+  "inventoryIcon" : "kinepticfiregloveicon.png",
+  "description" : "Burn them, little one. Burn them all.",
+  "shortdescription" : "Flamethrower",
+  "level" : 6,
+  "rarity" : "common",
+  "maxStack" : 1,
+  
+  "handPosition" : [0, 0],
+  "firePosition" : [0, 0],
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  
+  "fireTime" : 0.05,
+  "twoHanded" : true,
+  "classMultiplier" : 0.1,
+  
+  "projectileType" : "kinepticspellinit",
+  "projectile" : {
+    "power" : 8,
+	"speed" : 50,
+	"actionOnReap" : [
+		{
+		  "action" : "projectile",
+		  "type" : "flame",
+		  "inheritDamageFactor" : 0.05,
+		  "inheritSpeedFactor" : 0.1,
+		  "fuzzAngle" : 45,
+		  "angleAdjust" : 0,
+		  "config" : {
+			"hydrophobic" : true
+		  }
+		},
+		{
+		  "action" : "projectile",
+		  "type" : "flame",
+		  "inheritDamageFactor" : 0.05,
+		  "inheritSpeedFactor" : 0.15,
+		  "fuzzAngle" : 15,
+		  "angleAdjust" : 0,
+		  "config" : {
+			"hydrophobic" : true
+		  }
+		},
+		{
+		  "action" : "projectile",
+		  "type" : "flame",
+		  "inheritDamageFactor" : 0.1,
+		  "fuzzAngle" : 5,
+		  "angleAdjust" : 0,
+		  "config" : {
+			"hydrophobic" : true
+		  }
+		},
+		{
+		  "action" : "particle",
+		  "specification" : {
+			"animation" : "/animations/smallflame/smallflame.animation",
+			"initial" : "drift",
+			"rotation" : 0,
+			"timeToLive" : 0.5
+		  }
+		},
+		{
+		  "action" : "particle",
+		  "specification" : {
+			"animation" : "/animations/dusttest/dusttest.animation",
+			"initial" : "drift",
+			"rotation" : 3.14,
+			"timeToLive" : 3
+		  }
+		}
+	]
+  },
+  
+  "muzzleEffect" : {
+    "animation" : "/animations/kineptic/kinepticfireflash.animation",  
+    "fireSound" : [ { "file" : "/sfx/projectiles/swing_fire2.wav" } ]
+  }
+}

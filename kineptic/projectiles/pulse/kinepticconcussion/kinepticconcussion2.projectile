@@ -1,0 +1,156 @@
+{
+  "projectileName" : "kinepticconcussion2",
+  "frames" : "kinepticconcussion.png",
+  "animationCycle" : 0.15,
+  "frameNumber" : 6,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "lightColor" : [155, 212, 255],
+  "timeToLive" : 2,
+  
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    },
+	{
+	  "action" : "sound",
+      "options" : [ "/sfx/melee/slavesword_kill_organic.wav" ]
+	},
+	{
+	  "action" : "sound",
+      "options" : [ "/sfx/melee/slavesword_kill_robotic.wav" ]
+	},
+	{
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 0,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 22,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 45,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 68,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 90,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 112,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 135,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 158,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 180,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 202,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 225,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 248,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 270,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 292,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 315,
+	  "config" : { "timeToLive" : 0.3 }
+    },
+    {
+      "action" : "projectile",
+      "type" : "fireworkblue3",
+      "inheritDamageFactor" : 0.1,
+      "fuzzAngle" : 5,
+      "angle" : 338,
+	  "config" : { "timeToLive" : 0.3 }
+    }
+  ],
+  "damageKind" : "default",
+  "piercing" : true,
+  "physics" : "default"
+}

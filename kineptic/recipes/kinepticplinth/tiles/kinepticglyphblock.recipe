@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "kineptictinylight", "count" : 1 },
+	{ "item" : "cobblestonematerial", "count" : 1 }
+  ],
+  "output" : { "item" : "kinepticglyphblock", "count" : 3 },
+  "groups" : [ "kinepticplinth", "materials", "all" ]
+}

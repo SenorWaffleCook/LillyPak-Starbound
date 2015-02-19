@@ -1,0 +1,39 @@
+{
+  "objectName" : "kinepticfridge",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "printable" : false,
+  "category" : "storage",
+  "price" : 750,
+  "description" : "Say goodbye to freezerburn!",
+  "shortdescription" : "Stasis Preserver",
+  "race" : "kineptic",
+
+  "apexDescription" : "I suppose that's another use for stasis.",
+  "avianDescription" : "Seeing this, it kinda makes me realize how pointless refrigerators are with modern technology.",
+  "floranDescription" : "Horrible machhhine freezesss without cold.",
+  "glitchDescription" : "Impressed. A glitch in sleep mode is its own stasis, but this gives conventional stasis a use for us.",
+  "humanDescription" : "Why didn't humans ever think of this?",
+  "hylotlDescription" : "I suppose stasis can serve more practical uses than intergalactic travel.",
+  "novakidDescription" : "Well would you lookie here! Permanent food storage!",
+  "kinepticDescription" : "Locks in freshness. Forever.",
+
+  "inventoryIcon" : "kinepticfridgeicon.png",
+  "orientations" : [
+	{
+      "dualImage" : "kinepticfridge.png:<color>.<key>",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/spells/gap.wav" ],
+  "closeSounds" : [ "/sfx/spells/gap.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

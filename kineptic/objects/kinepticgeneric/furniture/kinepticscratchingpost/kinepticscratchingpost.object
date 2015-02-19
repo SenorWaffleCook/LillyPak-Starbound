@@ -1,0 +1,32 @@
+{
+  "objectName" : "kinepticscratchingpost",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Fine, expensive curtains have been reduced to little more than an emery board.",
+  "shortdescription" : "Classy Scratching Post",
+  "race" : "kineptic",
+  "category" : "furniture",
+  "price" : 1500,
+
+  "apexDescription" : "I'm not exactly sure what that's supposed to be.",
+  "avianDescription" : "It's a roll of material that would be well suited for a fancy rug or curtain.",
+  "floranDescription" : "Floran sssee this stuff in room of popular metalman.",
+  "glitchDescription" : "Relate. Kings typically have this sort of material used to decorate their throne rooms.",
+  "humanDescription" : "That is one FANCY rug holder.",
+  "hylotlDescription" : "Is this exquisite cloth being used as a SCRATCHING POST?",
+  "novakidDescription" : "Scratchin' post? So much fer a red carpet bein' a thing of prestige.",
+  "kinepticDescription" : "Not all fabrics feel the same. This stuff tears more readily than the puffy white stuff.",
+
+  "inventoryIcon" : "kinepticscratchingposticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticscratchingpost.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

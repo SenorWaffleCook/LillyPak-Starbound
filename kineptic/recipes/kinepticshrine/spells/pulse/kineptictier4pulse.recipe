@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "kineptictier3pulse", "count" : 1 },
+	{ "item" : "aurorabee", "count" : 1 },
+	{ "item" : "glowfibreblue", "count" : 20 }
+  ],
+  "output" : { "item" : "kineptictier4pulse", "count" : 1 },
+  "groups" : [ "kinepticshrine", "all" ]
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "kinepticcrystalball",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 50,
+  "retainObjectParametersInItem" : true, 
+  "printable" : false,
+  "description" : "A crystal ball. There isn't anything magic about it, though.",
+  "shortdescription" : "Crystal Ball",
+  "race" : "kineptic",
+
+  "apexDescription" : "My distorted reflection looks rather humorous.",
+  "avianDescription" : "That's kind of pretty!",
+  "floranDescription" : "Sssparkle ball smash is oddly sssatisfying!",
+  "glitchDescription" : "Observation. It can't really tell the future.",
+  "humanDescription" : "The magic crystal ball: second only to the magic eight ball.",
+  "hylotlDescription" : "It makes for a nice trinket to hide behind the family portrait.",
+  "novakidDescription" : "It's a ball of crystal. Normally I see 'em made of glass.",
+  "kinepticDescription" : "It's perfect for rolling across the hardwood flooring!",
+
+  "inventoryIcon" : "kinepticcrystalballicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticcrystalball.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+

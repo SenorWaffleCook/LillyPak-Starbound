@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "steelbar", "count" : 1 },
+	{ "item" : "darkwoodmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "kinepticbrush", "count" : 1 },
+  "groups" : [ "kinepticplinth", "furniture", "objects", "all" ]
+}

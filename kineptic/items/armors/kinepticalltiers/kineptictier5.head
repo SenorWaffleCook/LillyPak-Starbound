@@ -1,0 +1,32 @@
+{
+	"itemName" : "kineptictier5head",
+	"inventoryIcon" : "icons.png:head",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "This class of accessories focuses on being able to effectively (though not optimally) use any glovetech discipline.",
+	"shortdescription" : "Lens of Balance",
+	"inspectionKind" : "armor",
+	"maleFrames" : "head.png",
+	"femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 70
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 80
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 40
+		}
+	],
+	"triggerKeys" : ["tier5armor"],
+	"colorOptions" : [{
+			"ffca8a" : "d1e160",
+			"e0975c" : "9bba3d",
+			"a85636" : "48832f",
+			"6f2919" : "1b4c2a"
+		}
+	]
+}

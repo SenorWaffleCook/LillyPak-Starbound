@@ -1,0 +1,21 @@
+{
+  "materialId" : 15601,
+  "materialName" : "kinepticrug2",
+  "particleColor" : [170, 172, 148, 255],
+  "itemDrop" : "kinepticrug2",
+  "description" : "It's like walking on a cloud.",
+  "shortdescription" : "Soft Carpet",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "health" : 1.0,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "kinepticrug2.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"itemName" : "kinepticenergydrink",
+	"rarity" : "Common",
+	"inventoryIcon" : "kinepticenergydrink.png",
+	"description" : "Liquefied meat and pure sugar!",
+	"shortdescription" : "Energy Drink",
+	"effects" : [[{
+				"effect" : "foodheal50",
+				"duration" : 30
+			}, {
+				"effect" : "energyregen192",
+				"duration" : 60
+			}, {
+				"effect" : "wellfed",
+				"duration" : 90
+			}
+		]],
+	"blockingEffects" : [
+		"wellfed"
+	]
+}

@@ -1,0 +1,15 @@
+[
+	{"op":"add","path":"/kinepticStarterTreasure","value":[
+			[0, { 
+				"fill" : [
+					{"item" : "kinepticlight"},
+					{"item" : "kineptictier0pulse"},
+					{"item" : [ "crystalplantseed", 3 ]},
+					{"item" : [ "kinepticfishtank", 3 ]},
+					{"item" : [ "sugarcaneseed", 3 ]},
+					{"item" : "flashlight"}
+				]
+			}]
+		]
+	}
+]

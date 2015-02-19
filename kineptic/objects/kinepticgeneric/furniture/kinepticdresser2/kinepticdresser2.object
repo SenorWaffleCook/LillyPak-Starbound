@@ -1,0 +1,41 @@
+{
+  "objectName" : "kinepticdresser2",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "printable" : false,
+  "category" : "storage",
+  "price" : 750,
+  "description" : "A dresser made of a solid slab of wood.",
+  "shortdescription" : "Dresser",
+  "race" : "kineptic",
+
+  "apexDescription" : "It appears to be made of a single piece of lumber, with the exception of the drawers.",
+  "avianDescription" : "This would fit right in with avian furniture.",
+  "floranDescription" : "Good for ssstoring loinclothhh.",
+  "glitchDescription" : "Analysis. Security is minimal.",
+  "humanDescription" : "Is 'monolignic' even a thing?",
+  "hylotlDescription" : "The grain of these drawers match perfectly with the grain of the dresser.",
+  "novakidDescription" : "A fine piece of carpentry.",
+  "kinepticDescription" : "It doubles as a cradle for mothers with multiple-kitten litters.",
+
+  "inventoryIcon" : "kinepticdresser2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticdresser2.png:<color>",
+      "imagePosition" : [-8, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.wav" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

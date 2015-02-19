@@ -1,0 +1,40 @@
+{
+  "objectName" : "kinepticshrine",
+  "rarity" : "Common",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/kinepticshrine.config",
+    "filter" : [ "kinepticshrine" ]
+  },
+  "printable" : false,
+  "description" : "Logic and Magic are only separated by two letters.",
+  "shortdescription" : "Arcane Shrine",
+  "race" : "kineptic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "What kind of garbage is this?",
+  "avianDescription" : "Oh wow! A shrine that's not covered in blood!",
+  "floranDescription" : "Is machhhine to make torture machhhines. Ssscary.",
+  "glitchDescription" : "Regret. Non-outcasts execute those who use this sort of device.",
+  "humanDescription" : "I wonder if the stripes make it go faster.",
+  "hylotlDescription" : "It's superstitious nonsense. But if it scares the floran, I like it!",
+  "novakidDescription" : "It's some kind of magical mumbo-jumbo.",
+  "kinepticDescription" : "Using crystals as a storage medium, we can use properties and information of various objects to write specialized glovetech modules.",
+
+  "inventoryIcon" : "kinepticshrineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticshrine.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 22,
+      "animationCycle" : 2.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ]
+}

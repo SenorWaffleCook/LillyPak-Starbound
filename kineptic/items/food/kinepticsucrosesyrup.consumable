@@ -1,0 +1,20 @@
+{
+	"itemName" : "kinepticsucrosesyrup",
+	"rarity" : "Common",
+	"inventoryIcon" : "kinepticsucrosesyrup.png",
+	"description" : "Liquid sugar. Good for a little quick energy.",
+	"shortdescription" : "Sucrose Syrup",
+	"effects" : [[{
+				"effect" : "runboost25",
+				"duration" : 20
+			}, {
+				"effect" : "wellfed",
+				"duration" : 30
+			}
+		]],
+	"blockingEffects" : [
+		"wellfed"
+	],
+
+	"emitters" : ["drinking"]
+}

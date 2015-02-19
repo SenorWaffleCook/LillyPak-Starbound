@@ -1,0 +1,38 @@
+{
+	"itemName" : "kineptictier10chest",
+	"inventoryIcon" : "icons.png:chest",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "Does not guarantee survival during a zombie apocalypse.",
+	"shortdescription" : "Shielding Pendant",
+	"inspectionKind" : "armor",
+	"maleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"femaleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 175
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 55
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 100
+		}
+	],
+	"colorOptions" : [{
+			"ffca8a" : "838383",
+			"e0975c" : "555555",
+			"a85636" : "383838",
+			"6f2919" : "151515"
+		}
+	]
+}

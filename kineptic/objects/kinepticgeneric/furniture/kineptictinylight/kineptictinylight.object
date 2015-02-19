@@ -1,0 +1,64 @@
+{
+  "objectName" : "kineptictinylight",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 50,
+  "retainObjectParametersInItem" : true, 
+  "printable" : false,
+  "description" : "",
+  "shortdescription" : "Crystal Sconce",
+  "race" : "kineptic",
+
+  "apexDescription" : "It kind of looks like a street light. Or a candle if I flip it upside down.",
+  "avianDescription" : "Wow, this glows much brighter than avian power crystals.",
+  "floranDescription" : "Attractsss unwanted attention.",
+  "glitchDescription" : "Familiar. I feel like I have seen this in a dungeon somewhere.",
+  "humanDescription" : "I bet this would stay lit in water.",
+  "hylotlDescription" : "Okay, I'm starting to get just a little tired of all these crystals.",
+  "novakidDescription" : "Reminds me of my protokid photos!",
+  "kinepticDescription" : "Why use dirty torches when you can have clean light?",
+
+  "lightColors" : {
+    "default" :  [1, 90, 91],
+	"red" : [91, 13, 1],
+	"blue" : [1, 58, 91],
+	"green" : [53, 91, 1],
+	"yellow" : [91, 84, 1],
+	"orange" : [91, 53, 1],
+	"pink" : [72, 1, 91],
+	"black" : [28, 28, 28],
+	"white" : [63, 63, 63]
+  },
+  
+  "inventoryIcon" : "kineptictinylighticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kineptictinylight.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+	{
+      "dualImage" : "kineptictinylightfloor.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+      "dualImage" : "kineptictinylightfloor.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
+

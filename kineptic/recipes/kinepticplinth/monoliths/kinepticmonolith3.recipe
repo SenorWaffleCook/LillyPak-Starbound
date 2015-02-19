@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "cobblestonematerial", "count" : 20 },
+	{ "item" : "diamond", "count" : 1 },
+	{ "item" : "ironblock", "count" : 2 }
+  ],
+  "output" : { "item" : "kinepticmonolith3", "count" : 1 },
+  "groups" : [ "kinepticplinth", "objects", "all" ]
+}

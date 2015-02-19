@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "kinepticsucrosesyrup", "count" : 2 },
+	{ "item" : "milk", "count" : 2 }
+  ],
+  "output" : { "item" : "kinepticcondensedmilk", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "drink" ]
+}

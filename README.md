@@ -25,7 +25,8 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  18. [Katana Pack](http://forums.playstarbound.com/index.php?resources/2464/) - by tforoforp
  19. [Admin Sheild Generator](http://forums.playstarbound.com/index.php?resources/2462/) - by Cactuar
  20. [Illuminated Ores](http://forums.playstarbound.com/index.php?resources/2429/) - by Amadox
- 21. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+ 21. [Kineptic Race Mod](http://forums.playstarbound.com/index.php?resources/2264/) - by Quilavabom1
+ 22. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
 
 ----------
 

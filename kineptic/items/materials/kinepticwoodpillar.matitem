@@ -1,0 +1,10 @@
+{
+  "itemName" : "kinepticwoodpillar",
+  "rarity" : "Common",
+  "inventoryIcon" : "kinepticwoodpillar.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A wooden support beam.",
+  "shortdescription" : "Wooden Beam",
+
+  "materialId" : 15620
+}

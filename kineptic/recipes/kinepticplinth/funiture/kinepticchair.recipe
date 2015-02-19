@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "cobblestonematerial", "count" : 5 },
+	{ "item" : "kinepticrug", "count" : 3},
+	{ "item" : "glassmaterial", "count" : 1 },
+	{ "item" : "ironblock", "count" : 1 }
+
+  ],
+  "output" : { "item" : "kinepticchair", "count" : 1 },
+  "groups" : [ "kinepticplinth", "furniture", "objects", "all" ]
+}

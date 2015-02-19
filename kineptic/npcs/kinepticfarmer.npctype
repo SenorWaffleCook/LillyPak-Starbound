@@ -1,0 +1,296 @@
+{
+  "type" : "kinepticfarmer",
+  "baseType" : "merchant",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 1,
+
+  "levelVariance" : [0, 0],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/chatState.lua",
+    "/npcs/sleepState.lua",
+    "/npcs/standingIdleState.lua",
+    "/npcs/wanderState.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/merchant/merchantState.lua",
+    "/npcs/merchant/returnToStoreState.lua"
+  ],
+
+  "scriptConfig" : {
+
+    "noticePlayersRadius" : 30.0,
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : 8,
+
+      "dialog" : {
+        "start" : {
+          "default" : [
+			"Don't tell anyone, but I'm actually a kineptic. Or something has gone horribly wrong."
+          ],
+          "kineptic" : {
+            "default" : [
+				"See anything you like?",
+				"Best prices in town!",
+				"Need anything?",
+				"Authentic Nepetian goods here!"
+            ],
+			
+			"kineptic" : [
+				"See anything you like?",
+				"Best prices in town!",
+				"Need anything?",
+				"Sorry, we're out of catnip.",
+				"Authentic Nepetian goods here!"
+            ]
+          }
+        },
+        "end" : {
+          "default" : [
+            "Seriously. How are you seeing this? What'd you screw up?"
+          ],
+          "kineptic" : {
+            "default" : [
+				"Have a good one!",
+				"Let me know if you need anything else.",
+				"Thank you for your patronage!",
+				"Good luck out there!",
+				"Thank you for not destroying the merchandise."
+            ]
+          }
+        }
+      },
+
+      "categories" : [ "kinepticfarmer" ],
+      "priceVarianceRange" : [0.75, 1.25],
+      "numItems" : 10,
+	  
+	  "items" : {
+	  	"kinepticfarmer" : [
+         
+		 [0, [
+            { "item" : { "name" : "sugar" }, "cost" : 50 },
+			{ "item" : { "name" : "crystalplant" }, "cost" : 400 },
+			{ "item" : { "name" : "wheat" }, "cost" : 50 },
+			{ "item" : { "name" : "orange" }, "cost" : 60 },
+			{ "item" : { "name" : "rawfish" }, "cost" : 100 },
+			{ "item" : { "name" : "rawpoultry" }, "cost" : 100 },
+			{ "item" : { "name" : "rawham" }, "cost" : 100 },
+			{ "item" : { "name" : "milk" }, "cost" : 300 },
+			{ "item" : { "name" : "butter" }, "cost" : 230 },
+			{ "item" : { "name" : "cheese" }, "cost" : 200 },
+			{ "item" : { "name" : "wheatseed" }, "cost" : 20 },
+			{ "item" : { "name" : "sugarcaneseed" }, "cost" : 30 },
+			{ "item" : { "name" : "crystalplantseed" }, "cost" : 1000 },
+			{ "item" : { "name" : "kinepticfishtank" }, "cost" : 1000 },
+			{ "item" : { "name" : "kinepticudderfishtank" }, "cost" : 1000 },
+			{ "item" : { "name" : "redapple" }, "cost" : 300 }
+
+			]]
+		  ]
+		}
+	},
+
+    "returnToStore" : {
+      "waitTime" : 10,
+
+      "dialog" : {
+        "follow" : {
+          "default" : [
+            "Y U MESS WITH MOD FILES."
+          ],
+		  
+		  "kineptic" : {
+            "default" : [
+				"My shop is this way, if you're interested.",
+				"What kind of shopkeeper am I, constantly wandering away from my store?",
+				"I really should be getting back to my store.",
+				"If you're hungry, I've got a food store over this way."
+            ]
+          }
+        },
+        "welcome" : {
+          "default" : [
+            "Since when did I get a new body?"
+          ],
+		  
+		  "kineptic" : {
+            "default" : [
+				"What'cha need?",
+				"Buy all that you need.",
+				"Like my stomach, my supply reserve is bottomless.",
+				"See anything you want?"
+            ]
+          }
+        },
+        "tout" : {
+          "default" : [
+            "The guardians would not approve of this."
+          ],
+		  
+		  "kineptic" : {
+            "default" : [
+				"Isn't it kind of odd that the supply crates don't contain the things I'm selling?",
+				"Of course I don't store my products in these crates. You'd just steal them!",
+				"Fresh produce here!"
+            ]
+          }
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 5,
+      "swingTime" : 0.4,
+      "swingCooldownTime" : 0.6,
+      "runThreshold" : 0,
+      "searchTime" : 10,
+      "backoffDistanceRange" : [8.0, 12.0],
+      "repositionCooldownTimeRange" : [2.0, 3.0]
+    },
+
+    "rangedAttack" : {
+      "minDistance" : 10,
+      "maxDistance" : 30,
+      "coverYOffset" : -1.5,
+      "coverYClearanceOffset" : 0.5,
+      "coverDistance" : 2.5,
+      "coverHideTimeRange" : [0.5, 1.0],
+      "coverFireTimeRange" : [1.0, 3.0],
+      "attackerSpacing" : 2.5,
+      "searchTime" : 10
+    }
+  },
+
+
+  "items" : {
+    "default" : [
+      [0, [
+	  
+          {
+		    "head" : [ { "name" : "bedouinhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "kinepticarmbrace", "parameters" : { "colorIndex" : 1 } }, { "name" : "kinepticnexgloves", "parameters" : { "colorIndex" : 1 } }, { "name" : "kinepticarmdress", "parameters" : { "colorIndex" : 1 } }, { "name" : "kinepticshoulderguard", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "kinepticracial1set", "parameters" : { "colorIndex" : 1 } }, { "name" : "kinepticnexvest", "parameters" : { "colorIndex" : 1 } }, { "name" : "kinepticskirt", "parameters" : { "colorIndex" : 1 } }, { "name" : "kineptictunic", "parameters" : { "colorIndex" : 1 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "kinepticgeneratedice" } ] ]
+          },
+		  
+		            {
+		    "head" : [ { "name" : "bedouinhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "kinepticarmbrace", "parameters" : { "colorIndex" : 2 } }, { "name" : "kinepticnexgloves", "parameters" : { "colorIndex" : 2 } }, { "name" : "kinepticarmdress", "parameters" : { "colorIndex" : 2 } }, { "name" : "kinepticshoulderguard", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "kinepticracial1set", "parameters" : { "colorIndex" : 2 } }, { "name" : "kinepticnexvest", "parameters" : { "colorIndex" : 2 } }, { "name" : "kinepticskirt", "parameters" : { "colorIndex" : 2 } }, { "name" : "kineptictunic", "parameters" : { "colorIndex" : 2 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "kinepticgeneratedstarter" } ] ]
+          },
+		  
+		            {
+		    "head" : [ { "name" : "bedouinhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "kinepticarmbrace", "parameters" : { "colorIndex" : 3 } }, { "name" : "kinepticnexgloves", "parameters" : { "colorIndex" : 3 } }, { "name" : "kinepticarmdress", "parameters" : { "colorIndex" : 3 } }, { "name" : "kinepticshoulderguard", "parameters" : { "colorIndex" : 3 } } ],
+            "legs" : [ { "name" : "kinepticracial1set", "parameters" : { "colorIndex" : 3 } }, { "name" : "kinepticnexvest", "parameters" : { "colorIndex" : 3 } }, { "name" : "kinepticskirt", "parameters" : { "colorIndex" : 3 } }, { "name" : "kineptictunic", "parameters" : { "colorIndex" : 3 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "kinepticgeneratedfire" } ] ]
+          },
+		  
+		            {
+		    "head" : [ { "name" : "bedouinhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "kinepticarmbrace", "parameters" : { "colorIndex" : 4 } }, { "name" : "kinepticnexgloves", "parameters" : { "colorIndex" : 4 } }, { "name" : "kinepticarmdress", "parameters" : { "colorIndex" : 4 } }, { "name" : "kinepticshoulderguard", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "kinepticracial1set", "parameters" : { "colorIndex" : 4 } }, { "name" : "kinepticnexvest", "parameters" : { "colorIndex" : 4 } }, { "name" : "kinepticskirt", "parameters" : { "colorIndex" : 4 } }, { "name" : "kineptictunic", "parameters" : { "colorIndex" : 4 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "kinepticgeneratedice" } ] ]
+          },
+		  
+		            {
+		    "head" : [ { "name" : "bedouinhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "kinepticarmbrace", "parameters" : { "colorIndex" : 5 } }, { "name" : "kinepticnexgloves", "parameters" : { "colorIndex" : 5 } }, { "name" : "kinepticarmdress", "parameters" : { "colorIndex" : 5 } }, { "name" : "kinepticshoulderguard", "parameters" : { "colorIndex" : 5 } } ],
+            "legs" : [ { "name" : "kinepticracial1set", "parameters" : { "colorIndex" : 5 } }, { "name" : "kinepticnexvest", "parameters" : { "colorIndex" : 5 } }, { "name" : "kinepticskirt", "parameters" : { "colorIndex" : 5 } }, { "name" : "kineptictunic", "parameters" : { "colorIndex" : 5 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "kinepticgeneratedstarter" } ] ]
+          },
+		  
+		            {
+		    "head" : [ { "name" : "bedouinhead", "parameters" : { "colorIndex" : 7 } } ],
+            "chest" : [ { "name" : "kinepticarmbrace", "parameters" : { "colorIndex" : 6 } }, { "name" : "kinepticnexgloves", "parameters" : { "colorIndex" : 6 } }, { "name" : "kinepticarmdress", "parameters" : { "colorIndex" : 6 } }, { "name" : "kinepticshoulderguard", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "kinepticracial1set", "parameters" : { "colorIndex" : 6 } }, { "name" : "kinepticnexvest", "parameters" : { "colorIndex" : 6 } }, { "name" : "kinepticskirt", "parameters" : { "colorIndex" : 6 } }, { "name" : "kineptictunic", "parameters" : { "colorIndex" : 6 } } ],
+            "sheathedprimary" : [ [ "generatedgun", 1, { "definition" : "kinepticgeneratedfire" } ] ]
+          }
+		  
+        ] ]
+    ]
+		
+  },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+	
+	"appliesEnvironmentStatusEffects" : false,
+	"minimumLiquidStatusEffectPercentage" : 0.1,
+	
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 0,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 80.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 25.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id" : "kineptictutorial.gearup",
+  "title" : "^orange;Re-emergence",
+  "text" : "Dozens of generations have passed since the last time a kineptic ventured out from the safety of Nepet's planetary cloak. Unfortunately, you forgot to take the ship to the shop before leaving. How did you miss that gaping hole in the thrusters? ^green;It might be a good idea to fix those.",
+  "completionText" : "That should do the trick. Now you should probably focus on that FTL drive.",
+  "conditions" : [
+    { "kind" : "trigger", "trigger" : "ai.repairthrusters" }
+  ],
+  "moneyRange" : [500, 500],
+  "planetMode" : "none",
+  "followUp" : "ftlrepairmain.gearup",
+  "questDungeons" : [ ],
+  "canBeAbandoned" : false
+}

@@ -1,0 +1,12 @@
+{
+  "projectileName" : "kinepticspellinit",
+  "frames" : "invisibleprojectile.png",
+  "physics" : "default",
+  "piercing" : true,
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "timeToLive" : 0.001,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

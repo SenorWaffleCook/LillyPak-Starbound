@@ -1,0 +1,38 @@
+{
+	"itemName" : "kineptictier7chest",
+	"inventoryIcon" : "icons.png:chest",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "Does not promote a healthy body weight.",
+	"shortdescription" : "Sorcerer's Pendant",
+	"inspectionKind" : "armor",
+	"maleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"femaleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 120
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 370
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 75
+		}
+	],
+	"colorOptions" : [{
+			"ffca8a" : "96cbe7",
+			"e0975c" : "5588d4",
+			"a85636" : "344495",
+			"6f2919" : "1a1c51"
+		}
+	]
+}

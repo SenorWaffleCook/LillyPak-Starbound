@@ -1,0 +1,39 @@
+{
+	"itemName" : "kineptictier2chest",
+	"inventoryIcon" : "icons.png:chest",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "Warding accessories like these are recommended to be worn underneath the clothing.",
+	"shortdescription" : "Steel Warding Pendant",
+	"inspectionKind" : "armor",
+	"maleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"femaleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 35
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 40
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 20
+		}
+	],
+	"triggerKeys" : [ "steelarmor" ],
+	"colorOptions" : [{
+			"ffca8a" : "cccccc",
+			"e0975c" : "9e9e9e",
+			"a85636" : "616161",
+			"6f2919" : "383838"
+		}
+	]
+}

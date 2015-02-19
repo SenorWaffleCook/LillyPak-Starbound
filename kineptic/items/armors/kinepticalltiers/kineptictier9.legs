@@ -1,0 +1,31 @@
+{
+	"itemName" : "kineptictier9pants",
+	"inventoryIcon" : "icons.png:pants",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "More economic use of energy reserves makes weaker spells last longer and more powerful spells sustainable.",
+	"shortdescription" : "Magician's Anklet",
+	"inspectionKind" : "armor",
+	"maleFrames" : "pants.png",
+	"femaleFrames" : "pants.png",
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 40
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 125
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 20
+		}
+	],
+	"triggerKeys" : ["tier5armor"],
+	"colorOptions" : [{
+			"ffca8a" : "f4988c",
+			"e0975c" : "d93a3a",
+			"a85636" : "932625",
+			"6f2919" : "601119"
+		}
+	]
+}

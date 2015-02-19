@@ -1,0 +1,24 @@
+{
+  "itemName" : "kinepticlight",
+  
+  "image" : "/items/spells/invisibleweapon.png",
+  "inventoryIcon" : "kinepticlightgloveicon.png",
+  "description" : "A point of light in the darkness.",
+  "shortdescription" : "Illuminate",
+  "rarity" : "uncommon",
+  "maxStack" : 1,
+  
+  "handPosition" : [0, 0],
+  "firePosition" : [0, 0],
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  
+  "fireTime" : 1,
+  "twoHanded" : false,
+  "energyPerShot" : 1,
+  
+  "projectileType" : "kinepticlight",
+  "projectile" : {
+    "power" : 0,
+	"speed" : 10
+  }
+}

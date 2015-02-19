@@ -1,0 +1,39 @@
+{
+	"itemName" : "kineptictier8chest",
+	"inventoryIcon" : "icons.png:chest",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "Does not adversely affect perspiration.",
+	"shortdescription" : "Dampening Pendant",
+	"inspectionKind" : "armor",
+	"maleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"femaleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 140
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 40
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 85
+		}
+	],
+	"triggerKeys" : ["tier5armor"],
+	"colorOptions" : [{
+			"ffca8a" : "d29ce7",
+			"e0975c" : "a451c4",
+			"a85636" : "6a2284",
+			"6f2919" : "320c40"
+		}
+	]
+}

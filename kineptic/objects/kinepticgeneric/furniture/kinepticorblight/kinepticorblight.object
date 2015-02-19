@@ -1,0 +1,55 @@
+{
+  "objectName" : "kinepticorblight",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 50,
+  "retainObjectParametersInItem" : true, 
+  "printable" : false,
+  "description" : "Despite its looks, it is not capable of spawning cobalt, mythril, or adamantite.",
+  "shortdescription" : "Orb Light Fixture",
+  "race" : "kineptic",
+
+  "apexDescription" : "That doesn't look like something that should be on the ceiling.",
+  "avianDescription" : "It looks a bit too heavy to be placed on the ceiling.",
+  "floranDescription" : "Is held up by invisssible. Unless on floor.",
+  "glitchDescription" : "Concern. If something like this were on the ceiling, it could pose a hazard.",
+  "humanDescription" : "If that's a solid chunk of rock, how did the orb get inside the grips?!",
+  "hylotlDescription" : "That looks like it is most appropriately placed on the ground.",
+  "novakidDescription" : "Kinda reminds me of my pa.",
+  "kinepticDescription" : "Hanging that from the ceiling is safe--after all, if it's on the ceiling, it's part of it. Monoliths are kinda like that.",
+
+  "lightColors" : {
+    "default" :  [4, 200, 210],
+	"red" : [210, 38, 4],
+    "blue"  : [4, 128, 210],
+	"green" : [114, 210, 4],
+	"yellow" : [210, 203, 4],
+	"orange" : [210, 131, 4],
+	"pink" : [175, 4, 210],
+	"black" : [64, 64, 64],
+	"white" : [142, 142, 142]
+	},
+  
+  "inventoryIcon" : "kinepticorblighticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticorblight.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 1,
+	  "lightPosition" : [1, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+	{
+      "dualImage" : "kinepticorblightfloor.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+	  "lightPosition" : [1, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
+

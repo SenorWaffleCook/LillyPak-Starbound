@@ -1,0 +1,10 @@
+{
+  "itemName" : "kinepticrug",
+  "rarity" : "Common",
+  "inventoryIcon" : "kinepticrug.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Keep the claws off upholstery!",
+  "shortdescription" : "Fancy Curtain",
+
+  "materialId" : 15600
+}

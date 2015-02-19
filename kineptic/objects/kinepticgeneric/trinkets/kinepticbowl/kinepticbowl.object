@@ -1,0 +1,33 @@
+{
+  "objectName" : "kinepticbowl",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A bowl with a small stabilizing holder.",
+  "shortdescription" : "Bowl",
+  "race" : "kineptic",
+
+  "apexDescription" : "A bowl.",
+  "avianDescription" : "It's a bowl.",
+  "floranDescription" : "Mini brain-holder.",
+  "glitchDescription" : "Facetious. It is a miniature frisbee.",
+  "humanDescription" : "It reminds me of my neighbor's cat.",
+  "hylotlDescription" : "At least it appears to have been washed recently.",
+  "novakidDescription" : "That? That there is a bowl.",
+  "kinepticDescription" : "It's just a bowl.",
+
+  "inventoryIcon" : "kinepticbowlicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticbowl.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
+

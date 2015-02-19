@@ -1,0 +1,45 @@
+{
+	"objectName" : "kinepticfishtank",
+	"rarity" : "Common",
+	"category" : "farmable",
+	"description" : "Grows fish. We've yet to determine the species.",
+	"shortdescription" : "Fish Hatchery",
+	"objectType" : "farmable",
+	"printable" : false,
+	"apexDescription" : "It's just a fish of ambiguous taxonomic classification.",
+	"avianDescription" : "This would go good with some chips!",
+	"floranDescription" : "Fishhh no smile while Floran eats it. Floran okay with thisss.",
+	"glitchDescription" : "Comparison. The young remind me of hylotl.",
+	"humanDescription" : "Sushi, anyone?",
+	"hylotlDescription" : "It's only cannibalism if the fish is a hylotl.",
+	"novakidDescription" : "Yeup. Those're fish, alright.",
+	"kinepticDescription" : "I prefer them cooked, but raw will do if it must.",
+	"inventoryIcon" : "kinepticfishtankicon.png",
+	"orientations" : [{
+			"dualImage" : "kinepticfishtank.png:<color>.<stage>.<alt>",
+			"imagePosition" : [0, 0],
+			"frames" : 1,
+			"animationCycle" : 0.5,
+			"spaceScan" : 0.1,
+			"requireTilledAnchors" : false,
+			"anchors" : ["bottom"]
+		}
+	],
+	"stages" : [
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "duration" : [100, 105]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "kinepticfishtankHarvest",
+      "resetToStage" : 1
+    }
+  ]
+}

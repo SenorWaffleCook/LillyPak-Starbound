@@ -1,0 +1,30 @@
+{
+	"itemName" : "kineptictier10pants",
+	"inventoryIcon" : "icons.png:pants",
+	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"description" : "This peripheral class is most commonly worn by those who know their physical well-being has a high risk of being compromised.",
+	"shortdescription" : "Shielding Anklet",
+	"inspectionKind" : "armor",
+	"maleFrames" : "pants.png",
+	"femaleFrames" : "pants.png",
+	"statusEffects" : [{
+			"stat" : "protection",
+			"amount" : 70
+		}, {
+			"stat" : "maxEnergy",
+			"amount" : 20
+		}, {
+			"stat" : "maxHealth",
+			"amount" : 40
+		}
+	],
+	"colorOptions" : [{
+			"ffca8a" : "838383",
+			"e0975c" : "555555",
+			"a85636" : "383838",
+			"6f2919" : "151515"
+		}
+	]
+}

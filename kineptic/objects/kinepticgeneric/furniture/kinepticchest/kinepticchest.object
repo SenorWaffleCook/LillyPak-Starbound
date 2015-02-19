@@ -1,0 +1,38 @@
+{
+  "objectName" : "kinepticchest",
+  "rarity" : "Common",
+  "objectType" : "container",
+  "printable" : false,
+  "category" : "storage",
+  "price" : 750,
+  "description" : "It's bigger on the inside.",
+  "shortdescription" : "Storage Capsule",
+  "race" : "kineptic",
+
+  "apexDescription" : "How do I activate it? There's no visible unlocking mechanism.",
+  "avianDescription" : "The kineptic sure like floating things.",
+  "floranDescription" : "Is ssseed. Open for ssstuff.",
+  "glitchDescription" : "Remark. It can hold a greater volume than it actually has--just like a wooden box.",
+  "humanDescription" : "I played a monster game that had capture pods similar to these.",
+  "hylotlDescription" : "I'm seeing a theme here: black stone and a colored light. For some reason, it fits the kineptic.",
+  "novakidDescription" : "I got a sneakin' suspicion that ain't what it looked like in the prototypes.",
+  "kinepticDescription" : "Kittens like to knock it down and roll it around, so the opening mechanism is on the inside.",
+
+  "inventoryIcon" : "kinepticchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/spells/gap.wav" ],
+  "closeSounds" : [ "/sfx/spells/gap.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

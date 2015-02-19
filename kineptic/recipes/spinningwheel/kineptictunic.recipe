@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "fabric", "count" : 5 },
+	{ "item" : "goldbar", "count" : 2 },
+	{ "item" : "steelbar", "count" : 6 }
+  ],
+  "output" : { "item" : "kineptictunic", "count" : 1 },
+  "groups" : [ "spinningwheel", "armor", "pants" ]
+}

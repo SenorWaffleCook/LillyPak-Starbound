@@ -1,0 +1,10 @@
+{
+  "itemName" : "kinepticwoodpillar2",
+  "rarity" : "Common",
+  "inventoryIcon" : "kinepticwoodpillar2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A smooth wooden board.",
+  "shortdescription" : "Wooden Board",
+
+  "materialId" : 15621
+}

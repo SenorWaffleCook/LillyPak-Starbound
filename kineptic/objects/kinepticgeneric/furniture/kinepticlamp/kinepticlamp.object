@@ -1,0 +1,45 @@
+{
+  "objectName" : "kinepticlamp",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 50,
+  "retainObjectParametersInItem" : true, 
+  "printable" : false,
+  "description" : "Isn't the shade supposed to cover the light source?",
+  "shortdescription" : "Shaded Lamp",
+  "race" : "kineptic",
+
+  "apexDescription" : "I think this looks much better in yellow.",
+  "avianDescription" : "The light source is a crystal.",
+  "floranDescription" : "Is dim light.",
+  "glitchDescription" : "Identify. It is a shaded lamp.",
+  "humanDescription" : "A shaded lamp.",
+  "hylotlDescription" : "A lamp with a soft shade.",
+  "novakidDescription" : "That's 'jus a lamp.",
+  "kinepticDescription" : "That's just a shaded lamp. There's nothing too noteworthy about it.",
+
+  "lightColors" : {
+    "default" :  [3, 155, 160],
+	"red" : [160, 26, 3],
+	"blue" : [3, 100, 160],
+	"green" : [90, 160, 3],
+	"yellow" : [160, 152, 3],
+	"orange" : [160, 97, 3],
+	"pink" : [131, 3, 160],
+	"black" : [50, 50, 50],
+	"white" : [110, 110, 110]
+  },
+  
+  "inventoryIcon" : "kinepticlampicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticlamp.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

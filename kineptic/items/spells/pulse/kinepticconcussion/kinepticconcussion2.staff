@@ -1,0 +1,46 @@
+{
+  "itemName" : "kinepticconcussion2",
+  "inventoryIcon" : "kinepticconcussion2.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "Pelt your targets into submission with a fog of pulse nodules",
+  "shortdescription" : "Concussion Lv2",
+
+  "image" : "/items/spells/invisibleweapon.png",
+
+  "handPosition" : [3.0, -4.0],
+  "firePosition" : [5, 1.5],
+
+  "fireTime" : 0.2,
+  "windupTime" : 1.0,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+  "level" : 6,
+
+  "swingStart" : 10,
+  "swingFinish" : 60,
+  "coolingDownAngle" : -10,
+
+  "projectileType" : "kinepticconcussion2",
+  "projectile" : {
+	"speed" : 0,
+    "power" : 13
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 1.0,
+
+  "staffChargingGlow" : {
+    "file" : "kinepticconcussionglow2.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.2,
+    "loopTime" : 0.2,
+    "offset" : [ 6, 6 ]
+  }
+}

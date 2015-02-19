@@ -1,0 +1,33 @@
+{
+  "objectName" : "kinepticbells",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 50, 
+  "printable" : false,
+  "description" : "A small cluster of jinglies.",
+  "shortdescription" : "Jingle Toy",
+  "race" : "kineptic",
+
+  "apexDescription" : "Such an annoying racket!",
+  "avianDescription" : "It seems like it'd be fun to hang it in the wind or something.",
+  "floranDescription" : "Shhhiny noissse maker.",
+  "glitchDescription" : "Obvious. It is a collection of small metallic orb chimes.",
+  "humanDescription" : "It makes me feel festive. I could go for some eggnog.",
+  "hylotlDescription" : "How horrifically gaudy!",
+  "novakidDescription" : "If I had ears, I'd probably be coverin' 'em.",
+  "kinepticDescription" : "Mothers and fathers will sometimes hang these on walls to draw kittens' attention away from valuables and furniture.",
+
+  "inventoryIcon" : "kinepticbellsicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "kinepticbells.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}
+

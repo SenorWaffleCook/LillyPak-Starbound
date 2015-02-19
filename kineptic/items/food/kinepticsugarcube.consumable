@@ -1,0 +1,18 @@
+{
+	"itemName" : "kinepticsugarcube",
+	"rarity" : "Common",
+	"inventoryIcon" : "kinepticsugarcube.png",
+	"description" : "For some reason, this makes it edible.",
+	"shortdescription" : "Sugar Cube",
+	"effects" : [[{
+				"effect" : "energyregen96",
+				"duration" : 10
+			}, {
+				"effect" : "wellfed",
+				"duration" : 15
+			}
+		]],
+	"blockingEffects" : [
+		"wellfed"
+	]
+}
