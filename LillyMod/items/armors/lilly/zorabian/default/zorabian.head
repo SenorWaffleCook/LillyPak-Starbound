@@ -20,11 +20,11 @@
 		},
 		{
 			"stat" : "protection",
-			"amount" : 80
+			"amount" : 120
 		},
 		{
 			"stat" : "maxHealth",
-			"amount" : 60
+			"amount" : 80
 		},
 		{
 			"stat" : "breathprotection",

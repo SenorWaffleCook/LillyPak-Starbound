@@ -30,11 +30,11 @@
 		},
 		{
 			"stat" : "protection",
-			"amount" : 100
+			"amount" : 200
 		},
 		{
 			"stat" : "maxHealth",
-			"amount" : 80
+			"amount" : 140
 		}
 	],
 

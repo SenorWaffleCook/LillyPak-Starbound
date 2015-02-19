@@ -1,29 +1,32 @@
 {
 	"itemName" : "voidexcalibur",
-	"level" : 1,
+	"level" : 7,
 	"dropCollision" : [-4.0, -3.0, 4.0, 3.0],
 	"maxStack" : 1,
 	"rarity" : "legendary",
-	"description" : "void Excaibur. A sword that'll cut through anything.",
+	"description" : "The Void Excaibur. A sword that'll cut through anything.",
 	"shortdescription" : "Void Excalibur",
-	"inspectionKind" : "sword",
+	"tooltipKind" : "sword",
 	"kind" : "Broadsword",
+	
 	"image" : "voidexcalibur.png",
 	"firePosition" : [15.5, 4.5],
-	"fireTime" : 0.6,
+	"fireTime" : 0.5,
 	"fireAfterWindup" : true,
 	"soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
+	
 	"parryBlockCooldown" : 1.2,
 	"parrySound" : "/sfx/melee/sword_parry.wav",
 	"parryParticle" : "shieldspark",
 
 	"primaryStances" :
 	{
-		"projectileType" : "testswoosh3",
-		"projectile" :
+		"directional" : false,
+		"projectileType": "testswoosh3",
+		"projectile":
 		{
-			"speed" : 0.1,
-			"power" : 10.60
+			"speed": 0.1,
+			"power": 500
 		},
 		"idle" :
 		{
@@ -39,7 +42,7 @@
 			"armAngle" : 90,
 			"swordAngle" : 90,
 			"handPosition" : [-6.0, -17.0],
-			"duration" : 0.2,
+			"duration" : 0.3,
 			"statusEffects" :
 			[]
 		},
@@ -49,7 +52,7 @@
 			"armAngle" : -45,
 			"swordAngle" : -90,
 			"handPosition" : [-6.0, -27.5],
-			"duration" : 0.4,
+			"duration" : 0.1,
 			"statusEffects" :
 			[]
 		}
@@ -79,7 +82,7 @@
 		},
 		"cooldown" :
 		{
-			"twoHanded" : true,
+			"twoHanded" : false,
 			"armAngle" : -90,
 			"swordAngle" : -90,
 			"handPosition" : [-6.0, -17.0],
@@ -90,7 +93,7 @@
 	"colorOptions" :
 	[
 		/* BLACK */
-		{ "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
+		{ "ffca8a" : "555555", "e0975c" : "424242", "a85636" : "282828", "6f2919" : "1D1D1D" },
 		/* BLACK */
 		{ "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
 		/* GREY */
