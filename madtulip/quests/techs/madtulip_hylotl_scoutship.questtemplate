@@ -1,0 +1,20 @@
+{
+  "id" : "madtulip_hylotl_scoutship.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Unlock Hylotl Scout Ship",
+  "text" : "Unlocking of the Hylotl Scout Ship tech.",
+  "completionText" : "Hylotl Scout Ship tech has been unlocked. Now you may activate it in your S.A.I.L. interface.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "madtulip_hylotl_scoutshipTech-chip", 1], "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "enableTech" : [
+    "madtulip_hylotl_scoutship"
+  ],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

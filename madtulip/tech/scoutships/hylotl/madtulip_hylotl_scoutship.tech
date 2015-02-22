@@ -1,0 +1,76 @@
+{
+	"name" : "madtulip_hylotl_scoutship",
+	"type" : "head",
+	"scripts" : ["/tech/scoutships/scoutship.lua"],
+	"actions" : ["mechActivate", "mechDeactivate", "mechMove", "mechJump"],
+	"animator" : "madtulip_hylotl_scoutship.animation",
+
+	"animationParts" : {
+		"body" : "madtulip_hylotl_scoutship.png"
+	},
+
+	// standing needs to be the same as crouching.
+	// this marks the collision boundary polygone (line defined by points
+	// its in blocks and relative to the center of the crafts image + the crafts image offset in the animation file
+	"mechCustomMovementParameters" : {
+ 		"standingPoly" : [[-10,    -2.15],
+						  [-8.125, -2.65],
+						  [6.875,  -2.65],
+						  [10,     -2.15],
+						  [10,     2.975],
+						  [5.625,  4.1],
+						  [3.125,  5.35],
+						  [-3.125, 5.35],
+						  [-5.625, 4.1],
+						  [-10,    2.975]], 
+		"crouchingPoly" : [[-10,    -2.15],
+						  [-8.125, -2.65],
+						  [6.875,  -2.65],
+						  [10,     -2.15],
+						  [10,     2.975],
+						  [5.625,  4.1],
+						  [3.125,  5.35],
+						  [-3.125, 5.35],
+						  [-5.625, 4.1],
+						  [-10,    2.975]],
+		"mass" : 50.0,
+
+		"normalGroundFriction" : 200.0,
+		"ambulatingGroundFriction" : 40.0,
+		"skiddingGroundFriction" : 80.0,
+
+		"groundForce" : 250.0,
+		"airForce" : 200.0,
+		"liquidForce" : 700.0,
+
+		"walkSpeed" : 0.0,
+		"runSpeed" : 0.0,
+
+		"airJumpProfile" : {
+			"jumpSpeed" : 0,
+			"jumpControlForce" : 0.0,
+			"jumpInitialPercentage" : 0.0,
+			"jumpHoldTime" : 0.15
+		},
+
+		"liquidJumpProfile" : {
+			"jumpSpeed" : 0,
+			"jumpControlForce" : 0.0,
+			"jumpInitialPercentage" : 0.0,
+			"jumpHoldTime" : 0.1
+		}
+	},
+	
+	"Hold_at_level_Force": 10000, // 10000 works for a weight of 50. needs to be increased lineary to weight
+	
+	"Forward_Force": 5000,
+	"Reverse_Force": 1250,
+	"Up_Force": 5000,
+	"Down_Force": 2500,
+	"Air_resistance_parameter_LR": 4,
+	"Air_resistance_parameter_TB": 4,
+
+	"parentOffset" : [4.6, 1.2], // set player position only here
+	"mechTransformPositionChange" : [0.0, 0.0],
+	"mechTransformCollisionTest" : [-10.5, 0.7, 10.5, 4.5]
+}

@@ -1,0 +1,48 @@
+{
+	"objectName" : "madtulip_glitchy_lazor",
+	"rarity" : "Common",
+	"description" : "A glitchy laZor!",
+	"shortdescription" : "Glitch Lazor",
+	"race" : "generic",
+	"category" : "decorative",
+	"price" : 10,
+	"printable" : false,
+
+	"inventoryIcon" : "madtulip_glitchy_lazor_icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "madtulip_glitchy_lazor_top_ON.png:<color>.<frame>",
+			"imagePosition" : [-91,-8],
+			"frames" : 1,
+			"animationCycle" : 1,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		},
+		{
+			"dualImage" : "madtulip_glitchy_lazor_bottom_ON.png:<color>.<frame>",
+			"imagePosition" : [-91,-8],
+			"frames" : 1,
+			"animationCycle" : 1,
+			"spaceScan" : 0.1,
+			"anchors" : [ "top" ]
+		}
+	],
+	
+	"animation" : "madtulip_glitchy_lazor.animation",
+	"animationParts" : {
+		"ON_Top_PNG" : "madtulip_glitchy_lazor_top_ON.png",
+		"OFF_Top_PNG" : "madtulip_glitchy_lazor_top_OFF.png",
+		"ON_Bottom_PNG" : "madtulip_glitchy_lazor_bottom_ON.png",
+		"OFF_Bottom_PNG" : "madtulip_glitchy_lazor_bottom_OFF.png"
+	},
+	"animationPosition" : [-91, -8],
+
+	"scripts" : [ "madtulip_glitchy_lazor.lua" ],
+	"scriptDelta" : 5,
+	
+	"inboundNodes" : [ [-4, 0] ],
+	"outboundNodes" : [ ],
+
+	"gates" : 1,
+	"truthtable" : [ false, true ]
+}

@@ -1,0 +1,56 @@
+{
+  "objectName" : "madtulip_avian_shipdoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 10,
+  "printable" : false,
+  
+  "description" : "A reinforced space-grade hatch that can be placed dynamically.",
+  "shortdescription" : "Avian Ship Door",
+  "race" : "avian",
+
+  "apexDescription" : "We use these doors on our ships.",
+  "avianDescription" : "A door.",
+  "floranDescription" : "Door!",
+  "glitchDescription" : "Statement. A door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic door.",
+
+
+  "inventoryIcon" : "madtulip_avian_shipdoor_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_avian_shipdoor.png:closeWall",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ]
+    },
+	{
+      "dualImage" : "madtulip_avian_shipdoor.png:closeFloor",
+      "imagePosition" : [-16, -16],
+
+      "spaceScan" : 0.3,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "openSounds" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+      "closeSounds" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "madtulip_avian_shipdoor.png"
+  },
+  "animationPosition" : [-16, -16],
+  
+  "inboundNodes" : [ [0, 1] ],
+  "outboundNodes" : [ [0, -1] ]
+}

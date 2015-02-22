@@ -1,0 +1,12 @@
+{
+  "name" : "Modules in a Box",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "displayName" : "Modules in a Box",
+    "author" : "Pilchenstein, MadTulip",
+    "description" : "Read and Write capability for whole modules of blocks and objects",
+    "support_url" : "not released",
+    "version" : "Rev. 100"
+  }
+}

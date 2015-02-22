@@ -1,0 +1,9 @@
+{
+  "itemName" : "madtulip_detail",
+  "rarity" : "Common",
+  "inventoryIcon" : "madtulip_detail_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Spaceship Details",
+  "shortdescription" : "Spaceship Details",
+  "materialId" : 30024
+}

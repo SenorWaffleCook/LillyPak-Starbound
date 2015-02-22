@@ -1,0 +1,51 @@
+{
+  "objectName" : "madtulip_apex_captainschair",
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+  "printable" : false,
+
+  "description" : "ENGAGE!",
+  "shortdescription" : "Apex Captain's Chair",
+  "race" : "apex",
+  "category" : "furniture",
+
+  "apexDescription" : "Ahh freedom...",
+  "avianDescription" : "Bless my beak, such a comfortable captain's chair.",
+  "floranDescription" : "SSsmells of Apex butt.",
+  "glitchDescription" : "Anticipation. Where to next?",
+  "humanDescription" : "A pretty cool chair.",
+  "hylotlDescription" : "Elegant.",
+
+  "inventoryIcon" : "madtulip_apex_captainschair_icon.png",
+  "orientations" : [
+    {
+      "image" : "madtulip_apex_captainschair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [1.6, 22.5]
+    },
+    {
+      "image" : "madtulip_apex_captainschair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [1.6, 22.5]
+    }
+  ],
+
+  "interactAction" : "openCockpitInterface",
+
+  "sitFlipDirection" : false,
+  "soundEffect" : "/sfx/objects/shipengine.wav",
+  "soundEffectRadius" : 1000
+}

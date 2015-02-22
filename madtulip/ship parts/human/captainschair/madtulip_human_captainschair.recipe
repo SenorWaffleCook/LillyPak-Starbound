@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "tier3chair", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 3 },
+	{ "item" : "fabric", "count" : 5 },
+	{ "item" : "madtulip_polymer", "count" : 2 },
+	{ "item" : "money", "count" : 200 }
+  ],
+  "output" : {
+    "item" : "madtulip_human_captainschair",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "systems", "human" ]
+}

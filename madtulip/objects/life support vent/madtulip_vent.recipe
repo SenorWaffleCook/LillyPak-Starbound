@@ -1,0 +1,14 @@
+{
+  "input" : [
+	{ "item" : "circuitboard", "count" : 1 },
+    { "item" : "madtulip_polymer", "count" : 2 },
+	{ "item" : "madtulip_tier_steel_plating_1", "count" : 1 },
+	{ "item" : "madtulip_tier_steel_plating_3", "count" : 1 },
+	{ "item" : "money", "count" : 250 }
+  ],
+  "output" : {
+    "item" : "madtulip_vent",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "systems" ]
+}

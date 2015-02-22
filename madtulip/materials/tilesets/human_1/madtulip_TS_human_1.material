@@ -1,0 +1,22 @@
+{
+  "materialId" : 30013,
+  "materialName" : "madtulip_TS_human_1",
+  "particleColor" : [194, 194, 194, 255],
+  "itemDrop" : "madtulip_TS_human_1",
+  "shortdescription" : "Human Tileset 1",
+  "description" : "Human Tileset 1",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "drawBackground" : true,
+  "health" : 10,
+  "category": "materials",
+
+  "renderTemplate" : "/materials/tilesets/madtulip_tileset.config",
+  "renderParameters" : {
+    "texture" : "madtulip_TS_human_1.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 10
+  }
+}

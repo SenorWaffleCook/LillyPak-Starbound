@@ -5,6 +5,7 @@
 		"rules" : [],
 		"maxRadius" : 2000,
 		"maxParts" : 20,
+		"gravity" : 80,
 		"anchor" : ["monolithanchor"]
 	},
 	"tiles" : [{
@@ -752,13 +753,54 @@
 						"typeName" : "kinepticvillager"
 					}
 				]]
-		}, {
+		},
+
+    {
+      "value" : [200, 0, 0, 255],
+      "comment" : "avian weapons merchant npc",
+      "brush" : [ [ "npc",
+          {
+            "kind" : "npc",
+            "species" : "avian",
+            "typeName" : "merchant",
+            "parameters" : {
+              "scriptConfig" : {
+                "noticePlayersRadius" : 20.0,
+                "merchant" : {
+                  "storeRadius" : 2,
+                  "categories" : [ "avianweaponblueprints", "randomswords" ],
+                  "priceVarianceRange" : [0.8, 1.2],
+                  "numItems" : 10
+                },
+                "sit" : {
+                  "searchRadius" : 8
+                }
+              }
+            }
+          }
+        ] ]
+    },
+		{
 			"value" : [165, 255, 127, 255],
 			"comment" : "farmer npc",
 			"brush" : [["npc", {
 						"kind" : "npc",
 						"species" : "kineptic",
-						"typeName" : "kinepticfarmer"
+						"typeName" : "kinepticfarmer",
+						"parameters" : {
+							"scriptConfig" : {
+								"noticePlayersRadius" : 20.0,
+								"merchant" : {
+									"storeRadius" : 2,
+									"categories" : [ "kinepticfarmer" ],
+									"priceVarianceRange" : [0.75, 1.25],
+									"numItems" : 10
+								},
+								"sit" : {
+									"searchRadius" : 8
+								}
+							}
+						}
 					}
 				]]
 		}, {
@@ -767,7 +809,21 @@
 			"brush" : [["npc", {
 						"kind" : "npc",
 						"species" : "kineptic",
-						"typeName" : "kinepticsweetsmerchant"
+						"typeName" : "kinepticsweetsmerchant",
+						"parameters" : {
+							"scriptConfig" : {
+								"noticePlayersRadius" : 20.0,
+								"merchant" : {
+									"storeRadius" : 2,
+									"categories" : [ "kinepticsweetsmerchant" ],
+									"priceVarianceRange" : [0.75, 1.25],
+									"numItems" : 10
+								},
+								"sit" : {
+									"searchRadius" : 8
+								}
+							}
+						}
 					}
 				]]
 		}, {

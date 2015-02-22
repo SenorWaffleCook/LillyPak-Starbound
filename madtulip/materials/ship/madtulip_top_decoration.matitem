@@ -1,0 +1,9 @@
+{
+  "itemName" : "madtulip_top_decoration",
+  "rarity" : "Common",
+  "inventoryIcon" : "madtulip_top_decoration_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Spaceship Top Decoration",
+  "shortdescription" : "Spaceship Top Decoration",
+  "materialId" : 30025
+}

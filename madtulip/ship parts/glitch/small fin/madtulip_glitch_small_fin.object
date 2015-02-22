@@ -1,0 +1,30 @@
+{
+  "objectName" : "madtulip_glitch_small_fin",
+  "rarity" : "Common",
+  "description" : "A fin for an glitch spaceship.",
+  "shortdescription" : "Glitch Small Spaceship Fin",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+
+  "inventoryIcon" : "madtulip_glitch_small_fin_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_glitch_small_top_fin.png:<color>.<frame>",
+      "imagePosition" : [-40,-8],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "madtulip_glitch_small_bottom_fin.png:<color>.<frame>",
+      "imagePosition" : [-40,-10],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

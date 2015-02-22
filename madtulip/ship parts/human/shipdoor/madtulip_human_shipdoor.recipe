@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "madtulip_polymer", "count" : 2 },
+	{ "item" : "madtulip_human_plating", "count" : 2 },
+	{ "item" : "madtulip_tier_steel_plating_2", "count" : 2 },
+	{ "item" : "money", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "madtulip_human_shipdoor",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "objects", "human" ]
+}

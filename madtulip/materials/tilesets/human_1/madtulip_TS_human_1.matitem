@@ -1,0 +1,9 @@
+{
+  "itemName" : "madtulip_TS_human_1",
+  "rarity" : "Common",
+  "inventoryIcon" : "madtulip_TS_human_1_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Human Tileset 1",
+  "shortdescription" : "Human Tileset 1",
+  "materialId" : 30013
+}

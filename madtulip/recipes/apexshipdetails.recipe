@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "madtulip_tier_steel_plating_1", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "apexshipdetails",
+    "count" : 4
+  },
+  "groups" : [ "madtulip_metal_press", "all", "hull" ]
+}

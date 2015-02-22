@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "madtulip_polymer", "count" : 1 },
+    { "item" : "ironbar", "count" : 1 },
+	{ "item" : "tier1light", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "madtulip_shiplight",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "objects" ]
+}

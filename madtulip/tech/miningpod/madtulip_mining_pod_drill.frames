@@ -1,0 +1,30 @@
+{
+	"frameGrid": {
+		"size": [72, 15],
+		"dimensions": [13, 1],
+
+		"names": [
+			["real.1"]
+		]
+	},
+
+	"aliases": {
+		"on.1": "real.1",
+		"on.2": "real.1",
+		"on.3": "real.1",
+		"on.4": "real.1",
+		"on.5": "real.1",
+		"on.6": "real.1",
+		"on.7": "real.1",
+		"on.8": "real.1",
+		
+		"off.1": "real.1",
+		"off.2": "real.1",
+		"off.3": "real.1",
+		"off.4": "real.1",
+		"off.5": "real.1",
+		"off.6": "real.1",
+		"off.7": "real.1",
+		"off.8": "real.1"
+	}
+}

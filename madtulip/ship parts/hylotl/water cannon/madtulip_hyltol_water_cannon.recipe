@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "madtulip_polymer", "count" : 2 },
+	{ "item" : "madtulip_hylotl_plating", "count" : 3 },
+	{ "item" : "madtulip_tier_steel_plating_2", "count" : 1 },
+	{ "item" : "madtulip_tier_steel_plating_3", "count" : 1 },
+	{ "item" : "money", "count" : 150 }
+  ],
+  "output" : {
+    "item" : "madtulip_hyltol_water_cannon",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "objects" ,"hylotl"]
+}

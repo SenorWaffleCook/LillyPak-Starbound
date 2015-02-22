@@ -1,0 +1,9 @@
+{
+  "itemName" : "madtulip_TS_floran_1",
+  "rarity" : "Common",
+  "inventoryIcon" : "madtulip_TS_floran_1_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Floran Tileset 1",
+  "shortdescription" : "Floran Tileset 1",
+  "materialId" : 30007
+}

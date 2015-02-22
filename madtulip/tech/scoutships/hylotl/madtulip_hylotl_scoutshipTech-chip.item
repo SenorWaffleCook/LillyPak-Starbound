@@ -1,0 +1,8 @@
+{
+  "itemName" : "madtulip_hylotl_scoutshipTech-chip",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/madtulip_chip.png",
+  "description" : "Unlocks Hylotl Scout Ship tech.",
+  "shortdescription" : "Hylotl Scout Ship Unlocker",
+  "pickupQuestTemplates" : ["madtulip_hylotl_scoutship.gearup"]
+}

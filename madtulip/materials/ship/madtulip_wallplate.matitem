@@ -1,0 +1,9 @@
+{
+  "itemName" : "madtulip_wallplate",
+  "rarity" : "Common",
+  "inventoryIcon" : "madtulip_wallplate_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Spaceship Wallplate",
+  "shortdescription" : "Spaceship Wallplate",
+  "materialId" : 30026
+}

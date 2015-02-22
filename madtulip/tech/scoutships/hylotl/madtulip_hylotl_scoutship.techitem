@@ -1,0 +1,10 @@
+{
+	"itemName": "madtulip_hylotl_scoutship",
+	"rarity": "Legendary",
+	"inventoryIcon": "/tech/scoutships/scoutship_icon.png",
+	"description": "Spawn a hylotl scoutship and have fun.",
+	"shortdescription": "Hylotl Scoutship",
+	"inspectionKind": "tech",
+
+	"techModule": "madtulip_hylotl_scoutship"
+}

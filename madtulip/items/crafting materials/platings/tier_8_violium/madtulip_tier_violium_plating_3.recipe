@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "madtulip_tier_violium_plating_1", "count" : 2 },
+	{ "item" : "madtulip_tier_violium_plating_2", "count" : 2 },
+	{ "item" : "plutoniumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "madtulip_tier_violium_plating_3",
+    "count" : 3
+  },
+  "groups" : ["madtulip_metal_press", "all", "tier_plating" ]
+}

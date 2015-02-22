@@ -1,0 +1,8 @@
+{
+  "itemName" : "madtulip_shipsuitTech-chip",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/madtulip_chip.png",
+  "description" : "Unlocks Ship Suit tech.",
+  "shortdescription" : "Ship Suit tech Unlocker",
+  "pickupQuestTemplates" : ["madtulip_shipsuit.gearup"]
+}

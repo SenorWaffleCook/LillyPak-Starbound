@@ -1,0 +1,35 @@
+{
+  "objectName" : "madtulip_shiplight",
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [230, 230, 230],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 1,
+  "unlit" : true,
+  "description" : "A light.",
+  "shortdescription" : "Ship Light",
+  "race" : "generic",
+  "price" : 500,
+  "printable" : false,  
+
+  "apexDescription" : "These lights are commonly used on ships.",
+  "avianDescription" : "A light.",
+  "floranDescription" : "Cold light!",
+  "glitchDescription" : "Analysis. This light generates more light than heat.",
+  "humanDescription" : "Cool light.",
+  "hylotlDescription" : "A passable light.",
+
+  "inventoryIcon" : "madtulip_shiplight_icon.png",
+  "orientations" : [
+    {
+      "image" : "madtulip_shiplight.png:<frame>",
+      "imagePosition" : [-8, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

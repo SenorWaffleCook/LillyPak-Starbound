@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 20 },
-    { "item" : "platinumbar", "count" : 2 }
-  ],
-  "output" : { "item" : "container(medium)", "count" : 1 },
-  "groups" : [ "anvil", "mod", "objects", "other", "all" ]
-}

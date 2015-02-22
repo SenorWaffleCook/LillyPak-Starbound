@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "copperbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "madtulip_glitch_plating",
+    "count" : 1
+  },
+  "groups" : ["madtulip_metal_press", "all", "racial_plating" ]
+}

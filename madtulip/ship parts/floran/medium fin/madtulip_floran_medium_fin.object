@@ -1,0 +1,30 @@
+{
+  "objectName" : "madtulip_floran_medium_fin",
+  "rarity" : "Common",
+  "description" : "A fin for an floran spaceship.",
+  "shortdescription" : "Floran Medium Spaceship Fin",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+
+  "inventoryIcon" : "madtulip_floran_medium_fin_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_floran_top_medium_fin.png:<color>.<frame>",
+      "imagePosition" : [-35,-16],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "madtulip_floran_bottom_medium_fin.png:<color>.<frame>",
+      "imagePosition" : [-35,-8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }	
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "aegisaltbar", "count" : 30 },
+	{ "item" : "uraniumrod", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "miab_basestore_scanner",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "systems" ]
+}

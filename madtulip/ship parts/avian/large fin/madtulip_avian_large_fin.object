@@ -1,0 +1,30 @@
+{
+  "objectName" : "madtulip_avian_large_fin",
+  "rarity" : "Common",
+  "description" : "A fin for an avian spaceship.",
+  "shortdescription" : "Avian Large Spaceship Fin",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+
+  "inventoryIcon" : "madtulip_avian_large_fin_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_avian_top_large_fin.png:<color>.<frame>",
+      "imagePosition" : [-85,-24],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "madtulip_avian_bottom_large_fin.png:<color>.<frame>",
+      "imagePosition" : [-85,-30],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }	
+  ]
+}

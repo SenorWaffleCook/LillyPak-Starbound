@@ -1,0 +1,10 @@
+[
+	{"op":"replace","path":"/scripts/0","value":"/lua/madtulip_is_shipworld.lua"},
+	{"op":"add","path":"/scripts/-","value":"/tech/skins/ShipSuit/madtulip_No_Gravity_In_Space.lua"},
+	{"op":"add","path":"/scripts/-","value":"/tech/skins/breathprotection/madtulip_breathprotection.lua"},
+	{"op":"add","path":"/actions/-","value":"action_jump"},
+	{"op":"add","path":"/actions/-","value":"action_up"},
+	{"op":"add","path":"/actions/-","value":"action_down"},
+	{"op":"add","path":"/actions/-","value":"action_left"},
+	{"op":"add","path":"/actions/-","value":"action_right"}
+]

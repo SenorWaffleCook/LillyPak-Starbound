@@ -1,0 +1,48 @@
+{
+	"objectName" : "madtulip_floran_blossoming_cannon",
+	"rarity" : "Common",
+	"description" : "Fires rapid pulses of Bose-Einstein condensate",
+	"shortdescription" : "Apex Cool Pulse Cannon",
+	"race" : "generic",
+	"category" : "decorative",
+	"price" : 10,
+	"printable" : false,
+
+	"inventoryIcon" : "madtulip_floran_blossoming_cannon_icon.png",
+	"orientations" : [
+		{
+			"dualImage" : "madtulip_floran_blossoming_cannon_top_ON.png:<color>.<frame>",
+			"imagePosition" : [-54,-16],
+			"frames" : 1,
+			"animationCycle" : 1,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		},
+		{
+			"dualImage" : "madtulip_floran_blossoming_cannon_bottom_ON.png:<color>.<frame>",
+			"imagePosition" : [-54,-16],
+			"frames" : 1,
+			"animationCycle" : 1,
+			"spaceScan" : 0.1,
+			"anchors" : [ "top" ]
+		}
+	],
+	
+	"animation" : "madtulip_floran_blossoming_cannon.animation",
+	"animationParts" : {
+		"ON_Top_PNG" : "madtulip_floran_blossoming_cannon_top_ON.png",
+		"OFF_Top_PNG" : "madtulip_floran_blossoming_cannon_top_OFF.png",
+		"ON_Bottom_PNG" : "madtulip_floran_blossoming_cannon_bottom_ON.png",
+		"OFF_Bottom_PNG" : "madtulip_floran_blossoming_cannon_bottom_OFF.png"
+	},
+	"animationPosition" : [-54, -16],
+
+	"scripts" : [ "madtulip_floran_blossoming_cannon.lua" ],
+	"scriptDelta" : 5,
+	
+	"inboundNodes" : [ [-4, -1] ],
+	"outboundNodes" : [ ],
+
+	"gates" : 1,
+	"truthtable" : [ false, true ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "durasteelbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "madtulip_tier_durasteel_plating_1",
+    "count" : 2
+  },
+  "groups" : ["madtulip_metal_press", "all", "tier_plating" ]
+}

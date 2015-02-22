@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "madtulip_silicium", "count" : 8 },
+	{ "item" : "goldore", "count" : 2 },
+	{ "item" : "madtulip_polymer", "count" : 8 },
+	{ "item" : "madtulip_tier_steel_plating_1", "count" : 3 },
+	{ "item" : "madtulip_tier_steel_plating_2", "count" : 4 },
+	{ "item" : "money", "count" : 400 }
+  ],
+  "output" : {
+    "item" : "madtulip_human_engine_core",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "objects" ,"generic"]
+}

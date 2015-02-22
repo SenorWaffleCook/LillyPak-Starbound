@@ -1,0 +1,8 @@
+{
+  "itemName" : "madtulip_glitch_scoutshipTech-chip",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/madtulip_chip.png",
+  "description" : "Unlocks Glitch Scout Ship tech.",
+  "shortdescription" : "Glitch Scout Ship Unlocker",
+  "pickupQuestTemplates" : ["madtulip_glitch_scoutship.gearup"]
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "madtulip_hylotl_gyro_stabilizer",
+  "rarity" : "Common",
+  "description" : "Prevents puking while in flight.",
+  "shortdescription" : "Hylotl Spaceship Gyro Stabilizer",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+
+  "inventoryIcon" : "madtulip_hylotl_gyro_stabilizer_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_hylotl_top_gyro_stabilizer.png:<color>.<frame>",
+      "imagePosition" : [-32,-8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "madtulip_hylotl_bottom_gyro_stabilizer.png:<color>.<frame>",
+      "imagePosition" : [-32,-1],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+	]
+}

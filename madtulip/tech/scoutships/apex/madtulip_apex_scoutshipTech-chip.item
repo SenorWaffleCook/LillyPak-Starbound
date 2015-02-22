@@ -1,0 +1,8 @@
+{
+  "itemName" : "madtulip_apex_scoutshipTech-chip",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/madtulip_chip.png",
+  "description" : "Unlocks Apex Scout Ship tech.",
+  "shortdescription" : "Apex Scout Ship Unlocker",
+  "pickupQuestTemplates" : ["madtulip_apex_scoutship.gearup"]
+}

@@ -1,0 +1,8 @@
+{
+  "itemName" : "madtulip_mining_podTech-chip",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/madtulip_chip.png",
+  "description" : "Unlocks Mining Pod tech.",
+  "shortdescription" : "Mining Pod Unlocker",
+  "pickupQuestTemplates" : ["madtulip_mining_pod.gearup"]
+}

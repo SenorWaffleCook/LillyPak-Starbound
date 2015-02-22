@@ -1,0 +1,31 @@
+{
+  "objectName" : "madtulip_metal_press",
+  "rarity" : "Common",
+
+  //"objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/objects/metal press/madtulip_metal_press.config",
+    "filter" : [ "madtulip_metal_press" ]
+  },
+  "description" : "A metal press used to form sheets of metal.",
+  "shortdescription" : "Metal Press",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 200,
+
+  "inventoryIcon" : "madtulip_metal_press_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_metal_press.png:<color>.<frame>",
+      "imagePosition" : [-16, -24],
+      "frames" : 70,
+      "animationCycle" : 1.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

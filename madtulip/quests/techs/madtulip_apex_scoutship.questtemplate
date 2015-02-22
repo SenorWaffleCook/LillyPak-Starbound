@@ -1,0 +1,20 @@
+{
+  "id" : "madtulip_apex_scoutship.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Unlock Apex Scout Ship",
+  "text" : "Unlocking of the Apex Scout Ship tech.",
+  "completionText" : "Apex Scout Ship tech has been unlocked. Now you may activate it in your S.A.I.L. interface.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "madtulip_apex_scoutshipTech-chip", 1], "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "enableTech" : [
+    "madtulip_apex_scoutship"
+  ],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "madtulip_avian_flux_compensator",
+  "rarity" : "Common",
+  "description" : "Compensates for, well .. flux.",
+  "shortdescription" : "Avian Flux Compensator",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+
+  "inventoryIcon" : "madtulip_avian_flux_compensator_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_avian_top_flux_compensator.png:<color>.<frame>",
+      "imagePosition" : [-18,-8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "madtulip_avian_bottom_flux_compensator.png:<color>.<frame>",
+      "imagePosition" : [-18,-2],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }	
+  ]
+}

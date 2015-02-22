@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "madtulip_polymer", "count" : 2 },
+	{ "item" : "madtulip_floran_plating", "count" : 4 },
+	{ "item" : "madtulip_tier_steel_plating_2", "count" : 2 },
+	{ "item" : "madtulip_tier_steel_plating_3", "count" : 1 },
+	{ "item" : "money", "count" : 300 }
+  ],
+  "output" : {
+    "item" : "madtulip_floran_blossoming_cannon",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "objects","floran" ]
+}

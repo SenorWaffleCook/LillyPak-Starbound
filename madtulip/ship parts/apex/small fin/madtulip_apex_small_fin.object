@@ -1,0 +1,30 @@
+{
+  "objectName" : "madtulip_apex_small_fin",
+  "rarity" : "Common",
+  "description" : "A fin for an apex spaceship.",
+  "shortdescription" : "Apex Small Spaceship Fin",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+
+  "inventoryIcon" : "madtulip_apex_small_fin_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_apex_top_small_fin.png:<color>.<frame>",
+      "imagePosition" : [-33,-8],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "madtulip_apex_bottom_small_fin.png:<color>.<frame>",
+      "imagePosition" : [-33,-7],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

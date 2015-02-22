@@ -1,0 +1,10 @@
+{
+	"itemName": "madtulip_floran_scoutship",
+	"rarity": "Legendary",
+	"inventoryIcon": "/tech/scoutships/scoutship_icon.png",
+	"description": "Spawn a floran scoutship and have fun.",
+	"shortdescription": "Floran Scoutship",
+	"inspectionKind": "tech",
+
+	"techModule": "madtulip_floran_scoutship"
+}

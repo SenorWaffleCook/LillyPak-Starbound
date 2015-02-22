@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "madtulip_tier_ferozium_plating_1", "count" : 3 },
+	{ "item" : "madtulip_polymer", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "madtulip_tier_ferozium_plating_2",
+    "count" : 2
+  },
+  "groups" : ["madtulip_metal_press", "all", "tier_plating" ]
+}

@@ -1,0 +1,20 @@
+{
+  "id" : "madtulip_mining_pod.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Unlock Mining Pod",
+  "text" : "Unlocking of the Mining Pod tech.",
+  "completionText" : "Mining Pod tech has been unlocked. Now you may activate it in your S.A.I.L. interface.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "madtulip_mining_podTech-chip", 1], "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "enableTech" : [
+    "madtulip_mining_pod"
+  ],
+  "canBeAbandoned" : true,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

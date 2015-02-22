@@ -1,0 +1,30 @@
+{
+  "objectName" : "madtulip_apex_ship_comms",
+    "rarity" : "Common",
+  "description" : "Used to transmit data through space",
+  "shortdescription" : "Apex Interstellar Communications Array",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 10,
+  "printable" : false,
+  
+  "inventoryIcon" : "madtulip_apex_ship_comms_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "madtulip_apex_top_ship_comms.png:<color>.<frame>",
+      "imagePosition" : [-14,-16],
+      "frames" : 12,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "dualImage" : "madtulip_apex_bottom_ship_comms.png:<color>.<frame>",
+      "imagePosition" : [-14,-7],
+      "frames" : 12,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}
