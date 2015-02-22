@@ -1,0 +1,23 @@
+{
+  "materialId" : 13048,
+  "materialName" : "avalidisplay",
+  "particleColor" : [255, 255, 128, 255],
+  "itemDrop" : "avalidisplay",
+  "description" : "An LED display works away quietly.",
+  "shortdescription" : "LED Display",
+  "glitchDescription" : "An LED display works away quietly.",
+  "floranDescription" : "An LED display works away quietly.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 1.0,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avalidisplay.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

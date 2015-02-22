@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "glassmaterial", "count" : 40 },
+	{ "item" : "durasteelbar", "count" : 25 },
+	{ "item" : "processor", "count" : 1 },
+	{ "item" : "corefragmentore", "count" : 20 },
+	{ "item" : "liquidhealing", "count" : 100 }
+  ],
+  "output" : { "item" : "bactatank", "count" : 1 },
+  "groups" : [ "outpostcrafttable", "objects", "all" ]
+}

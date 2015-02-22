@@ -1,0 +1,11 @@
+{
+  "name" : "container(safe)",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata": {
+    "author" : "Averking",
+    "description" : "Adds container with 32 slots.",
+    "support_url" : ""
+  }
+}

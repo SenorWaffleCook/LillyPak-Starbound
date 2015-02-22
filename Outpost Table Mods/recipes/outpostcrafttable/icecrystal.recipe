@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 10 },
+    { "item" : "uraniumrod", "count" : 1 }
+  ],
+  "output" : { "item" : "icecrystal", "count" : 10 },
+  "groups" : [ "outpostcrafttable", "mod", "items", "other", "all" ]
+}

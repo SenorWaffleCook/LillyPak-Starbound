@@ -1,0 +1,35 @@
+{
+  "objectName" : "printerportable",
+  "printable" : false,
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/printerportable.config",
+    "filter" : [ "3dprinter" ]
+  },
+
+  "description" : "This machine can reorganize pixels into almost any shape.",
+  "shortdescription" : "Printer Portable",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 500,
+
+  "apexDescription" : "Printer portable.",
+  "avianDescription" : "Printer portable.",
+  "floranDescription" : "Printer portable.",
+  "glitchDescription" : "Printer portable.",
+  "humanDescription" : "Printer portable.",
+  "hylotlDescription" : "Printer portable.",
+
+  "inventoryIcon" : "printerportableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "printerportable.png:<color>.0",
+      "imagePosition" : [-16, -8],
+      "frames" : 3,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

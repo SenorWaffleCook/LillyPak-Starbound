@@ -1,0 +1,7 @@
+{
+  "itemName" : "voxel10k",
+  "rarity" : "Common",
+  "inventoryIcon" : "voxel10k.png",
+  "description" : "10000 pixels compressed into a voxel. Nothing get lost during the compression process. Can be refined into 10000 pixels.",
+  "shortdescription" : "10k Voxel"
+}

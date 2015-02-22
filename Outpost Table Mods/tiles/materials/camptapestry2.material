@@ -1,0 +1,23 @@
+{
+  "materialId" : 12004,
+  "materialName" : "camptapestry2",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "camptapestry2",
+  "description" : "A soft decorative trim material.",
+  "shortdescription" : "Avali Trim",
+  "glitchDescription" : "A soft decorative trim material.",
+  "floranDescription" : "A soft decorative trim material.",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 1.0,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "camptapestry2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "avalidarkplatform",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalidarkplatform.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Metal, darkly.",
+  "shortdescription" : "Dark Platform",
+
+  "materialId" : 12006
+}

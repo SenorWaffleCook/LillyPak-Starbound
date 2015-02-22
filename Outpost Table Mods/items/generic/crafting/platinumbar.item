@@ -1,0 +1,14 @@
+{
+  "itemName" : "platinumbar",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "platinumbar.png",
+  "description" : "It's a platinum bar.",
+  "shortdescription" : "Platinum Bar",
+
+	"learnBlueprintsOnPickup" : [
+		"container(large)",
+		"container(medium)",
+		"container(small)",
+		"container(safe)"
+	]  
+}

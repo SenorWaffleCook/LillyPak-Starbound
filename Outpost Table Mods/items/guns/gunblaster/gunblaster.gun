@@ -1,0 +1,35 @@
+{
+  "itemName" : "gunblaster",
+  "inventoryIcon" : "gunblaster.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 2,
+  "rarity" : "legendary",
+  "description" : "Puts the 'assault' in Gunblaster",
+  "shortdescription" : "Gunblaster",
+  "image" : "gunblaster.png",
+  "handPosition" : [-5.5, -3],
+  "firePosition" : [18, 1],
+  "recoilTime" : 0.25,
+  "level" : 1,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.075,
+  "twoHanded" : false,
+  "walkWhileFiring" : true,
+
+  "statusEffects" : [
+    { "stat" : "energyincrease", "amount" : 5000 },
+    { "stat" : "energy", "amount" : 0.01 }
+  ],
+
+  "projectileType" : "gunblasterProjectile",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 50,
+    "power" : 50,
+    "color" : [10, 255, 10]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/gunblaster.wav" } ],
+    "animation" : "/animations/muzzleflash/starwarsgunblasterFlash/gunblasterFlash.animation"
+  }
+}

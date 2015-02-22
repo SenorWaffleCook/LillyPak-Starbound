@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 40 },
+    { "item" : "platinumbar", "count" : 8 }
+  ],
+  "output" : { "item" : "container(large)", "count" : 1 },
+  "groups" : [ "outpostcrafttable", "mod", "objects", "other", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "icecrystal",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata": {
+    "author" : "Averking",
+    "description" : "Ice crystal.",
+    "support_url" : ""
+  }
+}

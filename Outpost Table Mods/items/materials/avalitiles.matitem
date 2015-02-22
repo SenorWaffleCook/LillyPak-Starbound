@@ -1,0 +1,10 @@
+{
+  "itemName" : "avalitiles",
+  "rarity" : "Common",
+  "inventoryIcon" : "avalitiles.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Polymer panels used to protect and hide sensitive electronics.",
+  "shortdescription" : "Tech Panel 2",
+
+  "materialId" : 12507
+}

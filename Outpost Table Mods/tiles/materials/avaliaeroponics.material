@@ -1,0 +1,23 @@
+{
+  "materialId" : 13003,
+  "materialName" : "avaliaeroponics",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "avaliaeroponics",
+  "description" : "These tubes transport a nutrient aerosol for growing plants indoors.",
+  "shortdescription" : "Alien Rock",
+  "glitchDescription" : "These tubes transport a nutrient aerosol for growing plants indoors.",
+  "floranDescription" : "These tubes transport a nutrient aerosol for growing plants indoors.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "health" : 1.0,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "avaliaeroponics.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}
