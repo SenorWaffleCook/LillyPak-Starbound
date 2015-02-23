@@ -8,10 +8,10 @@ function is_shipworld()
 	for _, TeleporterId in pairs(TeleporterIds) do
 		-- world.logInfo("Name of Entity.TeleporterID" .. world.entityName(TeleporterId));
 		if (world.entityName(TeleporterId) == "madtulip_teleporter") or
-			(world.entityName(TeleporterId) == "madtulip_Apex1_teleporter") or
-			(world.entityName(TeleporterId) == "Madtulip_avian1_teleporter") or
-			(world.entityName(TeleporterId) == "Madtulip_floran1_teleporter") or
-			(world.entityName(TeleporterId) == "Madtulip_glitch1_teleporter") or
+			(world.entityName(TeleporterId) == "madtulip_apex1_teleporter") or
+			(world.entityName(TeleporterId) == "madtulip_avian1_teleporter") or
+			(world.entityName(TeleporterId) == "madtulip_floran1_teleporter") or
+			(world.entityName(TeleporterId) == "madtulip_glitch1_teleporter") or
 			(world.entityName(TeleporterId) == "madtulip_human1_teleporter") or
 			(world.entityName(TeleporterId) == "madtulip_hylotl1_teleporter") or
 			(world.entityName(TeleporterId) == "madtulip_novakid1_teleporter")

@@ -10,14 +10,7 @@
 		{"item" : [ "madtulip_wallplate", 40 ]},
 		{"item" : [ "steelplatform", 10 ]},
 		{"item" : [ "apexshiplight", 1 ]},
-		{"item" : [ "madtulip_shipsuitTech-chip", 1 ]},
-		{"item" : [ "madtulip_mining_podTech-chip", 1 ]},
-		{"item" : [ "madtulip_apex_scoutshipTech-chip", 1 ]},
-		{"item" : [ "madtulip_avian_scoutshipTech-chip", 1 ]},
-		{"item" : [ "madtulip_floran_scoutshipTech-chip", 1 ]},
-		{"item" : [ "madtulip_glitch_scoutshipTech-chip", 1 ]},
-		{"item" : [ "madtulip_human_scoutshipTech-chip", 1 ]},
-		{"item" : [ "madtulip_hylotl_scoutshipTech-chip", 1 ]}
+		{"item" : [ "madtulip_shipsuitTech-chip", 1 ]}
       ]
     }]
   ],
