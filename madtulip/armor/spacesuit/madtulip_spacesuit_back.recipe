@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "madtulip_pcb", "count" : 1 },
+	{ "item" : "madtulip_ic_logic", "count" : 2 },
+	{ "item" : "laserdiode", "count" : 10 },
+	{ "item" : "platinumbar", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "madtulip_spacesuit_back",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all" ]
+}

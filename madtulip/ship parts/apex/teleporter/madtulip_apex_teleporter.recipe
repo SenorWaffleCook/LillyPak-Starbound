@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "madtulip_apex_teleporter",
+    "count" : 1
+  },
+  "groups" : [ "madtulip_shipstation", "all", "objects", "apex" ]
+}

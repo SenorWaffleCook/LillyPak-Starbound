@@ -43,7 +43,12 @@
     }
   ],
 
-  "interactAction" : "openCockpitInterface",
+  //"interactAction" : "openCockpitInterface",
+  "scripts" : [
+	"/lua/madtulip_is_shipworld.lua",
+	"/lua/madtulip_captainschair.lua"
+	],
+  "scriptDelta" : 5,
 
   "sitFlipDirection" : false,
   "soundEffect" : "/sfx/objects/shipengine.wav",

@@ -3,6 +3,12 @@ function No_Gravity_In_Space_init()
 	We_are_in_ZERO_gravity = false;
 end
 
+function Apply_Vacuum_Status()
+	status.addEphemeralEffect("madtulip_vacuum_head");
+	status.addEphemeralEffect("madtulip_vacuum_chest");
+	status.addEphemeralEffect("madtulip_vacuum_legs");
+end
+
 function No_Gravity_In_Space_update(args)
 	if not (We_are_in_ZERO_gravity) then
 		-- try to get to ZERO gravity
@@ -10,6 +16,7 @@ function No_Gravity_In_Space_update(args)
 		if (determine_if_ZERO_gravity(Range)) then
 			We_are_in_ZERO_gravity = true;
 			use_ZERO_gravity_movement();
+			Apply_Vacuum_Status();
 		end
 	end
 	
@@ -20,6 +27,7 @@ function No_Gravity_In_Space_update(args)
 			We_are_in_ZERO_gravity = false;
 		else
 			use_ZERO_gravity_movement();
+			Apply_Vacuum_Status();
 		end
 	end
 	--return 0;

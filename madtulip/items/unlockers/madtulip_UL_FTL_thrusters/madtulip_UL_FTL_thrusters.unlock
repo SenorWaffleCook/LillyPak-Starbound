@@ -1,0 +1,12 @@
+{
+  "itemName" : "madtulip_UL_FTL_thrusters",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "madtulip_UL_FTL_thrusters_icon.png",
+  "image" : "madtulip_UL_FTL_thrusters_icon.png",
+
+  "shortdescription" : "^orange;Blueprints: FTL Thrusters^white;",
+  "description" : "^orange;Blueprints: FTL Thrusters^white;",
+
+  "tierRecipesUnlock" : "madtulip_UL_FTL_thrusters",
+  "unlockMessage" : "You can now produce ^orange;FTL Thrusters^white;!"
+}

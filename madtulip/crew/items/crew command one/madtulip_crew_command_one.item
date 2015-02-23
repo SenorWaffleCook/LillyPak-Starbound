@@ -1,0 +1,7 @@
+{
+  "itemName" : "madtulip_crew_command_one",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "madtulip_crew_command_one.png",
+  "description" : "Issues Command ONE to a Crew Member.",
+  "shortdescription" : "Crew Command Item One"
+}

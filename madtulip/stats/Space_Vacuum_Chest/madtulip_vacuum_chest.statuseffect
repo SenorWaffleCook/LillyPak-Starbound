@@ -1,0 +1,16 @@
+{
+  "name" : "madtulip_vacuum_chest",
+  "blockingStat" : "madtulip_vacuum_chest_immunity",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "madtulip_vacuum_chest.lua"
+  ],
+
+  "animationConfig" : "madtulip_vacuum_chest.animation",
+
+  "label" : "Vacuum",
+  "icon" : "madtulip_vacuum_chest.png"
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "madtulip_vacuum_head",
+  "blockingStat" : "madtulip_vacuum_head_immunity",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "madtulip_vacuum_head.lua"
+  ],
+
+  "animationConfig" : "madtulip_vacuum_head.animation",
+
+  "label" : "Vacuum",
+  "icon" : "madtulip_vacuum_head.png"
+}

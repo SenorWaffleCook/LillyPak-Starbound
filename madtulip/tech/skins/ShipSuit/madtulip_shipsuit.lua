@@ -19,4 +19,3 @@ end
 function update(args)
 	No_Gravity_In_Space_update(args);
 end
-

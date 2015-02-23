@@ -1,0 +1,16 @@
+{
+  "name" : "madtulip_vacuum_legs",
+  "blockingStat" : "madtulip_vacuum_legs_immunity",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "madtulip_vacuum_legs.lua"
+  ],
+
+  "animationConfig" : "madtulip_vacuum_legs.animation",
+
+  "label" : "Vacuum",
+  "icon" : "madtulip_vacuum_legs.png"
+}
