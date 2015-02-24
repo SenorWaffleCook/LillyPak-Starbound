@@ -1,0 +1,15 @@
+*.config diff=json
+*.modinfo diff=json
+*.item diff=json
+*.frames diff=json
+*.lua diff=lua
+*.object diff=json
+*.chest diff=json
+*.head diff=json
+*.legs diff=json
+*.beamaxe diff=json
+*.gun diff=json
+*.animation diff=json
+*.recipe diff=json
+*.tech diff=json
+*.techitem diff=json
