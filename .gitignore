@@ -7,7 +7,6 @@
 *.gif
 *.apng
 *.agif
-*.json
-*.db
-*.ini
+[Tt]humbs.db
+[Dd]esktop.ini
 *.bat

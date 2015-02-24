@@ -33,7 +33,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
 
 ## **Legal**:
 
-   None, but one, of these mods are owned by Nire Inicana, or thakyZ   
+   None, but one, of these mods are owned by Nire Inicana, or thakyZ.   
    I did not ask for permission to use these mods in my mod pack - **YET**   
    This mod pack is **supposed to be private** but is posted on here for the convenience of Github.
 
