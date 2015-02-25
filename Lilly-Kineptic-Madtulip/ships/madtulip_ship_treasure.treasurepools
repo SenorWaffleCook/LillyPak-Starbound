@@ -1,0 +1,12 @@
+{
+  "madtulip_kinepticStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "madtulip_starterTreasure"},
+        {"item" : [ "aviantier0shortsword", 1]},
+        {"item" : [ "madtulip_TS_avian_1", 15]},
+		{"item" : [ "avianstarter", 1]}
+      ]
+    }]
+  ],
+}

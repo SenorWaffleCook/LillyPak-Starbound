@@ -1,0 +1,11 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000
+    }
+  },
+
+  "blockKey" : "madtulip_hylotl_blockKey.config:blockKey",
+  "blockImage" : "madtulip_hylotl_ship_blocks_T1.png"
+}

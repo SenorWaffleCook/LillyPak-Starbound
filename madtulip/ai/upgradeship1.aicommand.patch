@@ -1,4 +1,0 @@
-[
-	{"op":"replace","path":"/actions/1","value":{"action":"EnableCommand","command":"upgradeShip2"}},
-	{"op":"add","path":"/actions/2","value":{"action":"EnableCommand","command":"giveBeamaxe"}}
-]

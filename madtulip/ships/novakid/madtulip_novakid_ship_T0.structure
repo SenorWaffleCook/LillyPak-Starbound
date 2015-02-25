@@ -1,11 +1,11 @@
 {
   "config" : {
     "shipUpgrades" : {
-      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "capabilities" : [],
       "maxFuel" : 1000
     }
   },
-  
+
   "blockKey" : "madtulip_novakid_blockKey.config:blockKey",
-  "blockImage": "madtulip_novakid_ship_blocks.png"
+  "blockImage": "madtulip_novakid_ship_blocks_T0.png"
 }

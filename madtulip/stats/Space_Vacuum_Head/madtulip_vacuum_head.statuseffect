@@ -3,10 +3,10 @@
   "blockingStat" : "madtulip_vacuum_head_immunity",
   
   "effectConfig" : {},
-  "defaultDuration" : 3,
+  "defaultDuration" : 1,
 
   "scripts" : [
-    "madtulip_vacuum_head.lua"
+    "/lua/madtulip_vacuum.lua"
   ],
 
   "animationConfig" : "madtulip_vacuum_head.animation",

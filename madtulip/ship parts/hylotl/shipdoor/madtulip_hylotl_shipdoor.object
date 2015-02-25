@@ -24,7 +24,7 @@
       "dualImage" : "madtulip_hylotl_shipdoor.png:closeWall",
       "imagePosition" : [-16, -16],
 
-      "spaceScan" : 0.1,
+      "spaceScan" : 0.3,
       "anchors" : [ "top", "bottom" ]
     },
 	{
