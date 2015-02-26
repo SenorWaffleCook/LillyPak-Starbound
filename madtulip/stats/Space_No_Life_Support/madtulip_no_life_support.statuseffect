@@ -1,0 +1,16 @@
+{
+  "name" : "madtulip_no_life_support",
+  "blockingStat" : "madtulip_life_support",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "madtulip_no_life_support.lua"
+  ],
+
+  "animationConfig" : "madtulip_no_life_support.animation",
+
+  "label" : "No Life Support",
+  "icon" : "madtulip_no_life_support.png"
+}

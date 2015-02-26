@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 100,
   "rarity" : "Rare",
-  "description" : "An old fashioned space helmet!  Wow!",
+  "description" : "A space helmet!  Stops your head from exploding in vacuum.",
   "shortdescription" : "Space Helmet",
   "inspectionKind" : "armor",
 

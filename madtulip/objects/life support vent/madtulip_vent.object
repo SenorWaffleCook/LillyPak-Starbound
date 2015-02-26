@@ -43,6 +43,12 @@
   // [2]: in the 2nd run (if 1st run didnt find breach or fully closed room (large room possible, but slow)
   "madtulip_scan_stage_ranges" : [50,250],
   
+  // This projectile applies the is_under_life_support status effect
+  "projectileOptions" : {
+	"projectileType" : "madtulip_life_support_status_deliver_projectile",
+	"projectileParams" : { }
+  },
+  
   "Breach_Warning_Sound" : [ "/objects/life support vent/Breach_Warning_Sound.wav" ],
   
   "animation" : "/objects/life support vent/madtulip_vent.animation",
@@ -61,7 +67,8 @@
   "scripts" : [
 	"/lua/madtulip_is_shipworld.lua",
 	"/lua/madtulip_copy_table.lua",
-	"madtulip_vent_logic.lua"
+	"/lua/madtulip_life_support.lua",
+	"madtulip_LS_vent.lua"
 	],
   "scriptDelta" : 5,
   

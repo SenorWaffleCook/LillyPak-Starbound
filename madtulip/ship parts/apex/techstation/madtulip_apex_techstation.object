@@ -1,7 +1,6 @@
 {
   "objectName" : "madtulip_apex_techstation",
   "rarity" : "Common",
-  "objectType" : "loungeable",
   "printable" : false,
 
   "category" : "decorative",

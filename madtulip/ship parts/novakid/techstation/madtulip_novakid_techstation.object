@@ -1,7 +1,6 @@
 {
   "objectName" : "madtulip_novakid_techstation",
   "rarity" : "Common",
-  "objectType" : "loungeable",
   "printable" : false,
 
   "category" : "decorative",

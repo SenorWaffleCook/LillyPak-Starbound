@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "madtulip_pcb", "count" : 1 },
+    { "item" : "madtulip_polymer", "count" : 5 },
 	{ "item" : "madtulip_ic_logic", "count" : 2 },
 	{ "item" : "laserdiode", "count" : 10 },
 	{ "item" : "platinumbar", "count" : 6 }

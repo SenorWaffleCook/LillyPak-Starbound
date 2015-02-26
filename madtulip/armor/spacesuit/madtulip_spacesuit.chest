@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 100,
   "rarity" : "Rare",
-  "description" : "An old fashioned spacesuit chest piece!  Looks bulky.",
+  "description" : "A spacesuit chest piece!  For a healthy space walk.",
   "shortdescription" : "Spacesuit Chest",
   "inspectionKind" : "armor",
 

@@ -1,7 +1,6 @@
 {
   "objectName" : "madtulip_avian_techstation",
   "rarity" : "Common",
-  "objectType" : "loungeable",
   "printable" : false,
 
   "category" : "decorative",

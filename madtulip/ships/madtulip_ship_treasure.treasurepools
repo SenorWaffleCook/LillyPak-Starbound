@@ -10,11 +10,7 @@
 		{"item" : [ "madtulip_wallplate", 40 ]},
 		{"item" : [ "steelplatform", 10 ]},
 		{"item" : [ "apexshiplight", 1 ]},
-		{"item" : [ "madtulip_shipsuitTech-chip", 1 ]},
-		{"item" : [ "madtulip_spacesuit_back", 1 ]},
-		{"item" : [ "madtulip_spacesuit_chest", 1 ]},
-		{"item" : [ "madtulip_spacesuit_head", 1 ]},
-		{"item" : [ "madtulip_spacesuit_legs", 1 ]}
+		{"item" : [ "madtulip_shipsuitTech-chip", 1 ]}
       ]
     }]
   ],

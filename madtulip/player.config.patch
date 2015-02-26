@@ -3,6 +3,12 @@
 	{"op":"add","path":"/defaultItems/-","value":{"item":"diamonddrill","count":1}},
 	
 	//defaultBlueprints
+	
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_spacesuit_back"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_spacesuit_head"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_spacesuit_chest"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_spacesuit_legs"}},
+	
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_apex_captainschair"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_avian_captainschair"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_floran_captainschair"}},
