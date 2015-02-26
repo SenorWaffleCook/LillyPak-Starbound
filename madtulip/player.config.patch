@@ -1,7 +1,6 @@
 [
 	// defaultitems
-	{"op":"add","path":"/defaultItems/-","value":{"item":"diamonddrill","count":1}},
-	
+
 	//defaultBlueprints
 	
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_spacesuit_back"}},

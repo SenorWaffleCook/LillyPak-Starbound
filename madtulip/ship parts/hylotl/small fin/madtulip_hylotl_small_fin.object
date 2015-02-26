@@ -13,7 +13,7 @@
     {
       "dualImage" : "madtulip_hylotl_top_small_fin.png:<color>.<frame>",
       "imagePosition" : [-12,-8],
-      "frames" : 8,
+      "frames" : 1,
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -21,7 +21,7 @@
     {
       "dualImage" : "madtulip_hylotl_bottom_small_fin.png:<color>.<frame>",
       "imagePosition" : [-12,-8],
-      "frames" : 8,
+      "frames" : 1,
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]

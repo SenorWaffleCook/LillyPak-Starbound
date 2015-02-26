@@ -1,0 +1,3 @@
+[
+	{"op":"add","path":"/statusEffects/-","value":{"stat":"madtulip_vacuum_head_immunity","amount":1}}
+]

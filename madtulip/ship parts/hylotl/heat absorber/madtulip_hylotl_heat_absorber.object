@@ -12,7 +12,7 @@
   "orientations" : [
     {
       "dualImage" : "madtulip_hylotl_top_heat_absorber.png:<color>.<frame>",
-      "imagePosition" : [-60,-16],
+      "imagePosition" : [-92,-16],
       "frames" : 1,
       "animationCycle" : 1,
       "spaceScan" : 0.1,
@@ -20,7 +20,7 @@
     },
 	{
       "dualImage" : "madtulip_hylotl_bottom_heat_absorber.png:<color>.<frame>",
-      "imagePosition" : [-60,-10],
+      "imagePosition" : [-92,-10],
       "frames" : 1,
       "animationCycle" : 1,
       "spaceScan" : 0.1,
