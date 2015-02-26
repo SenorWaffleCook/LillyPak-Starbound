@@ -1,0 +1,23 @@
+{
+  "materialId" : 20453,
+  "materialName" : "alienrock_aliengrass",
+  "particleColor" : [111, 94, 74, 255],
+  "itemDrop" : "alienrock_aliengrass",
+  "description" : "This rock and the grass on it came from an Alien world.",
+  "shortdescription" : "Alien Grass on Alien Rock",
+  "glitchDescription" : "Analysis. This rock and grass is of an alien origin.",
+  "floranDescription" : "Floran like weird rockss and weird grasss!",
+  "footstepSound" : "/sfx/blocks/footstep_rock.wav",
+  "health" : 4,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "alienrock_aliengrass.png",
+    "variants" : 15,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "materialId" : 20443,
+  "materialName" : "drydirt_savannahgrass",
+  "particleColor" : [201, 137, 100, 255],
+  "itemDrop" : "drydirt_savannahgrass",
+  "description" : "Dirt with Savannah Grass, dried solid in the sun.",
+  "shortdescription" : "Savannah Grass on Dry Dirt",
+  "glitchDescription" : "Statement. Dry Dirt. Clarification. Dry Dirt with Savannah Grass.",
+  "floranDescription" : "Filthy dried dirt! With Sssavannah Grassss",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1.5,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "drydirt_savannahgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

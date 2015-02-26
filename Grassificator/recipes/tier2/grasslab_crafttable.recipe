@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 10 },
+	{ "item" : "glassmaterial", "count" : 1},
+	{ "item" : "dirtmaterial", "count" : 2}
+  ],
+  "output" : { "item" : "grasslab", "count" : 1 },
+  "groups" : [ "craftingtable", "objects", "all", "tools" ]
+}

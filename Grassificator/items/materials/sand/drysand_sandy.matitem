@@ -1,0 +1,12 @@
+{
+  "itemName" : "drysand_sandy",
+  "rarity" : "Common",
+  "inventoryIcon" : "drysand_sandy.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Hard, cracked sand covered in more sand. It shatters underfoot.",
+  "shortdescription" : "Sand Covered Dry Sand",
+  "glitchDescription" : "Statement. Dry Sand. Observation. It's covered in more Sand.",
+  "floranDescription" : "Dry Sssandy sand. Covered in more Sssand",
+
+  "materialId" : 20439
+}

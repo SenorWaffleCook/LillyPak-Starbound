@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "hellstone_heckgrass", "count" : 10 }
+  ],
+  "output" : { "item" : "hellstonematerial", "count" : 10 },
+  "groups" : [ "anti_grass" ]
+}

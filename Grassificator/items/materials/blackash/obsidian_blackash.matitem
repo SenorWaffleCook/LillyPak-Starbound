@@ -1,0 +1,12 @@
+{
+  "itemName" : "obsidian_blackash",
+  "rarity" : "Common",
+  "inventoryIcon" : "obsidian_blackash.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Black Ash Covered Solid obsidian. It reflects the light.",
+  "shortdescription" : "Black Ash Covered Obsidian",
+  "glitchDescription" : "Statement. Rock-hard obsidian. Observation. It's covered in Black Ash.",
+  "floranDescription" : "Black Assshhy Obsssidian. Black like Floran sssoul.",
+
+  "materialId" : 20412
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_churchy",
+  "inventoryIcon" : "q_churchy_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Church not included.",
+  "shortdescription" : "Church Organ",
+  "largeImage" : "q_churchy.png",
+  "image" : "q_churchy.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_churchy.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_churchy"
+}

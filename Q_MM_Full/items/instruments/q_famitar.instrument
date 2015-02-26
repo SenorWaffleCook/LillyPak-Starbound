@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_famitar",
+  "inventoryIcon" : "q_famitar_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Famicom on a stick!",
+  "shortdescription" : "Famitar",
+  "largeImage" : "q_famitar.png",
+  "image" : "q_famitar.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_famitar.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_famitar"
+}

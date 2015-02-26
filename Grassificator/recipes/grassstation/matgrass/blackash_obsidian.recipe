@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "obsidian", "count" : 10 },
+	{ "item" : "sample_blackash", "count" : 1}
+  ],
+  "output" : { "item" : "obsidian_blackash", "count" : 10 },
+  "groups" : [ "grassstation", "matgrass" ]
+}

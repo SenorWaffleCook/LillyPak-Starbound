@@ -1,0 +1,12 @@
+{
+  "itemName" : "magmarock_ash",
+  "rarity" : "Common",
+  "inventoryIcon" : "magmarock_ash.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ash Covered Magmarock. Hot stuff.",
+  "shortdescription" : "Ash Covered Magmarock",
+  "glitchDescription" : "Statement. Magmarock. Observation. It's Covered in Ash.",
+  "floranDescription" : "Burny rock. Hisssss. Covered in Assshh!",
+
+  "materialId" : 20406
+}

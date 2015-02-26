@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_compy",
+  "inventoryIcon" : "q_compy_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "An old computer monitor turned into an instrument.",
+  "shortdescription" : "Compy",
+  "largeImage" : "q_compy.png",
+  "image" : "q_compy.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_compy.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_compy"
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "obsidian_crystalgrass", "count" : 10 }
+  ],
+  "output" : { "item" : "obsidian", "count" : 10 },
+  "groups" : [ "anti_grass" ]
+}

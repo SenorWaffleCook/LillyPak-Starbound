@@ -1,0 +1,23 @@
+{
+  "materialId" : 20411,
+  "materialName" : "magmarock_blackash",
+  "particleColor" : [84, 49, 49, 255],
+  "itemDrop" : "magmarock_blackash",
+  "description" : "Black Ash Covered Magmarock. Hot stuff.",
+  "shortdescription" : "Black Ash Covered Magmarock",
+  "glitchDescription" : "Statement. Magmarock. Observation. It's Covered in Black Ash.",
+  "floranDescription" : "Burny rock. Hisssss. Covered in Black Assshh!",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "health" : 35,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "magmarock_blackash.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

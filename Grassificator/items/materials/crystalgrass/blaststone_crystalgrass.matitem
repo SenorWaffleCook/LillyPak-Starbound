@@ -1,0 +1,12 @@
+{
+  "itemName" : "blaststone_crystalgrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "blaststone_crystalgrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Sharp rocks produced by blasts of enormous heat. It's coated in crystals.",
+  "shortdescription" : "Crystal Covered Blaststone Block",
+  "glitchDescription" : "Analysis. Blaststone. Observation. It's Coated in Crystals.",
+  "floranDescription" : "Floran make cryssstaly ssstone go boom.",
+
+  "materialId" : 20418
+}

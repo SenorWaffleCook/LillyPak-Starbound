@@ -1,0 +1,23 @@
+{
+  "materialId" : 20444,
+  "materialName" : "cobblestone_snowy",
+  "particleColor" : [149, 149, 149, 255],
+  "itemDrop" : "cobblestone_snowy",
+  "shortdescription" : "Snow Covered Cobblestone",
+  "description" : "Hard stones, smooth to the touch. They're covered in Snow.",
+  "glitchDescription" : "Statement. Cobblestones.  Observation. They're covered in Snow.",
+  "floranDescription" : "Sssnowy Cobblessstone.",
+  "footstepSound" : "/sfx/blocks/footstep_snow.wav",
+  "health" : 8,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "cobblestone_snowy.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_bongo",
+  "inventoryIcon" : "q_bongo_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Yes, that is real skin.",
+  "shortdescription" : "Floran Bongos",
+  "largeImage" : "q_bongo.png",
+  "image" : "q_bongo.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_bongo.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_bongo"
+}

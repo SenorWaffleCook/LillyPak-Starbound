@@ -1,0 +1,12 @@
+{
+  "itemName" : "dirt_junglegrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "dirt_junglegrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Dirty looking dirt with Jungle Grass.",
+  "shortdescription" : "Jungle Grass on Dirt",
+  "glitchDescription" : "Statement. Dirt. Clarification. Dirt with Jungle Grass.",
+  "floranDescription" : "Filthy dirt! With Jungle Grass!",
+
+  "materialId" : 20433
+}

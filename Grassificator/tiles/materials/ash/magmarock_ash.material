@@ -1,0 +1,23 @@
+{
+  "materialId" : 20406,
+  "materialName" : "magmarock_ash",
+  "particleColor" : [84, 49, 49, 255],
+  "itemDrop" : "magmarock_ash",
+  "description" : "Ash Covered Magmarock. Hot stuff.",
+  "shortdescription" : "Ash Covered Magmarock",
+  "glitchDescription" : "Statement. Magmarock. Observation. It's Covered in Ash.",
+  "floranDescription" : "Burny rock. Hisssss. Covered in Assshh!",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "health" : 35,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "magmarock_ash.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

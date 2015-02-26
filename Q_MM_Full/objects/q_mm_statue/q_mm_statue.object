@@ -1,0 +1,38 @@
+{
+  "objectName" : "q_mm_statue",
+  "rarity" : "Legendary",
+  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/q_mm_statue.config",
+    "filter" : [ "q_mm" ]
+  },
+  "printable" : true,
+  "category" : "decorative",
+  "price" : 1,
+  "description" : "Spawn Mighty Music instruments!",
+  "shortdescription" : "Mighty Music Monolith",
+  "race" : "human",
+
+  "apexDescription" : "This statue seems to broadcast 80's melodies on the FM band. Interesting.",
+  "avianDescription" : "Does this monolith spawn air-based instruments too?",
+  "floranDescription" : "Monolithhh made of ssstone. Not tasssty.",
+  "glitchDescription" : "Surprised. What mysteries does this statue hold?",
+  "humanDescription" : "Some say that rubbing this statue will cause Eduard Khil's ghost to appear. Others say it will generate static electricity.",
+  "hylotlDescription" : "I wonder if this statue can spawn any instruments of my homeworld?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "leftImage" : "q_mm_statue_left.png:<color>",
+	  "rightImage" : "q_mm_statue_right.png:<color>",
+      "imagePosition" : [-14, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

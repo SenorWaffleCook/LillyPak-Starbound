@@ -1,0 +1,23 @@
+{
+  "materialId" : 20432,
+  "materialName" : "hellstone_heckgrass",
+  "particleColor" : [96, 19, 30, 255],
+  "itemDrop" : "hellstone_heckgrass",
+  "description" : "Eww, a fleshy looking material! Coated in Heck Grass!",
+  "shortdescription" : "Heck Grass Coated Block of Flesh",
+  "glitchDescription" : "Alarm. This appears to be flesh. Observation. Coated in Heck Grass.",
+  "floranDescription" : "Sssquishy, ssslimy flesh. Coated in Heck Grassss!",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 30,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "hellstone_heckgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

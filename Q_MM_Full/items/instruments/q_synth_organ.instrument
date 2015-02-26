@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_synth_organ",
+  "inventoryIcon" : "q_synth_organ_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Synth organ! With proper echo-y sound! (please ignore loose wires)",
+  "shortdescription" : "Synth Organ",
+  "largeImage" : "q_synth_organ.png",
+  "image" : "q_synth_organ.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_synth_organ.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_synth_organ"
+}

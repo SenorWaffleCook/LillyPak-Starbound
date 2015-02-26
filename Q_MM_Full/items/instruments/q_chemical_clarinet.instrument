@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_chemical_clarinet",
+  "inventoryIcon" : "q_chemical_clarinet_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A clarinet soaked in all kinds of chemical liquids. Does not turn you into a mutant with clarinet powers.",
+  "shortdescription" : "Chemical Clarinet",
+  "largeImage" : "q_chemical_clarinet.png",
+  "image" : "q_chemical_clarinet.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_chemical_clarinet.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_chemical_clarinet"
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 20426,
+  "materialName" : "fleshblock_fleshgrass",
+  "particleColor" : [166, 27, 32, 255],
+  "itemDrop" : "fleshblock_fleshgrass",
+  "description" : "A hideous, foul-smelling block made of some kind of flesh. It's coated in a Fleshy Grass",
+  "shortdescription" : "Flesh Grass Coated Flesh Block",
+  "glitchDescription" : "Disgust. A block made of flesh. Observation. It's coated in Fleshy Grass.",
+  "floranDescription" : "Sssquishy meat block with flessshy grassss.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 3.5,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "fleshblock_fleshgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

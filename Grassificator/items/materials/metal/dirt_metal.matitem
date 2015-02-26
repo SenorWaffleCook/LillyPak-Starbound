@@ -1,0 +1,12 @@
+{
+  "itemName" : "dirt_metal",
+  "rarity" : "Common",
+  "inventoryIcon" : "dirt_metal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Dirty looking dirt coated in metal.",
+  "shortdescription" : "Metal Coated Dirt Block",
+  "glitchDescription" : "Statement. Dirt. Clarification. Dirt coated in metal.",
+  "floranDescription" : "Filthy dirt! With metal!",
+
+  "materialId" : 20436
+}

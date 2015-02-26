@@ -1,0 +1,25 @@
+{
+  "materialId" : 20442,
+  "materialName" : "dirt_savannahgrass",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "dirt_savannahgrass",
+  "description" : "Dirty looking dirt with Savannah Grass.",
+  "shortdescription" : "Savannah Grass on Dirt",
+  "glitchDescription" : "Statement. Dirt. Clarification. Dirt with Savannah Grass.",
+  "floranDescription" : "Filthy dirt!",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 2.3,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "dirt_savannahgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

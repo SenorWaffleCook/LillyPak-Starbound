@@ -1,0 +1,12 @@
+{
+  "itemName" : "drysand_grass",
+  "rarity" : "Common",
+  "inventoryIcon" : "drysand_grass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Hard, cracked sand that shatters underfoot. Grass is growing on it.",
+  "shortdescription" : "Grass on Dry Sand",
+  "glitchDescription" : "Statement. Sand. Observation. Grass is growing on it.",
+  "floranDescription" : "Sssandy sand. With Grassss!",
+
+  "materialId" : 20429
+}

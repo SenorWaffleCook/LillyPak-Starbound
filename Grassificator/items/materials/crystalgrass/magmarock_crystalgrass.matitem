@@ -1,0 +1,12 @@
+{
+  "itemName" : "magmarock_crystalgrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "magmarock_crystalgrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Magmarock. Hot stuff. It's Covered in Crystals.",
+  "shortdescription" : "Crystal Covered Magmarock",
+  "glitchDescription" : "Statement. Magmarock.",
+  "floranDescription" : "Cryssstaly Burny rock. Hisssss.",
+
+  "materialId" : 20421
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 20419,
+  "materialName" : "cobblestone_crystalgrass",
+  "particleColor" : [149, 149, 149, 255],
+  "itemDrop" : "cobblestone_crystalgrass",
+  "shortdescription" : "Crystal Covered Cobblestone",
+  "description" : "Hard stones, smooth to the touch. Covered in Crystals.",
+  "glitchDescription" : "Statement. Cobblestones. Observation. They're Covered in Crystals.",
+  "floranDescription" : "Cryssstaly Cobblessstone.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
+  "health" : 8,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "cobblestone_crystalgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

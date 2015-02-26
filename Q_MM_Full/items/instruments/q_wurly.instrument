@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_wurly",
+  "inventoryIcon" : "q_wurly_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "It's a Wurlitzer electric piano!",
+  "shortdescription" : "Wurly",
+  "largeImage" : "q_wurly.png",
+  "image" : "q_wurly.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_wurly.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_wurly"
+}

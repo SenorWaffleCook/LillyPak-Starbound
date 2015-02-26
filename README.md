@@ -28,7 +28,10 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  21. [Kineptic Race Mod](http://forums.playstarbound.com/index.php?resources/2264/) - by Quilavabom1
  22. [Madtulips's Spaceship Mod](http://community.playstarbound.com/index.php?resources/59/) - by Madtulip
  23. [Force Gates](http://forums.playstarbound.com/index.php?resources/1406/) - by penguinToast
- 23. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+ 24. [CopyGun](http://forums.playstarbound.com/index.php?resources/2418/) - by helloLateNight
+ 25. [Grassification Station](http://forums.playstarbound.com/index.php?resources/2296/) - by Markelius
+ 26. [Mighty Music](http://forums.playstarbound.com/index.php?resources/1266/) - by Quatroking
+ 27. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
 
 ----------
 

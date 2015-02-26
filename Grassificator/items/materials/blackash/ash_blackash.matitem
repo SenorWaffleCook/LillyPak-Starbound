@@ -1,0 +1,12 @@
+{
+  "itemName" : "ash_blackash",
+  "rarity" : "Common",
+  "inventoryIcon" : "ash_blackash.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ash packed tight into a solid block. Covered in black ash.",
+  "shortdescription" : "Black Ash Covered Ash Block",
+  "glitchDescription" : "Curious. A block of ash. Observation, it's covered in black ash.",
+  "floranDescription" : "Burny block. Covered in black asshhh!",
+
+  "materialId" : 20408
+}

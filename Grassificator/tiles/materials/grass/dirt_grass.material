@@ -1,0 +1,25 @@
+{
+  "materialId" : 20427,
+  "materialName" : "dirt_grass",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "dirt_grass",
+  "description" : "Dirty looking dirt. Grass is growing on it.",
+  "shortdescription" : "Grass on Dirt",
+  "glitchDescription" : "Statement. Dirt. Clarification. Dirt with Grass on it.",
+  "floranDescription" : "Filthy dirt! With Grassss!",
+  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 2.3,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "dirt_grass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

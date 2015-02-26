@@ -1,0 +1,12 @@
+{
+  "itemName" : "tar_targunked",
+  "rarity" : "Common",
+  "inventoryIcon" : "tar_targunked.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Thick, rancid tar, covered in more tar. It reminds me of my mothers home-made jello.",
+  "shortdescription" : "Tar Gunked Tar",
+  "glitchDescription" : "Statement. Tar gunked tar as thick as a Hylotl's cooking.",
+  "floranDescription" : "Ssstew? Tar gunked tar.",
+
+  "materialId" : 20447
+}

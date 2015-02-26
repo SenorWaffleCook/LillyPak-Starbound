@@ -1,0 +1,56 @@
+{
+  "objectName" : "plant_charredgrass",
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "An untrimmed Grass Plant. Good for harvesting seeds.",
+  "shortdescription" : "Grass Plant - Charred",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 84,
+
+  "apexDescription" : "The MiniKnog would never let grass grow to this height.",
+  "avianDescription" : "The Plains of Avos are much like these plants.",
+  "floranDescription" : "Floran hide in Grasss, hunt prey.",
+  "glitchDescription" : "Perplexed. Organics never let their grass grow this high.",
+  "humanDescription" : "Grass! Far too tall for a lawn.",
+  "hylotlDescription" : "There is no use for grass underwater.",
+
+  "inventoryIcon" : "plant_charredgrassicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plant_charredgrass.png:<color>.<stage>.<alt>",
+	  "direction" : "right",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    },
+	{
+      "dualImage" : "plant_charredgrass.png:<color>.<stage>.<alt>",
+	  "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+	  "alts" : 5,
+      "duration" : [55, 65]
+    },
+    {
+	  "alts" : 5,
+      "duration" : [55, 65]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "GrassCharredHarvest",
+	  "resetToStage" : 0
+    }
+  ]
+}

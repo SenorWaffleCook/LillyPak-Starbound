@@ -1,0 +1,23 @@
+{
+  "materialId" : 20423,
+  "materialName" : "moonstone_crystalgrass",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "moonstone_crystalgrass",
+  "description" : "Beautiful, smooth, Crystal covered moonstone.",
+  "shortdescription" : "Crystal Covered Moonstone",
+  "glitchDescription" : "Statement. Moonstone. Observation. It's covered in Crystals.",
+  "floranDescription" : "Ssshiny Cryssstaly stone.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
+  "health" : 6,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "moonstone_crystalgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

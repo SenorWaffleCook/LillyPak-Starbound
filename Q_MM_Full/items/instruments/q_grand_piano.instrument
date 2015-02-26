@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_grand_piano",
+  "inventoryIcon" : "q_grand_piano_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Play grand!",
+  "shortdescription" : "Grand Piano",
+  "largeImage" : "q_grand_piano.png",
+  "image" : "q_grand_piano.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_grand_piano.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_grand_piano"
+}

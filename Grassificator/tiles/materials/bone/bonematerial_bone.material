@@ -1,0 +1,23 @@
+{
+  "materialId" : 20413,
+  "materialName" : "bonematerial_bone",
+  "particleColor" : [231, 223, 189, 255],
+  "itemDrop" : "bonematerial_bone",
+  "description" : "Polished bone made into a building material. Covered in more Bones.",
+  "shortdescription" : "Bone Covered Bone Block",
+  "glitchDescription" : "Analysis. This bone came from a huge creature. Observation. It's covered in more bones.",
+  "floranDescription" : "Bonesss! Ssso many!",
+  "footstepSound" : "/sfx/blocks/footstep_bone.wav",
+  "health" : 15.0,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "bonematerial_bone.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

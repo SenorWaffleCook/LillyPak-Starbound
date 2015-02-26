@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fleshblock", "count" : 10 },
+	{ "item" : "sample_heckgrass", "count" : 1}
+  ],
+  "output" : { "item" : "fleshblock_heckgrass", "count" : 10 },
+  "groups" : [ "grassstation", "slimegrass" ]
+}

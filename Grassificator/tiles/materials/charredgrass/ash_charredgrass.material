@@ -1,0 +1,25 @@
+{
+  "materialId" : 20416,
+  "materialName" : "ash_charredgrass",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "ash_charredgrass",
+  "description" : "Ash packed tight into a solid block. It's covered in a layer of Charred Grass",
+  "shortdescription" : "Charred Grass on Ash",
+  "glitchDescription" : "Curious. A block of ash. Clarification. It's covered in Charred Grass",
+  "floranDescription" : "Burny block. With Charred Grassss!",
+  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1.0,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "ash_charredgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

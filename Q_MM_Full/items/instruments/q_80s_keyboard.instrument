@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_80s_keyboard",
+  "inventoryIcon" : "q_80s_keyboard_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A keyboard with a real 80's vibe.",
+  "shortdescription" : "80's Keyboard",
+  "largeImage" : "q_80s_keyboard.png",
+  "image" : "q_80s_keyboard.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_80s_keyboard.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_80s_keyboard"
+}

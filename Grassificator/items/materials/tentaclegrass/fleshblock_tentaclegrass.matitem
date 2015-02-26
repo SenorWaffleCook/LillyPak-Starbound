@@ -1,0 +1,12 @@
+{
+  "itemName" : "fleshblock_tentaclegrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "fleshblock_tentaclegrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A hideous, foul-smelling block made of some kind of flesh. It's coated in Tentacle Grass.",
+  "shortdescription" : "Tentacle Grass Coated Flesh Block",
+  "glitchDescription" : "Disgust. A Tentacle Grass coated block made of flesh.",
+  "floranDescription" : "Sssquishy meat block coated in Tentacle Grassss.",
+
+  "materialId" : 20450
+}

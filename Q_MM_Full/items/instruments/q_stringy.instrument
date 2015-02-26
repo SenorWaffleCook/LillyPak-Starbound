@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_stringy",
+  "inventoryIcon" : "q_stringy_icon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "It's almost as if there are other players!",
+  "shortdescription" : "Stringy",
+  "largeImage" : "q_stringy.png",
+  "image" : "q_stringy.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_stringy.png",
+  "activeAngle" : -2,
+  "activeHandPosition" : [0.4, 0.2],
+
+  "handPosition" : [0.4, 0.2],
+  "twoHanded" : true,
+  "kind" : "q_stringy"
+}

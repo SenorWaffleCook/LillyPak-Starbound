@@ -1,0 +1,23 @@
+{
+  "materialId" : 20402,
+  "materialName" : "drysand_aridgrass",
+  "particleColor" : [224, 189, 147, 255],
+  "itemDrop" : "drysand_aridgrass",
+  "description" : "Hard, cracked sand that shatters underfoot. Arid Grass is growing on it.",
+  "shortdescription" : "Arid Grass on Dry Sand",
+  "glitchDescription" : "Statement. Sand. Observation. Arid Grass is growing on it.",
+  "floranDescription" : "Sssandy sand. With Arid Grassss.",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "health" : 2,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "drysand_aridgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "ash_metal",
+  "rarity" : "Common",
+  "inventoryIcon" : "ash_metal.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ash packed tight into a solid block, coated in metal.",
+  "shortdescription" : "Metal Coated Ash Block",
+  "glitchDescription" : "Curious. A block of ash. Observation. It's coated in metal.",
+  "floranDescription" : "Burny block. With Metal!",
+
+  "materialId" : 20435
+}

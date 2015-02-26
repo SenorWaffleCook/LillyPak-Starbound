@@ -1,0 +1,7 @@
+{
+  "itemName" : "seed_grass",
+  "rarity" : "Common",
+  "inventoryIcon" : "seed_grass.png",
+  "description" : "Seeds for growing Grass.",
+  "shortdescription" : "Grass Seeds"
+}

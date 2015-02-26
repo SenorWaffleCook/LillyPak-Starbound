@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : {
+    "item" : "q_chemical_clarinet",
+    "count" : 1
+  },
+  "groups" : [ "mod", "q_mm" ]
+}

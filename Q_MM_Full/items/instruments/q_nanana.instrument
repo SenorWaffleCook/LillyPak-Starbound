@@ -1,0 +1,19 @@
+{
+  "itemName" : "q_nanana",
+  "inventoryIcon" : "q_nanana.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Oh my god my voice!",
+  "shortdescription" : "Nanana-o-phone",
+  "largeImage" : "q_nanana.png",
+  "image" : "q_nanana.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "q_nanana.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "q_nanana"
+}
