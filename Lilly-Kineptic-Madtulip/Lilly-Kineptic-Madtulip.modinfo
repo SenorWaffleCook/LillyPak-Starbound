@@ -1,0 +1,7 @@
+{
+	"name" : "Lilly-Kineptic-Madtulip",
+	"version" : "Upbeat Giraffe",
+	"path" : ".",
+	"dependencies" : [ "Kineptic", "madtulip" ],
+	"modauthor": "thakyZ"
+}

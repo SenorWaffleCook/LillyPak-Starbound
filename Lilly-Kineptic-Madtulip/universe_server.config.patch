@@ -1,12 +1,3 @@
 [
-		// Kineptic
-			{"op":"replace","path":"/speciesShips/kineptic/0","value":"/ships/kineptic/madtulip_kineptic_ship_T0.structure"},
-			{"op":"replace","path":"/speciesShips/kineptic/1","value":"/ships/kineptic/madtulip_kineptic_ship_T1.structure"},
-			{"op":"replace","path":"/speciesShips/kineptic/2","value":"/ships/kineptic/madtulip_kineptic_ship_T2.structure"},
-			{"op":"replace","path":"/speciesShips/kineptic/3","value":"/ships/kineptic/madtulip_kineptic_ship_T3.structure"},
-			{"op":"replace","path":"/speciesShips/kineptic/4","value":"/ships/kineptic/madtulip_kineptic_ship_T3.structure"},
-			{"op":"replace","path":"/speciesShips/kineptic/5","value":"/ships/kineptic/madtulip_kineptic_ship_T3.structure"},
-			{"op":"replace","path":"/speciesShips/kineptic/6","value":"/ships/kineptic/madtulip_kineptic_ship_T3.structure"},
-			{"op":"replace","path":"/speciesShips/kineptic/7","value":"/ships/kineptic/madtulip_kineptic_ship_T3.structure"},
-			{"op":"replace","path":"/speciesShips/kineptic/8","value":"/ships/kineptic/madtulip_kineptic_ship_T3.structure"},
+	{"op":"add","path":"/speciesShips/kineptic","value":["/ships/kineptic/madtulip_kineptic_ship_T0.structure","/ships/kineptic/madtulip_kineptic_ship_T1.structure","/ships/kineptic/madtulip_kineptic_ship_T2.structure","/ships/kineptic/madtulip_kineptic_ship_T3.structure","/ships/kineptic/madtulip_kineptic_ship_T3.structure","/ships/kineptic/madtulip_kineptic_ship_T3.structure","/ships/kineptic/madtulip_kineptic_ship_T3.structure","/ships/kineptic/madtulip_kineptic_ship_T3.structure","/ships/kineptic/madtulip_kineptic_ship_T3.structure"]}
 ]
