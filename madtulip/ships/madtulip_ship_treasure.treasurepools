@@ -90,5 +90,23 @@
         {"item" : [ "novastarter", 1]}
       ]
     }]
-  ]
+  ],
+  
+  "madtulip_kinepticStarterTreasure": [
+			[0,
+				{
+					"fill":
+					[
+						{ "pool": "madtulip_starterTreasure" },
+						{ "item": [ "madtulip_TS_avian_1", 15 ] },
+						{ "item": "kinepticlight" },
+						{ "item": "kineptictier0pulse" },
+						{ "item": [ "crystalplantseed", 3 ] },
+						{ "item": [ "kinepticfishtank", 3 ] },
+						{ "item": [ "sugarcaneseed", 3 ] },
+						{ "item": "flashlight" }
+					]
+				}
+			]
+		]
 }
