@@ -90,7 +90,7 @@
         {"item" : [ "novastarter", 1]}
       ]
     }]
-  ],
+  ]/*,
 
   "madtulip_kinepticStarterTreasure" : [
     [0, {
@@ -104,4 +104,5 @@
 		{"item" : [ "sugarcaneseed", 3 ]}
       ]
     }]]
+	*/
 }
