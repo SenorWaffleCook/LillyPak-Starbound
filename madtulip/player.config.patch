@@ -94,6 +94,7 @@
 
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_shipnavigationconsole"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_shipstation"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_researchstation"}},
 		
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_vent"}},
 		

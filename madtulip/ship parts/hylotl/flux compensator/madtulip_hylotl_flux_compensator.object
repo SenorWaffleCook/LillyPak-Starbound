@@ -12,7 +12,7 @@
   "orientations" : [
     {
       "dualImage" : "madtulip_hylotl_top_flux_compensator.png:<color>.<frame>",
-      "imagePosition" : [-25,-8],
+      "imagePosition" : [-14,-8],
       "frames" : 1,
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,
@@ -20,7 +20,7 @@
     },
     {
       "dualImage" : "madtulip_hylotl_bottom_flux_compensator.png:<color>.<frame>",
-      "imagePosition" : [-25,-11],
+      "imagePosition" : [-14,-1],
       "frames" : 1,
       "animationCycle" : 1.0,
       "spaceScan" : 0.1,

@@ -1,0 +1,12 @@
+{
+  "itemName" : "madtulip_UL_large_fins",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "madtulip_UL_large_fins_icon.png",
+  "image" : "madtulip_UL_large_fins_icon.png",
+
+  "shortdescription" : "^orange;Blueprints: Large Spaceship Fins^white;",
+  "description" : "^orange;Blueprints: Large Spaceship Fins^white;",
+
+  "tierRecipesUnlock" : "madtulip_UL_large_fins",
+  "unlockMessage" : "You can now produce ^orange;Large Spaceship Fins^white;!"
+}
