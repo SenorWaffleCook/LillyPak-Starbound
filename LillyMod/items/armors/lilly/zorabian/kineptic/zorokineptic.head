@@ -1,6 +1,6 @@
 {
-	"itemName": "zoroakineptichead",
-	"inventoryIcon": "icons.png:chest",
+	"itemName": "zorokineptichead",
+	"inventoryIcon": "icons.png:head",
 	"dropCollision": [-4.0, -3.0, 4.0, 3.0],
 	"maxStack": 1,
 	"rarity": "Legendary",
