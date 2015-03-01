@@ -24,7 +24,7 @@
   "particleEmitter" : {
     "emissionRate" : 0.4,
     "emissionVariance" : 0.5,
-    "pixelOrigin" : [-35, 0],
+    "pixelOrigin" : [-30, 0],
 
     "particle" : {
       "type" : "ember",
@@ -47,26 +47,26 @@
   "inventoryIcon" : "madtulip_hylotl_ftl_thruster_icon.png",
   "orientations" : [
     {
-      "image" : "madtulip_hylotl_ftl_thruster.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_hylotl_ftl_thruster.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_hylotl_ftl_thruster_lit.png:<color>.<frame>" } ] ,
       "imagePosition" : [-118, -39],
       "frames" : 4,
       "animationCycle" : 1.0,
-	  "fullbright" : true,
+      "lightPosition" : [0, 0],
 
-      "spaces" : [ [-4, 2],[-4, 1],[-4, 0],[-4, -1],[-4, -2],[-4, -1],[-3, 2], [-3, 1], [-3, 0], [-3, -1], [-3, -2], [-3, -3], [-2, 2], [-2, 1], [-2, 0], [-2, -1], [-2, -2], [-2, -3], [-1, 2], [-1, 1], [-1, 0], [-1, -1], [-1, -2], [-1, -3], [0, 2], [0, 1], [0, 0], [0, -1], [0, -2], [0, -3],[0, -4],[0, -5] ],
+      "spaceScan" : 0.3,
       "anchors" : [ "right" ]
     }
   ],
 
   "engineOnOrientations" : [
     {
-      "image" : "ship parts/hylotl/ftl thruster/madtulip_hylotl_ftl_thruster_on.png:<color>.<frame>",
-      "imagePosition" : [-118, -39],
+      "imageLayers" : [ { "image": "madtulip_hylotl_ftl_thruster_on.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_hylotl_ftl_thruster_on_lit.png:<color>.<frame>" } ] ,
+      "imagePosition" : [-119, -32],
       "frames" : 3,
       "animationCycle" : 0.3,
-	  "fullbright" : true,
+      "lightPosition" : [0, 0],
 
-      "spaces" : [ [-4, 2],[-4, 1],[-4, 0],[-4, -1],[-4, -2],[-4, -1],[-3, 2], [-3, 1], [-3, 0], [-3, -1], [-3, -2], [-3, -3], [-2, 2], [-2, 1], [-2, 0], [-2, -1], [-2, -2], [-2, -3], [-1, 2], [-1, 1], [-1, 0], [-1, -1], [-1, -2], [-1, -3], [0, 2], [0, 1], [0, 0], [0, -1], [0, -2], [0, -3],[0, -4],[0, -5] ],
+      "spaceScan" : 0.3,
       "anchors" : [ "right" ]
     }
   ],
