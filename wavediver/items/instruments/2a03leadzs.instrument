@@ -1,0 +1,18 @@
+{
+  "itemName" : "2a03leadzs",
+  "inventoryIcon" : "2a03leadzs.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "An old-school synth lead, based on a prehistoric, human video game console. This one reminds me of a certain game...",
+  "shortdescription" : "WaveDiver 2A03 Zelda Square",
+  "largeImage" : "2a03leadzs.png",
+  "image" : "2a03leadzs.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "2a03leadzs.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "2a03leadzs"
+}

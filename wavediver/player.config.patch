@@ -1,0 +1,18 @@
+[
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "2a03lead" }},
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "2a03bass" }},
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "2a03drums" }},
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "2a03leadzs" }},
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "dynotar" }},
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "pauline_cl" }},
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "pizz" }},
+	{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", 
+	"value" : { "item" : "stringray" }}
+]
