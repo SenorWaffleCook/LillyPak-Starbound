@@ -1,0 +1,36 @@
+{
+	"itemName": "zoroakinepticpants",
+	"inventoryIcon": "icons.png:chest",
+	"dropCollision": [-4.0, -3.0, 4.0, 3.0],
+	"maxStack": 1,
+	"rarity": "Legendary",
+	"description": "Discover how truly deep your energy reserves are.",
+	"shortdescription": "Zorcanian Anklet",
+	"tooltipKind": "armor",
+	"maleFrames" : "pants.png",
+	"femaleFrames" : "pants.png",
+	"statusEffects":
+	[
+		{
+			"stat": "protection",
+			"amount": 70
+		},
+		{
+			"stat": "maxEnergy",
+			"amount": 180
+		},
+		{
+			"stat": "maxHealth",
+			"amount": 60
+		}
+	],
+	"colorOptions":
+	[
+		{
+			"ffca8a": "BCA1FF",
+			"e0975c": "8B5DFF",
+			"a85636": "7B47FF",
+			"6f2919": "4600F8"
+		}
+	]
+}

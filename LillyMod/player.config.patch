@@ -1,27 +1,3 @@
 [
-	{
-		"op": "add",
-		"path": "/defaultBlueprints/tier1/-",
-		"value": { "item": "zorcanbar" }
-	},
-	{
-		"op": "add",
-		"path": "/defaultBlueprints/tier1/-",
-		"value": { "item": "zorochest" }
-	},
-	{
-		"op": "add",
-		"path": "/defaultBlueprints/tier1/-",
-		"value": { "item": "zorohead" }
-	},
-	{
-		"op": "add",
-		"path": "/defaultBlueprints/tier1/-",
-		"value": { "item": "zoropants" }
-	},
-	{
-		"op": "add",
-		"path": "/defaultBlueprints/tier1/-",
-		"value": { "item": "tzexcalibur" }
-	}
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "healthpod" } }
 ]
