@@ -1,0 +1,18 @@
+{
+  "itemName" : "pizz",
+  "inventoryIcon" : "pizzicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Your average pizzicato.",
+  "shortdescription" : "WaveDiver Pizz",
+  "largeImage" : "pizz.png",
+  "image" : "pizz.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "pizz.png",
+  "activeAngle" : -2,
+  "activeHandPosition" : [0.4, 0.2],
+  "handPosition" : [0.4, 0.2],
+  "twoHanded" : true,
+  "kind" : "pizz"
+}

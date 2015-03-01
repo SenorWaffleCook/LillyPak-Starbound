@@ -1,0 +1,18 @@
+{
+  "itemName" : "2a03drums",
+  "inventoryIcon" : "2a03drums.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "An old-school synth drum kit, based on a prehistoric, human video game console.",
+  "shortdescription" : "WaveDiver 2A03 Drum Kit",
+  "largeImage" : "2a03drums.png",
+  "image" : "2a03drums.png",
+  "inspectionKind" : "tool",
+  "activeImage" : "2a03drums.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "2a03drums"
+}

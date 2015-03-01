@@ -1,0 +1,10 @@
+{
+    "name" : "WaveDiver Luthier",
+    "version" : "Beta v. Upbeat Giraffe",
+    "path" : ".",
+  "dependencies" : [],
+	"metadata": {
+		"author" : "Alex WaveDiver",
+		"description" : "Luthier is a comprehensive pack of musical instruments, which will be updated and will grow over the time."
+	}
+}
