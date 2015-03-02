@@ -1,0 +1,12 @@
+[
+{
+"op": "replace",
+"path": "/shortdescription",
+"value": "Mossy Packed Dirt"
+},
+{
+"op": "replace",
+"path": "/inventoryIcon",
+"value": "mossypackeddirticon.png"
+}
+]

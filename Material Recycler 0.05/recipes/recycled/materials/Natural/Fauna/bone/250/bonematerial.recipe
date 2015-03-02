@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "bonematerial", "count" : 250 }],
-	"output" : { "item" : "bone", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

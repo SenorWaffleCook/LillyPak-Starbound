@@ -1,0 +1,22 @@
+{
+  "materialId" : 40024,
+  "materialName" : "avali_tech_TS1",
+  "particleColor" : [194, 194, 194, 255],
+  "itemDrop" : "avali_tech_TS1",
+  "shortdescription" : "Avali Tech Tileset",
+  "description" : "Avali Tech Tileset",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "drawBackground" : true,
+  "health" : 4,
+  "category": "materials",
+
+  "renderTemplate" : "/tilesets/madtulip_tileset.config",
+  "renderParameters" : {
+    "texture" : "avali_tech_TS1.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 10
+  }
+}

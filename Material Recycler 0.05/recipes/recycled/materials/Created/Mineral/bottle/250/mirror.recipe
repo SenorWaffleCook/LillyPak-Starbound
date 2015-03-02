@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "mirror", "count" : 250 }],
-	"output" : { "item" : "bottle", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

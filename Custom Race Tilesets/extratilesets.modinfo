@@ -1,0 +1,10 @@
+{
+  "name" : "extra_tilesets",
+  "path" : ".",
+  "metadata": {
+    "displayName" : "Avali Tilesets Mod",
+    "author" : "EvilSid",
+    "description" : "From the new dev for the madtulip spaceship mod comes in more suppport for custom races",
+	"version" : "Rev. 100"
+  }
+}

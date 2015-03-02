@@ -31,7 +31,8 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  24. [CopyGun](http://forums.playstarbound.com/index.php?resources/2418/) - by helloLateNight
  25. [Grassification Station](http://forums.playstarbound.com/index.php?resources/2296/) - by Markelius
  26. [Mighty Music](http://forums.playstarbound.com/index.php?resources/1266/) - by Quatroking
- 27. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+ 27. [Custom Race Tilesets](#) - by TheSidofEvil
+ 28. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
 
 ----------
 

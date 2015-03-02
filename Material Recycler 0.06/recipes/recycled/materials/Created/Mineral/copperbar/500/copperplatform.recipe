@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "copperplatform", "count" : 500 }],
+	"output" : { "item" : "copperbar", "count" : 1 },
+	"groups" : [ "recycled", "mineral", "created" ]
+}

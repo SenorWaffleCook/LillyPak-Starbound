@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "reedblock", "count" : 500 }],
-	"output" : { "item" : "reed", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

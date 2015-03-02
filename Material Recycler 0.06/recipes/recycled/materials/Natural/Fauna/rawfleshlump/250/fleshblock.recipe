@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "fleshblock", "count" : 250 }],
+	"output" : { "item" : "rawfleshlump", "count" : 1 },
+	"groups" : [ "recycled", "fauna", "natural" ]
+}

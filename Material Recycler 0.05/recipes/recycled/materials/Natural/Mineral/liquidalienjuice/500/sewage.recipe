@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "sewage", "count" : 500 }],
-	"output" : { "item" : "liquidalienjuice", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

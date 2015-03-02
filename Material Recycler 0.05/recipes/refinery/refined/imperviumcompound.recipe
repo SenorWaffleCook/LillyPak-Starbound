@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "imperviumcompound", "count" : 1 }
-  ],
-  "output" : { "item" : "money", "count" : 800 },
-  "groups" : [ "refinery" ]
-}

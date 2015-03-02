@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "aztectech", "count" : 125 }],
-	"output" : { "item" : "steelbar", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

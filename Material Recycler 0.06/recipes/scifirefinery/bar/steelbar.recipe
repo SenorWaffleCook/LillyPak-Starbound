@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "steelbar", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 50 },
+  "groups" : [ "scifirefinery", "bar" ]
+}

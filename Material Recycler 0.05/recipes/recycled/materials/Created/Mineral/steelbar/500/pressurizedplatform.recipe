@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "pressurizedplatform", "count" : 500 }],
-	"output" : { "item" : "steelbar", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

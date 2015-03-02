@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "junktech", "count" : 250 }],
+	"output" : { "item" : "copperbar", "count" : 1 },
+	"groups" : [ "recycled", "mineral", "created" ]
+}

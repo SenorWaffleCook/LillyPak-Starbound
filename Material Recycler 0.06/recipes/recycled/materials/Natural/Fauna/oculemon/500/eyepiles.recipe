@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "eyepiles", "count" : 500 }],
+	"output" : { "item" : "oculemon", "count" : 1 },
+	"groups" : [ "recycled", "fauna", "natural" ]
+}

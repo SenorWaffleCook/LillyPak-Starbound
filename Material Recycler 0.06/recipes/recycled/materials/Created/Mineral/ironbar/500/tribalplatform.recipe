@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "tribalplatform", "count" : 500 }],
+	"output" : { "item" : "ironbar", "count" : 1 },
+	"groups" : [ "recycled", "mineral", "created" ]
+}

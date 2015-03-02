@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "ancientplatform", "count" : 500 }],
-	"output" : { "item" : "platinumbar", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

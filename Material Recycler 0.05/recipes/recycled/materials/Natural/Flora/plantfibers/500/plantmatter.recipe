@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "plantmatter", "count" : 500 }],
-	"output" : { "item" : "plantfibre", "count" : 1 },
-	"groups" : [ "recycled" ]
-}
