@@ -7,7 +7,7 @@
 *.gif
 *.apng
 *.agif
-[Tt]humbs.db
-[Dd]esktop.ini
+*/[Tt]humbs.db
+*/[Dd]esktop.ini
 *.bat
 .DS_Store
