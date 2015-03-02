@@ -5,19 +5,17 @@
   "itemDrop" : "campcanvas",
   "description" : "Avali tent fabric can stop bullets!",
   "shortdescription" : "Tent Fabric",
-  "glitchDescription" : "Avali tent fabric can stop bullets!",
-  "floranDescription" : "Avali tent fabric can stop bullets!",
   "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "drawBackground" : true,
+  "category": "decorations",
   "health" : 1.0,
-  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "campcanvas.png",
     "variants" : 1,
-    "lightTransparent" : false,
+    "occludesBelow" : false,
     "multiColored" : true,
-    "occludesBelow" : true,
-    "zLevel" : 0
+    "zLevel" : 10
   }
 }

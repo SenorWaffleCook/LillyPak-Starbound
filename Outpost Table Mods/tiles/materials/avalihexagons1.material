@@ -4,20 +4,18 @@
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "avalihexagons1",
   "description" : "It's like a glitch beehive!",
-  "shortdescription" : "Ancient Brick",
-  "glitchDescription" : "It's like a glitch beehive!",
-  "floranDescription" : "It's like a glitch beehive!",
+  "shortdescription" : "Dark Metal Hexagons",
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "drawBackground" : true,
+  "category": "decorations",
   "health" : 1.0,
-  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "avalihexagons1.png",
     "variants" : 1,
-    "lightTransparent" : false,
-    "multiColored" : true,
-    "occludesBelow" : true,
-    "zLevel" : 0
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 10
   }
 }

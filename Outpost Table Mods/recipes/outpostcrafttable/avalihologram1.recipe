@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "avalihologram1", "count" : 20 },
+  "groups" : [ "outpostcrafttable", "materials", "other", "all" ]
+}

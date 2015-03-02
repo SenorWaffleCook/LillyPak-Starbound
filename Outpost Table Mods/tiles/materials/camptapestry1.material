@@ -2,22 +2,20 @@
   "materialId" : 12003,
   "materialName" : "camptapestry1",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "camptapestry1",
-  "description" : "A soft, decorative tapestry.",
+  "itemDrop" : "camptapestry1",  
+  "description" : "A soft, decorative tapestry",
   "shortdescription" : "Avali Tapestry",
-  "glitchDescription" : "A soft, decorative tapestry.",
-  "floranDescription" : "A soft, decorative tapestry.",
   "footstepSound" : "/sfx/blocks/footstep_sand.wav",
-  "health" : 1.0,
-  "category": "materials",
+  "drawBackground" : true,
+  "category": "decorations",
+  "health" : 1,
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "camptapestry1.png",
     "variants" : 5,
-    "lightTransparent" : false,
+    "occludesBelow" : false,
     "multiColored" : true,
-    "occludesBelow" : true,
-    "zLevel" : 0
+    "zLevel" : 10
   }
 }

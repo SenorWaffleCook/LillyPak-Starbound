@@ -5,19 +5,17 @@
   "itemDrop" : "avalidisplay",
   "description" : "An LED display works away quietly.",
   "shortdescription" : "LED Display",
-  "glitchDescription" : "An LED display works away quietly.",
-  "floranDescription" : "An LED display works away quietly.",
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "drawBackground" : true,
+  "category": "decorations",
   "health" : 1.0,
-  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "avalidisplay.png",
     "variants" : 5,
-    "lightTransparent" : false,
+    "occludesBelow" : false,
     "multiColored" : true,
-    "occludesBelow" : true,
-    "zLevel" : 0
+    "zLevel" : 10
   }
 }

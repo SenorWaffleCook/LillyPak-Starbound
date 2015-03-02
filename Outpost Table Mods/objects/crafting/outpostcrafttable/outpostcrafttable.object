@@ -31,7 +31,7 @@
   "inventoryIcon" : "outpostcrafttableicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "outpostcrafttable.png:<color>.<frame>", "fullbright" : true }, { "image" : "outposttablelit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "outpostcrafttable.png:<color>.<frame>", "fullbright" : true }, { "image" : "outpostcrafttablelit.png:<color>.<frame>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 20,

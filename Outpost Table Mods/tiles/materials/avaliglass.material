@@ -5,19 +5,18 @@
   "itemDrop" : "avaliglass",
   "description" : "An LED display works away quietly.",
   "shortdescription" : "LED Display",
-  "glitchDescription" : "An LED display works away quietly.",
-  "floranDescription" : "An LED display works away quietly.",
   "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "drawBackground" : true,
+  "category": "decorations",
   "health" : 1.0,
-  "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "avaliglass.png",
     "variants" : 1,
-    "lightTransparent" : false,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
-    "occludesBelow" : true,
-    "zLevel" : 0
+    "zLevel" : 10
   }
 }
