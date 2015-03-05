@@ -23,7 +23,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  16. [Perennial Crops](http://forums.playstarbound.com/index.php?resources/2403/) - by Toyi85
  17. [Creative Mode](http://forums.playstarbound.com/index.php?resources/614/) - by aMannus
  18. [Katana Pack](http://forums.playstarbound.com/index.php?resources/2464/) - by tforoforp
- 19. [Admin Sheild Generator](http://forums.playstarbound.com/index.php?resources/2462/) - by Cactuar
+ 19. [Admin Shield Generator](http://forums.playstarbound.com/index.php?resources/2462/) - by Cactuar
  20. [Illuminated Ores](http://forums.playstarbound.com/index.php?resources/2429/) - by Amadox
  21. [Kineptic Race Mod](http://forums.playstarbound.com/index.php?resources/2264/) - by Quilavabom1
  22. [Madtulips's Spaceship Mod](http://community.playstarbound.com/index.php?resources/59/) - by Madtulip
@@ -33,6 +33,36 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  26. [Mighty Music](http://forums.playstarbound.com/index.php?resources/1266/) - by Quatroking
  27. [Custom Race Tilesets](#) - by TheSidofEvil
  28. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+
+Have obtained permission for mods:
+ - [ ] Industrialization 3
+ - [ ] Lightdrones Continued
+ - [ ] Shadow-Casting Lights
+ - [ ] Retr0's Reduced Spawn Cost
+ - [ ] ODB2 Character Creation Mod
+ - [ ] Archer's Synthesizers
+ - [x] Paint Tool Hotfix
+ - [ ] Human ship diamant Impervium (Averking) UG
+ - [x] Material Recycler
+ - [ ] Wire Overhaul
+ - [ ] Enhanced Storage
+ - [ ] Other races actually Recognize Novakids
+ - [ ] Hylotl Stuff
+ - [ ] Novakid+ respawn
+ - [x] Wired Padlocks
+ - [ ] Perennial Crops
+ - [ ] Creative Mode
+ - [ ] Katana Pack
+ - [ ] Admin Shield
+ - [ ] Illuminated Ores
+ - [x] Kineptic Race Mod
+ - [ ] Madtulip's Spaceship Mod
+ - [ ] Force Gates
+ - [ ] Copy Gun
+ - [x] Grassification Station
+ - [ ] Mighty Music
+ - [ ] Custom Race Tilesets
+ - [ ] Lilly Co. Mods
 
 ----------
 
