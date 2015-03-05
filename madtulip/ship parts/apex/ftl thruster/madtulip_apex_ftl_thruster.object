@@ -14,7 +14,6 @@
   "humanDescription" : "This thing eats through fuel.",
   "hylotlDescription" : "Propulsion.",
 
-  "category" : "light",
   "lightColor" : [59, 183, 255],
   "pointLight" : true,
   "flickerDistance" : 0.2,
