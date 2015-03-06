@@ -35,34 +35,34 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  28. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
 
 Have obtained permission for mods:
- - [ ] Industrialization 3
- - [ ] Lightdrones Continued
- - [ ] Shadow-Casting Lights
- - [ ] Retr0's Reduced Spawn Cost
+ - [x] Industrialization 3
+ - [x] Lightdrones Continued
+ - [x] Shadow-Casting Lights
+ - [x] Retr0's Reduced Spawn Cost
  - [ ] ODB2 Character Creation Mod
  - [ ] Archer's Synthesizers
  - [x] Paint Tool Hotfix
- - [ ] Human ship diamant Impervium (Averking) UG
+ - [x] Human ship diamant Impervium (Averking) UG
  - [x] Material Recycler
  - [ ] Wire Overhaul
- - [ ] Enhanced Storage
- - [ ] Other races actually Recognize Novakids
- - [ ] Hylotl Stuff
+ - [x] Enhanced Storage
+ - [x] Other races actually Recognize Novakids
+ - [x] Hylotl Stuff
  - [ ] Novakid+ respawn
  - [x] Wired Padlocks
- - [ ] Perennial Crops
- - [ ] Creative Mode
+ - [x] Perennial Crops
+ - [x] Creative Mode
  - [ ] Katana Pack
  - [ ] Admin Shield
  - [ ] Illuminated Ores
  - [x] Kineptic Race Mod
- - [ ] Madtulip's Spaceship Mod
+ - [x] Madtulip's Spaceship Mod
  - [ ] Force Gates
  - [ ] Copy Gun
  - [x] Grassification Station
- - [ ] Mighty Music
- - [ ] Custom Race Tilesets
- - [ ] Lilly Co. Mods
+ - [x] Mighty Music
+ - [x] Custom Race Tilesets
+ - [x] Lilly Co. Mods
 
 ----------
 
