@@ -16,7 +16,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  9. [Material Recycler](http://forums.playstarbound.com/index.php?resources/2585/) - by eLe
  10. [Wire Overhaul](http://forums.playstarbound.com/index.php?resources/2547/) - by Zkaface
  11. [Enhanced Storage](http://forums.playstarbound.com/index.php?resources/2450/) - by NeoVanAlemania
- 12. [Other Races Actually Recognize Novakids](http://forums.playstarbound.com/index.php?resources/2452/) - by L. F. Oxidizer
+ 12. [Novakid Speech Lines](http://forums.playstarbound.com/index.php?resources/2452/) - by L. F. Oxidizer
  13. [Hylotl Stuff](http://forums.playstarbound.com/index.php?resources/2281/) - by AlexDyre
  14. [Novakid+ Respawn](http://forums.playstarbound.com/index.php?resources/2522/) - by Ninjatre
  15. [Wired Padlocks](http://forums.playstarbound.com/index.php?resources/2517/) - by servedskullz
