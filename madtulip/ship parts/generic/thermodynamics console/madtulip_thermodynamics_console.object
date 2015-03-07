@@ -11,7 +11,7 @@
   "inventoryIcon" : "madtulip_thermodynamics_console_icon.png",
   "orientations" : [
     {
-      "dualImage" : "madtulip_thermodynamics_console.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_thermodynamics_console.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_thermodynamics_console_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-30, -16],
       "frames" : 8,
       "animationCycle" : 1.0,

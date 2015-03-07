@@ -11,7 +11,7 @@
   "inventoryIcon" : "madtulip_avian_heat_absorber_icon.png",
   "orientations" : [
     {
-      "dualImage" : "madtulip_avian_top_heat_absorber.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_avian_top_heat_absorber.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_avian_top_heat_absorber_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-30,-8],
       "frames" : 1,
       "animationCycle" : 1.0,
@@ -19,7 +19,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "dualImage" : "madtulip_avian_bottom_heat_absorber.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_avian_bottom_heat_absorber.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_avian_bottom_heat_absorber_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-30,-11],
       "frames" : 1,
       "animationCycle" : 1.0,

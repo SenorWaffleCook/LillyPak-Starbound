@@ -21,9 +21,10 @@
 
   "inventoryIcon" : "madtulip_analysisscreen_icon.png",
   
+  
   "orientations" : [
     {
-      "image" : "madtulip_analysisscreen.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_analysisscreen.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_analysisscreen_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 40,
       "animationCycle" : 4,
@@ -35,7 +36,7 @@
   
   "engineOnOrientations" : [
     {
-      "image" : "/ship parts/generic/analysisscreen/madtulip_analysisscreenjump.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_analysisscreenjump.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_analysisscreenjump_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 4,
       "animationCycle" : 0.4,

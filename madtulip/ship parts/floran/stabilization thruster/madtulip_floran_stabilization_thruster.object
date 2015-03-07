@@ -47,7 +47,7 @@
   "inventoryIcon" : "madtulip_floran_stabilization_thruster_icon.png",
   "orientations" : [
     {
-      "image" : "madtulip_floran_stabilization_thruster.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_floran_stabilization_thruster.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_floran_stabilization_thruster_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-32, -12],
       "frames" : 3,
       "animationCycle" : 0.4,
@@ -60,7 +60,7 @@
 
   "engineOnOrientations" : [
     {
-      "image" : "ship parts/floran/stabilization thruster/madtulip_floran_stabilization_thruster_on.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_floran_stabilization_thruster_on.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_floran_stabilization_thruster_on_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-32, -12],
       "frames" : 3,
       "animationCycle" : 0.3,

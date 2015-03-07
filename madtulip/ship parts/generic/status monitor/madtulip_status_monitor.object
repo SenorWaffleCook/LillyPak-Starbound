@@ -24,9 +24,13 @@
 	"animation" : "madtulip_status_monitor.animation",
 	"animationParts" : {
 		"O2_is_ok" : "madtulip_status_monitor_green.png",
+		"O2_is_ok_lit" : "madtulip_status_monitor_green_lit.png",
 		"O2_is_bad" : "madtulip_status_monitor_red.png",
+		"O2_is_bad_lit" : "madtulip_status_monitor_red_lit.png",
 		"O2_no_vent_found" : "madtulip_status_monitor_yellow.png",
-		"O2_is_not_used" : "madtulip_status_monitor_offline.png"
+		"O2_no_vent_found_lit" : "madtulip_status_monitor_yellow_lit.png",
+		"O2_is_not_used" : "madtulip_status_monitor_offline.png",
+		"O2_is_not_used_lit" : "madtulip_status_monitor_offline.png"
 	},
 	"animationPosition" : [-16, -8],
 

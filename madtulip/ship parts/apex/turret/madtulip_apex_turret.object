@@ -11,7 +11,7 @@
   "inventoryIcon" : "madtulip_apex_turret_icon.png",
   "orientations" : [
     {
-      "dualImage" : "madtulip_apex_top_turret.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_apex_top_turret.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_apex_top_turret_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-30,-8],
       "frames" : 1,
       "animationCycle" : 1,
@@ -19,7 +19,7 @@
       "anchors" : [ "bottom" ]
     },
 	{
-      "dualImage" : "madtulip_apex_bottom_turret.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_apex_bottom_turret.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_apex_bottom_turret_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-30,-10],
       "frames" : 1,
       "animationCycle" : 1,

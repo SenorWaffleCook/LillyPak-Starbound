@@ -3,9 +3,6 @@
   "rarity" : "Common",
   "category" : "light",
   "lightColor" : [230, 230, 230],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 1,
   "unlit" : true,
   "description" : "A light.",
   "shortdescription" : "Ship Light",
@@ -23,7 +20,7 @@
   "inventoryIcon" : "madtulip_shiplight_icon.png",
   "orientations" : [
     {
-      "image" : "madtulip_shiplight.png:<frame>",
+      "imageLayers" : [ { "image": "madtulip_shiplight.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_shiplight_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "animationCycle" : 0.5,
 
