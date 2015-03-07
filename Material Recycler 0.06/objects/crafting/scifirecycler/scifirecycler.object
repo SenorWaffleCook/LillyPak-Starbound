@@ -1,0 +1,58 @@
+{
+  "objectName" : "scifirecycler",
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/scifirecycler.config",
+    "filter" : [ "scifirecycler", "recycled" ]
+  },
+  "printable" : false,
+  "description" : "An advanced way of recycling materials into ore.",
+  "shortdescription" : "^orange;Advanced Recycler^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "apexDescription" : "I can recycle extra materials into ore here.",
+  "avianDescription" : "Making ore out of material. Useful.",
+  "floranDescription" : "Machine sssmash rocks, make ssshiny rocks.",
+  "glitchDescription" : "Statement. Material can be converted into ore here.",
+  "humanDescription" : "It turns dirt into gold! Sort of!",
+  "hylotlDescription" : "A device which allows me to convert extra material into ore.",
+
+  "lightColor" : [89, 119, 179],
+
+  "flickerPeriod" : 0.9,
+  "flickerMinIntensity" : 0.75,
+  "flickerMaxIntensity" : 0.8,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "inventoryIcon" : "scifirecyclericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "scifirecycler.png:<color>.<frame>", "fullbright" : true } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.75,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "scifirecycler.png:<color>.<frame>", "fullbright" : true } ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.75,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

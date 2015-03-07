@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "testpipe", "count" : 250 }],
-	"output" : { "item" : "ironbar", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "candyblock", "count" : 250 }],
+	"output" : { "item" : "holidayspirit", "count" : 1 },
+	"groups" : [ "recycled", "mineral", "created" ]
+}

@@ -1,0 +1,5 @@
+[
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"avali_glass_TS1"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"avali_glass_TS2"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"avali_tech_TS1"}}
+]

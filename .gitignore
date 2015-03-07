@@ -7,7 +7,9 @@
 *.gif
 *.apng
 *.agif
-[Tt]humbs.db
-[Dd]esktop.ini
 *.bat
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 .DS_Store
+$RECYCLE.BIN/

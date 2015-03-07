@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "silverblock", "count" : 250 }],
-	"output" : { "item" : "silverbar", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

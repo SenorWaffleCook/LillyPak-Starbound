@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "supermatter", "count" : 250 }],
-	"output" : { "item" : "liquidfuel", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

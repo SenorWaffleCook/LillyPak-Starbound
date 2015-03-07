@@ -23,7 +23,7 @@
   
   "orientations" : [
     {
-      "image" : "madtulip_starprojector.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_starprojector.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_starprojector_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-28, -32],
       "frames" : 4,
       "animationCycle" : 0.8,

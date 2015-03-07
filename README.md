@@ -16,14 +16,14 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  9. [Material Recycler](http://forums.playstarbound.com/index.php?resources/2585/) - by eLe
  10. [Wire Overhaul](http://forums.playstarbound.com/index.php?resources/2547/) - by Zkaface
  11. [Enhanced Storage](http://forums.playstarbound.com/index.php?resources/2450/) - by NeoVanAlemania
- 12. [Other Races Actually Recognize Novakids](http://forums.playstarbound.com/index.php?resources/2452/) - by L. F. Oxidizer
+ 12. [Novakid Speech Lines](http://forums.playstarbound.com/index.php?resources/2452/) - by L. F. Oxidizer
  13. [Hylotl Stuff](http://forums.playstarbound.com/index.php?resources/2281/) - by AlexDyre
  14. [Novakid+ Respawn](http://forums.playstarbound.com/index.php?resources/2522/) - by Ninjatre
  15. [Wired Padlocks](http://forums.playstarbound.com/index.php?resources/2517/) - by servedskullz
  16. [Perennial Crops](http://forums.playstarbound.com/index.php?resources/2403/) - by Toyi85
  17. [Creative Mode](http://forums.playstarbound.com/index.php?resources/614/) - by aMannus
  18. [Katana Pack](http://forums.playstarbound.com/index.php?resources/2464/) - by tforoforp
- 19. [Admin Sheild Generator](http://forums.playstarbound.com/index.php?resources/2462/) - by Cactuar
+ 19. [Admin Shield Generator](http://forums.playstarbound.com/index.php?resources/2462/) - by Cactuar
  20. [Illuminated Ores](http://forums.playstarbound.com/index.php?resources/2429/) - by Amadox
  21. [Kineptic Race Mod](http://forums.playstarbound.com/index.php?resources/2264/) - by Quilavabom1
  22. [Madtulips's Spaceship Mod](http://community.playstarbound.com/index.php?resources/59/) - by Madtulip
@@ -31,7 +31,38 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  24. [CopyGun](http://forums.playstarbound.com/index.php?resources/2418/) - by helloLateNight
  25. [Grassification Station](http://forums.playstarbound.com/index.php?resources/2296/) - by Markelius
  26. [Mighty Music](http://forums.playstarbound.com/index.php?resources/1266/) - by Quatroking
- 27. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+ 27. [Custom Race Tilesets](#) - by TheSidofEvil
+ 28. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+
+Have obtained permission for mods:
+ - [x] Industrialization 3
+ - [x] Lightdrones Continued
+ - [x] Shadow-Casting Lights
+ - [x] Retr0's Reduced Spawn Cost
+ - [ ] ODB2 Character Creation Mod
+ - [ ] Archer's Synthesizers
+ - [x] Paint Tool Hotfix
+ - [x] Human ship diamant Impervium (Averking) UG
+ - [x] Material Recycler
+ - [ ] Wire Overhaul
+ - [x] Enhanced Storage
+ - [x] Other races actually Recognize Novakids
+ - [x] Hylotl Stuff
+ - [ ] Novakid+ respawn
+ - [x] Wired Padlocks
+ - [x] Perennial Crops
+ - [x] Creative Mode
+ - [ ] Katana Pack
+ - [ ] Admin Shield
+ - [ ] Illuminated Ores
+ - [x] Kineptic Race Mod
+ - [x] Madtulip's Spaceship Mod
+ - [ ] Force Gates
+ - [ ] Copy Gun
+ - [x] Grassification Station
+ - [x] Mighty Music
+ - [x] Custom Race Tilesets
+ - [x] Lilly Co. Mods
 
 ----------
 

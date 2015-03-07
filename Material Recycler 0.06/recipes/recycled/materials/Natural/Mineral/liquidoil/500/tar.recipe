@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "tar", "count" : 500 }],
+	"output" : { "item" : "liquidoil", "count" : 1 },
+	"groups" : [ "recycled", "mineral", "natural" ]
+}

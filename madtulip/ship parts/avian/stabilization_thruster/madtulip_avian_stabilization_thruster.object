@@ -47,7 +47,7 @@
   "inventoryIcon" : "madtulip_avian_stabilization_thruster_icon.png",
   "orientations" : [
     {
-      "image" : "madtulip_avian_bottom_stabilization_thruster.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_avian_bottom_stabilization_thruster.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_avian_bottom_stabilization_thruster_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-17, -11],
       "frames" : 3,
       "animationCycle" : 0.4,
@@ -60,7 +60,7 @@
 
   "engineOnOrientations" : [
     {
-      "image" : "ship parts/avian/stabilization_thruster/madtulip_avian_bottom_stabilization_thruster_on.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_avian_bottom_stabilization_thruster_on.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_avian_bottom_stabilization_thruster_on_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-17, -11],
       "frames" : 3,
       "animationCycle" : 0.3,

@@ -11,7 +11,7 @@
   "inventoryIcon" : "madtulip_human_medium_fin_icon.png",
   "orientations" : [
     {
-      "dualImage" : "madtulip_human_medium_top_fin.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_human_medium_top_fin.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_human_medium_top_fin_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-66,-32],
       "frames" : 8,
       "animationCycle" : 1,
@@ -19,7 +19,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "dualImage" : "madtulip_human_medium_bottom_fin.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_human_medium_bottom_fin.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_human_medium_bottom_fin_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-66,-37],
       "frames" : 8,
       "animationCycle" : 1,

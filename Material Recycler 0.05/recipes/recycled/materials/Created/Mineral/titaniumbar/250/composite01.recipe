@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "composite01material", "count" : 250 }],
-	"output" : { "item" : "titaniumbar", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

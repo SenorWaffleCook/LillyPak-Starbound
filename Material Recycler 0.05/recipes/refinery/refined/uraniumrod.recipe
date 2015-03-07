@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "uraniumrod", "count" : 1 }
-  ],
-  "output" : { "item" : "money", "count" : 140 },
-  "groups" : [ "refinery" ]
-}

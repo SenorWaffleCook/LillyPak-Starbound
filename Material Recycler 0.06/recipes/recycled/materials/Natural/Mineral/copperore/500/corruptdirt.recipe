@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "corruptdirtmaterial", "count" : 500 }],
+	"output" : { "item" : "copperore", "count" : 1 },
+	"groups" : [ "recycled", "mineral", "natural" ]
+}

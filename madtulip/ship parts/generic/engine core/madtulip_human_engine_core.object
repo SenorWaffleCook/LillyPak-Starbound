@@ -11,7 +11,7 @@
   "inventoryIcon" : "madtulip_human_engine_core_icon.png",
   "orientations" : [
     {
-      "dualImage" : "madtulip_human_engine_core.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_human_engine_core.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_human_engine_core_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-29,-24],
       "frames" : 11,
       "animationCycle" : 1,

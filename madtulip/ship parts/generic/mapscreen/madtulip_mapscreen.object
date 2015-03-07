@@ -24,7 +24,7 @@
   
   "orientations" : [
     {
-      "image" : "madtulip_mapscreen.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_mapscreen.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_mapscreen_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -16],
       "frames" : 16,
       "animationCycle" : 1.6,
@@ -37,7 +37,7 @@
   
   "engineOnOrientations" : [
     {
-      "image" : "/ship parts/generic/mapscreen/madtulip_mapscreenjump.png:<color>.<frame>",
+      "imageLayers" : [ { "image": "madtulip_mapscreenjump.png:<color>.<frame>", "fullbright": true }, { "image": "madtulip_mapscreenjump_lit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -16],
       "frames" : 5,
       "animationCycle" : 0.4,

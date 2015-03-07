@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "cheapwallpaper", "count" : 250 }],
+	"output" : { "item" : "paper", "count" : 1 },
+	"groups" : [ "recycled", "flora", "created" ]
+}

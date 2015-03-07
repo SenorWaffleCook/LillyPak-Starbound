@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "hive", "count" : 125 }],
-	"output" : { "item" : "rawfleshlump", "count" : 1 },
-	"groups" : [ "recycled" ]
-}

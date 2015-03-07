@@ -42,6 +42,35 @@
             "normal_operation" : {
               "properties" : {
                 "image" : "<partImage>:default.<frame>",
+				"direction" : "left",
+                "fullbright" : true
+              }
+            },
+            "breach" : {
+              "properties" : {
+              }
+            },
+            "offline" : {
+              "properties" : {
+              }
+            },
+            "no_vent" : {
+              "properties" : {
+              }
+            }
+          }
+        }
+      },
+      "O2_is_ok_lit" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "DisplayState" : {
+            "normal_operation" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
 				"direction" : "left"
               }
             },
@@ -63,6 +92,36 @@
       "O2_is_bad" : {
         "properties" : {
           "centered" : false
+        },
+        "partStates" : {
+          "DisplayState" : {
+            "normal_operation" : {
+              "properties" : {
+
+              }
+            },
+            "breach" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
+				"direction" : "left",
+                "fullbright" : true
+              }
+            },
+            "offline" : {
+              "properties" : {
+              }
+            },
+            "no_vent" : {
+              "properties" : {
+              }
+            }
+          }
+        }
+      },
+      "O2_is_bad_lit" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
         },
         "partStates" : {
           "DisplayState" : {
@@ -104,7 +163,36 @@
             },
             "offline" : {
               "properties" : {
-				"image" : "<partImage>:default.<frame>",
+                "image" : "<partImage>:default.<frame>",
+				"direction" : "left",
+                "fullbright" : true
+              }
+            },
+            "no_vent" : {
+              "properties" : {
+              }
+            }
+          }
+        }
+      },
+      "O2_is_not_used_lit" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "DisplayState" : {
+            "normal_operation" : {
+              "properties" : {
+              }
+            },
+            "breach" : {
+              "properties" : {
+              }
+            },
+            "offline" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
 				"direction" : "left"
               }
             },
@@ -135,7 +223,36 @@
             },
             "no_vent" : {
               "properties" : {
-				"image" : "<partImage>:default.<frame>",
+                "image" : "<partImage>:default.<frame>",
+				"direction" : "left",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      },
+      "O2_no_vent_found_lit" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "DisplayState" : {
+            "normal_operation" : {
+              "properties" : {
+              }
+            },
+            "breach" : {
+              "properties" : {
+              }
+            },
+            "offline" : {
+              "properties" : {
+              }
+            },
+            "no_vent" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>",
 				"direction" : "left"
               }
             }
