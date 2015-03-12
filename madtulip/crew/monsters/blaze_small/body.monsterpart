@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "madtulip_blaze_small",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "madtulip_blaze_small.png"
+  }
+}

@@ -38,10 +38,6 @@
   "madtulip_spawn_projectile_intervall_time" : 1, //[s]  
   // maximum numbre of particles to spawn each madtulip_spawn_projectile_intervall_time
   "madtulip_maximum_particle_fountains_per_spawn" : 20, //#
-  // number of blocks in all directions to test for breach or enclosed room
-  // [1]: in the 1st run (small but fast)
-  // [2]: in the 2nd run (if 1st run didnt find breach or fully closed room (large room possible, but slow)
-  "madtulip_scan_stage_ranges" : [50,250],
   
   // This projectile applies the is_under_life_support status effect
   "projectileOptions" : {

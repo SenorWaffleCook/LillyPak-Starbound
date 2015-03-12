@@ -1,0 +1,12 @@
+{
+  "itemName" : "madtulip_UL_stabilization_thrusters",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "madtulip_UL_stabilization_thrusters_icon.png",
+  "image" : "madtulip_UL_stabilization_thrusters_icon.png",
+
+  "shortdescription" : "^orange;Blueprints: Stabilization Thrusters^white;",
+  "description" : "^orange;Blueprints: Stabilization Thrusters^white;",
+
+  "tierRecipesUnlock" : "madtulip_UL_stabilization_thrusters",
+  "unlockMessage" : "You can now produce ^orange;Stabilization Thrusters^white;!"
+}

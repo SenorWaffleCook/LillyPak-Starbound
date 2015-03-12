@@ -1,0 +1,7 @@
+{
+  "itemName" : "madtulip_deckhand_demotion",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "madtulip_deckhand_demotion.png",
+  "description" : "Demotes a crew member to Deckhand!",
+  "shortdescription" : "Deckhand Demotion"
+}

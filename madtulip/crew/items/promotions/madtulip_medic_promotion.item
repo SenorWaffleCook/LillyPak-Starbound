@@ -1,0 +1,7 @@
+{
+  "itemName" : "madtulip_medic_promotion",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "madtulip_medic_promotion.png",
+  "description" : "Promotes a crew member to Medic!",
+  "shortdescription" : "Medic Promotion"
+}

@@ -1,0 +1,35 @@
+{
+	"objectName" : "madtulip_crew_spawner",
+	"rarity" : "Common",
+	"description" : "Spawns ship crew",
+	"shortdescription" : "Crew in a Box",
+
+	"race" : "generic",
+	"category" : "wire",
+	"price" : 1,
+	"printable" : false,
+	
+	"inventoryIcon" : "madtulip_crew_spawner.png",
+	"orientations" : [
+		{
+			"dualImage" : "madtulip_crew_spawner.png:<color>.<frame>",
+			"imagePosition" : [1,0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+
+	"animation" : "madtulip_crew_spawner.animation",
+	"animationParts" : {
+		"normal_operation_image" : "/crew/objects/crew_spawner/madtulip_crew_spawner.png"
+	},
+	"animationPosition" : [1, 0],
+
+	"scripts" : [
+		"/lua/madtulip_is_shipworld.lua",
+		"madtulip_crew_spawner.lua"
+	],
+	"scriptDelta" : 5
+}
