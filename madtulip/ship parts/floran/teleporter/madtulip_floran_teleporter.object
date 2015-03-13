@@ -4,7 +4,6 @@
   "description" : "Trusty teleporter, what would I do without you? Of floran design.",
   "shortdescription" : "Floran Teleporter",
   "race" : "floran",
-  "objectType" : "loungeable",
 
   "apexDescription" : "Teleporting feels like riding a rollercoaster at the speed of light.",
   "avianDescription" : "Teleporting feels like flying.",

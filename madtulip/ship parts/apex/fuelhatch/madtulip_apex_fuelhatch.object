@@ -4,7 +4,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "Accepts a bunch of different kinds of fuel.",
-  "shortdescription" : "Fuel Hatch",
+  "shortdescription" : "Apex Fuel Hatch",
   "race" : "apex",
   "price" : 1000,
   "lightColor" : [61, 88, 102],

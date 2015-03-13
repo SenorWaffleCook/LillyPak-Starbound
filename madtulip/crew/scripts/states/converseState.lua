@@ -18,8 +18,8 @@ function converseState.update(dt, stateData)
   local sourcePosition = world.entityPosition(stateData.sourceId)
   if sourcePosition == nil then return true end
 
-  local toSource = world.distance(sourcePosition, entity.position())
-  setFacingDirection(toSource[1])
+  local toSource = world.distance(sourcePosition, mcontroller.position())
+  controlFace(toSource[1])
 
   stateData.timer = stateData.timer - dt
   return stateData.timer <= 0

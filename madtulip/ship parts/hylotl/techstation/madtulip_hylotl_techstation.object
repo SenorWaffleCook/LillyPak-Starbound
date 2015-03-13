@@ -7,7 +7,7 @@
   "price" : 2500,
 
   "description" : "This tech station allows me to communicate with S.A.I.L and enable tech!",
-  "shortdescription" : "Tech Station",
+  "shortdescription" : "Hylotl Tech Station",
   "race" : "hylotl",
   "lightColor" : [67, 102, 61],
 

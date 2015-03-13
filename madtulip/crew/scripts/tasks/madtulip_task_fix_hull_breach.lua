@@ -58,7 +58,7 @@ function madtulip_task_fix_hull_breach.main_Task(Task)
 	-- find minimal distance to any breach in cluster
 	local min_distance = math.huge
 	for cur_breach = 1,Task.Var.Breach_Cluster.size,1 do
-		local cur_distance = world.magnitude(world.distance(entity.position(),Task.Var.Breach_Cluster.Cluster[cur_breach]))
+		local cur_distance = world.magnitude(world.distance(mcontroller.position(),Task.Var.Breach_Cluster.Cluster[cur_breach]))
 		if cur_distance < min_distance then min_distance = cur_distance end
 	end
 

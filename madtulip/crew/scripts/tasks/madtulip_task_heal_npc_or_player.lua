@@ -7,7 +7,7 @@ function madtulip_Task_Heal_NPC_or_Player.spot_Task()
 	local Tasks_size = 0
 	
 	-- find damaged players
-	for idx, PlayerId in pairs(world.playerQuery(entity.position(), radius)) do
+	for idx, PlayerId in pairs(world.playerQuery(mcontroller.position(), radius)) do
 		local Player_health = world.entityHealth(PlayerId)
 		-- health smaller 95% of max health
 		if (Player_health[1] < 0.95* Player_health[2]) then
@@ -37,7 +37,7 @@ function madtulip_Task_Heal_NPC_or_Player.spot_Task()
 	end
 
 	-- find damaged NPCs
-	for idx, NPCId in pairs(world.npcQuery(entity.position(), radius)) do
+	for idx, NPCId in pairs(world.npcQuery(mcontroller.position(), radius)) do
 		local NPC_health = world.entityHealth(NPCId)
 		-- health smaller 95% of max health
 		if (NPC_health[1] < 0.95* NPC_health[2]) then
@@ -102,7 +102,7 @@ function madtulip_Task_Heal_NPC_or_Player.main_Task(Task,dt)
 	-- check if target health smaller 95% of its max health
 	if not madtulip_Task_Heal_NPC_or_Player.Task_is_fullfilled(Task) then
 	
-		local own_position = entity.position()
+		local own_position = mcontroller.position()
 		local target_position = world.entityPosition (Task.Header.Target_ID)
 		local distance = world.magnitude(world.distance(own_position,target_position))
 
@@ -235,7 +235,13 @@ end
 
 function madtulip_Task_Heal_NPC_or_Player.Task_is_fullfilled(Task)
 	local cur_health = world.entityHealth(Task.Header.Target_ID)
-	if (cur_health[1] < 0.95* cur_health[2]) then return false else return true end
+	-- if (cur_health[1] < 0.95* cur_health[2]) then return false else return true end
+	if targetHealth ~= nil then
+		return (cur_health[1] < 0.95* cur_health[2])
+	else
+		world.logInfo("/crew/scripts/tasks/madtulip_task_heal_npc_or_player.lua : Waning: Task.Header.Target_ID health is nil. Target_ID obsolete ???")
+		return true
+	end
 end
 
 function madtulip_Task_Heal_NPC_or_Player.ROI_State_ended()

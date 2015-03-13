@@ -9,7 +9,7 @@
   "lightPosition" : [-1, 0],
 
   "description" : "This tech station allows me to communicate with S.A.I.L and enable tech!",
-  "shortdescription" : "Tech Station",
+  "shortdescription" : "Novakid Tech Station",
   "race" : "novakid",
 
   "apexDescription" : "A tech station. I can enable tech and talk to S.A.I.L through this.",

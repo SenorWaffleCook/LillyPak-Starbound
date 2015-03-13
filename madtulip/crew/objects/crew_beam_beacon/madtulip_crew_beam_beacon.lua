@@ -35,7 +35,7 @@ end
 function die()
 --[[
 	if Done_printing == false then
-		world.spawnItem("madtulip_crew_beam_beacon", entity.position(), 1, blueprint.toConfigTable())
+		world.spawnItem("madtulip_crew_beam_beacon", mcontroller.position(), 1, blueprint.toConfigTable())
 		entity.smash()
 	end
 ]]

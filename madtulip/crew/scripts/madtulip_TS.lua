@@ -408,7 +408,7 @@ function madtulip_TS.Broadcast_Tasks(New_Tasks)
 		-- Tell all NPCs in the area that can receive it the good news (or maybe bad ones also :p)
 -- TODO: instead of doing this in a radius we should do this with NPCs in sight only.
 		local radius = entity.configParameter("madtulipTS.broadcast_range", nil)
-		world.npcQuery(entity.position(), radius, {withoutEntityId = entity.id(),callScript = "madtulip_TS.Offer_Tasks", callScriptArgs = {New_Tasks}})
+		world.npcQuery(mcontroller.position(), radius, {withoutEntityId = entity.id(),callScript = "madtulip_TS.Offer_Tasks", callScriptArgs = {New_Tasks}})
 end
 
 function madtulip_TS.Offer_Tasks(Offered_Tasks)

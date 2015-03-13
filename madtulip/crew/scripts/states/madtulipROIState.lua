@@ -79,7 +79,7 @@ function madtulipROIState.update(dt, stateData)
 			ROI_Anchor_Position = madtulipROIState.Inputargs.Anchor
 		else
 			-- we are just wandering around looking busy
-			ROI_Anchor_Position = madtulipROIState.set_wandering_ROI_Anchor_around(entity.position())
+			ROI_Anchor_Position = madtulipROIState.set_wandering_ROI_Anchor_around(mcontroller.position())
 			if (ROI_Anchor_Position == nil) then
 				if (madtulipROIState.Inputargs.State_End_Callback ~= nil) then
 					madtulipROIState.Inputargs.State_End_Callback()
@@ -187,7 +187,7 @@ function madtulipROIState.update(dt, stateData)
 		else
 			-- move
 			--world.logInfo("Moveing to Target X: " .. madtulipROIState.Movement.Target[1] .. " Y: " .. madtulipROIState.Movement.Target[2])
-			local toTarget = world.distance(madtulipROIState.Movement.Target, entity.position())
+			local toTarget = world.distance(madtulipROIState.Movement.Target, mcontroller.position())
 			if world.magnitude(toTarget) < madtulipROIState.Movement.Min_XY_Dist_required_to_reach_target and
 			   math.abs(toTarget[1]) < madtulipROIState.Movement.Min_X_Dist_required_to_reach_target then
 					-- target reached
@@ -345,10 +345,10 @@ function madtulipROIState.start_chats_on_the_way()
 		if chatDistance ~= nil then
 			if madtulipROIState.Movement.Target ~= nil then
 			-- determine if we walk right or left
-			local toTarget = world.distance({entity.position()[1],0},{madtulipROIState.Movement.Target[1],0})
+			local toTarget = world.distance({mcontroller.position()[1],0},{madtulipROIState.Movement.Target[1],0})
 			local direction = nil
 			if (toTarget[1] > 0) then direction = 1 else direction = -1 end
-				if chatState.initiateChat(entity.position(), vec2.add({ chatDistance * direction, 0 }, entity.position())) then
+				if chatState.initiateChat(mcontroller.position(), vec2.add({ chatDistance * direction, 0 }, mcontroller.position())) then
 					if (madtulipROIState.Inputargs.State_End_Callback ~= nil) then
 						madtulipROIState.Inputargs.State_End_Callback()
 					end
@@ -366,13 +366,13 @@ function madtulipROIState.close_doors_behind_you()
 	if close_doors_behind_range ~= nil then
 		if madtulipROIState.Movement.Target ~= nil then
 			-- determine if we walk right or left
-			local toTarget = world.distance({entity.position()[1],0},{madtulipROIState.Movement.Target[1],0})
+			local toTarget = world.distance({mcontroller.position()[1],0},{madtulipROIState.Movement.Target[1],0})
 			local direction = nil
 			if (toTarget[1] > 0) then direction = 1 else direction = -1 end
 			
 			-- determine range behind us to search for doors to close
 			local ray = {}
-			local position = entity.position();
+			local position = mcontroller.position();
 			ray [1] = close_doors_behind_range[1] * direction + position[1] + close_doors_behind_offset[1]
 			ray [2] = position[2] + close_doors_behind_offset[2]
 			ray [3] = close_doors_behind_range[2] * direction + position[1] + close_doors_behind_offset[1]

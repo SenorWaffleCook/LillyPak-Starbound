@@ -6,7 +6,7 @@
 
   "category" : "storage",
   "description" : "Store some stuff, why don't you?",
-  "shortdescription" : "Ship locker",
+  "shortdescription" : "Human Ship locker",
   "race" : "human",
   "lightColor" : [61, 88, 102],
 

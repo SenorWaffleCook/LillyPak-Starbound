@@ -4,7 +4,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "Accepts a bunch of different kinds of fuel. Of Floran design.",
-  "shortdescription" : "Fuel Hatch",
+  "shortdescription" : "Floran Fuel Hatch",
   "race" : "floran",
   "price" : 1000,
   "lightColor" : [99, 61, 102],

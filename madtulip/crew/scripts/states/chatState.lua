@@ -2,21 +2,15 @@
 chatState = {}
 
 function chatState.initiateChat(startPoint, endPoint)
-  local chatTargetIds = world.npcLineQuery(startPoint, endPoint)
-  if #chatTargetIds > 1 then
-    local selfId = entity.id()
-    local targetId
-    if chatTargetIds[1] == selfId then
-      targetId = chatTargetIds[2]
-    else
-      targetId = chatTargetIds[1]
-    end
+  local chatTargetIds = world.entityLineQuery(startPoint, endPoint, {includedTypes = {"npc"}, withoutEntityId = entity.id()})
+  if #chatTargetIds > 0 then
+    targetId = chatTargetIds[1]
 
     local conversation = entity.randomizeParameter("chat.conversations")
 
     local distance = world.magnitude(world.distance(startPoint, endPoint))
     if sendNotification("chat", { targetId = targetId, conversation = conversation }, distance) then
-      self.state.pickState({ chatPartnerId = targetId, chatConversation = conversation })
+      self.state.pickState({ chatPartnerId = targetId, chatConversation = conversation  })
       return true
     end
   end
@@ -24,11 +18,12 @@ end
 
 function chatState.enterWith(event)
   local partnerId = event.chatPartnerId
+  local targetPosition = event.targetPosition
   local conversation = event.chatConversation
   local conversationEntryIndex = 0
 
   -- no chatting while on a task
-  if madtulip_TS.Has_A_Task() then return nil end
+  if madtulip_TS.Has_A_Task() then return nil end  
   
   if partnerId == nil then
     if event.notification == nil or
@@ -39,6 +34,7 @@ function chatState.enterWith(event)
     end
 
     partnerId = event.notification.sourceEntityId
+    targetPosition = event.notification.args.targetPosition
     conversation = event.notification.args.conversation
     conversationEntryIndex = 1
   end
@@ -46,6 +42,7 @@ function chatState.enterWith(event)
   return {
     partnerId = partnerId,
     timer = 0,
+    targetPosition = targetPosition,
     conversation = conversation,
     conversationIndex = 1,
     conversationEntryIndex = conversationEntryIndex
@@ -54,19 +51,30 @@ end
 
 function chatState.update(dt, stateData)
   local partnerPosition = world.entityPosition(stateData.partnerId)
-  if partnerPosition == nil then return true end
+  local partnerState = world.callScriptedEntity(stateData.partnerId, "self.state.stateDesc")
+  if partnerPosition == nil or partnerState ~= "chatState" or not entity.entityInSight(stateData.partnerId) then return true end
 
-  local toPartner = world.distance(partnerPosition, entity.position())
+  local position = mcontroller.position()
+  local toPartner = world.distance(partnerPosition, position)
   local direction = util.toDirection(toPartner[1])
-
   local distance = world.magnitude(toPartner)
+
   local distanceRange = entity.configParameter("chat.distanceRange")
-  if distance < distanceRange[1] then
-    move({ -direction, 0 }, dt)
+
+  if math.abs(toPartner[2]) > distanceRange[1] + 1 then
+    if not moveTo(partnerPosition, dt) then
+      return true
+    end
   elseif distance > distanceRange[2] then
-    move( { direction, 0 }, dt)
+    if not move(toPartner[1], dt) then
+      return true
+    end
+  elseif distance < distanceRange[1] then
+    if not move(-toPartner[1], dt) then
+      return true
+    end
   else
-    setFacingDirection(direction)
+    controlFace(direction)
 
     stateData.timer = stateData.timer - dt
     if stateData.timer <= 0 then

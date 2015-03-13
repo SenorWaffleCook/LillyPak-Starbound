@@ -41,7 +41,7 @@ function update(dt)
   util.trackTarget(30.0, 10.0)
 
   if self.targetPosition ~= nil then
-    entity.setFireDirection({0,0}, world.distance(self.targetPosition, entity.position()))
+    entity.setFireDirection({0,0}, world.distance(self.targetPosition, mcontroller.position()))
     entity.startFiring("plasmabullet")
   else
     entity.stopFiring()

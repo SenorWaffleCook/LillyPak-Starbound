@@ -6,7 +6,7 @@
 
   "category" : "storage",
   "description" : "Store some stuff, why don't you?",
-  "shortdescription" : "Ship locker",
+  "shortdescription" : "Novakid Ship locker",
   "race" : "novakid",
   "lightColor" : [61, 88, 102],
 

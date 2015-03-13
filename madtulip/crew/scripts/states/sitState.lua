@@ -4,11 +4,12 @@ function sitState.enter()
   if not isTimeFor("sit.timeOfDayRanges") then
     return nil, entity.configParameter("sit.cooldown")
   end
+
   -- onyl change by madtulip in this vanilla file:
   -- randomize the order the states are beeing executed in
   self.state.shuffleStates()
   -- onyl change by madtulip in this vanilla file END
-
+  
   local chairId = sitState.findChair()
   if chairId == nil then
     return nil, entity.configParameter("sit.cooldown")
@@ -34,7 +35,7 @@ function sitState.update(dt, stateData)
       targetPosition[2] = targetPosition[2] + 1.0
     end
 
-    local position = entity.position()
+    local position = mcontroller.position()
 
     local toTarget = world.distance(targetPosition, position)
     if world.magnitude(toTarget) < entity.configParameter("sit.sitRadius") and not world.lineCollision(position, targetPosition, true) then
@@ -44,8 +45,10 @@ function sitState.update(dt, stateData)
       if stateData.moveTimer < 0 then
         return true, entity.configParameter("sit.cooldown")
       end
-
-      moveTo(targetPosition, dt)
+      
+      if moveTo(targetPosition, dt) then
+        controlFace(self.pathing.deltaX or toTarget[1])
+      end
     end
   else
     stateData.timer = stateData.timer - dt
@@ -62,7 +65,7 @@ function sitState.leavingState()
 end
 
 function sitState.findChair()
-  local position = entity.position()
+  local position = mcontroller.position()
   local chairIds = world.loungeableQuery(storage.spawnPosition, entity.configParameter("sit.searchRadius"), { orientation = "sit" })
 
   local nearestChairId, nearestChairDistance = nil, nil
@@ -77,5 +80,3 @@ function sitState.findChair()
 
   return nearestChairId
 end
-
-

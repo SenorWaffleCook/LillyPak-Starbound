@@ -1,5 +1,8 @@
 [
 	// defaultitems
+	
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_crew_spawner","count":50}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_crew_deckhand_attractor","count":50}},
 		
 	//defaultBlueprints
 	

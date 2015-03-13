@@ -1,3 +1,4 @@
+-- MadTulip:
 function Init_Crew_Data()
 	if storage.Occupation == nil then storage.Occupation = "Deckhand" end
 	if storage.colorIndex == nil then storage.colorIndex = 1 end
@@ -11,25 +12,19 @@ function Init_Crew_Data()
 	end
 	
 	Set_Occupation_Cloth()
-	
--- debug out damage team
---local damage_team =  entity.damageTeam()
---world.logInfo("Player Damage Team:" .. damage_team.type .. " " .. damage_team.team)
 end
 
-main = function ()
-  noticePlayers()
-  
-  local dt = entity.dt()
+update = function (dt)
+	noticePlayers()
 
-  -- NPC checks his surrounding for tasks (like someone bleeding or a fire)
-  madtulip_TS.update_Task_Scheduler(dt)
-  
-  self.state.update(dt)
-  self.timers.tick(dt)
+	-- NPC checks his surrounding for tasks (like someone bleeding or a fire)
+	madtulip_TS.update_Task_Scheduler(dt)
+
+	self.state.update(dt)
+	self.timers.tick(dt)
 end
 
-init = function (args)
+init = function ()
   -- madtulip:
   Init_Crew_Data()
 
@@ -50,6 +45,19 @@ init = function (args)
 
   entity.setInteractive(true)
 
+  self.scriptDelta = entity.configParameter("initialScriptDelta") or 5
+  script.setUpdateDelta(self.scriptDelta)
+
+  local offeredQuests = entity.configParameter("offeredQuests")
+  if type(offeredQuests) == "table" and #offeredQuests > 0 then
+    entity.setOfferedQuests(offeredQuests)
+  end
+
+  local turnInQuests = entity.configParameter("turnInQuests")
+  if type(turnInQuests) == "table" and #turnInQuests > 0 then
+    entity.setTurnInQuests(turnInQuests)
+  end
+
   self.pathing = {}
 
   self.noticePlayersRadius = entity.configParameter("noticePlayersRadius", -1)
@@ -66,12 +74,17 @@ init = function (args)
   self.hasShield = itemType("alt") == "shield"
   self.hasSheathedShield = itemType("sheathedalt") == "shield"
 
+  self.movementParameters = mcontroller.baseParameters()
+  self.jumpHoldTime = self.movementParameters.airJumpProfile.jumpHoldTime
+  self.jumpSpeed = self.movementParameters.airJumpProfile.jumpSpeed
+  self.walkSpeed = self.movementParameters.walkSpeed
+
   if storage.attackOnSightIds == nil then
     storage.attackOnSightIds = {}
   end
 
   if storage.spawnPosition == nil then
-    local position = entity.position()
+    local position = mcontroller.position()
 
     -- NPCs aren't always placed right on the ground. They may need to be
     -- moved up or down a few blocks so their spawn position is actually on the
@@ -100,17 +113,6 @@ init = function (args)
 
     storage.spawnPosition = { position[1], supportRegion[2] + 3.5 }
   end
-end
 
-function copyTable(source)
-	local _copy
-	if type(source) == "table" then
-		_copy = {}
-		for k, v in pairs(source) do
-			_copy[copyTable(k)] = copyTable(v)
-		end
-	else
-		_copy = source
-	end
-	return _copy
+  self.debug = false
 end

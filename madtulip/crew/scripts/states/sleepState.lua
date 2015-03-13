@@ -33,7 +33,7 @@ function sleepState.update(dt, stateData)
     end
 
     local bedPosition = vec2.add(world.entityPosition(stateData.bedId), { 0, 1 })
-    local toTarget = world.distance(bedPosition, entity.position())
+    local toTarget = world.distance(bedPosition, mcontroller.position())
     if world.magnitude(toTarget) < entity.configParameter("sleep.lieDownRadius") then
       entity.setLounging(stateData.bedId)
     else

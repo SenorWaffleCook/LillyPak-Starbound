@@ -22,17 +22,7 @@
 
   "statusEffects" : [
     {
-      "kind" : "ColdProtection",
-      "amount" : 1
-    },
-
-    {
-      "kind" : "protection",
-      "amount" : 0
-    },
-
-    {
-      "kind" : "healthincrease",
+      "stat" : "protection",
       "amount" : 0
     }
   ],
