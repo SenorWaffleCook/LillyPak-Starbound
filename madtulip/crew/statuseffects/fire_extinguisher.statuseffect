@@ -1,0 +1,21 @@
+{
+  "name" : "fire_extinguisher",
+  "duration" : 3,
+  "initialTick" : false,
+  "interval" : 1,
+  "primitives" : [
+    { "name" : "periodic" }
+  ],
+  "effectSources" : [ "madtulip_extinguish" ],
+  "tick" : {
+    "statusEffects" : [
+      {
+        "kind" : "directDamage",
+        "damageKind" : "fire_extinguisher",
+        "amount" : 1
+      },
+	  { "kind" : "glow" }
+    ]
+  },
+  "mainInterfaceIcon" : "/interface/statuses/cold.png"
+}

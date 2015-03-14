@@ -1,0 +1,17 @@
+{
+  "kind" : "fire_extinguisher",
+  "effects" : {
+    "madtulip_fire_body" : {
+      "hit" : {
+        "sounds" : [ "/sfx/gun/impact_flesh.wav" ],
+        "particles" : [
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/projectiles/fireball_spit.wav" ],
+        "particles" : [
+        ]
+      }
+    }
+  }
+}

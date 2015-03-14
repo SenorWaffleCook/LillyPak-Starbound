@@ -1,7 +1,7 @@
 --Override the default Interact() function
 interact = function(args)
 	-- Check for item beeing interacted with (command type)
-	if world.entityHandItem(args.sourceId, "primary") == "madtulip_engineere_promotion" then
+	if world.entityHandItem(args.sourceId, "primary") == "madtulip_engineer_promotion" then
 		-- Set Engineer occupation
 		self.state.pickState({
 			sourceId      = args.sourceId,

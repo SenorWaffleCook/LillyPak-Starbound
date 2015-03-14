@@ -7,6 +7,8 @@
   "disableWornArmor" : false,
   
   "scripts" : [
+	"/crew/scripts/madtulip_crew_debug_out.lua",
+	
 	"/npcs/main.lua",
 	"/crew/scripts/madtulip_npc_Main.lua",
 	"/crew/scripts/madtulip_crew_interact.lua",
@@ -34,7 +36,7 @@
     "/scripts/util.lua",
     "/scripts/vec2.lua"
   ],
-  "initialScriptDelta" : 5,
+  "initialScriptDelta" : 1,
   
   "scriptConfig" : {
     "doorHitPoly" : [ [2, -1], [2, 1], [0, 1], [0, -1] ],
@@ -74,6 +76,7 @@
 		"Work_Attractor_Search_Radius" : 60,			// Radius around NPC to search for new ROI anchor
 		"Rest_Attractor_Search_Radius" : 100,			// Radius around NPC to search for new ROI anchor
 		"ROI_BB" : [-3,0,3,3],           				// X1,Y1,X2,Y2 Interval which defines ROI around Work Anchor Position
+		"ROI_BB_flee_no_background" : [-20,-20,20,20],	// X1,Y1,X2,Y2 Interval which defines ROI around Work Anchor Position to be used if NPC is currently "outside"
 		"Switch_Target_Inside_ROI_Time" : [ 2.0, 6.0], 	// how long to pause after each target in ROI
 
 		"chatDistance" : 4,								// max distance infront of NPC to initiate chat
@@ -94,10 +97,21 @@
 			"locker", // all crew
 			"locker2", // all crew
 			"madtulip_shipstation",
-			"madtulip_fuelhatch",
+			"madtulip_apex_fuelhatch",
+			"madtulip_avian_fuelhatch",
+			"madtulip_floran_fuelhatch",
+			"madtulip_glitch_fuelhatch",
+			"madtulip_human_fuelhatch",
+			"madtulip_hylotl_fuelhatch",
+			"madtulip_novakid_fuelhatch",
+			"madtulip_apex_teleporter",
+			"madtulip_avian_teleporter",
+			"madtulip_floran_teleporter",
+			"madtulip_glitch_teleporter",
+			"madtulip_human_teleporter",
+			"madtulip_hylotl_teleporter",
+			"madtulip_novakid_teleporter",
 			"madtulip_human_engine_core",
-			"madtulip_tile_setter",
-			"madtulip_teleporter",
 			"madtulip_metal_press",
 			"madtulip_vent",
 			"metalbarrel1",
@@ -142,7 +156,13 @@
 			"madtulip_crew_scientist_attractor",
 			"locker", // all crew
 			"locker2", // all crew
-			"madtulip_techstation",
+			"madtulip_apex_techstation",
+			"madtulip_avian_techstation",
+			"madtulip_floran_techstation",
+			"madtulip_glitch_techstation",
+			"madtulip_human_techstation",
+			"madtulip_hylotl_techstation",
+			"madtulip_novakid_techstation",
 			"madtulip_shipnavigationconsole",
 			"madtulip_analysisscreen",
 			"madtulip_barscreen",
@@ -174,8 +194,8 @@
     "sit" : {
 		//"timeOfDayRanges" : [ [0.0, 1.0]],
 		"timeOfDayRanges" : [ [0.6, 1.0], [0.0, 0.2] ],
-		"moveTimeLimit" : 8,
-		"searchRadius" : 10,
+		"moveTimeLimit" : 12,
+		"searchRadius" : 15,
 		"sitRadius" : 3,
 		"cooldown" : 60,
 		"timeRange" : [15, 240]

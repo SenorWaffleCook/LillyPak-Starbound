@@ -15,6 +15,12 @@ function converseState.enterWith(args)
 end
 
 function converseState.update(dt, stateData)
+
+	-- madtulip change
+	-- Update debug info
+	madtulip_crew_debug_out.state_info(dt,stateData)
+	-- madtulip change end
+
   local sourcePosition = world.entityPosition(stateData.sourceId)
   if sourcePosition == nil then return true end
 
@@ -27,6 +33,14 @@ end
 
 function converseState.sayToTarget(dialogType, targetId, tags)
   local dialog = nil
+  
+  -- madtulip
+  if (self.debug) then
+	self.debug = false
+  else
+	self.debug = true
+  end
+  -- madtulip end
 
   local withOccupation = dialogType .. "." .. storage.Occupation
   

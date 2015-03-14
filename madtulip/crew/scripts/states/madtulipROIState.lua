@@ -1,3 +1,5 @@
+-- they shouldnt stay close to doors
+
 madtulipROIState = {}
 
 function madtulipROIState.enterWith(args)
@@ -54,6 +56,12 @@ function madtulipROIState.Init()
 end
 
 function madtulipROIState.update(dt, stateData)
+
+	-- madtulip change
+	-- Update debug info
+	madtulip_crew_debug_out.state_info(dt,stateData)
+	-- madtulip change end
+	
 	-- return if wander is on cooldown
 	stateData.timer = stateData.timer - dt
 	if stateData.timer < 0 then
@@ -88,7 +96,18 @@ function madtulipROIState.update(dt, stateData)
 			end
 		end
 		--world.logInfo("ROI_Anchor_Position X: " .. ROI_Anchor_Position[1] .. " Y: " .. ROI_Anchor_Position[2])
-
+		--[[
+		if self.debug then
+			local DebugRegion = {
+			  ROI_Anchor_Position[1] +1,
+			  ROI_Anchor_Position[2] +1,
+			  ROI_Anchor_Position[1] -1,
+			  ROI_Anchor_Position[2] -1
+			}
+			debugRect(DebugRegion, "yellow")
+		end
+		--]]
+		
 		-- Ground Anchor
 		if (madtulipROIState.Inputargs.Ground_the_Anchor ~= nil) then
 			-- external parameter
@@ -108,9 +127,20 @@ function madtulipROIState.update(dt, stateData)
 			BB = madtulipROIState.Inputargs.BB
 		else
 			-- generating own
-			BB = entity.configParameter("madtulipROI.ROI_BB",nil)
+			if madtulipLocation.is_outside(mcontroller.position()) then
+				-- use larger BB if NPC is outside to get back in
+				BB = entity.configParameter("madtulipROI.ROI_BB_flee_no_background",nil)
+			else
+				-- use normal BB size if NPC is already inside
+				BB = entity.configParameter("madtulipROI.ROI_BB",nil)
+			end
 		end
 		--world.logInfo("BB = {" .. BB[1] .. "," .. BB[2] .. "," .. BB[3] .. "," .. BB[4] .."}")
+		--[[
+		if self.debug then
+			debugRect(BB, "yellow")
+		end
+		--]]
 		
 		-- get Additional_Blocked_Positions
 		--world.logInfo("getting ABL for ROI")
@@ -181,18 +211,29 @@ function madtulipROIState.update(dt, stateData)
 				-- pick one target inside the ROI (all are passable) as next target to move towards
 				local Target = madtulipLocation.get_next_full_background_target_inside_ROI(madtulipROIState.ROI)
 				-- entity.say("Target switching time!")
-				if (Target ~= nil) then madtulipROIState.Movement.Target = Target end
+				if (Target ~= nil) then
+					madtulipROIState.Movement.Target = Target
+				end
 				madtulipROIState.Movement.Switch_Target_Inside_ROI_Timer = entity.randomizeParameterRange("madtulipROI.Switch_Target_Inside_ROI_Time")
 			end
 		else
 			-- move
 			--world.logInfo("Moveing to Target X: " .. madtulipROIState.Movement.Target[1] .. " Y: " .. madtulipROIState.Movement.Target[2])
+			if self.debug then
+				local DebugRegion = {
+				  madtulipROIState.Movement.Target[1] +1,
+				  madtulipROIState.Movement.Target[2] +1,
+				  madtulipROIState.Movement.Target[1] -1,
+				  madtulipROIState.Movement.Target[2] -1
+				}
+				debugRect(DebugRegion, "green")
+			end
 			local toTarget = world.distance(madtulipROIState.Movement.Target, mcontroller.position())
 			if world.magnitude(toTarget) < madtulipROIState.Movement.Min_XY_Dist_required_to_reach_target and
 			   math.abs(toTarget[1]) < madtulipROIState.Movement.Min_X_Dist_required_to_reach_target then
 					-- target reached
 					--world.logInfo("target reached")
-					--entity.say("Target reached!")
+					-- entity.say("Target reached!")
 					
 					--> clear movement target
 					madtulipROIState.Movement.Target = nil
@@ -209,7 +250,12 @@ function madtulipROIState.update(dt, stateData)
 					-- default
 					Move_options.run = false
 				end
-				moveTo(madtulipROIState.Movement.Target, dt,Move_options)
+				
+				if not (moveTo(madtulipROIState.Movement.Target, dt,Move_options)) then
+					-- reset target if moveTo returns false (we cant move)
+					-- entity.say("Cant moveTo!")
+					madtulipROIState.Movement.Target = nil
+				end
 				
 				-- chat while moving
 				if (madtulipROIState.Inputargs.start_chats_on_the_way ~= nil) then
@@ -251,7 +297,11 @@ function madtulipROIState.set_wandering_ROI_Anchor_around(position)
 		return nil
 	end
 	--world.logInfo("AttractorID_Data.size=" .. tostring(AttractorID_Data.size))
-	if (AttractorID_Data.size == 0) then return nil end
+	if (AttractorID_Data.size == 0) then
+		-- world.debugText("No AttractorID_Data found!", {mcontroller.position()[1], mcontroller.position()[2] + 1}, "red")
+		-- return nil
+		return mcontroller.position()
+	end
 	
 	-- use the position of a random attractor as new ROI anchor for now
 	local target_nr = math.random (AttractorID_Data.size)

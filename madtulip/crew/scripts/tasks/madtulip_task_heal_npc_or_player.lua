@@ -20,7 +20,7 @@ function madtulip_Task_Heal_NPC_or_Player.spot_Task()
 			Tasks[Tasks_size].Header.Target_ID = PlayerId
 			Tasks[Tasks_size].Header.Fct_Task  = "madtulip_Task_Heal_NPC_or_Player"
 			Tasks[Tasks_size].Header.Msg_on_discover_this_Task = "MEDIC!"
-			Tasks[Tasks_size].Header.Msg_on_PickTask = "I`ll would stitch you up if there wasn`t hard coded invulnerability on the shipworld!"
+			Tasks[Tasks_size].Header.Msg_on_PickTask = "Don`t panic! Help is here."
 			Tasks[Tasks_size].Global = {}
 			Tasks[Tasks_size].Global.is_beeing_handled = false
 			Tasks[Tasks_size].Global.is_done = false
@@ -73,7 +73,7 @@ function madtulip_Task_Heal_NPC_or_Player.can_PickTask(Task)
 	-- this gets called by all NPCs that receive this task which are searching for a Task to do it.
 	-- If this returns true the NPC will pick this Task and start to execute it.
 	-- So here you should check for the currents NPC Occupation i.e. to see if hes able to do it.
-	--world.logInfo("madtulip_Task_Heal_NPC_or_Player.can_PickTask()")
+	world.logInfo("madtulip_Task_Heal_NPC_or_Player.can_PickTask()")
 	
 	-- check if I have the command to do this tasks
 	if not madtulip_Task_Heal_NPC_or_Player.has_command_to_do_the_task(Task.Header.Name) then return false end -- kick out because performing this task is disabled
@@ -82,8 +82,8 @@ function madtulip_Task_Heal_NPC_or_Player.can_PickTask(Task)
 	if not((Task.Header.Occupation == "all") or (Task.Header.Occupation == storage.Occupation)) then return false end
 
 	-- equip necessary tool
-	entity.setItemSlot("primary", "madtulip_bone_mender")
 	entity.setItemSlot("alt", nil)
+	entity.setItemSlot("primary", "madtulip_bone_mender")
 
 	madtulip_Task_Heal_NPC_or_Player.movement_is_init = nil	
 	
@@ -92,7 +92,7 @@ end
 
 function madtulip_Task_Heal_NPC_or_Player.main_Task(Task,dt)
 	-- the main of the Task which is called all the time until it return true (the task is done)
-	--world.logInfo("madtulip_Task_Heal_NPC_or_Player.main_Task(Task)")
+	world.logInfo("madtulip_Task_Heal_NPC_or_Player.main_Task(Task)")
 	
 	-- check if I STILL have the command to do this tasks, else kick out
 	if not madtulip_Task_Heal_NPC_or_Player.has_command_to_do_the_task(Task.Header.Name) then return true end -- kick out because performing this task has just been disabled
@@ -135,6 +135,7 @@ function madtulip_Task_Heal_NPC_or_Player.main_Task(Task,dt)
 		-- Aim at target
 		if     (distance <= entity.configParameter("madtulipTS.use_bonemender_range", nil))
 		   and (distance >= entity.configParameter("madtulipTS.use_bonemender_min_range", nil)) then
+			-- entity.say("Firing")
 			entity.setAimPosition(target_position)
 			-- close enough to use bone mender --> fire
 			entity.beginPrimaryFire()
@@ -149,7 +150,7 @@ end
 function madtulip_Task_Heal_NPC_or_Player.end_Task()
 	-- Called by Task scheduler when the Task ends
 	-- I.e. when the task was completed by me or by someone else doing the same thing.
-	--world.logInfo("madtulip_Task_Heal_NPC_or_Player.end_Task()")
+	world.logInfo("madtulip_Task_Heal_NPC_or_Player.end_Task()")
 	
 	-- remove hand items
 	entity.setItemSlot("primary", nil)
@@ -177,7 +178,7 @@ end
 function madtulip_Task_Heal_NPC_or_Player.use_ROI_State_to_navigate_to_target_area(Work_site_BB,work_range,fail_callback_fct,state_end_callback_fct)
 	-- Work_site_BB is a not standable BB around the target "construction site" (relative coors to anchor)
 	-- work_range is a BB around the Work_site_BB in which the NPC can stand while working (relative coors to anchor)
-	--world.logInfo("Init Task - start")
+	world.logInfo("Init Task - start")
 	local ROI_Parameters = {}
 
 	ROI_Parameters.BB = copyTable(Work_site_BB)
@@ -227,21 +228,27 @@ function madtulip_Task_Heal_NPC_or_Player.use_ROI_State_to_navigate_to_target_ar
 	-- called if State ended (i.e. by timeout)
 	ROI_Parameters.State_End_Callback = state_end_callback_fct
 	
-	--world.logInfo("State description: " .. self.state.stateDesc())
+	world.logInfo("State description: " .. self.state.stateDesc())
 	self.state.endState() -- end current state, whatever that is
 	self.state.pickState(ROI_Parameters)
-	--world.logInfo("Init Task - end")
+	world.logInfo("Init Task - end")
 end
 
 function madtulip_Task_Heal_NPC_or_Player.Task_is_fullfilled(Task)
 	local cur_health = world.entityHealth(Task.Header.Target_ID)
-	-- if (cur_health[1] < 0.95* cur_health[2]) then return false else return true end
+	if (cur_health[1] < 0.95* cur_health[2]) then
+		return false
+	else
+		return true
+	end
+	--[[
 	if targetHealth ~= nil then
 		return (cur_health[1] < 0.95* cur_health[2])
 	else
 		world.logInfo("/crew/scripts/tasks/madtulip_task_heal_npc_or_player.lua : Waning: Task.Header.Target_ID health is nil. Target_ID obsolete ???")
 		return true
 	end
+	--]]
 end
 
 function madtulip_Task_Heal_NPC_or_Player.ROI_State_ended()

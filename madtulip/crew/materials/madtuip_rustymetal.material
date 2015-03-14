@@ -13,7 +13,7 @@
   
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "madtulip_bottom_decoration.png",
+    "texture" : "madtuip_rustymetal.png",
     "variants" : 3,
     "lightTransparent" : false,
     "occludesBelow" : true,

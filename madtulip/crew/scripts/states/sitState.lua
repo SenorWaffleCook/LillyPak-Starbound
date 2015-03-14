@@ -5,10 +5,10 @@ function sitState.enter()
     return nil, entity.configParameter("sit.cooldown")
   end
 
-  -- onyl change by madtulip in this vanilla file:
+  -- madtulip change
   -- randomize the order the states are beeing executed in
   self.state.shuffleStates()
-  -- onyl change by madtulip in this vanilla file END
+  -- madtulip change end
   
   local chairId = sitState.findChair()
   if chairId == nil then
@@ -23,6 +23,12 @@ function sitState.enter()
 end
 
 function sitState.update(dt, stateData)
+
+	-- madtulip change
+	-- Update debug info
+	madtulip_crew_debug_out.state_info(dt,stateData)
+	-- madtulip change end
+
   if not entity.isLounging() then
     if world.loungeableOccupied(stateData.targetId) then
       return true, entity.configParameter("sit.cooldown")
@@ -79,4 +85,12 @@ function sitState.findChair()
   end
 
   return nearestChairId
+end
+
+function debug_out_state_info()
+	local State_Name = "sitState"
+	local State_Name_Offset = 3
+	
+	world.debugText(State_Name, {mcontroller.position()[1], mcontroller.position()[2] + State_Name_Offset}, "green")
+	--world.debugText("pos: %d,%d", doorPosition[1], doorPosition[2], {mcontroller.position()[1], mcontroller.position()[2] + 3}, "black")
 end

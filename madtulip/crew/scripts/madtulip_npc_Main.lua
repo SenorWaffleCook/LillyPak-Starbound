@@ -15,13 +15,19 @@ function Init_Crew_Data()
 end
 
 update = function (dt)
-	noticePlayers()
+  self.moved = false
+  noticePlayers()
 
 	-- NPC checks his surrounding for tasks (like someone bleeding or a fire)
 	madtulip_TS.update_Task_Scheduler(dt)
+  
+  self.state.update(dt)
+  self.timers.tick(dt)
 
-	self.state.update(dt)
-	self.timers.tick(dt)
+  if isAttacking() then script.setUpdateDelta(1) end
+
+  if not self.moved and not isAttacking() then script.setUpdateDelta(self.scriptDelta) end
+
 end
 
 init = function ()
@@ -114,5 +120,5 @@ init = function ()
     storage.spawnPosition = { position[1], supportRegion[2] + 3.5 }
   end
 
-  self.debug = false
+  self.debug = true
 end

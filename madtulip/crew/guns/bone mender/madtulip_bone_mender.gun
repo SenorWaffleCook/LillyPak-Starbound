@@ -1,0 +1,29 @@
+{
+  "itemName" : "madtulip_bone_mender",
+  "inventoryIcon" : "madtulip_bone_mender_icon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "rarity" : "Common",
+  "description" : "Regenerates biological Tissue",
+  "shortdescription" : "Bone Mender",
+  "image" : "madtulip_bone_mender.png",
+  "handPosition" : [-7, -1],
+  "firePosition" : [12, 1.5],
+  "inspectionKind" : "gun",
+  "spread" : 1,
+  "fireTime" : 0.2,
+  "twoHanded" : false,
+
+  "projectileType" : "madtulip_bone_mender_proj",
+  "projectile" : { "speed" : 5,
+                   "power" : 0 , // energy costs
+				   "life" : 3,   // heals
+				   "color" : [150, 90, 150] },
+  "muzzleEffect" : {
+       "animation" :  "/crew/guns/bone mender/muzzle/madtulip_bone_mender_muzzle.animation" ,
+       "fireSound" : [ { "file" : "/sfx/gun/fireblast.wav" } ]
+	   },
+  // required ?
+  "maxStack" : 1,
+  "level" : 7,
+  "weaponType" : "Bio-Agent"
+}

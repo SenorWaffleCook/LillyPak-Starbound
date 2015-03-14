@@ -30,6 +30,12 @@ function madtulipcommandState.enterWith(args)
 end
 
 function madtulipcommandState.update(dt, stateData)
+
+	-- madtulip change
+	-- Update debug info
+	madtulip_crew_debug_out.state_info(dt,stateData)
+	-- madtulip change end
+	
 	-- face command issuing player
 	local sourcePosition = world.entityPosition(stateData.sourceId)
 	if sourcePosition == nil then return true end

@@ -4,10 +4,11 @@ function sleepState.enter()
   if not isTimeFor("sleep.timeOfDayRanges") then
     return nil
   end
-  -- onyl change by madtulip in this vanilla file:
+  
+  -- madtulip change
   -- randomize the order the states are beeing executed in
   self.state.shuffleStates()
-  -- onyl change by madtulip in this vanilla file END
+  -- madtulip change end
 
   local bedId = sleepState.findUnoccupiedBed()
   if bedId == nil then
@@ -21,6 +22,12 @@ function sleepState.enter()
 end
 
 function sleepState.update(dt, stateData)
+
+	-- madtulip change
+	-- Update debug info
+	madtulip_crew_debug_out.state_info(dt,stateData)
+	-- madtulip change end
+
   if not entity.isLounging() then
     -- Make sure we've still got a bed to sleep in
     if world.loungeableOccupied(stateData.bedId) then

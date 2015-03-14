@@ -1,8 +1,17 @@
 [
 	// defaultitems
 	
+	{"op":"add","path":"/defaultItems/-","value":{"item":"diamonddrill","count":1}},
 	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_crew_spawner","count":50}},
 	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_crew_deckhand_attractor","count":50}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_bone_mender","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_fire_extinguisher","count":1}},
+	
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_deckhand_demotion","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_engineer_promotion","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_marine_promotion","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_medic_promotion","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_scientist_promotion","count":1}},
 		
 	//defaultBlueprints
 	

@@ -50,6 +50,12 @@ function chatState.enterWith(event)
 end
 
 function chatState.update(dt, stateData)
+
+	-- madtulip change
+	-- Update debug info
+	madtulip_crew_debug_out.state_info(dt,stateData)
+	-- madtulip change end
+
   local partnerPosition = world.entityPosition(stateData.partnerId)
   local partnerState = world.callScriptedEntity(stateData.partnerId, "self.state.stateDesc")
   if partnerPosition == nil or partnerState ~= "chatState" or not entity.entityInSight(stateData.partnerId) then return true end

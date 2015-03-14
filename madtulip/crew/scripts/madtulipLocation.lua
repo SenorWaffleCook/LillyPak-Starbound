@@ -346,3 +346,7 @@ function madtulipLocation.Find_Block_above_floor(position,max_distance)
 	-- no floor could be found
 	return nil
 end
+
+function madtulipLocation.is_outside(Position)
+	return (world.material(Position,"background") == false)
+end

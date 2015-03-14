@@ -4,7 +4,10 @@
 madtulip_TS = {}
 
 function madtulip_TS.Has_A_Task()
-	if (storage.Known_Tasks.idx_of_my_current_Task ~= nil) and (madtulip_TS.is_init) then
+	if     (storage ~= nil)
+	   and (storage.Known_Tasks ~= nil)
+	   and (storage.Known_Tasks.idx_of_my_current_Task ~= nil)
+	   and (madtulip_TS.is_init) then
 		return true
 	end
 	return false
