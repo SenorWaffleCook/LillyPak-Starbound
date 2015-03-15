@@ -1,7 +1,16 @@
 {
-	"name" : "LillyMod",
-	"version" : "Beta v. Upbeat Giraffe",
-	"path" : ".",
-	"dependencies" : [],
+	"name": "LillyMod",
+	"version": "Beta v. Upbeat Giraffe",
+	"path": ".",
+	"dependencies":
+	[
+		"AvaliBloc",
+		"container(large)",
+		"container(medium)",
+		"container(small)",
+		"container(safe)",
+		"outpostcrafttable",
+		"EnhancedStorage(StandardEdition)"
+	],
 	"modauthor": "thakyZ"
 }

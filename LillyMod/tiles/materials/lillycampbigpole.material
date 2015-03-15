@@ -1,0 +1,23 @@
+{
+  "materialId" : 22503,
+  "materialName" : "lillycampbigpole",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lillycampbigpole",
+  "description" : "A really immovable stick in the mud.",
+  "shortdescription" : "Big Tent Pole",
+  "multicolored" : true,
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "drawBackground" : true,
+  "category": "decorations",
+  "health" : 1.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lillycampbigpole.png",
+    "variants" : 5,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 10
+  }
+}
+

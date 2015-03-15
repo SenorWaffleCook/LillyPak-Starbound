@@ -1,0 +1,21 @@
+{
+  "materialId" : 22501,
+  "materialName" : "lillyavalitechpanel",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "lillyavalitechpanel",
+  "description" : "Polymer panels used to hide and protect electronics.",
+  "shortdescription" : "Tech panels",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "drawBackground" : true,
+  "category": "decorations",
+  "health" : 1.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lillyavalitechpanel.png",
+    "variants" : 10,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 10
+  }
+}

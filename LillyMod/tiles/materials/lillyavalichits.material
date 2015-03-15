@@ -1,0 +1,21 @@
+{
+  "materialId" : 23049,
+  "materialName" : "lillyavalichits",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lillyavalichits",
+  "description" : "Holo-archives, data chits and other removable data storage.",
+  "shortdescription" : "Data Storage",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "drawBackground" : true,
+  "category": "decorations",
+  "health" : 1.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lillyavalichits.png",
+    "variants" : 5,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 10
+  }
+}

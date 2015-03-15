@@ -1,0 +1,24 @@
+{
+  "materialId" : 23003,
+  "materialName" : "lillyavaliaeroponics",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lillyavaliaeroponics",
+  "description" : "These tubes transport a nutrient aerosol for growing plants indoors.",
+  "shortdescription" : "Aeroponics Tubing",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "tillableMod" : 12000,
+  "drawBackground" : true,
+  "category": "decorations",
+  "soil" : true,
+  "health" : 1.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lillylillyavaliaeroponics.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 10
+  }
+}
