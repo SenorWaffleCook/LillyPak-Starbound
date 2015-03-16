@@ -31,6 +31,8 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  24. [CopyGun](http://forums.playstarbound.com/index.php?resources/2418/) - by helloLateNight
  25. [Grassification Station](http://forums.playstarbound.com/index.php?resources/2296/) - by Markelius
  26. [Mighty Music](http://forums.playstarbound.com/index.php?resources/1266/) - by Quatroking
+ 27. [Avali Race Mod](http://forums.playstarbound.com/index.php?threads/77465/page-107#post-2521072) - by RyuujinZERO and Fevix
+ 28. [Avali Compound Bow](http://forums.playstarbound.com/index.php?resources/2251/) - by Ulithium_Dragon
  27. [Custom Race Tilesets](#) - by TheSidofEvil
  28. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
 
@@ -61,6 +63,8 @@ Have obtained permission for mods:
  - [ ] Copy Gun
  - [x] Grassification Station
  - [x] Mighty Music
+ - [ ] Avali Race Mod
+ - [ ] Avali Compound Bow
  - [x] Custom Race Tilesets
  - [x] Lilly Co. Mods
 
