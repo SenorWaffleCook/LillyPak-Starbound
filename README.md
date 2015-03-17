@@ -33,8 +33,11 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  26. [Mighty Music](http://forums.playstarbound.com/index.php?resources/1266/) - by Quatroking
  27. [Avali Race Mod](http://forums.playstarbound.com/index.php?threads/77465/page-107#post-2521072) - by RyuujinZERO and Fevix
  28. [Avali Compound Bow](http://forums.playstarbound.com/index.php?resources/2251/) - by Ulithium_Dragon
- 27. [Custom Race Tilesets](#) - by TheSidofEvil
- 28. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+ 29. [Graviton Projectors](http://forums.playstarbound.com/index.php?resources/2692/) - by Storm_UK
+ 30. [Player-Built Space Stations](http://forums.playstarbound.com/index.php?resources/2783/) - by Shadow Wolf TJC
+ 31. [Asteroid Rock to Iron](http://forums.playstarbound.com/index.php?resources/2787/) - by CrimsonGiraffe
+ 32. [Custom Race Tilesets](#) - by TheSidofEvil
+ 33. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
 
 Have obtained permission for mods:
  - [x] Industrialization 3
