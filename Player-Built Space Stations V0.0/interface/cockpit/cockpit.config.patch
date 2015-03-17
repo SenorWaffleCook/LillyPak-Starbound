@@ -1,0 +1,7 @@
+[
+{
+  "op": "add",
+  "path": "/planetTypeToDescription/emptyspace",
+  "value": "An area of empty space, ideal for construction of a space station. ^red;No breathable atmosphere!"
+}
+]

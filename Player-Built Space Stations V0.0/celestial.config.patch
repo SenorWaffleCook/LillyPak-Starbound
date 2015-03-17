@@ -1,0 +1,338 @@
+[
+{
+  "op": "replace",
+  "path": "/systemTypes/White/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier1",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier2"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.03, "item" : "Tier1"},
+            {"weight" : 0.06, "item" : "Tier2"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.9, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Tier1Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.27, "item" : "Tier1"},
+            {"weight" : 0.54, "item" : "Tier2"},
+            {"weight" : 0.09, "item" : "Moon"},
+            {"weight" : 0.1, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "replace",
+  "path": "/systemTypes/Orange/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier3",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier3"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.015, "item" : "Tier2"},
+            {"weight" : 0.06, "item" : "Tier3"},
+            {"weight" : 0.015, "item" : "Tier4"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.9, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Tier1Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.13, "item" : "Tier2"},
+            {"weight" : 0.54, "item" : "Tier3"},
+            {"weight" : 0.13, "item" : "Tier4"},
+            {"weight" : 0.1, "item" : "Moon"},
+            {"weight" : 0.1, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "replace",
+  "path": "/systemTypes/Yellow/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier4",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier4"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.015, "item" : "Tier3"},
+            {"weight" : 0.06, "item" : "Tier4"},
+            {"weight" : 0.015, "item" : "Tier5"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.9, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Tier4Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.13, "item" : "Tier3"},
+            {"weight" : 0.54, "item" : "Tier4"},
+            {"weight" : 0.13, "item" : "Tier5"},
+            {"weight" : 0.1, "item" : "Moon"},
+            {"weight" : 0.1, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "replace",
+  "path": "/systemTypes/Blue/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier5",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier5"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.015, "item" : "Tier4"},
+            {"weight" : 0.06, "item" : "Tier5"},
+            {"weight" : 0.015, "item" : "Tier6"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.9, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Tier5Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.13, "item" : "Tier4"},
+            {"weight" : 0.54, "item" : "Tier5"},
+            {"weight" : 0.13, "item" : "Tier6"},
+            {"weight" : 0.1, "item" : "Moon"},
+            {"weight" : 0.1, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{
+  "op": "replace",
+  "path": "/systemTypes/Red/orbitRegions",
+  "value": [
+        {
+          "regionName" : "Tier1",
+          "orbitRange" : [1, 6],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "Tier6"},
+            {"weight" : 0.1, "item" : "Barren"},
+            {"weight" : 0.1, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.03, "item" : "Tier5"},
+            {"weight" : 0.06, "item" : "Tier6"},
+            {"weight" : 0.01, "item" : "Moon"},
+            {"weight" : 0.9, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Tier1Gas",
+          "orbitRange" : [7, 11],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 0.6, "item" : "GasGiant"},
+            {"weight" : 0.2, "item" : "AsteroidField"},
+            {"weight" : 0.2, "item" : "EmptySpace"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 0.27, "item" : "Tier5"},
+            {"weight" : 0.54, "item" : "Tier6"},
+            {"weight" : 0.09, "item" : "Moon"},
+            {"weight" : 0.1, "item" : "EmptySpace"}
+          ]
+        },
+        {
+          "regionName" : "Moon",
+          "orbitRange" : [12, 12],
+          "bodyProbability" : 1.0,
+          "planetaryTypes" : [
+            {"weight" : 1.0, "item" : "Moon"}
+          ],
+          "satelliteTypes" : [
+            {"weight" : 1.0, "item" : "AncientGateway"}
+          ]
+        }
+      ]
+},
+{ "op": "replace", "path": "/planetaryTypes/Tier1/satelliteProbability", "value": 1.0 },
+{ "op": "replace", "path": "/planetaryTypes/Tier1/maxSatelliteCount", "value": 6 },
+{ "op": "replace", "path": "/planetaryTypes/Tier2/satelliteProbability", "value": 1.0 },
+{ "op": "replace", "path": "/planetaryTypes/Tier2/maxSatelliteCount", "value": 6 },
+{ "op": "replace", "path": "/planetaryTypes/Tier3/satelliteProbability", "value": 1.0 },
+{ "op": "replace", "path": "/planetaryTypes/Tier3/maxSatelliteCount", "value": 6 },
+{ "op": "replace", "path": "/planetaryTypes/Tier4/satelliteProbability", "value": 1.0 },
+{ "op": "replace", "path": "/planetaryTypes/Tier4/maxSatelliteCount", "value": 6 },
+{ "op": "replace", "path": "/planetaryTypes/Tier5/satelliteProbability", "value": 1.0 },
+{ "op": "replace", "path": "/planetaryTypes/Tier5/maxSatelliteCount", "value": 6 },
+{ "op": "replace", "path": "/planetaryTypes/Tier6/satelliteProbability", "value": 1.0 },
+{ "op": "replace", "path": "/planetaryTypes/Tier6/maxSatelliteCount", "value": 6 },
+{ "op": "replace", "path": "/planetaryTypes/Moon/satelliteProbability", "value": 1.0 },
+{ "op": "add", "path": "/planetaryTypes/Moon/maxSatelliteCount", "value": 1 },
+{ "op": "replace", "path": "/planetaryTypes/GasGiant/satelliteProbability", "value": 1.0 },
+{ "op": "replace", "path": "/planetaryTypes/GasGiant/maxSatelliteCount", "value": 6 },
+{
+  "op": "add",
+  "path": "/planetaryTypes/EmptySpace",
+  "value": {
+      "satelliteProbability" : 0.0,
+
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Empty Space",
+        "dungeonWorld" : "emptyspace",
+        "smallImage" : "/celestial/empty_space.png",
+        "atmosphere" : false,
+
+        "image" : "/celestial/satellite_spot.png",
+        "imageScale" : 0.5,
+        "smallImageScale" : 1.0,
+        "worldSize" : "emptyspace",
+
+        "dynamicsImages" : "/celestial/satellite_spot.png",
+        "dynamicsRange" : [0, 0]
+      }
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/EmptySpace",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Empty Space",
+        "dungeonWorld" : "emptyspace",
+        "smallImage" : "/celestial/empty_space.png",
+        "atmosphere" : false,
+
+        "image" : "/celestial/satellite_spot.png",
+        "imageScale" : 0.5,
+        "smallImageScale" : 1.0,
+        "worldSize" : "emptyspace",
+
+        "dynamicsImages" : "/celestial/satellite_spot.png",
+        "dynamicsRange" : [0, 0]
+      }
+    }
+},
+{
+  "op": "add",
+  "path": "/satelliteTypes/AncientGateway",
+  "value": {
+      "baseParameters" : {
+        "worldType" : "FloatingDungeon",
+        "description" : "Ancient Gateway",
+        "dungeonWorld" : "ancientgateway",
+        "smallImage" : "/celestial/system/gate.png",
+        "image" : "/celestial/system/gate/gate1.png",
+        "imageScale" : 0.2,
+        "smallImageScale" : 0.2,
+        "worldSize" : "ancientgateway",
+
+        "dynamicsImages" : "/celestial/system/gate/dynamics/<num>.png",
+        "dynamicsRange" : [0, 0],
+        "shadowNumber" : [1, 9]
+      }
+    }
+}
+]

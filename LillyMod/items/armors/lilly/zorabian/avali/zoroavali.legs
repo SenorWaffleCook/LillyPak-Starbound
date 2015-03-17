@@ -14,16 +14,16 @@
 	"statusEffects":
 	[
 		{
-			"stat": "maxEnergy",
-			"amount": 60
+		  "stat" : "protection",
+		  "amount" : 100
 		},
 		{
-			"stat": "protection",
-			"amount": 80
+		  "stat" : "maxEnergy",
+		  "amount" : 200
 		},
 		{
-			"stat": " maxHealth",
-			"amount": 60
+		  "stat" : "maxHealth",
+		  "amount" : 90
 		},
 		{
 			"stat" : "reducefalldamage",
