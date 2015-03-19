@@ -4,7 +4,6 @@
 	"path": ".",
 	"dependencies":
 	[
-		"AvaliBloc",
 		"container(large)",
 		"container(medium)",
 		"container(small)",
