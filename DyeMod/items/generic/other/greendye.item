@@ -1,0 +1,7 @@
+{
+  "itemName" : "greendye",
+  "rarity" : "Common",
+  "inventoryIcon" : "greendye.png",
+  "description" : "A green dye. Can be used to dye armour.",
+  "shortdescription" : "Green Dye"
+}

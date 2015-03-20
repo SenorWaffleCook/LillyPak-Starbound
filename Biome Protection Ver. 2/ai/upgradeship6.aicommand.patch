@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/actions/-",
+    "value": {
+      "action": "enableTech",
+      "techName": "biomeprotectionTech"
+    }
+  }
+]

@@ -1,0 +1,896 @@
+{
+  "objectName" : "dyestation",
+  "printable" : true,
+  "rarity" : "Uncommon",
+  "description" : "Dyes items into different colors.",
+  "shortdescription" : "Dye Station",
+  "subtitle" : "Apply dyes to items.",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A dye station. It lets me use dyes.",
+  "avianDescription" : "I think it's used to change the color of things.",
+  "floranDescription" : "Floran createsss pretty colors!",
+  "glitchDescription" : "Observation. This device is used to combine colorful dyes with items.",
+  "humanDescription" : "Finally I can use dyes. Let's get creative!",
+  "hylotlDescription" : "Looks can be decieving, but color plays an important role in many cultures.",
+
+  "inventoryIcon" : "dyestationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "dyestation.png:<color>.<frame>",
+
+      "imagePosition" : [-16, -8],
+      "frames" : 100,
+      "animationCycle" : 8.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/dyeengine/dyestation/dyestation.lua",
+    "/objects/dyeengine/scripts/tableUtil.lua",
+    "/objects/dyeengine/scripts/dyeEngine.lua",
+    "/objects/dyeengine/scripts/itemConfig.lua",
+    "/objects/dyeengine/scripts/materialHueShiftMethod.lua",
+    "/objects/dyeengine/scripts/replaceDirectivesMethod.lua",
+    "/objects/dyeengine/scripts/simpleColorMethod.lua",
+    "/objects/dyeengine/scripts/colorOptionsMethod.lua"
+  ],
+  "scriptDelta" : 200,
+
+  "uiConfig" : "/interface/objectcrafting/dyeingengine.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600,
+
+  "dyeEngine" : {
+    "default" : {
+      "windowConfig" : "/interface/windowconfig/dyestation.config",
+      "free" : false
+    },
+    "colors" : [
+      {
+        "name" : "default",
+        "dyes" : [],
+        "groups" : [ "other" ],
+        "hue" : "default",
+        "palette" : "default"
+      },
+      {
+        "name" : "white",
+        "groups" : [ "bw", "light" ],
+        "palette" : [ "e6e6e6", "b6b6b6", "7b7b7b", "373737" ]
+      },
+      {
+        "name" : "grey",
+        "groups" : [ "bw", "mid" ],
+        "palette" : [ "b5b5b5", "808080", "555555", "303030" ]
+      },
+      {
+        "name" : "black",
+        "groups" : [ "bw", "dark" ],
+        "palette" : [ "838383", "555555", "383838", "151515" ]
+      },
+      {
+        "name" : "brown",
+        "groups" : [ "other" ],
+        "palette" : [ "ccae7c", "a47844", "754c23", "472b13" ]
+      },
+      {
+        "name" : "pink-red",
+        "dyes" : [ "pinkdye", "reddye" ],
+        "groups" : [ "hue1", "mid" ],
+        "palette" : [ "eea5b3", "d54c74", "952649", "5c132c" ]
+      },
+      {
+        "name" : "red",
+        "groups" : [ "hue1", "mid" ],
+        "hue" : 0,
+        "palette" : [ "f4988c", "d93a3a", "932625", "601119" ]
+      },
+      {
+        "name" : "orange-red",
+        "dyes" : [ "orangedye", "reddye" ],
+        "groups" : [ "hue1", "mid" ],
+        "hue" : 21,
+        "palette" : [ "f9b290", "e16335", "a03512", "661a0c" ]
+      },
+      {
+        "name" : "orange",
+        "groups" : [ "hue1", "mid" ],
+        "hue" : 45,
+        "palette" : [ "ffd495", "ea9931", "af4e00", "6e2900" ]
+      },
+      {
+        "name" : "orange-yellow",
+        "dyes" : [ "orangedye", "yellowdye" ],
+        "groups" : [ "hue2", "mid" ],
+        "palette" : [ "ffe99e", "e5ae3a", "a95e03", "682c00" ]
+      },
+      {
+        "name" : "yellow",
+        "groups" : [ "hue2", "mid" ],
+        "hue" : 66,
+        "palette" : [ "ffffa7", "e2c344", "a46e06", "642f00" ]
+      },
+      {
+        "name" : "lime-yellow",
+        "dyes" : [ "limedye", "yellowdye" ],
+        "groups" : [ "hue2", "mid" ],
+        "palette" : [ "e7ef83", "bebe40", "75781a", "3f3d15" ]
+      },
+      {
+        "name" : "lime",
+        "groups" : [ "hue2", "mid" ],
+        "hue" : 90,
+        "palette" : [ "d1e160", "9bba3d", "48832f", "1b4c2a" ]
+      },
+      {
+        "name" : "lime-green",
+        "dyes" : [ "limedye", "greendye" ],
+        "groups" : [ "hue3", "mid" ],
+        "hue": 111,
+        "palette" : [ "c1e47e", "76bb3c", "367d29", "174720" ]
+      },
+      {
+        "name" : "green",
+        "groups" : [ "hue3", "mid" ],
+        "hue" : 135,
+        "palette" : [ "b2e89d", "51bd3b", "247824", "144216" ]
+      },
+      {
+        "name" : "teal-green",
+        "dyes" : [ "tealdye", "greendye" ],
+        "groups" : [ "hue3", "mid" ],
+        "hue" : 156,
+        "palette" : [ "ade7bf", "50b476", "296d47", "1b3f2c" ]
+      },
+      {
+        "name" : "teal",
+        "groups" : [ "hue3", "mid" ],
+        "hue" : 180,
+        "palette" : [ "a8e6e2", "4facb2", "30636c", "233c43" ]
+      },
+      {
+        "name" : "teal-blue",
+        "dyes" : [ "tealdye", "bluedye" ],
+        "groups" : [ "hue4", "mid" ],
+        "hue" : 204,
+        "palette" : [ "9ed8e4", "5299c3", "325380", "1e2b4a" ]
+      },
+      {
+        "name" : "blue",
+        "groups" : [ "hue4", "mid" ],
+        "hue" : 225,
+        "palette" : [ "96cbe7", "5588d4", "344495", "1a1c51" ]
+      },
+      {
+        "name" : "violet-blue",
+        "dyes" : [ "violetdye", "bluedye" ],
+        "groups" : [ "hue4", "mid" ],
+        "hue" : 249,
+        "palette" : [ "a2adf1", "6675d7", "383f9b", "1b1f5d" ]
+      },
+      {
+        "name" : "violet",
+        "groups" : [ "hue4", "mid" ],
+        "hue" : 270,
+        "palette" : [ "af91fb", "7863da", "3d3ca2", "1c226a" ]
+      },
+      {
+        "name" : "violet-purple",
+        "dyes" : [ "violetdye", "purpledye" ],
+        "groups" : [ "hue5", "mid" ],
+        "hue" : 294,
+        "palette" : [ "c096f1", "8d5acf", "532f93", "261755" ]
+      },
+      {
+        "name" : "purple",
+        "groups" : [ "hue5", "mid" ],
+        "hue" : 315,
+        "palette" : [ "d29ce7", "a451c4", "6a2284", "320c40" ]
+      },
+      {
+        "name" : "pink-purple",
+        "dyes" : [ "pinkdye", "purpledye" ],
+        "groups" : [ "hue5", "mid" ],
+        "palette" : [ "eab3db", "bb57b8", "802478", "45113f" ]
+      },
+      {
+        "name" : "pink",
+        "groups" : [ "hue5", "mid" ],
+        "hue" : 339,
+        "palette" : [ "eab3db", "d35eae", "97276d", "59163f" ]
+      },
+      {
+        "name" : "lightwhite",
+        "dyes" : [ "whitedye", "whitedye" ],
+        "groups" : [ "bw", "light" ],
+        "palette" : [ "ffffff", "e6e6e6", "b6b6b6", "7b7b7b" ]
+      },
+      {
+        "name" : "lightgrey",
+        "dyes" : [ "greydye", "whitedye" ],
+        "groups" : [ "bw", "mid" ],
+        "palette" : [ "cccccc", "9e9e9e", "616161", "383838" ]
+      },
+      {
+        "name" : "darkgrey",
+        "dyes" : [ "greydye", "blackdye" ],
+        "groups" : [ "bw", "mid" ],
+        "palette" : [ "9c9c9c", "6a6a6a", "464646", "222222" ]
+      },
+      {
+        "name" : "darkblack",
+        "dyes" : [ "blackdye", "blackdye" ],
+        "groups" : [ "bw", "dark" ],
+        "palette" : [ "555555", "383838", "151515", "0a0a0a" ]
+      },
+      {
+        "name" : "light-pink-red",
+        "dyes" : [ "pinkdye", "reddye", "whitedye" ],
+        "groups" : [ "hue1", "light" ],
+        "palette" : [ "f5ced5", "e389a4", "a14b66", "79193b" ]
+      },
+      {
+        "name" : "light-red",
+        "dyes" : [ "reddye", "whitedye" ],
+        "groups" : [ "hue1", "light" ],
+        "palette" : [ "f9bdb6", "e47676", "9e403e", "79111b" ]
+      },
+      {
+        "name" : "light-orange-red",
+        "dyes" : [ "orangedye", "reddye", "whitedye" ],
+        "groups" : [ "hue1", "light" ],
+        "palette" : [ "fbcbb4", "ea9374", "af5537", "812110" ]
+      },
+      {
+        "name" : "light-orange",
+        "dyes" : [ "orangedye", "whitedye" ],
+        "groups" : [ "hue1", "light" ],
+        "palette" : [ "fee0b2", "f1bb73", "bf7232", "8f3d0e" ]
+      },
+      {
+        "name" : "light-orange-yellow",
+        "dyes" : [ "orangedye", "yellowdye", "whitedye" ],
+        "groups" : [ "hue2", "light" ],
+        "palette" : [ "feefbc", "eecb80", "bc8139", "8e4510" ]
+      },
+      {
+        "name" : "light-yellow",
+        "dyes" : [ "yellowdye", "whitedye" ],
+        "groups" : [ "hue2", "light" ],
+        "palette" : [ "fefec8", "edda8d", "ba8f40", "904d12" ]
+      },
+      {
+        "name" : "light-lime-yellow",
+        "dyes" : [ "limedye", "yellowdye", "whitedye" ],
+        "groups" : [ "hue2", "light" ],
+        "palette" : [ "f3f7ba", "d6d684", "9fa23c", "696517" ]
+      },
+      {
+        "name" : "light-lime",
+        "dyes" : [ "limedye", "whitedye" ],
+        "groups" : [ "hue2", "light" ],
+        "palette" : [ "e9f2a3", "b5ce68", "4f8a36", "105d27" ]
+      },
+      {
+        "name" : "light-lime-green",
+        "dyes" : [ "limedye", "greendye", "whitedye" ],
+        "groups" : [ "hue3", "light" ],
+        "palette" : [ "ddf2b5", "9fd375", "48923b", "116220" ]
+      },
+      {
+        "name" : "light-green",
+        "dyes" : [ "greendye", "whitedye" ],
+        "groups" : [ "hue3", "light" ],
+        "palette" : [ "d4f2c8", "91d983", "429a42", "136917" ]
+      },
+      {
+        "name" : "light-teal-green",
+        "dyes" : [ "tealdye", "greendye", "whitedye" ],
+        "groups" : [ "hue3", "light" ],
+        "palette" : [ "d3f1dc", "9cd4b2", "589874", "2f6749" ]
+      },
+      {
+        "name" : "light-teal",
+        "dyes" : [ "tealdye", "whitedye" ],
+        "groups" : [ "hue3", "light" ],
+        "palette" : [ "d2f2f0", "9bcfd3", "5b8b93", "335761" ]
+      },
+      {
+        "name" : "light-teal-blue",
+        "dyes" : [ "tealdye", "bluedye", "whitedye" ],
+        "groups" : [ "hue4", "light" ],
+        "palette" : [ "cfebf1", "8dbcd7", "506c94", "243866" ]
+      },
+      {
+        "name" : "light-blue",
+        "dyes" : [ "bluedye", "whitedye" ],
+        "groups" : [ "hue4", "light" ],
+        "palette" : [ "cbe5f3", "81a7df", "525e98", "1a1d6c" ]
+      },
+      {
+        "name" : "light-violet-blue",
+        "dyes" : [ "violetdye", "bluedye", "whitedye" ],
+        "groups" : [ "hue4", "light" ],
+        "palette" : [ "d1d6f8", "98a2e4", "5f639d", "262b6e" ]
+      },
+      {
+        "name" : "light-violet",
+        "dyes" : [ "violetdye", "whitedye" ],
+        "groups" : [ "hue4", "light" ],
+        "palette" : [ "dbcdfd", "a496e6", "61609c", "2b3177" ]
+      },
+      {
+        "name" : "light-violet-purple",
+        "dyes" : [ "violetdye", "purpledye", "whitedye" ],
+        "groups" : [ "hue5", "light" ],
+        "palette" : [ "e1cdf8", "b391df", "6e549c", "372274" ]
+      },
+      {
+        "name" : "light-purple",
+        "dyes" : [ "purpledye", "whitedye" ],
+        "groups" : [ "hue5", "light" ],
+        "palette" : [ "e8cdf3", "c28cd8", "8744a0", "5e127a" ]
+      },
+      {
+        "name" : "light-pink-purple",
+        "dyes" : [ "pinkdye", "purpledye", "whitedye" ],
+        "groups" : [ "hue5", "light" ],
+        "palette" : [ "eed2ef", "d494d2", "9e4a97", "741a69" ]
+      },
+      {
+        "name" : "light-pink",
+        "dyes" : [ "pinkdye", "whitedye" ],
+        "groups" : [ "hue5", "light" ],
+        "palette" : [ "f3d5eb", "e296ca", "a35585", "772758" ]
+      },
+      {
+        "name" : "greyblue",
+        "dyes" : [ "greydye", "bluedye" ],
+        "groups" : [ "other" ],
+        "palette" : [ "9da8af", "676f83", "3d3d51", "24232f" ]
+      },
+      {
+        "name" : "copper",
+        "dyes" : [ "copperbar" ],
+        "groups" : [ "other" ],
+        "palette" : [ "fcd0b7", "e7ab89", "c97648", "89360d" ]
+      },
+      {
+        "name" : "silver",
+        "dyes" : [ "silverbar" ],
+        "groups" : [ "other" ],
+        "palette" : [ "e5e9f1", "c4c7cd", "72767f", "4a4d52" ]
+      },
+      {
+        "name" : "diamond",
+        "dyes" : [ "diamond" ],
+        "groups" : [ "other" ],
+        "palette" : [ "ffffff", "b0ffff", "3acffe", "1278cf" ]
+      },
+      {
+        "name" : "denim",
+        "dyes" : [ "bluedye" ],
+        "groups" : [ "other" ],
+        "palette" : [ "cacdd0", "8599ad", "627890", "515a7f" ]
+      },
+      {
+        "name" : "bone",
+        "dyes" : [ "bone" ],
+        "groups" : [ "other" ],
+        "palette" : [ "e5e3c6", "bfb294", "867c62", "5e5946" ]
+      },
+      {
+        "name" : "beige",
+        "dyes" : [ "browndye", "whitedye" ],
+        "groups" : [ "other" ],
+        "palette" : [ "e7dfbd", "baaa7c", "85734f", "4f432c" ]
+      },
+      {
+        "name" : "camo",
+        "dyes" : [ "greendye", "blackdye" ],
+        "groups" : [ "other" ],
+        "palette" : [ "909c4f", "5f6c37", "414d28", "1b2211" ]
+      }
+    ],
+    "material" : {
+      "default" : {
+        "method" : "materialHueShift",
+        "windowConfig" : "/interface/windowconfig/dyestation_material.config",
+        "free" : true,
+        "amount": 1,
+        "hue" : 0
+      }
+    },
+    "sword" : {
+      "default" : {
+        "method" : "colorOption",
+        "amount" : 1,
+        "palette" : [ [ "ffca8a", "e0975c", "a85636", "6f2919" ] ]
+      },
+      "blacklist" : [
+        "generatedsword",
+        "testspear",
+        "huntingknife",
+        "apexstarter",
+        "avianstarter",
+        "floranstarter",
+        "glitchstarter",
+        "humanstarter",
+        "hylotlstarter",
+        "goldsword",
+        "testsword",
+        "deathstick",
+        "slapfish",
+        "combatsword"
+      ]
+    },
+    "headarmor" : "armor",
+    "chestarmor" : "armor",
+    "legsarmor" : "armor",
+    "backarmor" : "armor",
+    "armor" : {
+      "default" : {
+        "method" : "replaceDirectives",
+        "amount" : 1,
+        "palette" : [ [ "ffca8a", "e0975c", "a85636", "6f2919" ] ]
+      },
+      "blacklist" : [
+        "causticstag",
+        "corobockle",
+        "faceleech",
+        "pinkeyeparasite",
+        "scalpion1",
+        "scalpion2",
+        "scalpion3",
+        "scalpion4",
+        "scalpion5",
+        "scalpion6",
+        "cardboardboxarmor",
+        "minerhead",
+        "minerchest",
+        "fairyback"
+      ],
+      "specialSets" : {
+        "hazmatdemo" : { "offset" : 1 },
+        "medicdemo" : { "offset" : 1 },
+        "soldier2a" : { "offset" : 1 },
+        "spacemarine" : { "offset" : 1 },
+        "explorer" : { "offset" : 2 },
+        "fullmetaldemo" : { "offset" : 2 },
+        "spacesuitdemo" : { "offset" : 2 },
+        "ironarmoravian" : { "palette" : [ [ "b5b5b5", "808080", "555555", "303030" ] ] },
+        "pathfinder" : { "palette" : [ [ "e6d9c5", "ccb48a", "a88548", "715b31" ] ] },
+        "pioneer" : { "palette" : [ [ "e0cccd", "bf9798", "955b5d", "653e3f" ] ] },
+
+        "strongblue" : { "palette" : [ [ "3a76fd", "0233cf", "021ba7", "010756" ] ] },
+        "thinkingcap" : { "palette" : [ [ false, "3fbcef", "2199ca", false ] ] }
+      },
+      "special" : {
+        "buccaneerhead" : { "palette" : [ [ "838383", "555555", "383838", "151515" ] ] },
+        "wizardhead" : { "palette" : [ [ "96cbe7", "5588d4", "344495", "1a1c51" ] ] },
+        "hikerback" : { "palette" : [ "e7dfbd", "baaa7c", "85734f", "4f432c" ] },
+        "hikerlegs" : { "palette" : [ [ "ccae7c", "a47844", "754c23", "472b13" ] ] },
+
+        "divingmaskhead" : "strongblue",
+        "oxygentank" : "strongblue",
+        "beerhead" : "strongblue",
+        "berethead" : "strongblue",
+
+        "carrothat" : "thinkingcap",
+        "thinkingcap" : "thinkingcap",
+
+        "shroomhead" : { "palette" : [ [ "a7d575", "7baa49", "5f8a30", "34580e" ] ] },
+        "shroomhead2" : { "palette" : [ [ "dcdc9b", "a9a95c", "777927", "6f2919" ] ] },
+
+        "crystalbackpackback" : { "palette" : [ [ "dceef9", "aec4df", "848ab6", "4b4a78" ] ] },
+        "parachutepack" : { "offset" : 1 },
+
+        "beehivehead" : { "palette" : [ [ "be9f55", "927040", "5d3a1f", "3d2614" ] ] },
+        "berryhead" : { "palette" : [ [ "f086fe", "ad02d9", "630297", "2d0150" ] ] },
+        "herocaphead" : { "palette" : [ [ false, "83d358", "529634", "306e23" ] ] },
+        "luchadorhead" : { "palette" : [ [ "fd4f30", "d91402", "830101", "510109" ] ] },
+        "pyramidhead" : { "palette" : [ [ "ded47d", "c3ae4f", "896f34", "60411b" ] ] },
+        "rocketeerhead" : { "palette" : [ [ "fbd460", "c8972d", "854900", "462000" ] ] },
+        "wighead" : { "palette" : [ [ "e6b7df", "d68ad4", "bd4ec1", false ] ] },
+
+        "banhead" : { "palette" : [ [ "deb76a", "c79146", "94531e", "663914" ] ] },
+        "bartwehead" : { "palette" : [ [ "d1dee3", "c1cdd2", "798489", "564d4d" ] ] },
+        "georgehead" : { "palette" : [ [ "d1dee3", "c1cdd2", "798489", "564d4d" ] ] },
+
+        "pirateback" : {
+          "palette" : [ [
+            "ccae7c", "a47844", "754c23", "472b13",
+            false, "6e452c", "542d18", "37190c"
+          ] ]
+        },
+
+        "boxmanhat" : {
+          "palette" : [ [
+            "c09049", "a37039", "815733", "5f4228",
+            false, false, false, "5a412c"
+          ] ]
+        },
+
+        "scientisthead" : {
+          "palette" : [ [
+            false, "e6e6e6", "9da8af", "3d3d51",
+            false, false, false, "24232f"
+          ] ]
+        },
+
+        "batwingsback" : { "palette" : [ [ "c7815b", "d54e4e", "ad1c1c", "780202" ] ] },
+        "eyehead2" : {
+          "palette" : [ [
+            "ffca8a", "e0975c", "a85636", "6f2919",
+            "c7815b", "d54e4e", "ad1c1c", "780202"
+          ] ]
+        },
+
+        "bonusarmorpants" : {
+          "palette" : [ [
+            "ffca8a", "e0975c", "a85636", "6f2919",
+            "d29ce7", "a451c4", "6a2284", "320c40"
+          ] ]
+        },
+
+        "fullmetaldemoback" : {
+          "offset" : 1,
+          "palette" : [ [
+            "ffca8a", "e0975c", "a85636", "6f2919",
+            "db9675", "ae6762", "8b5252", false
+          ] ]
+        },
+        "fullmetaldemohead" : "fullmetaldemo",
+        "fullmetaldemochest" : "fullmetaldemo",
+        "fullmetaldemolegs" : "fullmetaldemo",
+
+        "explorerchest" : "explorer",
+        "explorerlegs" : "explorer",
+
+        "hazmatdemohead" : "hazmatdemo",
+        "hazmatdemochest" : "hazmatdemo",
+        "hazmatdemolegs" : "hazmatdemo",
+
+        "medicdemoback" : "medicdemo",
+        "medicdemohead" : "medicdemo",
+        "medicdemochest" : "medicdemo",
+        "medicdemolegs" : "medicdemo",
+
+        "soldier2ahead" : "soldier2a",
+        "soldier2achest" : "soldier2a",
+        "soldier2alegs" : "soldier2a",
+
+        "spacemarinehead" : "spacemarine",
+        "spacemarinechest" : "spacemarine",
+        "spacemarinelegs" : "spacemarine",
+
+        "spacesuitdemoback" : "spacesuitdemo",
+        "spacesuitdemohead" : "spacesuitdemo",
+        "spacesuitdemochest" : "spacesuitdemo",
+        "spacesuitdemolegs" : "spacesuitdemo",
+
+        "ironarmoravianback" : "ironarmoravian",
+        "ironarmoravianhead" : "ironarmoravian",
+        "ironarmoravianchest" : "ironarmoravian",
+        "ironarmoravianlegs" : "ironarmoravian",
+
+        "pioneerchest" : "pioneer",
+        "pioneerlegs" : "pioneer",
+
+        "pathfinderchest" : "pathfinder",
+        "pathfinderlegs" : "pathfinder"
+      }
+    },
+    "object" : {
+      "default" : {
+        "method" : "simpleColor",
+        "windowConfig" : "/interface/windowconfig/dyestation_object.config",
+        "amount" : 1,
+        "free" : true,
+        "simpleColors" : [
+          "default",
+          "white",
+          "black",
+          "red",
+          "orange",
+          "yellow",
+          "green",
+          "blue",
+          "pink"
+        ]
+      },
+      "whitelist" : [
+        "alertlight",
+        "altaravian",
+        "altarbunny",
+        "and",
+        "arcademachine",
+        "ashjar1",
+        "ashjar2",
+        "ashjar3",
+        "avianbanner1",
+        "avianbanner2",
+        "avianbanner3",
+        "avianbanner4",
+        "barbedwire",
+        "bardoor",
+        "bardoor2",
+        "barvent",
+        "basicbath",
+        "basicmetalchair",
+        "basictoilet",
+        "basictv",
+        "bigjar1",
+        "birdaltar2",
+        "birdbed",
+        "birdgodemblem",
+        "birdgong1",
+        "birdgong2",
+        "birdgroundlantern",
+        "birdjar1",
+        "birdjar2",
+        "birdtable",
+        "birdthrone",
+        "box1",
+        "box2",
+        "bulb",
+        "bunkerbigpanel",
+        "bunkerbookcase",
+        "bunkercabinet1",
+        "bunkerceilinglight1",
+        "bunkerceilinglight2",
+        "bunkercomputer",
+        "bunkerconsole1",
+        "bunkerconsole2",
+        "bunkerconsole3",
+        "bunkerconsole4",
+        "bunkercorner",
+        "bunkercrate",
+        "bunkerdesk",
+        "bunkerdisplay1",
+        "bunkerdisplay2",
+        "bunkerdisplay3",
+        "bunkerdisplay4",
+        "bunkereyescanner",
+        "bunkerhandscanner",
+        "bunkerheater1",
+        "bunkerlighth",
+        "bunkerlightv",
+        "bunkermotiondetector",
+        "bunkerpanel1",
+        "bunkerpanel2",
+        "bunkerpanel3",
+        "bunkerserver",
+        "bunkertable1",
+        "bunkertable2",
+        "bunkertable3",
+        "bunkertv",
+        "bunkertv2",
+        "bunkervent",
+        "bunkerwires",
+        "cardboard1",
+        "cardboard2",
+        "cardboard3",
+        "chalktally",
+        "consoletribal1",
+        "consoletribal2",
+        "consoletribal3",
+        "consoletribal4",
+        "consoletribalwall",
+        "crystaltorch",
+        "curtain1",
+        "dangersignh",
+        "dangersignv",
+        "decorativewallrug1",
+        "decorativewallrug2",
+        "dlatch",
+        "eggchair",
+        "electricdoor",
+        "electriclight",
+        "feathers1",
+        "feathers2",
+        "featherybird",
+        "flickeringfluorescentlight",
+        "floodlights",
+        "fluorescentlight",
+        "fridge",
+        "futurelight",
+        "glasspanel",
+        "goldenducky",
+        "goldenjar1",
+        "goldenurn",
+        "hazardtapeh",
+        "hazardtapev",
+        "idolsupport",
+        "lamp",
+        "lavalamp1",
+        "lightbulb",
+        "lightbulb2",
+        "locker1",
+        "locker2",
+        "loudspeaker",
+        "marinesign",
+        "mask1",
+        "mask2",
+        "mask3",
+        "mask4",
+        "mask5",
+        "mask6",
+        "mask7",
+        "metalbarrel1",
+        "metalbarrel2",
+        "microwave",
+        "midjar1",
+        "modernchair1",
+        "moderntable1",
+        "moonemblem",
+        "not",
+        "oillantern1",
+        "oillanterntall",
+        "or",
+        "oven1",
+        "pirateflag",
+        "prisonarch",
+        "prisonbarrelfire",
+        "prisonbars",
+        "prisonbed",
+        "prisonbench",
+        "prisoncabinet1",
+        "prisoncamerastation",
+        "prisoncontrolpanel",
+        "prisoncorner",
+        "prisonexitsign",
+        "prisonfence1",
+        "prisonfence2",
+        "prisonfile1",
+        "prisonfile2",
+        "prisonfloodlight",
+        "prisonforcecell",
+        "prisongirderh",
+        "prisongirderv",
+        "prisongraffiti1",
+        "prisongraffiti2",
+        "prisongrateh",
+        "prisongratev",
+        "prisonlocker1",
+        "prisonlocker2",
+        "prisonmattress",
+        "prisonmirror1",
+        "prisonmirror2",
+        "prisonpanel",
+        "prisonpaper1",
+        "prisonpaper2",
+        "prisonpaper3",
+        "prisonpipefence",
+        "prisonradiator",
+        "prisonsecuritycamera",
+        "prisonshower",
+        "prisonsign1",
+        "prisonsign2",
+        "prisonstonesign",
+        "prisontable",
+        "prisontoilet",
+        "prisontorturebed1",
+        "prisontorturebed2",
+        "prisonturbine",
+        "redalert",
+        "rusticoven",
+        "sacrificialaltar",
+        "sarcoavian1",
+        "sarcoavian2",
+        "sarcobunny",
+        "sarcohuman",
+        "screen1",
+        "screen2",
+        "screen3",
+        "screen4",
+        "screen5",
+        "smalljar1",
+        "spearrack",
+        "steelbookcase",
+        "sundecor",
+        "talljar1",
+        "talljar2",
+        "tesla",
+        "timer",
+        "tombstatueavian",
+        "tombstatuebunny",
+        "tombstone1",
+        "tombstone10",
+        "tombstone11",
+        "tombstone2",
+        "tombstone3",
+        "tombstone4",
+        "tombstone5",
+        "tombstone6",
+        "tombstone7",
+        "tombstone8",
+        "tombstone9",
+        "tombthing1",
+        "tombthing2",
+        "tombthing3",
+        "tombthing4",
+        "tribalbookcase1",
+        "tribalbookcase2",
+        "tribalcabinet1",
+        "tribalcloset1",
+        "tribalcounter1",
+        "tribaldoor",
+        "triballamp",
+        "tribaloven2",
+        "tribalserver",
+        "tribaltable",
+        "tribalwallcabinet",
+        "vendingmachine",
+        "vent",
+        "walllight",
+        "watermachine",
+        "windchicken",
+        "wingedurn",
+        "woodchair",
+        "woodenarmchair1",
+        "woodenarmchair2",
+        "woodenbookcase",
+        "woodencabinet1",
+        "woodencabinet2",
+        "woodencabinet3",
+        "woodenceilingbookcase1",
+        "woodenceilingcabinet1",
+        "woodenceilingcabinet2",
+        "woodenchair",
+        "woodencouch1",
+        "woodencouch2",
+        "woodencraftingtable1",
+        "woodencrate1",
+        "woodencrate2",
+        "woodendesk",
+        "woodendoor",
+        "woodenendtable",
+        "woodenlamp1",
+        "woodenlamp2",
+        "woodenlamp3",
+        "woodenlocker",
+        "woodenshelf",
+        "woodensink",
+        "woodenstand1",
+        "woodenstand2",
+        "woodentalllantern",
+        "woodenwallfan",
+        "woodstool",
+        "woodsupport",
+        "woodtable",
+        "woodtoilet",
+        "wreckbed",
+        "wreckboiler",
+        "wreckchair",
+        "wreckconsole1",
+        "wreckconsole2",
+        "wreckconsole3",
+        "wreckcrate1",
+        "wreckfan",
+        "wreckgenerator",
+        "wrecklocker",
+        "wreckpanel1",
+        "wreckpanel2",
+        "wreckscreen",
+        "wrecksmalltable",
+        "wrecksupport",
+        "wrecktable",
+        "wreckturbine2",
+        "wreckturbines",
+        "wrecktv",
+        "wreckvat1",
+        "wreckvendingmachine",
+        "wreckvent",
+        "wreckwiresceiling",
+        "xor"
+      ]
+    }
+  }
+}

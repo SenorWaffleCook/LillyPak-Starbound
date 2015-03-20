@@ -1,0 +1,12 @@
+{
+    "name" : "Full Biome Protection by QueenMeatwing",
+    "version" : "Beta v. Upbeat Giraffe",
+    "path" : ".",
+    "dependencies" : [],
+    "metadata" : {
+        "diplayName" : "biomeprotection",
+        "author" : "QueenMeatwing",
+        "version" : "1.0",
+        "description" : "This mod adds full biome protection from all oxygen, radiation, cold and heat techsuits."
+    }
+}
