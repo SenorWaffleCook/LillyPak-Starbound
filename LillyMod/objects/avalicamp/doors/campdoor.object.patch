@@ -1,0 +1,11 @@
+[
+	{ "op": "add", "path": "/animationCustom", "value":
+		{
+			"sounds":
+			{
+				"open": [ "/sfx/objects/bed_leave.wav" ],
+				"close": [ "/sfx/objects/bed_enter.wav" ]
+			}
+		}
+	}
+]

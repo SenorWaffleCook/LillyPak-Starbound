@@ -1,0 +1,41 @@
+[
+	{ "op": "add", "path": "/dyeEngine/object/whitelist/-", "value":
+		[
+			"avalicushion1",
+			"avalicushion2",
+			"campslope1",
+			"campsmallentry1",
+			"camplargeentry1",
+			"campsmallwall1",
+			"camplargewall1",
+			"campdoor",
+			"avalihammock1",
+			"avalibottle1",
+			"avalicrystal1",
+			"avalidreamcatcher1",
+			"avalicontainer1",
+			"avalicontainer2",
+			"avalichest1",
+			"avalichest2",
+			"avalikitchendrawers",
+			"avalikitchenfridge",
+			"avalicuttingboard",
+			"avalikitchencupboard",
+			"avalikitchenstove",
+			"avalitable1",
+			"avalitable2",
+			"avalitable3",
+			"avalitable4",
+			"avalichair1",
+			"avaliterminal1",
+			"avaliterminal2",
+			"avalihologram1",
+			"avalihologram2",
+			"avalihologramtiny1",
+			"avalihologramtiny2",
+			"avalihologramsml1",
+			"avalihologramsml2",
+			"avalihologramsml3"
+		]
+	}
+]

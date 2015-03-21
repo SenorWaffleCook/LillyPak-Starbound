@@ -1,0 +1,5 @@
+[
+	{ "op": "replace", "path": "/slotCount", "value": 98 },
+	{ "op": "add", "path": "/scripts", "value": [ "/scripts/MovableStorage.lua" ] },
+	{ "op": "add", "path": "/content", "value": [] }
+]

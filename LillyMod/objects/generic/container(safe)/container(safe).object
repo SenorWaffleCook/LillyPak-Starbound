@@ -1,0 +1,40 @@
+{
+  "objectName" : "container(safe)",
+  "printable" : false,
+  "rarity" : "Legendary",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 0,
+  "description" : "Container 32 slot.",
+  "shortdescription" : "Container (safe)",
+  "race" : "generic",
+
+  "apexDescription" : "Container (safe).",
+  "avianDescription" : "Container (safe).",
+  "floranDescription" : "Container (safe).",
+  "glitchDescription" : "Container (safe).",
+  "humanDescription" : "Container (safe).",
+  "hylotlDescription" : "Container (safe).",
+
+  "inventoryIcon" : "container(safe)icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "container(safe).png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/shippingcontainer_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/shippingcontainer_close.wav" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,62 +1,62 @@
 [
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "dyestation"}
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "blackdye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "browndye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "greendye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "greydye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "orangedye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "pinkdye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "purpledye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "whitedye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "limedye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "tealdye" }
 },
 {
   "op": "add",
-  "path": "/defaultBlueprints/tier1/0",
+  "path": "/defaultBlueprints/tier1/-",
   "value": { "item" : "violetdye" }
 }
 ]

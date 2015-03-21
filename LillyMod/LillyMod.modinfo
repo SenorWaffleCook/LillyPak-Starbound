@@ -4,12 +4,16 @@
 	"path": ".",
 	"dependencies":
 	[
-		"container(large)",
-		"container(medium)",
-		"container(small)",
-		"container(safe)",
-		"outpostcrafttable",
-		"EnhancedStorage(StandardEdition)"
+		"EnhancedStorage(StandardEdition)",
+		"_Avali",
+		"dyemod",
+		"PerennialCrops"
 	],
-	"modauthor": "thakyZ"
+	"metadata" : 
+	{
+		"displayName" : "LillyMod",
+		"author": "thakyZ",
+		"version": "1.2.5",
+		"description": "Adds compatibility between mods."
+	}
 }
