@@ -5,7 +5,7 @@
 	"dependencies":
 	[
 		"EnhancedStorage(StandardEdition)",
-		"_Avali",
+		"Avali",
 		"dyemod",
 		"PerennialCrops"
 	],

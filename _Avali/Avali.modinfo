@@ -1,5 +1,5 @@
 {
-	"name" : "_Avali",
+	"name" : "Avali",
 	"version" : "Beta v. Upbeat Giraffe",
 	"path" : ".",
 	"dependencies" : [ "dyemod" ],
