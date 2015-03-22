@@ -35,7 +35,12 @@
 		{
 			"stat" : "maxHealth",
 			"amount" : 140
-		}
+		},
+		{
+			"stat" : "madtulip_vacuum_chest_immunity",
+			"amount" : 1
+		},
+		"regeneration1"
 	],
 
 	"colorOptions" :

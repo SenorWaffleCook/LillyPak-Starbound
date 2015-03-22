@@ -23,7 +23,12 @@
 		{
 			"stat": "maxHealth",
 			"amount": 90
-		}
+		},
+		{
+			"stat" : "madtulip_vacuum_head_immunity",
+			"amount" : 1
+		},
+		"glow"
 	],
 	"colorOptions":
 	[

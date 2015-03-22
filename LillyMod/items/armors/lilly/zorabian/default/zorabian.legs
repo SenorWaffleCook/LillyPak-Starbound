@@ -28,13 +28,19 @@
 		{
 			"stat" : "reducefalldamage",
 			"amount" : 50
-		}
+		},
+		{
+			"stat" : "madtulip_vacuum_legs_immunity",
+			"amount" : 1
+		},
+		"jumpboost",
+		"runboost"
 	],
 
 	"colorOptions" :
 	[
 		/* Ghost White */
-		{ "ffca8a" : "d7dde5", "e0975c" : "cbd1d8", "a85636" : "bfc5cc", "6f2919" : "acb1b7" },
+		{ "ffca8a" : "ECECEC", "e0975c" : "cbd1d8", "DADADA" : "C0C0C0", "6f2919" : "ADADAD", "1B8D78" : "FF0000" },
 		/* BLACK */
 		{ "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
 		/* GREY */

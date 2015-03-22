@@ -3,7 +3,7 @@
 	"inventoryIcon": "icons.png:head",
 	"dropCollision": [-4.0, -3.0, 4.0, 3.0],
 	"maxStack": 1,
-	"rarity": "Common",
+	"rarity": "Legendary",
 	"description": "^green;Avali, Head Slot. ^white; A heavy durasteel helmet, for when you absolutely positively need to keep your head on.",
 	"shortdescription": "Assault Helmet",
 	"tooltipKind": "armor",
@@ -29,11 +29,18 @@
 		{
 			"stat" : "breathprotection",
 			"amount" : 50
-		}
+		},
+		{
+			"stat" : "madtulip_vacuum_head_immunity",
+			"amount" : 1
+		},
+		"glow"
 	],
 
 	"colorOptions":
 	[
+		/* Ghost White */
+		{ "ffca8a" : "d7dde5", "e0975c" : "cbd1d8", "a85636" : "bfc5cc", "6f2919" : "acb1b7" },
 		/* GREY */
 		{ "ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030" },
 		/* BLACK */
