@@ -5,7 +5,6 @@
 	{ "op":"add", "path": "/planetTypes/savannah/layers/surface/dungeons/-", "value": "avaliencounter" },
 	{ "op":"add", "path": "/planetTypes/jungle/layers/surface/dungeons/-", "value": "avaliencounter" },
 	{ "op":"add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": "avaliencounter" },
-	{ "op":"add", "path": "/planetTypes/moon/layers/surface/dungeons/-", "value": "avaliencounter" },
 	{ "op":"add", "path": "/planetTypes/volcanic/layers/surface/dungeons/-", "value": "avaliencounter" },
 	{ "op":"add", "path": "/planetTypes/scorched/layers/surface/dungeons/-", "value": "avaliencounter" }
 ]
