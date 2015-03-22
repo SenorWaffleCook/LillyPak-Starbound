@@ -40,7 +40,7 @@
 	"colorOptions":
 	[
 		/* Ghost White */
-		{ "ffca8a" : "d7dde5", "e0975c" : "cbd1d8", "a85636" : "bfc5cc", "6f2919" : "acb1b7" },
+		{ "ffca8a" : "d7dde5", "e0975c" : "cbd1d8", "a85636" : "bfc5cc", "6f2919" : "acb1b7", "1b8d78" : "ff0000" },
 		/* GREY */
 		{ "ffca8a": "b5b5b5", "e0975c": "808080", "a85636": "555555", "6f2919": "303030" },
 		/* BLACK */

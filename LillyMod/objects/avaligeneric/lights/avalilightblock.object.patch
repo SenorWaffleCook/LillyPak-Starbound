@@ -1,0 +1,12 @@
+[
+	{ "op": "replace", "path": "/orientations/0/image", "value": "avalilightblock2.png:<color>.<frame>" },
+	{ "op": "add", "path": "/animation", "value": "/objects/wired/light/lighttoggle.animation" },
+	{ "op": "add", "path": "/animationParts", "value": { "light" : "avalilightblock2.png" } },
+	{ "op": "add", "path": "/animationPosition", "value": [ 0, 0 ] },
+	{ "op": "add", "path": "/scripts", "value": [ "/objects/wired/light/light.lua" ] },
+	{ "op": "add", "path": "/scriptDelta", "value": 60 },
+	{ "op": "add", "path": "/interactive", "value": false },
+	{ "op": "add", "path": "/inboundNodes", "value": [ [ 0, 0 ] ] },
+	{ "op": "remove", "path": "/flickerDistance" },
+	{ "op": "remove", "path": "/flickerStrength" }
+]
