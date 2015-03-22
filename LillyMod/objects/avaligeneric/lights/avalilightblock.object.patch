@@ -1,5 +1,10 @@
 [
 	{ "op": "replace", "path": "/orientations/0/image", "value": "avalilightblock2.png:<color>.<frame>" },
+	{ "op": "replace", "path": "/orientations/0/imagePosition", "value": [ 0, 0 ] },
+	{ "op": "add", "path": "/orientations/0/direction", "value": "right" },
+	{ "op": "remove", "path": "/orientations/0/frames" },
+	{ "op": "remove", "path": "/orientations/0/animationCycle" },
+	{ "op": "replace", "path": "/orientations/0/spaceScan", "value": 0.1 },
 	{ "op": "add", "path": "/animation", "value": "/objects/wired/light/lighttoggle.animation" },
 	{ "op": "add", "path": "/animationParts", "value": { "light" : "avalilightblock2.png" } },
 	{ "op": "add", "path": "/animationPosition", "value": [ 0, 0 ] },
