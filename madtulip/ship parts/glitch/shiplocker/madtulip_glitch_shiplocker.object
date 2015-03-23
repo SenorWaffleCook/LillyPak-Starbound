@@ -6,7 +6,7 @@
 
   "category" : "storage",
   "description" : "Store some stuff, why don't you?",
-  "shortdescription" : "Shiplocker",
+  "shortdescription" : "Glitch Shiplocker",
   "race" : "glitch",
   "lightColor" : [102, 90, 61],
 

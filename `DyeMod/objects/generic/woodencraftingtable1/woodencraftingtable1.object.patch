@@ -1,0 +1,67 @@
+[
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "dyestation" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "blackdye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "browndye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "greendye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "greydye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "orangedye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "pinkdye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "purpledye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "whitedye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "limedye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "tealdye" }
+},
+{
+  "op": "add",
+  "path": "/learnBlueprintsOnPickup",
+  "value": { "item" : "violetdye" }
+},
+{
+  "op": "add",
+  "path": "/dyeMod",
+  "value": { "retainObjectParametersInItem" : "true" }
+}
+]

@@ -1,7 +1,6 @@
 {
   "objectName" : "madtulip_textscreen",
   "rarity" : "Common",
-  "objectType" : "engine",
   "category" : "decorative",
   "price" : 200,
   "printable" : false,

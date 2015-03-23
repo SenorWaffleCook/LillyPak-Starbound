@@ -1,0 +1,10 @@
+[
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"AvaliBow_t1"} },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"AvaliBow_t2"} },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"AvaliBow_t3"} },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"AvaliBow_t4"} },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"AvaliBowDisplay01_tier1"} },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"AvaliBowDisplay01_tier2"} },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"AvaliBowDisplay01_tier3"} },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"AvaliBowDisplay01_tier4"} }
+]

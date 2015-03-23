@@ -1,0 +1,12 @@
+{
+  "itemName" : "madtulip_UL_gyro_stabilizers",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "madtulip_UL_gyro_stabilizers_icon.png",
+  "image" : "madtulip_UL_gyro_stabilizers_icon.png",
+
+  "shortdescription" : "^orange;Blueprints: Gyro Stabilizers^white;",
+  "description" : "^orange;Blueprints: Gyro Stabilizers^white;",
+
+  "tierRecipesUnlock" : "madtulip_UL_gyro_stabilizers",
+  "unlockMessage" : "You can now produce ^orange;Gyro Stabilizers^white;!"
+}

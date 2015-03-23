@@ -1,7 +1,19 @@
 {
-	"name" : "LillyMod",
-	"version" : "Beta v. Upbeat Giraffe",
-	"path" : ".",
-	"dependencies" : [],
-	"modauthor": "thakyZ"
+	"name": "LillyMod",
+	"version": "Beta v. Upbeat Giraffe",
+	"path": ".",
+	"dependencies":
+	[
+		"EnhancedStorage(StandardEdition)",
+		"Avali",
+		"dyemod",
+		"PerennialCrops"
+	],
+	"metadata" : 
+	{
+		"displayName" : "LillyMod",
+		"author": "thakyZ",
+		"version": "1.2.5",
+		"description": "Adds compatibility between mods."
+	}
 }

@@ -1,0 +1,22 @@
+{
+  "materialId" : 23050,
+  "materialName" : "lillyavaliglass",
+  "particleColor" : [255, 255, 128, 255],
+  "itemDrop" : "lillyavaliglass",
+  "description" : "An LED display works away quietly.",
+  "shortdescription" : "LED Display",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "drawBackground" : true,
+  "category": "decorations",
+  "health" : 1.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lillyavaliglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 10
+  }
+}

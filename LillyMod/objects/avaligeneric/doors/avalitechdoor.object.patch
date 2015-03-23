@@ -1,0 +1,11 @@
+[
+	{ "op": "add", "path": "/animationCustom", "value":
+		{
+			"sounds":
+			{
+				"open": [ "/sfx/objects/apexcooldoor_open.wav" ],
+				"close": [ "/sfx/objects/apexcooldoor_close.wav" ]
+			}
+		}
+	}
+]

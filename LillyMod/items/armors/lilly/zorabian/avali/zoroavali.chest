@@ -25,21 +25,28 @@
 	"statusEffects":
 	[
 		{
-			"stat": "maxEnergy",
-			"amount": 80
+			"stat" : "protection",
+			"amount" : 180
 		},
 		{
-			"stat": "protection",
-			"amount": 100
+			"stat" : "maxEnergy",
+			"amount" : 460
 		},
 		{
-			"stat": "maxHealth",
-			"amount": 80
-		}
+			"stat" : "maxHealth",
+			"amount" : 190
+		},
+		{
+			"stat" : "madtulip_vacuum_chest_immunity",
+			"amount" : 1
+		},
+		"regeneration1"
 	],
 
 	"colorOptions":
 	[
+		/* Ghost White */
+		{ "ffca8a" : "d7dde5", "e0975c" : "cbd1d8", "a85636" : "bfc5cc", "6f2919" : "acb1b7" },
 		/* BLACK */
 		{ "ffca8a": "838383", "e0975c": "555555", "a85636": "383838", "6f2919": "151515" },
 		/* BLACK */

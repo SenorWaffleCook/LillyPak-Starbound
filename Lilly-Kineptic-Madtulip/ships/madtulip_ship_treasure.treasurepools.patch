@@ -17,5 +17,20 @@
 				}
 			]
 		]
+	},
+	{ "op": "add", "path": "/madtulip_avaliStarterTreasure", "value":
+		[
+			[0,
+				{
+					"fill":
+					[
+						{ "pool": "madtulip_starterTreasure" },
+						{ "item" : [ "avalistarter", 1]},
+						{ "item" : [ "maskback", 1]},
+						{ "item" : [ "maskhead", 1]}
+					]
+				}
+			]
+		]
 	}
 ]

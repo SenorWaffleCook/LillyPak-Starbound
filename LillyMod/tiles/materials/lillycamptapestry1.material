@@ -1,0 +1,21 @@
+{
+  "materialId" : 22003,
+  "materialName" : "lillycamptapestry1",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lillycamptapestry1",  
+  "description" : "A soft, decorative tapestry",
+  "shortdescription" : "Avali Tapestry",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "drawBackground" : true,
+  "category": "decorations",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lillycamptapestry1.png",
+    "variants" : 5,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 10
+  }
+}

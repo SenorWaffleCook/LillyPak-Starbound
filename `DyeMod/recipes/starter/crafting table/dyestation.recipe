@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "dyestation",
+    "count" : 1
+  },
+  "groups" : [ "mod", "craftingtable", "objects", "tools", "all" ]
+}

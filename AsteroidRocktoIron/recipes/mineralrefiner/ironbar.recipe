@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "meteoriterock", "count" : 6 }
+  ],
+  "output" : { "item" : "ironbar", "count" : 1 },
+  "groups" : [ "mineralrefiner" ]
+}

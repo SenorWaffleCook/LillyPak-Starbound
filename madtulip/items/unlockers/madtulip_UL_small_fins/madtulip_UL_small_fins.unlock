@@ -1,0 +1,12 @@
+{
+  "itemName" : "madtulip_UL_small_fins",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "madtulip_UL_small_fins_icon.png",
+  "image" : "madtulip_UL_small_fins_icon.png",
+
+  "shortdescription" : "^orange;Blueprints: Small Spaceship Fins^white;",
+  "description" : "^orange;Blueprints: Small Spaceship Fins^white;",
+
+  "tierRecipesUnlock" : "madtulip_UL_small_fins",
+  "unlockMessage" : "You can now produce ^orange;Small Spaceship Fins^white;!"
+}

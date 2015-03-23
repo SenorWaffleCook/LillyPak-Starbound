@@ -6,7 +6,7 @@
 
   "category" : "storage",
   "description" : "Store some stuff, why don't you?",
-  "shortdescription" : "Shiplocker",
+  "shortdescription" : "Apex Shiplocker",
   "race" : "apex",
   
   "lightColor" : [61, 88, 102],

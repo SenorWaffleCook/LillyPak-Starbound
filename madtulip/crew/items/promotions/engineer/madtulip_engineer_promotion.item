@@ -1,0 +1,7 @@
+{
+  "itemName" : "madtulip_engineer_promotion",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "madtulip_engineer_promotion.png",
+  "description" : "Promotes a crew member to Engineer!",
+  "shortdescription" : "Engineering Promotion"
+}

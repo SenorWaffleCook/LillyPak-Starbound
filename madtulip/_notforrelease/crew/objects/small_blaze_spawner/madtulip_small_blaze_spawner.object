@@ -1,0 +1,35 @@
+{
+	"objectName" : "madtulip_small_blaze_spawner",
+	"rarity" : "Common",
+	"description" : "Spawns small blaze",
+	"shortdescription" : "Small blaze spawner",
+
+	"race" : "generic",
+	"category" : "wire",
+	"price" : 1,
+	"printable" : false,
+	
+	"inventoryIcon" : "madtulip_small_blaze_spawner.png",
+	"orientations" : [
+		{
+			"dualImage" : "madtulip_small_blaze_spawner.png:<color>.<frame>",
+			"imagePosition" : [1,0],
+			"frames" : 1,
+			"animationCycle" : 1.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+
+	"animation" : "madtulip_small_blaze_spawner.animation",
+	"animationParts" : {
+		"normal_operation_image" : "/crew/objects/small_blaze_spawner/madtulip_small_blaze_spawner.png"
+	},
+	"animationPosition" : [1, 0],
+
+	"scripts" : [
+		"/lua/madtulip_is_shipworld.lua",
+		"madtulip_small_blaze_spawner.lua"
+	],
+	"scriptDelta" : 5
+}

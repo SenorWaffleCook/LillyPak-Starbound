@@ -1,6 +1,18 @@
 [
 	// defaultitems
-
+	
+	{"op":"add","path":"/defaultItems/-","value":{"item":"diamonddrill","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_crew_spawner","count":50}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_crew_deckhand_attractor","count":50}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_bone_mender","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_fire_extinguisher","count":1}},
+	
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_deckhand_demotion","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_engineer_promotion","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_marine_promotion","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_medic_promotion","count":1}},
+	{"op":"add","path":"/defaultItems/-","value":{"item":"madtulip_scientist_promotion","count":1}},
+		
 	//defaultBlueprints
 	
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_mining_podTech-chip"}},
@@ -94,6 +106,7 @@
 
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_shipnavigationconsole"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_shipstation"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_researchstation"}},
 		
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_vent"}},
 		
@@ -231,6 +244,7 @@
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_glitch_plating"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_human_plating"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_hylotl_plating"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_novakid_plating"}},
 		
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_apex_1"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_avian_1"}},
@@ -239,5 +253,21 @@
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_human_1"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_hylotl_1"}},
 		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_novakid_1"}},
-		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_glass"}}
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_glass"}},
+		
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_apex_2"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_avian_2"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_floran_2"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_glitch_2"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_human_2"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_hylotl_2"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_novakid_2"}},
+		
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_apex_3"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_avian_3"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_floran_3"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_glitch_3"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_human_3"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_hylotl_3"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"madtulip_TS_novakid_3"}}
 ]

@@ -22,7 +22,13 @@
 		{
 			"stat": "maxHealth",
 			"amount": 60
-		}
+		},
+		{
+			"stat" : "madtulip_vacuum_legs_immunity",
+			"amount" : 1
+		},
+		"jumpboost",
+		"runboost"
 	],
 	"colorOptions":
 	[

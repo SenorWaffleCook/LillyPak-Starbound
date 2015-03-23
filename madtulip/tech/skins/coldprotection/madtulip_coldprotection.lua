@@ -10,8 +10,6 @@ function init()
 	
 	-- checks if player should suffocate or if a life support system is in his room
 	Init_Suit_Life_Support();
-	madtulip.scan_intervall_time = 1;
-	madtulip.Stage_ranges = {50,250}
 end
 
 function uninit()

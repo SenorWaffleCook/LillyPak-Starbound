@@ -5,64 +5,80 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
 
 ## **Included Mods**:
 
- 1. [Industrilization 3](http://forums.playstarbound.com/index.php?resources/2531/) - by DraLUSAD
- 2. [Lightdrones Continued](http://forums.playstarbound.com/index.php?resources/2541/) - by Jellyblade
- 3. [Shadow-Casting Lights](http://forums.playstarbound.com/index.php?resources/792/) - by Shadow Wolf TJC
- 4. [Retr0's Reduced Respawn Cost](http://forums.playstarbound.com/index.php?resources/2667/) - by RetroGaming
- 5. [ODB2 Character Creation Mod](http://forums.playstarbound.com/index.php?resources/1241/) - by ODABUTSU
- 6. [Archer's Synthesizers](http://forums.playstarbound.com/index.php?resources/1397/) - by Archer
- 7. [Paint Tool Hotfix](http://forums.playstarbound.com/index.php?resources/2619/) - by FlyingAnoymoose
- 8. [Human ship diamant Impervium (Averking) UG](http://forums.playstarbound.com/index.php?resources/2610/) - by Averking
- 9. [Material Recycler](http://forums.playstarbound.com/index.php?resources/2585/) - by eLe
- 10. [Wire Overhaul](http://forums.playstarbound.com/index.php?resources/2547/) - by Zkaface
- 11. [Enhanced Storage](http://forums.playstarbound.com/index.php?resources/2450/) - by NeoVanAlemania
- 12. [Novakid Speech Lines](http://forums.playstarbound.com/index.php?resources/2452/) - by L. F. Oxidizer
- 13. [Hylotl Stuff](http://forums.playstarbound.com/index.php?resources/2281/) - by AlexDyre
- 14. [Novakid+ Respawn](http://forums.playstarbound.com/index.php?resources/2522/) - by Ninjatre
- 15. [Wired Padlocks](http://forums.playstarbound.com/index.php?resources/2517/) - by servedskullz
- 16. [Perennial Crops](http://forums.playstarbound.com/index.php?resources/2403/) - by Toyi85
- 17. [Creative Mode](http://forums.playstarbound.com/index.php?resources/614/) - by aMannus
- 18. [Katana Pack](http://forums.playstarbound.com/index.php?resources/2464/) - by tforoforp
- 19. [Admin Shield Generator](http://forums.playstarbound.com/index.php?resources/2462/) - by Cactuar
- 20. [Illuminated Ores](http://forums.playstarbound.com/index.php?resources/2429/) - by Amadox
- 21. [Kineptic Race Mod](http://forums.playstarbound.com/index.php?resources/2264/) - by Quilavabom1
- 22. [Madtulips's Spaceship Mod](http://community.playstarbound.com/index.php?resources/59/) - by Madtulip
- 23. [Force Gates](http://forums.playstarbound.com/index.php?resources/1406/) - by penguinToast
- 24. [CopyGun](http://forums.playstarbound.com/index.php?resources/2418/) - by helloLateNight
- 25. [Grassification Station](http://forums.playstarbound.com/index.php?resources/2296/) - by Markelius
- 26. [Mighty Music](http://forums.playstarbound.com/index.php?resources/1266/) - by Quatroking
- 27. [Custom Race Tilesets](#) - by TheSidofEvil
- 28. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+ 1. [Avali Race Mod](http://community.playstarbound.com/index.php?resources/998/) - by RyuujinZERO
+ 2. [Dye Mod](http://community.playstarbound.com/index.php?resources/970/) - by MrMagical
+ 3. [Admin Shield](http://community.playstarbound.com/index.php?resources/2462/) - by Cactuar
+ 4. [AsteroidRocktoIron](http://community.playstarbound.com/index.php?resources/2787/) - by GrimsonGiraffe
+ 5. [Avali Tech Bow](http://community.playstarbound.com/index.php?resources/2251/) - by Ulithium_Dragon
+ 6. [Biome Protection Suit](http://community.playstarbound.com/index.php?resources/2748/) - by QueenMeatwing
+ 7. [Creative Mode](http://community.playstarbound.com/index.php?resources/614/) - by aMannus
+ 8. [Custom Race Tilesets](#) - by TheSidofEvil 
+ 9. [Enhanced Storage](http://community.playstarbound.com/index.php?resources/2450/) - by NeoVanAlemania
+ 10. [Grassification Station](http://community.playstarbound.com/index.php?resources/2296/) - by Markelius
+ 11. [Illuminated Ores](http://community.playstarbound.com/index.php?resources/2429/) - by Amadox
+ 12. [Kineptic Race Mod](http://community.playstarbound.com/index.php?resources/2264/) - by Quilavabom
+ 32. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana 
+ 14. [Madtulip's Spaceship Mod](http://community.playstarbound.com/index.php?resources/59/) - by Madtulip
+ 15. [Material Recycler](http://community.playstarbound.com/index.php?resources/2585/) - by eLe
+ 16. [Novakid+ Respawn](http://community.playstarbound.com/index.php?resources/2522/) - by Ninjatre
+ 17. [Other races actually Recognize Novakids](http://community.playstarbound.com/index.php?resources/452/) - by L. F. Oxidizer
+ 18. [ODB2 Character Creation Mod](http://community.playstarbound.com/index.php?resources/1241/) - by ODABUTSU
+ 19. [Player-Built Space Stations](http://community.playstarbound.com/index.php?resources/2783/) - by Shadow Wolf TJC
+ 20. [Mighty Music Mod](http://community.playstarbound.com/index.php?resources/1266/) - by Quatroking
+ 21. [Wave Driver]() - by
+ 22. [Wired Padlocks](http://community.playstarbound.com/index.php?resources/2517/) - by severedskullz
+ 23. [Copy Gun](http://community.playstarbound.com/index.php?resources/2418/) - by helloLateNight
+ 24. [Extended Songbook](http://community.playstarbound.com/index.php?resources/249/) - by V6000
+ 25. [Force Gates](http://community.playstarbound.com/index.php?resources/1406/) - by PenguinToast
+ 26. [Graviton Projectors](http://community.playstarbound.com/index.php?resources/2692/) - by Storm_UK
+ 27. [Paint Tool Hotfix](http://community.playstarbound.com/index.php?resources/2619/) - by FlyingAnonymoose
+ 28. [Industrialization 3](http://community.playstarbound.com/index.php?resources/2531/) - by DraLUSAD
+ 29. [Lightdrones Continued](http://community.playstarbound.com/index.php?resources/2541/) - by JellyBlade
+ 30. [Perennial Crops](http://community.playstarbound.com/index.php?resources/2403/) - by Toyi85
+ 31. [Retr0's Reduced Spawn Cost](http://community.playstarbound.com/index.php?resources/2667/) - by Retr0
+ 32. [Wire Overhaul](http://community.playstarbound.com/index.php?resources/2547/) - by Zkaface
 
-Have obtained permission for mods:
+### Have obtained permission for mods:
+ - [x] Avali Race Mod
+ - [ ] Dye Mod
+ - [x] Admin Shield
+ - [x] AsteroidRocktoIron
+ - [x] Avali Tech Bow
+ - [x] Biome Protection Suit
+ - [x] Creative Mode
+ - [x] Custom Race Tilesets
+ - [x] Enhanced Storage
+ - [x] Grassification Station
+ - [x] Illuminated Ores
+ - [x] Kineptic Race Mod
+ - [x] Lilly Co. Mods
+ - [x] Madtulip's Spaceship Mod
+ - [x] Material Recycler
+ - [ ] Novakid+ respawn
+ - [x] Other races actually Recognize Novakids
+ - [x] ODB2 Character Creation Mod
+ - [x] Player-Built Space Stations
+ - [x] Mighty Music Mod
+ - [x] Wave Driver
+ - [x] Wired Padlocks
+ - [x] Copy Gun
+ - [x] Extended Songbook
+ - [ ] Force Gates
+ - [x] Graviton Projectors
+ - [x] Paint Tool Hotfix
  - [x] Industrialization 3
  - [x] Lightdrones Continued
- - [x] Shadow-Casting Lights
- - [x] Retr0's Reduced Spawn Cost
- - [ ] ODB2 Character Creation Mod
- - [ ] Archer's Synthesizers
- - [x] Paint Tool Hotfix
- - [x] Human ship diamant Impervium (Averking) UG
- - [x] Material Recycler
- - [ ] Wire Overhaul
- - [x] Enhanced Storage
- - [x] Other races actually Recognize Novakids
- - [x] Hylotl Stuff
- - [ ] Novakid+ respawn
- - [x] Wired Padlocks
  - [x] Perennial Crops
- - [x] Creative Mode
- - [ ] Katana Pack
- - [ ] Admin Shield
- - [ ] Illuminated Ores
- - [x] Kineptic Race Mod
- - [x] Madtulip's Spaceship Mod
- - [ ] Force Gates
- - [ ] Copy Gun
- - [x] Grassification Station
- - [x] Mighty Music
- - [x] Custom Race Tilesets
- - [x] Lilly Co. Mods
+ - [x] Retr0's Reduced Spawn Cost
+ - [x] Wire Overhaul
+
+### Removed mods:
+ - Shadow-Casting Lights
+ - Archer's Synthesizers
+ - Human ship diamant Impervium (Averking) UG
+ - Hylotl Stuff
+ - Katana Pack
+ - Custom Race Tilesets
 
 ----------
 
@@ -76,4 +92,4 @@ Have obtained permission for mods:
 
 ## **My mods Legal**:
 
-The Lilly Co. Mods are under the **MIT licence**.
+The Lilly Co. Mods are under the **Apache licence**.

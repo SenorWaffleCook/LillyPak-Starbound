@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 10 },
-    { "item" : "diamond", "count" : 5 }
-  ],
-  "output" : { "item" : "outpostdoor", "count" : 1 },
-  "groups" : [ "outpostcrafttable", "mod", "objects", "other", "all" ]
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 500 }
-  ],
-  "output" : { "item" : "printerportable", "count" : 1 },
-  "groups" : [ "outpostcrafttable", "mod", "objects", "other", "all" ]
-}

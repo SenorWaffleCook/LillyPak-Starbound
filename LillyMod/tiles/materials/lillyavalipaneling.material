@@ -1,0 +1,21 @@
+{
+  "materialId" : 23004,
+  "materialName" : "lillyavalipaneling",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lillyavalipaneling",
+  "description" : "Like paneling, but darker.",
+  "shortdescription" : "Dark Paneling",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "drawBackground" : true,
+  "category": "decorations",
+  "health" : 1.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lillyavalipaneling.png",
+    "variants" : 1,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 10
+  }
+}

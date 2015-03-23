@@ -1,7 +1,6 @@
 {
   "objectName" : "madtulip_barscreen",
   "rarity" : "Common",
-  "objectType" : "engine",
   "category" : "decorative",
   "price" : 200,
   "printable" : false,

@@ -1,0 +1,31 @@
+{
+  "itemName" : "madtulip_fire_extinguisher",
+  "inventoryIcon" : "madtulip_fire_extinguisher_icon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "rarity" : "Common",
+  "description" : "Fights fire!",
+  "shortdescription" : "Fire Extinguisher",
+  "image" : "madtulip_fire_extinguisher.png",
+  "handPosition" : [-7, -1],
+  "firePosition" : [20, 1.5],
+  "inspectionKind" : "gun",
+  "spread" : 1,
+  "fireTime" : 0.05,
+  "twoHanded" : false,
+  "energyCostPerDamagePoint" : 0,
+  "classMultiplier" : 0,
+
+  "projectileType" : "madtulip_fire_extinguisher_proj",
+  "projectile" : { "speed" : 15,
+                   "power" : 0.1 , // damage
+				   "life" : 0,   // heals
+				   "color" : [150, 150, 150] },
+  "muzzleEffect" : {
+       "animation" :  "/crew/guns/fire extinguisher/muzzle/madtulip_fire_ex_muzzle.animation" ,
+       "fireSound" : [ { "file" : "/sfx/gun/fireblast.wav" } ]
+	   },
+  // required ?
+  "maxStack" : 1,
+  "level" : 1,
+  "weaponType" : "Fire-Extinguisher"
+}

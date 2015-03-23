@@ -1,0 +1,21 @@
+{
+  "materialId" : 23009,
+  "materialName" : "lillyavalidarkmetal2",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lillyavalidarkmetal2",
+  "description" : "Metal, darkly.",
+  "shortdescription" : "Dark Metal Panels",
+  "footstepSound" : "/sfx/blocks/footstep_composite.wav",
+  "drawBackground" : true,
+  "category": "decorations",
+  "health" : 1.0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lillyavalidarkmetal2.png",
+    "variants" : 1,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 10
+  }
+}

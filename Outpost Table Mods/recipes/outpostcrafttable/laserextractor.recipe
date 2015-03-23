@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 1000 }
-  ],
-  "output" : { "item" : "laserextractor", "count" : 1 },
-  "groups" : [ "outpostcrafttable", "weapons", "all" ]
-}

@@ -1,0 +1,20 @@
+{
+  "projectileName" : "madtulip_bone_mender_proj",
+  "frames" : "madtulip_bone_mender_proj.png",
+  "physics" : "gas",
+  "level" : 3,
+  "animationCycle" : 0.8,
+  "frameNumber" : 8,
+  "power" : -1,
+  "speed" : 8,
+  "timeToLive" : 0.8,
+  "bounces" : 1,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "piercing" : true,
+  "statusEffects" : [
+    { "effect" : "madtulip_bone_mending"}
+  ],
+  "universalDamage" : true,
+  "damageType" : "ignoresdef",
+  "damageKind" : "default"
+}

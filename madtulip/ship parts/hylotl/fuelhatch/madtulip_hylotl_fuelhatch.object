@@ -4,7 +4,7 @@
   "objectType" : "container",
   "printable" : false,
   "description" : "Accepts a bunch of different kinds of fuel. Of Hyltol design.",
-  "shortdescription" : "Fuel Hatch",
+  "shortdescription" : "Hylotl Fuel Hatch",
   "race" : "hylotl",
   "price" : 1000,
   "lightColor" : [67, 102, 61],

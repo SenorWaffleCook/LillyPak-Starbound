@@ -5,13 +5,12 @@ function init()
 	entity.setAnimationState("DisplayState", "normal_operation");
 
 	-- Init for life support functions
-	-- read CPU performance settings from .object file
 	LS_init();
+	
 	madtulip.maximum_particle_fountains = entity.configParameter("madtulip_maximum_particle_fountains_per_spawn", 10)
 	madtulip.scan_intervall_time = entity.configParameter("madtulip_scan_intervall_time", 1)
 	madtulip.beep_intervall_time = entity.configParameter("madtulip_beep_intervall_time", 1)
 	madtulip.spawn_projectile_intervall_time = entity.configParameter("madtulip_spawn_projectile_intervall_time", 1)
-	madtulip.Stage_ranges = entity.configParameter("madtulip_scan_stage_ranges", {50,250})
 	
 	madtulip.beep_time_last_execution = os.time() --[s]
 	madtulip.spawn_projectile_time_last_execution = os.time() --[s]
@@ -43,10 +42,6 @@ function onInteraction(args)
 end
 
 function update(dt)
-    -- due to
-	-- "scriptDelta" : 100
-	-- in the object script this is called approximately every 1s for my hardware
-	
 	--main_threaded();
 	if (coroutine.status(co) == "suspended") then
 		-- start thread
@@ -65,6 +60,7 @@ end
 function main_threaded()
 	-- only works on ship, not on planet
 	if not is_shipworld() then return false end
+	
 	-- grafic update
 	if(os.time() >= madtulip.spawn_projectile_time_last_execution + madtulip.spawn_projectile_intervall_time) then
 		-- check for system beeing offline
@@ -119,6 +115,7 @@ function main_threaded()
 		end		
 		madtulip.spawn_projectile_time_last_execution = os.time() --[s]
 	end
+	
 	-- sound
 	if(os.time() >= madtulip.beep_time_last_execution + madtulip.beep_intervall_time) then
 		-- check for system beeing offline
@@ -127,8 +124,7 @@ function main_threaded()
 		else
 			-- online
 			if (madtulip.Flood_Data_Matrix ~= nil) then
-				if (madtulip.Flood_Data_Matrix.Background_breach == 1)
-				   or (madtulip.Flood_Data_Matrix.Room_is_not_enclosed == 1) then
+				if (madtulip.Flood_Data_Matrix.Room_is_not_enclosed == 1) then
 					-- play a meeping warning sound
 					entity.playSound("Breach_Warning_Sound");
 				end
@@ -136,11 +132,10 @@ function main_threaded()
 		end
 		madtulip.beep_time_last_execution = os.time() --[s]
 	end
+	
 	-- area scan
 	if(os.time() >= madtulip.scan_time_last_executiong + madtulip.scan_intervall_time) then
-		madtulip.Origin       = entity.toAbsolutePosition({ 0.0, 0.0 })
-		LS_Automatic_Multi_Stage_Scan();
-		
+		LS_Start_New_Room_Breach_Scan_preallocated_memory(entity.toAbsolutePosition({ 0.0, 0.0 }));
 		madtulip.scan_time_last_executiong = os.time()
 	end
 end
