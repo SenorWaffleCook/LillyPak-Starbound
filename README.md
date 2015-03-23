@@ -43,7 +43,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  - [ ] Dye Mod
  - [x] Admin Shield
  - [x] AsteroidRocktoIron
- - [ ] Avali Tech Bow
+ - [x] Avali Tech Bow
  - [x] Biome Protection Suit
  - [x] Creative Mode
  - [x] Custom Race Tilesets
