@@ -32,7 +32,7 @@
       },
       "objectResidual" : true
     },
-
+    
     {
       "value" : [0, 128, 0, 255],
       "foregroundBlock" : false,
@@ -75,7 +75,7 @@
         "unbreakable" : true
       }
     },
-
+    
     {
       "value" : [128, 44, 41, 255],
       "foregroundBlock" : false,
@@ -104,7 +104,7 @@
       "backgroundMat" : "apexshipdetails",
       "object" : "apexshiplight"
     },
-
+    
     {
       "value" : [191, 191, 0, 255],
       "foregroundBlock" : false,
@@ -115,7 +115,7 @@
         "unbreakable" : true
       }
     },
-
+    
     {
       "value" : [128, 128, 0, 255],
       "foregroundBlock" : false,
@@ -134,7 +134,7 @@
       "backgroundBlock" : true,
       "object" : "avianshipdoor"
     },
-
+    
     {
       "value" : [128, 51, 0, 255],
       "foregroundBlock" : false,
@@ -167,7 +167,7 @@
         "unbreakable" : true
       }
     },
-
+    
     {
       "value" : [79, 0, 128, 255],
       "anchor" : true,
@@ -231,7 +231,7 @@
         "unbreakable" : true
       }
     },
-
+    
     {
       "value" : [255, 232, 128, 255],
       "foregroundBlock" : false,
