@@ -2,7 +2,7 @@
 	"name" : "Avali",
 	"version" : "Beta v. Upbeat Giraffe",
 	"path" : ".",
-	"dependencies" : [ "dyemod" ],
+	"requires" : [ "dyemod" ],
 	"metadata" : {
     "displayName" : "Avali Race Mod",
 		"author" : "RyuujinZERO",
