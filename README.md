@@ -1,8 +1,7 @@
 # **LillyPak-Starbound**
 This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
 
-### Site:
-[LillyPak-Starbound](http://thakyz.github.io/LillyPak-Starbound)
+   Site: [http://thakyz.github.io/LillyPak-Starbound](http://thakyz.github.io/LillyPak-Starbound)
 
 ----------
 
