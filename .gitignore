@@ -8,6 +8,8 @@
 *.apng
 *.agif
 *.bat
+
+## Windows hidden files.
 Thumbs.db
 ehthumbs.db
 Desktop.ini

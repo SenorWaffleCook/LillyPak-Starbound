@@ -1,6 +1,9 @@
 # **LillyPak-Starbound**
 This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
 
+### Site:
+[LillyPak-Starbound](http://thakyz.github.io/LillyPak-Starbound)
+
 ----------
 
 ## **Included Mods**:
@@ -12,12 +15,12 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  5. [Avali Tech Bow](http://community.playstarbound.com/index.php?resources/2251/) - by Ulithium_Dragon
  6. [Biome Protection Suit](http://community.playstarbound.com/index.php?resources/2748/) - by QueenMeatwing
  7. [Creative Mode](http://community.playstarbound.com/index.php?resources/614/) - by aMannus
- 8. [Custom Race Tilesets](#) - by TheSidofEvil 
+ 8. [Custom Race Tilesets](#) - by TheSidofEvil
  9. [Enhanced Storage](http://community.playstarbound.com/index.php?resources/2450/) - by NeoVanAlemania
  10. [Grassification Station](http://community.playstarbound.com/index.php?resources/2296/) - by Markelius
  11. [Illuminated Ores](http://community.playstarbound.com/index.php?resources/2429/) - by Amadox
  12. [Kineptic Race Mod](http://community.playstarbound.com/index.php?resources/2264/) - by Quilavabom
- 32. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana 
+ 32. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
  14. [Madtulip's Spaceship Mod](http://community.playstarbound.com/index.php?resources/59/) - by Madtulip
  15. [Material Recycler](http://community.playstarbound.com/index.php?resources/2585/) - by eLe
  16. [Novakid+ Respawn](http://community.playstarbound.com/index.php?resources/2522/) - by Ninjatre
@@ -84,8 +87,8 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
 
 ## **Legal**:
 
-   None, but one, of these mods are owned by Nire Inicana, or thakyZ.   
-   I did not ask for permission to use these mods in my mod pack - **YET**   
+   None, but one, of these mods are owned by Nire Inicana, or thakyZ.
+   I did not ask for permission to use these mods in my mod pack - **YET**
    This mod pack is **supposed to be private** but is posted on here for the convenience of Github.
 
 ----------
