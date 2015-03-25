@@ -1,0 +1,2 @@
+delete before release:
+/player.config.patch
