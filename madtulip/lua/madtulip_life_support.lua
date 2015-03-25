@@ -178,8 +178,7 @@ function LS_Flood_Fill(cur_Position)
 	--if     ((not world.material(cur_Position, "foreground") == false) and world.pointCollision(cur_Position, true))
 	--    or (#world.entityQuery(cur_Position,0,{ includedTypes = {"object"}, callScript = "hasCapability", callScriptArgs = { "door" } }) > 0 and world.pointCollision(cur_Position, true))
 	-- but that only works for techs and not for objects, for whatever reason
-	if world.pointCollision(cur_Position, true)
-		then
+	if world.pointCollision(cur_Position, true) then
 		-- an existing foreground block which is NOT a platform
 		-- OR a "door" and collision in that block. for some reason just "closeddoor" querry doesnt cut it as thats larger then the actual collision box of the closed door
 		--> its a none target

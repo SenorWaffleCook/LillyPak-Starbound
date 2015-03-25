@@ -1,7 +1,7 @@
 {
 	"objectName" : "madtulip_crew_spawner",
 	"rarity" : "Common",
-	"description" : "Spawns ship crew",
+	"description" : "Place on your spaceship and use to spawn a ship crew member",
 	"shortdescription" : "Crew in a Box",
 
 	"race" : "generic",

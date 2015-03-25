@@ -1,0 +1,7 @@
+{
+  "itemName" : "madtulip_crew_command_one",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "madtulip_crew_command_one.png",
+  "description" : "Grab it and use it on crew to start/stop them doing their job",
+  "shortdescription" : "Crew Start/Stop Job Command"
+}

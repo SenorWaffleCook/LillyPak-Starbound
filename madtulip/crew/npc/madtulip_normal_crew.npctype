@@ -27,6 +27,7 @@
 	"/crew/scripts/states/sitState.lua",
 	"/crew/scripts/states/sleepState.lua",
 	
+	"/lua/madtulip_is_shipworld.lua",
 	"/lua/madtulip_copy_table.lua",
 	
 	// vanilla scripts

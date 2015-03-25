@@ -7,7 +7,7 @@
   "shortdescription" : "Fire Extinguisher",
   "image" : "madtulip_fire_extinguisher.png",
   "handPosition" : [-7, -1],
-  "firePosition" : [20, 1.5],
+  "firePosition" : [16, 1.5],
   "inspectionKind" : "gun",
   "spread" : 1,
   "fireTime" : 0.05,

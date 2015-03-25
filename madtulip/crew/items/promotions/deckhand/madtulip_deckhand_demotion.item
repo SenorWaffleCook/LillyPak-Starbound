@@ -2,6 +2,6 @@
   "itemName" : "madtulip_deckhand_demotion",
   "rarity" : "Uncommon",
   "inventoryIcon" : "madtulip_deckhand_demotion.png",
-  "description" : "Demotes a crew member to Deckhand!",
+  "description" : "Grab it and use it on a crew member to demote him to a deckhand!",
   "shortdescription" : "Deckhand Demotion"
 }

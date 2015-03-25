@@ -52,6 +52,7 @@ function Set_Occupation_Cloth()
 		--entity.setItemSlot("alt", nil)
 		entity.setItemSlot("chest", {name = "madtulip_" .. entity.species() .. "_engineer_chest", data ={ colorIndex = storage.colorIndex }})
 		entity.setItemSlot("legs" , {name = "madtulip_" .. entity.species() .. "_engineer_pants", data ={ colorIndex = storage.colorIndex }})
+		entity.setItemSlot("back" , {name = "madtulip_spacesuit_back", data ={ colorIndex = storage.colorIndex }})
 		return true
 	elseif storage.Occupation == "Medic" then
 		-- Medic
@@ -59,6 +60,7 @@ function Set_Occupation_Cloth()
 		--entity.setItemSlot("alt", nil)
 		entity.setItemSlot("chest", {name = "madtulip_" .. entity.species() .. "_medical_chest", data ={ colorIndex = storage.colorIndex }})
 		entity.setItemSlot("legs" , {name = "madtulip_" .. entity.species() .. "_medical_pants", data ={ colorIndex = storage.colorIndex }})
+		entity.setItemSlot("back" , {name = "madtulip_spacesuit_back", data ={ colorIndex = storage.colorIndex }})
 		return true
 	elseif storage.Occupation == "Scientist" then
 		-- Scientist
@@ -66,6 +68,7 @@ function Set_Occupation_Cloth()
 		--entity.setItemSlot("alt", nil)
 		entity.setItemSlot("chest", {name = "madtulip_" .. entity.species() .. "_science_chest", data ={ colorIndex = storage.colorIndex }})
 		entity.setItemSlot("legs" , {name = "madtulip_" .. entity.species() .. "_science_pants", data ={ colorIndex = storage.colorIndex }})
+		entity.setItemSlot("back" , {name = "madtulip_spacesuit_back", data ={ colorIndex = storage.colorIndex }})
 		return true
 	elseif storage.Occupation == "Marine" then
 		-- Marine
@@ -73,6 +76,7 @@ function Set_Occupation_Cloth()
 		--entity.setItemSlot("alt", nil)
 		entity.setItemSlot("chest", {name = "madtulip_" .. entity.species() .. "_marine_chest", data ={ colorIndex = storage.colorIndex }})
 		entity.setItemSlot("legs" , {name = "madtulip_" .. entity.species() .. "_marine_pants", data ={ colorIndex = storage.colorIndex }})
+		entity.setItemSlot("back" , {name = "madtulip_spacesuit_back", data ={ colorIndex = storage.colorIndex }})
 		return true
 	elseif storage.Occupation == "Deckhand" then
 		-- None
@@ -80,6 +84,7 @@ function Set_Occupation_Cloth()
 		--entity.setItemSlot("alt", nil)
 		entity.setItemSlot("chest", {name = "madtulip_" .. entity.species() .. "_deckhand_chest", data ={ colorIndex = storage.colorIndex }})
 		entity.setItemSlot("legs" , {name = "madtulip_" .. entity.species() .. "_deckhand_pants", data ={ colorIndex = storage.colorIndex }})
+		entity.setItemSlot("back" , {name = "madtulip_spacesuit_back", data ={ colorIndex = storage.colorIndex }})
 		return true
 	else
 		entity.say("What kind of job is that!?, SIR!")

@@ -19,6 +19,11 @@ update = function (dt)
   noticePlayers()
 
 	-- NPC checks his surrounding for tasks (like someone bleeding or a fire)
+	--[[
+	if (determine_if_ZERO_gravity(4)) then
+		-- entity.die() ...
+	end
+	--]]
 	madtulip_TS.update_Task_Scheduler(dt)
   
   self.state.update(dt)
@@ -120,5 +125,30 @@ init = function ()
     storage.spawnPosition = { position[1], supportRegion[2] + 3.5 }
   end
 
-  self.debug = true
+  self.debug = false
+end
+
+function determine_if_ZERO_gravity(Range)
+	-- return if we are on a planet
+	if not is_shipworld() then return false end
+	
+	-- we assume Zero gravity unless we find blocks in the vicinity
+	local Zero_gravity = true;
+	local Origin = mcontroller.position();
+	for cur_X = -Range, Range, 1 do
+		for cur_Y = -Range, Range, 1 do
+			local cur_abs_Position = {};
+			-- X coordinate where to get data
+			cur_abs_Position[1] = Origin[1] + cur_X;
+			-- Y coordinate where to get data
+			cur_abs_Position[2] = Origin[2] + cur_Y;
+			
+			if not((world.material(cur_abs_Position, "foreground") == false) and (world.material(cur_abs_Position, "background") == false)) then
+				-- write the findings at this position to output variable
+				Zero_gravity = false;
+			end
+		end	
+	end
+	
+	return Zero_gravity;
 end

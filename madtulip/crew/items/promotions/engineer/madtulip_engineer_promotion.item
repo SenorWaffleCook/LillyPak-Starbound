@@ -2,6 +2,6 @@
   "itemName" : "madtulip_engineer_promotion",
   "rarity" : "Uncommon",
   "inventoryIcon" : "madtulip_engineer_promotion.png",
-  "description" : "Promotes a crew member to Engineer!",
+  "description" : "Grab it and use it on a crew member to promote him to an engineer!",
   "shortdescription" : "Engineering Promotion"
 }
