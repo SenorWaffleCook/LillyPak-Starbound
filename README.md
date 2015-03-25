@@ -27,7 +27,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  18. [ODB2 Character Creation Mod](http://community.playstarbound.com/index.php?resources/1241/) - by ODABUTSU
  19. [Player-Built Space Stations](http://community.playstarbound.com/index.php?resources/2783/) - by Shadow Wolf TJC
  20. [Mighty Music Mod](http://community.playstarbound.com/index.php?resources/1266/) - by Quatroking
- 21. [Wave Driver]() - by
+ 21. [Wave Driver](http://forums.playstarbound.com/index.php?resources/2153/) - by Alex Vixgeck
  22. [Wired Padlocks](http://community.playstarbound.com/index.php?resources/2517/) - by severedskullz
  23. [Copy Gun](http://community.playstarbound.com/index.php?resources/2418/) - by helloLateNight
  24. [Extended Songbook](http://community.playstarbound.com/index.php?resources/249/) - by V6000
@@ -86,7 +86,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
 
 ## **Legal**:
 
-   None, but one, of these mods are owned by Nire Inicana, or thakyZ.
+   Most of these mod(s) of these mods are not owned by Nire Inicana, or thakyZ.
    I did not ask for permission to use these mods in my mod pack - **YET**
    This mod pack is **supposed to be private** but is posted on here for the convenience of Github.
 
