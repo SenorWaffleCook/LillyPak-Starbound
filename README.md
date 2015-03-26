@@ -39,6 +39,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  30. [Perennial Crops](http://community.playstarbound.com/index.php?resources/2403/) - by Toyi85
  31. [Retr0's Reduced Spawn Cost](http://community.playstarbound.com/index.php?resources/2667/) - by Retr0
  32. [Wire Overhaul](http://community.playstarbound.com/index.php?resources/2547/) - by Zkaface
+ 33. [CLeF](http://forums.playstarbound.com/index.php?resources/2622/) - by MrChow
 
 ### Have obtained permission for mods:
  - [x] Avali Race Mod
@@ -73,6 +74,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  - [x] Perennial Crops
  - [x] Retr0's Reduced Spawn Cost
  - [x] Wire Overhaul
+ - [x] CLeF
 
 ### Removed mods:
  - Shadow-Casting Lights

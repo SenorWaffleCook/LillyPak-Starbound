@@ -1,0 +1,16 @@
+{
+  "id" : "brainhunter.gearup",
+  "title" : "^green;The Brain Hunter",
+  "text" : "It's time to find some ^orange;gray matter^white;. ^green;When finished off with ^orange;Brain Extractor^green;, the monsters will drop their ^orange;primitive thinking apparatus^green;.",
+  "completionText" : "Finally, a decent ^orange;brain^white;! ^green;I can use it to cook a ^orange;delicious meal ^green;or attempt to ^orange;perform a science experiment^green;.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "brain", 1 ], "consume" : false }
+  ],
+  "rewards" : [ ],
+  "moneyRange" : [100, 500],
+  "planetMode" : "none",
+  "canBeAbandoned" : false,
+
+  // dsp2003: next would be a Fatal Circuit quest
+  "followUp" : ""
+}

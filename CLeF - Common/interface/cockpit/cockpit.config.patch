@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/intraSystemFuelcost", "value" : 5 }
+]
