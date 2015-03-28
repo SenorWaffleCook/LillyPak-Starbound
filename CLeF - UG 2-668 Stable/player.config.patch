@@ -1,0 +1,5 @@
+[
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonpants" } }
+]

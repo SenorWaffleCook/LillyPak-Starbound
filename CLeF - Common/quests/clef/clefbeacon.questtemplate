@@ -1,7 +1,7 @@
 {
   "id" : "clefbeacon.gearup",
   "title" : "^green;The First Contact",
-  "text" : "Your ship is in bad condition, so you think a good trade with friendly alien folks would really boost up your progress! ^green;Craft a ^orange;Old Distress Beacon ^green;and maybe you'll be able to make contact with a larger ship. ^white;Make sure you're ready for anything before you do though!",
+  "text" : "Your ship is in bad condition, so you think a good trade with friendly alien folks would really boost up your progress! ^green;Craft an ^orange;Old Distress Beacon ^green;and maybe you'll be able to make contact with a larger ship. ^white;Make sure you're ready for anything before you do though!",
   "completionText" : "Nicely done. I suggest you gear up before placing it. You never know who'll receive your signal.",
   "conditions" : [
     { "kind" : "gather", "item" : [ "distressbeacon", 1] }
