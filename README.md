@@ -64,7 +64,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  - [x] Wired Padlocks
  - [x] Copy Gun
  - [x] Extended Songbook
- - [ ] Force Gates
+ - [x] Force Gates
  - [x] Graviton Projectors
  - [x] Paint Tool Hotfix
  - [x] Industrialization 3
