@@ -22,24 +22,23 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  32. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
  14. [Madtulip's Spaceship Mod](http://community.playstarbound.com/index.php?resources/59/) - by Madtulip
  15. [Material Recycler](http://community.playstarbound.com/index.php?resources/2585/) - by eLe
- 16. [Novakid+ Respawn](http://community.playstarbound.com/index.php?resources/2522/) - by Ninjatre
- 17. [Other races actually Recognize Novakids](http://community.playstarbound.com/index.php?resources/452/) - by L. F. Oxidizer
- 18. [ODB2 Character Creation Mod](http://community.playstarbound.com/index.php?resources/1241/) - by ODABUTSU
- 19. [Player-Built Space Stations](http://community.playstarbound.com/index.php?resources/2783/) - by Shadow Wolf TJC
- 20. [Mighty Music Mod](http://community.playstarbound.com/index.php?resources/1266/) - by Quatroking
- 21. [Wave Driver](http://forums.playstarbound.com/index.php?resources/2153/) - by Alex Vixgeck
- 22. [Wired Padlocks](http://community.playstarbound.com/index.php?resources/2517/) - by severedskullz
- 23. [Copy Gun](http://community.playstarbound.com/index.php?resources/2418/) - by helloLateNight
- 24. [Extended Songbook](http://community.playstarbound.com/index.php?resources/249/) - by V6000
- 25. [Force Gates](http://community.playstarbound.com/index.php?resources/1406/) - by PenguinToast
- 26. [Graviton Projectors](http://community.playstarbound.com/index.php?resources/2692/) - by Storm_UK
- 27. [Paint Tool Hotfix](http://community.playstarbound.com/index.php?resources/2619/) - by FlyingAnonymoose
- 28. [Industrialization 3](http://community.playstarbound.com/index.php?resources/2531/) - by DraLUSAD
- 29. [Lightdrones Continued](http://community.playstarbound.com/index.php?resources/2541/) - by JellyBlade
- 30. [Perennial Crops](http://community.playstarbound.com/index.php?resources/2403/) - by Toyi85
- 31. [Retr0's Reduced Spawn Cost](http://community.playstarbound.com/index.php?resources/2667/) - by Retr0
- 32. [Wire Overhaul](http://community.playstarbound.com/index.php?resources/2547/) - by Zkaface
- 33. [CLeF](http://forums.playstarbound.com/index.php?resources/2622/) - by MrChow
+ 16. [Other races actually Recognize Novakids](http://community.playstarbound.com/index.php?resources/452/) - by L. F. Oxidizer
+ 17. [ODB2 Character Creation Mod](http://community.playstarbound.com/index.php?resources/1241/) - by ODABUTSU
+ 18. [Player-Built Space Stations](http://community.playstarbound.com/index.php?resources/2783/) - by Shadow Wolf TJC
+ 19. [Mighty Music Mod](http://community.playstarbound.com/index.php?resources/1266/) - by Quatroking
+ 20. [Wave Driver](http://forums.playstarbound.com/index.php?resources/2153/) - by Alex Vixgeck
+ 21. [Wired Padlocks](http://community.playstarbound.com/index.php?resources/2517/) - by severedskullz
+ 22. [Copy Gun](http://community.playstarbound.com/index.php?resources/2418/) - by helloLateNight
+ 23. [Extended Songbook](http://community.playstarbound.com/index.php?resources/249/) - by V6000
+ 24. [Force Gates](http://community.playstarbound.com/index.php?resources/1406/) - by PenguinToast
+ 25. [Graviton Projectors](http://community.playstarbound.com/index.php?resources/2692/) - by Storm_UK
+ 26. [Paint Tool Hotfix](http://community.playstarbound.com/index.php?resources/2619/) - by FlyingAnonymoose
+ 27. [Industrialization 3](http://community.playstarbound.com/index.php?resources/2531/) - by DraLUSAD
+ 28. [Lightdrones Continued](http://community.playstarbound.com/index.php?resources/2541/) - by JellyBlade
+ 29. [Perennial Crops](http://community.playstarbound.com/index.php?resources/2403/) - by Toyi85
+ 30. [Retr0's Reduced Spawn Cost](http://community.playstarbound.com/index.php?resources/2667/) - by Retr0
+ 31. [Wire Overhaul](http://community.playstarbound.com/index.php?resources/2547/) - by Zkaface
+ 32. [CLeF](http://forums.playstarbound.com/index.php?resources/2622/) - by MrChow
 
 ### Have obtained permission for mods:
  - [x] Avali Race Mod
@@ -57,7 +56,6 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  - [x] Lilly Co. Mods
  - [x] Madtulip's Spaceship Mod
  - [x] Material Recycler
- - [ ] Novakid+ respawn
  - [x] Other races actually Recognize Novakids
  - [x] ODB2 Character Creation Mod
  - [x] Player-Built Space Stations

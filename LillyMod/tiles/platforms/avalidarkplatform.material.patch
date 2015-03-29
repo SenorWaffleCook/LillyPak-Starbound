@@ -1,0 +1,4 @@
+[
+	{ "op": "replace", "path": "/renderParameters/multiColored", "value": false },
+	{ "op": "replace", "path": "/renderParameters/texture", "value": "avalidarkplatform2.png" }
+]
