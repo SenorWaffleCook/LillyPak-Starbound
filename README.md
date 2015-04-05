@@ -6,7 +6,7 @@ Site: [http://thakyz.github.io/LillyPak-Starbound](http://thakyz.github.io/Lilly
 
 ## Branches
 
-**Bolded** Branch is current branch.   
+**Bolded** branch is current branch.   
 
 | Branches                                                                   | Starbound Versions      |   
 |----------------------------------------------------------------------------|-------------------------|   
@@ -36,9 +36,9 @@ Site: [http://thakyz.github.io/LillyPak-Starbound](http://thakyz.github.io/Lilly
 
 ## **Legal**:
 
-Most of these mod(s) of these mods are not owned by Nire Inicana, or thakyZ.   
-I did not ask for permission to use these mods in my mod pack - **YET**   
-This mod pack is **supposed to be private** but is posted on here for the convenience of Github.   
+Most of these mod(s) of these mods are not owned by thakyZ.   
+I am currently getting all the permissions for these mods, so that I can release this mod pack publicly.   
+This mod pack is supposed to be private (**for now**) but is posted on here for the convenience of Github.   
 
 ## **My mods Legal**:
 
