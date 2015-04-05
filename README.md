@@ -1,9 +1,22 @@
 # **LillyPak-Starbound**
-This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
+This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.   
 
-   Site: [http://thakyz.github.io/LillyPak-Starbound](http://thakyz.github.io/LillyPak-Starbound)
+Site: [http://thakyz.github.io/LillyPak-Starbound](http://thakyz.github.io/LillyPak-Starbound)   
 
-----------
+---
+
+## Branches
+
+**Bolded** Branch is current branch   
+
+| Branches                                                                   | Starbound Versions      |
+|----------------------------------------------------------------------------|-------------------------|
+| [master](https://github.com/thakyZ/LillyPak-Starbound/tree/master)         | Stable Branch           |
+| [**dev**](https://github.com/thakyZ/LillyPak-Starbound/tree/dev)           | Stable Branch           |
+| [unstable](https://github.com/thakyZ/LillyPak-Starbound/tree/unstable)     | Unstable/Nightly Branch |
+| gh-pages                                                                   | None                    |
+
+---
 
 ## **Included Mods**:
 
@@ -26,7 +39,7 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  0. [Illuminated Ores](http://community.playstarbound.com/index.php?resources/2429/) - by Amadox
  0. [Industrialization 3](http://community.playstarbound.com/index.php?resources/2531/) - by DraLUSAD
  0. [Lightdrones Continued](http://community.playstarbound.com/index.php?resources/2541/) - by JellyBlade
- 0. [Lilly Co. Mods](#) - by thakyZ a.k.a. Nire Inicana
+ 0. [Lilly Co. Mods](#) - by thakyZ
  0. [Kineptic Race Mod](http://community.playstarbound.com/index.php?resources/2264/) - by Quilavabom
  0. [Madtulip's Spaceship Mod](http://community.playstarbound.com/index.php?resources/59/) - by Madtulip
  0. [Material Recycler](http://community.playstarbound.com/index.php?resources/2585/) - by eLe
@@ -43,60 +56,51 @@ This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.
  0. [Wire Overhaul](http://community.playstarbound.com/index.php?resources/2547/) - by Zkaface
 
 ### Have obtained permission for mods:
- - [x] Admin Shield
- - [x] AsteroidRocktoIron
- - [x] Avali Tech Bow
- - [x] Avali Race Mod
- - [x] Biome Protection Suit
- - [x] CLeF
- - [x] Compact Crops
- - [x] Copy Gun
- - [x] Creative Mode
- - [x] Custom Race Tilesets
- - [ ] Dye Mod
- - [x] Enhanced Storage
- - [x] Extended Songbook
- - [x] Force Gates
- - [x] Grassification Station
- - [x] Graviton Projectors
- - [x] Illuminated Ores
- - [x] Industrialization 3
- - [x] Kineptic Race Mod
- - [x] Lightdrones Continued
- - [x] Lilly Co. Mods
- - [x] Madtulip's Spaceship Mod
- - [x] Material Recycler
- - [x] Mighty Music Mod
- - [x] Other races actually Recognize Novakids
- - [x] ODB2 Character Creation Mod
- - [x] Paint Tool Hotfix
- - [x] Perennial Crops
- - [x] Player-Built Space Stations
- - [x] Retr0's Reduced Spawn Cost
- - [x] SaplingMaker
- - [x] Wave Driver
- - [x] Wired Padlocks
- - [x] Wire Overhaul
+- [x] Admin Shield
+- [x] AsteroidRocktoIron
+- [x] Avali Tech Bow
+- [x] Avali Race Mod
+- [x] Biome Protection Suit
+- [x] CLeF
+- [x] Compact Crops
+- [x] Copy Gun
+- [x] Creative Mode
+- [x] Custom Race Tilesets
+- [ ] Dye Mod
+- [x] Enhanced Storage
+- [x] Extended Songbook
+- [x] Force Gates
+- [x] Grassification Station
+- [x] Graviton Projectors
+- [x] Illuminated Ores
+- [x] Industrialization 3
+- [x] Kineptic Race Mod
+- [x] Lightdrones Continued
+- [x] Lilly Co. Mods
+- [x] Madtulip's Spaceship Mod
+- [x] Material Recycler
+- [x] Mighty Music Mod
+- [x] Other races actually Recognize Novakids
+- [x] ODB2 Character Creation Mod
+- [x] Paint Tool Hotfix
+- [x] Perennial Crops
+- [x] Player-Built Space Stations
+- [x] Retr0's Reduced Spawn Cost
+- [x] SaplingMaker
+- [x] Wave Driver
+- [x] Wired Padlocks
+- [x] Wire Overhaul
 
-### Removed mods:
- - Shadow-Casting Lights
- - Archer's Synthesizers
- - Human ship diamant Impervium (Averking) UG
- - Hylotl Stuff
- - Katana Pack
- - Custom Race Tilesets
- - Novakid+ Respawn
-
-----------
+---
 
 ## **Legal**:
 
-   Most of these mod(s) of these mods are not owned by Nire Inicana, or thakyZ.
-   I did not ask for permission to use these mods in my mod pack - **YET**
-   This mod pack is **supposed to be private** but is posted on here for the convenience of Github.
+   Most of these mod(s) of these mods are not owned by Nire Inicana, or thakyZ.   
+   I did not ask for permission to use these mods in my mod pack - **YET**   
+   This mod pack is supposed to be private (for now) but is posted on here for the convenience of Github.   
 
-----------
+---
 
 ## **My mods Legal**:
 
-The Lilly Co. Mods are under the **Apache licence**.
+The Lilly Co. Mods are under the **Apache License**.
