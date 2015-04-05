@@ -2,11 +2,7 @@
 	"name": "LillyMod",
 	"path": ".",
 	"version": "Beta v. Upbeat Giraffe",
-	"requires":
-	[
-		"EnhancedStorage(StandardEdition)",
-		"PerennialCrops"
-	],
+	"requires": [],
 	"includes": [],
 	"metadata":
 	{
@@ -14,10 +10,10 @@
 		{
 			"author": "thakyZ",
 			"version": "0.02.7-alpha",
-			"description": "This includes pataches for LillyPak-Starbound.",
+			"description": "This includes items and objects from thakyZ for the mod pack LillyPak",
 			"thanks": [ "TheSidofEvil", "Dolphinowl245" ],
 			"credit": "All the thanks!!!",
-			"documentation": "http://thakyz.github.io/LillyPak-Starbound/s",
+			"documentation": "http://thakyz.github.io/LillyPak-Starbound/",
 			"repository": "https://github.com/thakyZ/LillyPak-Starbound"
 		}
 	}

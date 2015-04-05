@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "circuitboard", "count" : 2 },
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "goldbar", "count" : 5 },
+    { "item" : "durasteelbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "remoteteleporter",
+    "count" : 1
+  },
+  "groups" : [ "ironcraftingtable", "objects", "tools", "all" ]
+}

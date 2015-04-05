@@ -1,0 +1,7 @@
+[
+  { "op" : "add", "path" : "/novakidDescription", "value" : "Heya, heya! It's like riding a metal sonic horse!" },
+  { "op" : "replace", "path" : "/description", "value" : "This will let me teleport from anywhere!" },
+  { "op" : "replace", "path" : "/rarity", "value" : "Common" },
+  { "op" : "replace", "path" : "/printable", "value" : true },
+  { "op" : "remove", "path" : "/breakDropPool" }
+]
