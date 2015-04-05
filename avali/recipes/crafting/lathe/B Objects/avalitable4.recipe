@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "mediummetal", "count" : 6 },
-    { "item" : "avalitaco", "count" : 1 }
-  ],
-  "output" : { "item" : "avalitable4", "count" : 1 },
-  "groups" : [ "objects", "avalilathe", "all" ]
-}

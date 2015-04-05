@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "steelbar", "count" : 10 }
-  ],
-  "output" : { "item" : "kineptictier2chest", "count" : 1 },
-  "groups" : [ "anvil", "armors", "all" ]
-}

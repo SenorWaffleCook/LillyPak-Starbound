@@ -1,0 +1,13 @@
+{
+  "projectileName" : "spiderlaserhitspark",
+  "frames" : "laserhitspark.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 3,
+  "speed" : 0,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : false,
+  "timeToLive" : 0.4,
+  "universalDamage" : true,
+  "damageKind" : "default"
+}

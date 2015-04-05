@@ -1,0 +1,10 @@
+{
+  "codexId" : "spidermechboss",
+  "title" : "Research Log",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "spidermechbossCodex",
+  "rarity" : "common",
+  "description" : "Mecharachnid Research Log",
+  "shortdescription" : "Research Log"
+}

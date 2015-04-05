@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 10 }
-  ],
-  "output" : { "item" : "grassificator_anti", "count" : 1 },
-  "groups" : [ "craftingtable", "objects", "all", "tools" ]
-}

@@ -1,7 +1,0 @@
-{
-  "input" : [
-	{ "item" : "fullwood1", "count" : 1 }
-  ],
-  "output" : { "item" : "kinepticwoodpillar2", "count" : 3 },
-  "groups" : [ "kinepticplinth", "materials", "all" ]
-}

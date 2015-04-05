@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "hylotlsupportbeam", "count" : 1 },
-	"groups" : [ "furnituretable", "hylotl" ]
-}

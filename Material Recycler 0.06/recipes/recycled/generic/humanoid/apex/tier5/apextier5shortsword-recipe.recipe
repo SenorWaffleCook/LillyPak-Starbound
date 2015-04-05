@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "apextier5shortsword-recipe", "count" : 1 }],
-	"output" : { "item" : "money", "count" : 1 },
-	"groups" : [ "recycled", "blueprints" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "dirtmaterial", "count" : 10 },
-	{ "item" : "steelbar", "count" : 1}
-  ],
-  "output" : { "item" : "dirt_metal", "count" : 10 },
-  "groups" : [ "grassstation", "matgrass" ]
-}

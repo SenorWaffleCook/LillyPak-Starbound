@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "kineptictier2pulse", "count" : 1 },
-	{ "item" : "uraniumrod", "count" : 10 },
-	{ "item" : "crystaltorch", "count" : 2 }
-  ],
-  "output" : { "item" : "kineptictier3pulse", "count" : 1 },
-  "groups" : [ "kinepticshrine", "all" ]
-}

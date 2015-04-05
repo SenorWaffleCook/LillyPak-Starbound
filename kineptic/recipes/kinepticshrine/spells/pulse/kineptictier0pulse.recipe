@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "fabric", "count" : 10 },
-	{ "item" : "silverbar", "count" : 3 }
-  ],
-  "output" : { "item" : "kineptictier0pulse", "count" : 1 },
-  "groups" : [ "kinepticshrine", "all" ]
-}

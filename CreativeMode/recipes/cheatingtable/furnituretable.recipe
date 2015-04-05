@@ -1,7 +1,0 @@
-{
-  "input" : [
-
-  ],
-  "output" : { "item" : "furnituretable", "count" : 1 },
-  "groups" : [ "cheatingtable", "boxes", "all" ]
-}

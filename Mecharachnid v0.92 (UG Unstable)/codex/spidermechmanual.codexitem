@@ -1,0 +1,10 @@
+{
+  "codexId" : "spidermechmanual",
+  "title" : "Mecharachnid Manual",
+  "inventoryIcon" : "bossbook.png",
+  "codexkind" : "codex",
+  "itemName" : "spidermechmanualCodex",
+  "rarity" : "common",
+  "description" : "Mecharachnid User's Manual",
+  "shortdescription" : "Mecharachnid Manual"
+}

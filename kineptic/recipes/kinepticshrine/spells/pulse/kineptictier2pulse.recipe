@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "kineptictier1pulse", "count" : 1 },
-	{ "item" : "platinumbar", "count" : 5 },
-	{ "item" : "kinepticglyphblock", "count" : 20 }
-  ],
-  "output" : { "item" : "kineptictier2pulse", "count" : 1 },
-  "groups" : [ "kinepticshrine", "all" ]
-}

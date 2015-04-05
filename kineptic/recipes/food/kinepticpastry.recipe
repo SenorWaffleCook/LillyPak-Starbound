@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "sugar", "count" : 10 },
-	{ "item" : "wheat", "count" : 1 },
-	{ "item" : "avesmingo", "count" : 1 }
-  ],
-  "output" : { "item" : "kinepticpastry", "count" : 1 },
-  "groups" : [ "kitchen", "consumables" ]
-}

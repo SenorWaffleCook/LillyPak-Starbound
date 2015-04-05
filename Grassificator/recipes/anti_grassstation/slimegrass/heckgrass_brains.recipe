@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "brains_heckgrass", "count" : 10 }
-  ],
-  "output" : { "item" : "brains", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

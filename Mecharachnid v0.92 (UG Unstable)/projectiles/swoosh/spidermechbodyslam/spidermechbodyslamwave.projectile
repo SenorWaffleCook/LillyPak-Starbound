@@ -1,0 +1,19 @@
+{
+  "projectileName" : "spidermechBodySlamWave",
+  "frames" : "spidermechbodyslamwave.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "speed" : 10.0,
+  "timeToLive" : 0.25,
+  "orientationLocked" : false,
+  "damagePoly" : [ [7, 12], [-6, 12], [-6, -16], [7, -16], [12, -10], [14, -6], [14, 2], [12, 7] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true, 
+  "statusEffects" : [
+    "shortdamagefreeze"
+  ],
+  "damageKind" : "slash",
+  "damageType" : "ignoresDef"
+}

@@ -1,9 +1,0 @@
-{
-  "itemName" : "avali_glass_TS1",
-  "rarity" : "Common",
-  "inventoryIcon" : "avali_glass_TS1_icon.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Avali Glass Tileset",
-  "shortdescription" : "Avali Glass Tileset",
-  "materialId" : 40022
-}

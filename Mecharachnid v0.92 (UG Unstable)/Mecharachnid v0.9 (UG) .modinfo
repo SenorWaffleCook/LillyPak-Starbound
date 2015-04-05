@@ -1,0 +1,10 @@
+{
+    "name": "Mecharachnid v0.9 (UG Unstable)",
+    "version": "Beta v. Upbeat Giraffe (Unstable)",
+    "path": ".",
+	"dependencies" : [],
+	"metadata" : {
+	  "author" : "Me",
+	  "description" : "Defeat the fearsome Mecharachnid to claim its technology for your own!"
+	  }
+}

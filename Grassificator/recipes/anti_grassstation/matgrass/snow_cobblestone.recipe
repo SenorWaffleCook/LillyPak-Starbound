@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "cobblestone_snowy", "count" : 10 }
-  ],
-  "output" : { "item" : "cobblestonematerial", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

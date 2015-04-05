@@ -1,0 +1,17 @@
+{
+  "name" : "healingimpaired",
+  "effectConfig" : {
+    "healCap" : 2,
+    "emissionRate" : 3
+  },
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "healingimpaired.lua"
+  ],
+
+  "animationConfig" : "healingimpaired.animation",
+
+  "label" : "Healing Impaired",
+  "icon" : "/stats/effects/healingimpaired/healingimpaired.png"
+}

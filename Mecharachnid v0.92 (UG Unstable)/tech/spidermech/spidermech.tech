@@ -1,0 +1,39 @@
+{
+  "name" : "spidermech",
+  "type" : "head",
+
+  "scripts" : ["/scripts/vec2.lua", "/scripts/util.lua", "spidermech.lua"],
+  "scriptDelta" : 1,
+  "actions" : [ "activate", "deactivate" ],
+  "animator" : "spidermechbody.animation",
+ 
+  "spiderMovementParameters" : {
+	"standingPoly" : [[0, 3.25], [7.75, 0.375], [7.75, -0.625], [1.125, -2], [-1.125, -2], [-7.75, -0.625], [-7.75, 0.375]],
+	"crouchingPoly" : [[0, 3.25], [7.75, 0.375], [7.75, -0.625], [1.125, -2], [-1.125, -2], [-7.75, -0.625], [-7.75, 0.375]],
+	"ignorePlatformCollision" : true,
+	"bBox" : [-6.25, -2, 6.25, 2],
+	"walkSpeed" : 0.0,
+	"runSpeed" : 0.0,
+	"flySpeed" : 0.0,
+	"airJumpProfile" : {
+		"jumpSpeed" : 0.2,
+		"jumpControlForce" : 0.2,
+		"jumpInitialPercentage" : 0.2,
+		"jumpHoldTime" : 0.2,
+		"multiJump" : false,
+		"reJumpDelay" : 10.0,
+		"autoJump" : false,
+		"collisionCancelled" : true
+	},
+	"liquidJumpProfile" : {
+		"jumpSpeed" : 0.2,
+		"jumpControlForce" : 0.2,
+		"jumpInitialPercentage" : 0.2,
+		"jumpHoldTime" : 0.2,
+		"multiJump" : false,
+		"reJumpDelay" : 10.0,
+		"autoJump" : false,
+		"collisionCancelled" : true
+	}
+  }
+}

@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "apexstoragelocker", "count" : 1 },
-	"groups" : [ "furnituretable", "apex" ]
-}

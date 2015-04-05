@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "dirtmaterial", "count" : 10 },
-	{ "item" : "sample_aliengrass", "count" : 1}
-  ],
-  "output" : { "item" : "dirt_aliengrass", "count" : 10 },
-  "groups" : [ "grassstation", "slimegrass" ]
-}

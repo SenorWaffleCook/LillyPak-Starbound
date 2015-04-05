@@ -1,0 +1,16 @@
+{
+  "id" : "spidermechmanual",
+  "title" : "Mecharachnid Manual",
+  "contentPages" : [
+
+   "On/Off - ^green;[Tech Button 1]^white;
+Movement - ^green;[WASD]^white;
+Jumpjets - ^green;[Space]^white;
+Laser - ^green;[Left Click]^white;
+Melee - ^green;[Right Click]^white;
+Item Collector - ^green;[Tech Button 2]^white;
+Spotlight - ^green;[Tech Button 3]^white;
+Frenzy - ^green;[Left] ^white;and ^green;[Right]"
+
+  ]
+}

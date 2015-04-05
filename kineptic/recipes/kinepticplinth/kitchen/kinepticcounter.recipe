@@ -1,7 +1,0 @@
-{
-  "input" : [
-	{ "item" : "cobblestonematerial", "count" : 25 }
-  ],
-  "output" : { "item" : "kinepticcounter", "count" : 1 },
-  "groups" : [ "kinepticplinth", "furniture", "objects", "all" ]
-}

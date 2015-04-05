@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "causticstag", "count" : 1 },
-	"groups" : [ "spawningtable", "armor" ]
-}

@@ -5,13 +5,7 @@
 	"requires":
 	[
 		"EnhancedStorage(StandardEdition)",
-		"Avali",
-		"dyemod",
-		"PerennialCrops",
-		"Kineptic",
-		"madtulip",
-		"Avali",
-		"dyemod"
+		"PerennialCrops"
 	],
 	"includes": [],
 	"metadata":

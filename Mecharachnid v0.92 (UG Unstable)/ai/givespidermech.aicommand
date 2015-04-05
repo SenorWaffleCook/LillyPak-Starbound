@@ -1,0 +1,223 @@
+{
+  "commandName" : "givespidermech",
+  "icon" : "spidermech.png",
+  "actions" : [
+    { 
+      "action" : "PlayCinematic",
+      "itemsRequired" : [ ["uraniumrod", 25], ["diamond", 5], ["durasteelbar", 25], ["mecharachnidwreckage", 5]],
+      "moneyRequired" : 10000,
+      "cinematicConfig" : "/cinematics/repair/apex/repair.cinematic"
+    },
+	{ 
+      "action" : "GivePlayerItems",
+      "items" : [ "blanktechcard", 1]
+    },    
+	{ 
+      "action" : "GivePlayerItems",
+      "items" : [ "mecharachnidmanualCodex", 1]
+    },
+    { 
+      "action" : "DisableCommand",
+      "command" : "givespidermech"
+    },
+    { 
+      "action" : "showTech",
+      "techName" : [ "spidermech" ]  
+    }
+  ],
+  
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Research Mecharachnid",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The technology that went into making this machine is incomprably dangerous. Luckily, our AI capabilities have greatly increased in the years since the weapon was lost, so we needn't fear the Penguin's misfortune. Gather ^orange;25 uranium rods, 25 Durasteel bars, 5 Diamonds, 10,000 pixels, and 5 fragments of the Mecharachnid. ^green; I can then resurrect the Mecharachnid under your control.",
+          "speedModifier" : 1.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "The procedure is complete! The Mecharachnid Mk. I is online and ready for the field. ^green;Take this and imprint the control program at the Tech Selection screen.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! ^green;You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Research Mecharachnid",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The technology that went into making this machine is incomprably dangerous. Luckily, our AI capabilities have greatly increased in the years since the weapon was lost, so we needn't fear the Penguin's misfortune. Gather ^orange;25 uranium rods, 25 Durasteel bars, 5 Diamonds, 10,000 pixels, and 5 fragments of the Mecharachnid. ^green; I can then resurrect the Mecharachnid under your control.",
+          "speedModifier" : 1.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "The procedure is complete! The Mecharachnid Mk. I is online and ready for the field. ^green;Take this and imprint the control program at the Tech Selection screen.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! ^green;You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Research Mecharachnid",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The technology that went into making this machine is incomprably dangerous. Luckily, our AI capabilities have greatly increased in the years since the weapon was lost, so we needn't fear the Penguin's misfortune. Gather ^orange;25 uranium rods, 25 Durasteel bars, 5 Diamonds, 10,000 pixels, and 5 fragments of the Mecharachnid. ^green; I can then resurrect the Mecharachnid under your control.",
+          "speedModifier" : 1.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "The procedure is complete! The Mecharachnid Mk. I is online and ready for the field. ^green;Take this and imprint the control program at the Tech Selection screen.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! ^green;You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Research Mecharachnid",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The technology that went into making this machine is incomprably dangerous. Luckily, our AI capabilities have greatly increased in the years since the weapon was lost, so we needn't fear the Penguin's misfortune. Gather ^orange;25 uranium rods, 25 Durasteel bars, 5 Diamonds, 10,000 pixels, and 5 fragments of the Mecharachnid. ^green; I can then resurrect the Mecharachnid under your control.",
+          "speedModifier" : 1.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "The procedure is complete! The Mecharachnid Mk. I is online and ready for the field. ^green;Take this and imprint the control program at the Tech Selection screen.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! ^green;You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Research Mecharachnid",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The technology that went into making this machine is incomprably dangerous. Luckily, our AI capabilities have greatly increased in the years since the weapon was lost, so we needn't fear the Penguin's misfortune. Gather ^orange;25 uranium rods, 25 Durasteel bars, 5 Diamonds, 10,000 pixels, and 5 fragments of the Mecharachnid. ^green; I can then resurrect the Mecharachnid under your control.",
+          "speedModifier" : 1.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "The procedure is complete! The Mecharachnid Mk. I is online and ready for the field. ^green;Take this and imprint the control program at the Tech Selection screen.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! ^green;You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Research Mecharachnid",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The technology that went into making this machine is incomprably dangerous. Luckily, our AI capabilities have greatly increased in the years since the weapon was lost, so we needn't fear the Penguin's misfortune. Gather ^orange;25 uranium rods, 25 Durasteel bars, 5 Diamonds, 10,000 pixels, and 5 fragments of the Mecharachnid. ^green; I can then resurrect the Mecharachnid under your control.",
+          "speedModifier" : 1.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "The procedure is complete! The Mecharachnid Mk. I is online and ready for the field. ^green;Take this and imprint the control program at the Tech Selection screen.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! ^green;You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "penguin" : {
+      "buttonText" : "Research Mecharachnid",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The technology that went into making this machine is incomprably dangerous. Luckily, our AI capabilities have greatly increased in the years since the weapon was lost, so we needn't fear the Penguin's misfortune. Gather ^orange;25 uranium rods, 25 Durasteel bars, 5 Diamonds, 10,000 pixels, and 5 fragments of the Mecharachnid. ^green; I can then resurrect the Mecharachnid under your control.",
+          "speedModifier" : 1.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "The procedure is complete! The Mecharachnid Mk. I is online and ready for the field. ^green;Take this and imprint the control program at the Tech Selection screen.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! ^green;You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Research Mecharachnid",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "The technology that went into making this machine is incomprably dangerous. Luckily, our AI capabilities have greatly increased in the years since the weapon was lost, so we needn't fear the Penguin's misfortune. Gather ^orange;25 uranium rods, 25 Durasteel bars, 5 Diamonds, 10,000 pixels, and 5 fragments of the Mecharachnid. ^green; I can then resurrect the Mecharachnid under your control.",
+          "speedModifier" : 1.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "The procedure is complete! The Mecharachnid Mk. I is online and ready for the field. ^green;Take this and imprint the control program at the Tech Selection screen.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Failure! ^green;You've not yet gathered the required materials.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

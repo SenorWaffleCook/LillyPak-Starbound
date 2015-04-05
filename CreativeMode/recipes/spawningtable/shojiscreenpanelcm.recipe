@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "shojiscreenpanel", "count" : 1 },
-	"groups" : [ "spawningtable", "blocks" ]
-}

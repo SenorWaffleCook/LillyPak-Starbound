@@ -1,0 +1,9 @@
+{
+  "name" : "scriptbugspidermechleftfrontleg",
+  "category" : "scriptbugspidermechleftfrontleg",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "scriptbug.png"
+  }
+}

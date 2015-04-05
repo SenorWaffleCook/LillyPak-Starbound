@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "skyrail_desc", "count" : 1 },
-	"groups" : [ "spawningtable", "blocks" ]
-}

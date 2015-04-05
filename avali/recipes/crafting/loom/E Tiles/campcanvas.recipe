@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "graphene", "count" : 10 },
-    { "item" : "plantfibre", "count" : 3 }
-  ],
-  "output" : { "item" : "campcanvas", "count" : 10 },
-  "groups" : [ "materials", "avaliloom", "all" ]
-}

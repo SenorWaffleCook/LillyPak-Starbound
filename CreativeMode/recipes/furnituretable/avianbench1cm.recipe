@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "avianbench1", "count" : 1 },
-	"groups" : [ "furnituretable", "avian" ]
-}

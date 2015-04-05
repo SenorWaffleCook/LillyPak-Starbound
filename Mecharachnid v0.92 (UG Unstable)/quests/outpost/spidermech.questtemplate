@@ -1,0 +1,19 @@
+{
+  "id" : "givespidermech.gearup",
+  "prerequisites" : [ "tutorial1.gearup" ],
+  "requiredShipLevel" : 1,
+  "title" : "^green;Hunt the Mecharachnid",
+  "text" : "Many years ago, the Penguins created a weapon even they could not control; the fearsome Mecharachnid. ^red;The final prototype went berserk, ^white;and the facility was lost. ^green;I happen to know where it is. ^white;If you defeat the Mecharachnid, maybe your ship AI can help you ^green;reverse-engineer something useful from it.",
+  "completionText" : "I've defeated the rogue Mecharachnid prototype and recovered its components. I should talk to S.A.I.L. to find out what comes next.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "mecharachnidwreckage", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+   ],
+  "planetMode" : "none",
+  "enableAiCommands" : ["givespidermech"],
+  "questDungeons" : [ ],
+  "associatedMission" : "spidermechmission",
+  "followUp" : ""
+}

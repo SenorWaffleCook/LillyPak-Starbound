@@ -1,8 +1,0 @@
-{
-  "itemName" : "madtulip_human_scoutshipTech-chip",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/madtulip_chip.png",
-  "description" : "Unlocks Human Scout Ship tech.",
-  "shortdescription" : "Human Scout Ship Unlocker",
-  "pickupQuestTemplates" : ["madtulip_human_scoutship.gearup"]
-}

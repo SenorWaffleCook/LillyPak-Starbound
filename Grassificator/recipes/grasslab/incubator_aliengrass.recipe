@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "steelbar", "count" : 12 },
-	{ "item" : "glassmaterial", "count" : 4 },
-    { "item" : "sample_aliengrass", "count" : 1 }
-  ],
-  "output" : { "item" : "incubator_aliengrass", "count" : 1 },
-  "groups" : [ "grasslab" ]
-}

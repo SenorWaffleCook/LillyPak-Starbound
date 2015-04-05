@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "purplecrystalmaterial", "count" : 1 },
-	"groups" : [ "spawningtable", "blocks" ]
-}

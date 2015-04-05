@@ -1,9 +1,0 @@
-{
-  "itemName" : "madtulip_TS_avian_1",
-  "rarity" : "Common",
-  "inventoryIcon" : "madtulip_TS_avian_1_icon.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Avian Tileset 1",
-  "shortdescription" : "Avian Tileset 1",
-  "materialId" : 30004
-}

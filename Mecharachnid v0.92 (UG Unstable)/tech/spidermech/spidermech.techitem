@@ -1,0 +1,9 @@
+{
+  "itemName" : "spidermech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/spidermech.png",
+  "description" : "Press 'F' to enter the Mecharachnid Mk.I spider tank. Equipped with jumpjets and laser turret.",
+  "shortdescription" : "Mecharachnid Mk.I",
+
+  "techModule" : "spidermech"
+}

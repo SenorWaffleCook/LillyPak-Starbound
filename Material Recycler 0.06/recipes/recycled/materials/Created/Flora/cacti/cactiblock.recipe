@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "cactiblock", "count" : 500 }],
-	"output" : { "item" : "cacti", "count" : 1 },
-	"groups" : [ "recycled", "flora", "created" ]
-}

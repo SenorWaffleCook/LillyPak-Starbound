@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "refinedrubium", "count" : 3 },
-	{ "item" : "solariumstar", "count" : 10 },
-	{ "item" : "diamond", "count" : 5 }
-  ],
-  "output" : { "item" : "kinepticconcussion", "count" : 1 },
-  "groups" : [ "manipulatortable", "all" ]
-}

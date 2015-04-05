@@ -1,0 +1,9 @@
+{
+  "name" : "spidermechboss",
+  "category" : "spidermechboss",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "invisible.png"
+  }
+}

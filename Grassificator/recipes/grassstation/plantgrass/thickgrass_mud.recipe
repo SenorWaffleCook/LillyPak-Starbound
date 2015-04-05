@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "mud", "count" : 10},
-    { "item" : "seed_thickgrass", "count" : 1 }
-  ],
-  "output" : { "item" : "mud_thickgrass", "count" : 10 },
-  "groups" : [ "grassstation", "plantgrass" ]
-}

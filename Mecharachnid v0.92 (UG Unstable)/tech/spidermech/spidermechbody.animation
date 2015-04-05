@@ -1,0 +1,603 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"body" : {
+				"default" : "bodyOnly",
+					"states" : {
+					"idle" : {"frames" : 1 },
+					"bodyOnly" : {"frames" : 1}
+				}
+			},
+			"gun" : {
+				"default" : "idle",
+				"states" : {
+					"idle" : {"frames" : 1 },
+					"beam" : {
+						"frames" : 1,
+						"properties" : {
+							"persistentSound" : "/sfx/tech/tech_hoverloop.wav"
+						}
+					},
+					"beamHigh" : {
+						"frames" : 1,
+						"properties" : {
+							"persistentSound" : "/sfx/tech/tech_particlethrust.wav"
+						}
+					},
+					"beamMax" : {
+						"frames" : 1,
+						"properties" : {
+							"persistentSound" : "/sfx/tech/tech_energycharge.wav"
+						}
+					}
+				}
+			},
+			"boosters" : {
+				"default" : "idle",
+				"states" : {
+					"idle" : {"frames" : 1 },
+					"boosting" : {
+						"frames" : 6,
+						"cycle" : 0.5,
+						"mode" : "loop",
+						"properties" : {
+							"persistentSound" : "/sfx/npc/unique/ufo_hover_loop.wav"
+						}
+					}
+				}
+			},
+			"frenzy" : {
+				"default" : "idle",
+				"states" : {
+					"idle" : {},
+					"frenzying" :{
+						"properties" : {
+							"persistentSound" : "/sfx/npc/unique/crystalboss_beam.wav"
+						}
+					}
+				}
+			},
+			  "portrait" : {
+				"priority" : -1,
+				"default" : "portrait",
+				"states" : {
+				  "portrait" : {
+					"frames" : 1
+				  }
+				}
+			  },
+			 "pilot" : {
+				"default" : "none",
+				"states" : {
+					"none" : {},
+					"corpse" : {"frames" : 1}
+				}
+			 }
+		},
+		"parts" : {
+			"body" : {
+				"properties" : {
+					"offset" : [0, 0.625],
+					"zLevel" : 0
+				},
+				"partStates" : {
+				  "portrait" : {
+					"portrait" : {
+					  "properties" : {
+						"image" : "/tech/spidermech/spidermechbody.png"
+					  }
+					}
+				  }
+				}
+			},
+			"pilot" : {
+				"properties" : {
+					"centered" : true,
+					"offset" : [0,2.5],
+					"zLevel" : 0
+				},
+				"partStates" : {
+				  "pilot" : {
+					"none" : {},
+					"corpse" : {
+					  "properties" : {
+						"image" : "/tech/spidermech/corpse.png"
+					  }
+					}
+				  }
+				}
+			},
+			"mechBody" : {
+				"properties" : {
+					"centered" : true,
+					"offset" : [0, 0.625],
+					"zLevel" : 1
+				},
+				"partStates" : {
+					"body" : {
+						"idle" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechbody.png"
+							}
+						},
+						"bodyOnly" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechbody.png"
+							}
+						}
+					}
+				}
+			},
+			"mechGun" : {
+				"properties" : {
+					"centered" : true,
+					"offset" : [0, -2.375],
+					"rotationGroup" : "mechGun",
+					"rotationCenter" : [0,-2.375],
+					"zLevel" : 0,
+					"relativeAnchors" : {
+						"gunCenter" : [0, 0]
+					}
+				},
+				"partStates" : {
+					"body" : {
+						"idle" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechgun.png"
+							}
+						},
+						"bodyOnly" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechgun.png"
+							}
+						}
+					}
+				}
+			},
+			"mechGunBeam" : {
+				"properties" : {
+					"centered" : true,
+					"offset" : [0, -2.375],
+					"rotationGroup" : "mechGun",
+					"rotationCenter" : [0, -2.375],
+					"zLevel" : -1,
+					"scalingGroup" : "mechBeam"
+				},
+				"partStates" : {
+					"gun" : {
+						"idle" : {
+							"properties" : {
+								"image" : "/tech/spidermech/invisible.png"
+							}
+						},
+						"beam" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechgunbeam.png:?replace=f92a2ad5=f92a2a10",
+								"fullbright" : true
+							}
+						},
+						"beamHigh" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechgunbeam.png:?replace=f92a2ad5=f92a2a40",
+								"fullbright" : true
+							}
+						},
+						"beamMax" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechgunbeam.png:?replace=f92a2ad5=f92a2ab0",
+								"fullbright" : true
+							}					
+						}
+					}
+				}
+			},
+			"mechUpperLegLeft" : {
+				"properties" : {
+					"centered" : true,
+					"offset" : [-4, 0],
+					"rotationGroup" : "upperLeftLeg",
+					"rotationCenter" : [-4,0],
+					"zLevel" : 3
+				},
+				"partStates" : {
+					"body" : {
+						"idle" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechupperleg.png"
+							}
+						},
+						"bodyOnly" : {
+							"properties" : {
+								"image" : "/tech/spidermech/invisible.png"
+							}
+						}
+					}
+				}
+			},
+			"mechUpperLegRight" : {
+				"properties" : {
+					"centered" : true,
+					"offset" : [4, 0],
+					"rotationGroup" : "upperRightLeg",
+					"rotationCenter" : [4, 0],
+					"zLevel" : 3
+				},
+				"partStates" : {
+					"body" : {
+						"idle" : {
+							"properties" : {
+								"image" : "/tech/spidermech/spidermechupperleg.png"
+							}
+						},
+						"bodyOnly" : {
+							"properties" : {
+								"image" : "/tech/spidermech/invisible.png"
+							}
+						}
+					}
+				}
+			},
+			"mechBoosterLeft" : {
+				"properties" : {
+					"centered" : true,
+					"offset" : [-3.25, -1],
+					"rotationGroup" : "leftBooster",
+					"rotationCenter" : [-3.25, -1],
+					"zLevel" : 2
+				},
+				"partStates" : {
+					"boosters" : {
+						"boosting" : {
+							"properties": {
+								"image" : "/tech/spidermech/leftboosterflame.png:<frameIndex>",
+								"fullbright" : true
+							}
+						},
+						"idle" : {
+							"properties" : {
+								"image" : "/tech/spidermech/invisible.png"
+							}
+						}
+					}
+				}
+			},
+			"mechBoosterRight" : {
+				"properties" : {
+					"centered" : true,
+					"offset" : [3.25, -1],
+					"rotationGroup" : "rightBooster",
+					"rotationCenter" : [3.25,-1],
+					"zLevel" : 2
+				},
+				"partStates" : {
+					"boosters" : {
+						"boosting" : {
+							"properties" : {
+								"image" : "/tech/spidermech/rightboosterflame.png:<frameIndex>",
+								"fullbright" : true
+							}
+						},
+						"idle" : {
+							"properties" :{
+								"image" : "/tech/spidermech/invisible.png"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rotationGroups" : {
+		"rightBooster" : {
+			"angularVelocity" : 2.5
+		},
+		"leftBooster" : {
+			"angularVelocity" : 2.5
+		},
+		"upperRightLeg" : {
+			"angularVelocity" : 50.0
+		},
+		"upperLeftLeg" : {
+			"angularVelocity" : 50.0
+		},
+		"mechGun" : {
+			"angularVelocity" : 10.0
+		}
+	},
+	"scalingGroups" : {
+		"mechBeam" : {
+			"pivot" : [0,-2.375]
+		}
+	},
+	"lights" : {
+		"laserLight" : {
+		  "active" : false,
+		  "position" : [0, -2.375],
+		  "color" : [255, 0, 0],
+		  "pointLight" : true,
+		  "pointAngle" : 0,
+		  "pointBeam" : 0.003
+		},
+		"spotLight" : {
+		  "active" : false,
+		  "position" : [0, -2.375],
+		  "color" : [255, 255, 255],
+		  "pointLight" : true,
+		  "pointAngle" : 0,
+		  "pointBeam" : 0.35
+		},
+		"diffuseLight" : {
+		  "active" : false,
+		  "position" : [0, 0],
+		  "color" : [60, 60, 60],
+		  "pointLight" : true
+		},
+		"rightBoosterLight" : {
+		  "active" : false,                                       
+		  "position" : [3.25, -1],
+		  "color" : [0, 30, 60],
+		  "pointLight" : true,
+		  "pointAngle" : 300,
+		  "pointBeam" : 0.55
+		},
+		"leftBoosterLight" : {
+		  "active" : false,
+		  "position" : [-3.25, -1],
+		  "color" : [0, 30, 60],
+		  "pointLight" : true,
+		  "pointAngle" : 240,
+		  "pointBeam" : 0.55
+		},
+		"frenzyLight" : {
+		  "active" : false,
+		  "position" : [0, 0],
+		  "color" : [50, 50, 50],
+		  "pointLight" : false
+		}
+  },
+  "sounds" : {
+    "activate" : [ "/sfx/tech/vehicle_appear1.wav" ],
+	"deactivate" : [ "/sfx/tech/vehicle_disapper1.wav" ],
+	"failAction" : [ "/sfx/interface/nav_insufficient_fuel.wav" ],
+	"beginDescent" : [ "/sfx/tech/mech_powerdown2.wav" ],
+	"legAttack" : [ "/sfx/tech/mech_jump2.wav" ],
+	"tractorBeam" : [ "/sfx/melee/laser_weapon_swing_heavy.wav" ],
+	"turnHostile" : [ ],
+    "deathPuff" : [ "/sfx/melee/kill_robotic1.wav" ],
+	"smashInto" : [ "/sfx/melee/bite_robotic3.wav" ] 
+  },
+  "particleEmitters" : {
+    "frenzying" : {
+      "enabled" : false,
+      "emissionRate" : 5.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+			"animation" : "/animations/electroshock/electroshock.animation",
+			"light" : [100, 100, 200],
+			"size" : 0.4,
+            "fade" : 0.9,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.5,
+            "position" : [0.0, 0.0],
+            "offsetRegion" : [0, 0, 0, 0],
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "approach" : [0, 10],
+            "timeToLive" : 0.2,
+			"layer" : "front",
+			"variance" : {
+				"initialVelocity" : [0, 0],
+				"rotation" : 360
+			}
+          }
+        }
+      ]
+    },
+	"deathPoof" : {
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/plasmapoof/plasmapoof.animation",
+            "size" : 2,
+            "angularVelocity" : 35,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "approach" : [1, 1],
+            "timeToLive" : 0.4,
+            "layer" : "middle"
+          }
+        },
+		{
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/glitchsmoke/glitchsmoke.animation",
+            "size" : 1,
+            "angularVelocity" : 35,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "approach" : [1, 1],
+            "timeToLive" : 0.4,
+            "layer" : "front"
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz1/fizz1.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [-8, 8],
+            "finalVelocity" : [-3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [-4, 2],
+              "finalVelocity" : [-3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz1/fizz1.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [8, 8],
+            "finalVelocity" : [3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [4, 2],
+              "finalVelocity" : [3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz2/fizz2.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [-8, 8],
+            "finalVelocity" : [-3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [-4, 2],
+              "finalVelocity" : [-3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz2/fizz2.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [8, 8],
+            "finalVelocity" : [3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [4, 2],
+              "finalVelocity" : [3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz3/fizz3.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [-8, 8],
+            "finalVelocity" : [-3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [-4, 2],
+              "finalVelocity" : [-3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz3/fizz3.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [8, 8],
+            "finalVelocity" : [3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [4, 2],
+              "finalVelocity" : [3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz4/fizz4.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [-8, 8],
+            "finalVelocity" : [-3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [-4, 2],
+              "finalVelocity" : [-3, -4]
+            }
+          }
+        },
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/fizz4/fizz4.animation",
+            "size" : 1,
+            "angularVelocity" : 20,
+            "fade" : 1,
+            "destructionTime" : 7,
+            "position" : [0, 0],
+            "initialVelocity" : [8, 8],
+            "finalVelocity" : [3, -4],
+            "approach" : [15, 15],
+            "timeToLive" : 3.45,
+            "layer" : "middle",
+            "variance" : {
+              "initialVelocity" : [4, 2],
+              "finalVelocity" : [3, -4]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0,
+      "directives" : "fade=ffffff;0.5"
+    }
+  }
+}
+

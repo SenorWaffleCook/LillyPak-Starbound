@@ -2,6 +2,8 @@
 	"input":
 	[
 		{ "item": "imperviumcompound", "count": 2 },
+		{ "item": "ceruliumcompound", "count": 2 },
+		{ "item": "feroziumcompound", "count": 2 },
 		{ "item": "solariumstar", "count": 1 }
 	],
 	"output": { "item" : "zorcanbar", "count": 1 },

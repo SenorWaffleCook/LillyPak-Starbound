@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ash", "count" : 1 }
-  ],
-  "output" : { "item" : "sample_ash", "count" : 3 },
-  "groups" : [ "grasslab" ]
-}

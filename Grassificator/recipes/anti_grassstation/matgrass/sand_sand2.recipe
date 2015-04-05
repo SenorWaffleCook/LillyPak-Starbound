@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "sand2_sandy", "count" : 10 }
-  ],
-  "output" : { "item" : "sand2", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

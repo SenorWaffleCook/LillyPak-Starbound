@@ -1,9 +1,0 @@
-{
-  "itemName" : "madtulip_TS_novakid_3",
-  "rarity" : "Common",
-  "inventoryIcon" : "madtulip_TS_novakid_3_icon.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Novakid Tileset 3",
-  "shortdescription" : "Novakid Tileset 3",
-  "materialId" : 30021
-}

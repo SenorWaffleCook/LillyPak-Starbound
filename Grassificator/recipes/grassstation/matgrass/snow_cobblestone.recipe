@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "cobblestonematerial", "count" : 10 },
-	{ "item" : "snow", "count" : 1}
-  ],
-  "output" : { "item" : "cobblestone_snowy", "count" : 10 },
-  "groups" : [ "grassstation", "matgrass" ]
-}

@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "huntingspear", "count" : 1 },
-	"groups" : [ "spawningtable", "weapons" ]
-}

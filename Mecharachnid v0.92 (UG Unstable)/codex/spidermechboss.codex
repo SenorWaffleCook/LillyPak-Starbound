@@ -1,0 +1,22 @@
+{
+  "id" : "spidermechboss",
+  "title" : "Mecharachnid Log",
+  "contentPages" : [
+
+    "Log Entry 198:
+
+Progress on the machine is going strong. We are finally ready for the first full-combat scenario: running with all weapons systems, maximal threat detection levels, the works.",
+
+    "Log Entry 202:
+
+Fine-tuning the combat protocols is an ongoing endeavour, the machine simply isn't vicious enough. Aside from a few mishaps with the bio-regen suppression field, there have been few safety problems. Perhaps we need to relax the failsafes.",
+
+	"Log Entry 209:
+
+As the final stage in the testing procedure, it's time to take out all the stops. For this full-capacity AI run, we've abducted an expendable human to stand-in for a real pilot. We said that it was chosen because it was good at video games. As if it even could be without flippers!
+
+It's time to see what the Mecharachnid's true capabilities are.",
+	
+	"[A faded, slightly charred photograph of several penguins in small white jackets standing around the Mecharachnid. An adolescent human male is in the pilot seat.]"
+  ]
+}

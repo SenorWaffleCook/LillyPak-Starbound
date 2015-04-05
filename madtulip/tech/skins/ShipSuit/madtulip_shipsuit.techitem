@@ -1,9 +1,0 @@
-{
-  "itemName" : "madtulip_shipsuit",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "madtulip_shipsuit_overlay.png",
-  "description" : "To wear this or another suit at all times is required for MadTulip`s Shipmod to work properly.",
-  "shortdescription" : "Ship Suit",
-
-  "techModule" : "madtulip_shipsuit"
-}

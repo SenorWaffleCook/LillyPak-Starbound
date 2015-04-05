@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "cobblestonematerial", "count" : 10 },
-	{ "item" : "sample_aliengrass", "count" : 1}
-  ],
-  "output" : { "item" : "cobblestone_aliengrass", "count" : 10 },
-  "groups" : [ "grassstation", "slimegrass" ]
-}

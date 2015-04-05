@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "cobblestonematerial", "count" : 15 },
-	{ "item" : "glassmaterial", "count" : 3 },
-	{ "item" : "ironblock", "count" : 1 }
-  ],
-  "output" : { "item" : "kinepticorblight", "count" : 1 },
-  "groups" : [ "kinepticplinth", "light", "objects", "all" ]
-}

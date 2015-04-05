@@ -1,7 +1,0 @@
-{
-  "input" : [
-
-  ],
-  "output" : { "item" : "cheattier2unlock", "count" : 1 },
-  "groups" : [ "cheatingtable", "unlockers", "all" ]
-}
