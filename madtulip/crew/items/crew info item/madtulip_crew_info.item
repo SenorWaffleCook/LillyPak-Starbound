@@ -1,0 +1,7 @@
+{
+  "itemName" : "madtulip_crew_info",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "madtulip_crew_info.png",
+  "description" : "Grab it and use it on crew to get some information about that crew member.",
+  "shortdescription" : "Crew Info Item"
+}

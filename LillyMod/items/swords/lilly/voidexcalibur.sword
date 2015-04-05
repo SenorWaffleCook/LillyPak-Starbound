@@ -38,7 +38,7 @@
 		},
 		"windup" :
 		{
-			"twoHanded" : true,
+			"twoHanded" : false,
 			"armAngle" : 90,
 			"swordAngle" : 90,
 			"handPosition" : [-6.0, -17.0],
@@ -48,7 +48,7 @@
 		},
 		"cooldown" :
 		{
-			"twoHanded" : true,
+			"twoHanded" : false,
 			"armAngle" : -45,
 			"swordAngle" : -90,
 			"handPosition" : [-6.0, -27.5],
@@ -58,42 +58,10 @@
 		}
 	},
 
-	"altStances" :
-	{
-		"type" : "parry",
-		"rescaleTiming" : false,
-		"parryPoly" : [ [12, -14], [12, -2], [28, 6], [28, -38], [12, -26] ],
-
-		"idle" :
-		{
-			"twoHanded" : false,
-			"armAngle" : -90,
-			"swordAngle" : -90,
-			"handPosition" : [-6.0, -17.0],
-			"duration" : 0.1
-		},
-		"windup" :
-		{
-			"twoHanded" : true,
-			"armAngle" : 58,
-			"swordAngle" : 208,
-			"handPosition" : [15.0, -17.0],
-			"duration" : 1.0
-		},
-		"cooldown" :
-		{
-			"twoHanded" : false,
-			"armAngle" : -90,
-			"swordAngle" : -90,
-			"handPosition" : [-6.0, -17.0],
-			"duration" : 0.1
-		}
-	},
-
 	"colorOptions" :
 	[
-		/* BLACK */
-		{ "ffca8a" : "555555", "e0975c" : "424242", "a85636" : "282828", "6f2919" : "1D1D1D" },
+		/* Ghost */
+		{ "ffca8a" : "EEEEEE", "e0975c" : "DEDEDE", "a85636" : "C8C8C8", "6f2919" : "B7B7B7" },
 		/* BLACK */
 		{ "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
 		/* GREY */

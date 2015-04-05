@@ -1,0 +1,5 @@
+[
+  { "op" : "replace", "path" : "/durability", "value" : 7500 },
+  { "op" : "add", "path" : "/canBeRepaired", "value" : true},
+  { "op" : "add", "path" : "/durabilityRegenChart", "value" : [ [ "diamondore", 1500 ], [ "diamond", 3000 ] ] }
+]

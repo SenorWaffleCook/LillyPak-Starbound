@@ -1,0 +1,10 @@
+[
+  { "op" : "replace",
+    "path" : "/diamondRockSmall/0/1/pool/0/item",
+    "value" : "diamondore"
+  },
+  { "op" : "replace",
+    "path" : "/diamondRock/0/1/pool/0/item",
+    "value" : "diamondore"
+  }
+]

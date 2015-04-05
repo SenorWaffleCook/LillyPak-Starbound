@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "badtothebone.gearup" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "badtothebone.gearup" }
+]

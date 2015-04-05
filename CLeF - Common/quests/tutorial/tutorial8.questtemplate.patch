@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/title", "value" : "^yellow;Tutorial VIII: Ups, Downs and the Beacons" },
+  { "op" : "replace", "path" : "/text", "value" : "^green;It's finally time for me to obtain ^orange;20 core fragments. With those S.A.I.L should be able to fix the ^orange;ship's thrusters.^white; While I can obtain them deep underground near the planet's core, there's also a chance I could get required materials from a trade with passing ship. But I'll need an ^orange;Old Distress Beacon^white; for that." }
+]

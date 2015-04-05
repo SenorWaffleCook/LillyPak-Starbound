@@ -4,21 +4,10 @@
   "definition" : {
     "duration" : 0.05,
     "loops" : true,
-    "start" : {
-      "particles" : [
-        [ ]
-      ],
-      "sounds" : [ [ ] ]
-    },
+    "start" : {},
     "particles" : [
       ["madtulip_dust"]
     ],
-    "sounds" : [ [ ] ],
-    "stop" : {
-      "particles" : [
-        [ ]
-      ],
-      "sounds" : [ [ ] ]
-    }
+    "stop" : {}
   }
 }

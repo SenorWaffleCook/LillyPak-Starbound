@@ -8,6 +8,15 @@
 *.apng
 *.agif
 *.bat
+
+## Compressed Folders
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+## Windows hidden files.
 Thumbs.db
 ehthumbs.db
 Desktop.ini

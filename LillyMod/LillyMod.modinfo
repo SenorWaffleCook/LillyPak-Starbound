@@ -1,19 +1,30 @@
 {
 	"name": "LillyMod",
-	"version": "Beta v. Upbeat Giraffe",
 	"path": ".",
-	"dependencies":
+	"version": "Beta v. Upbeat Giraffe",
+	"requires":
 	[
 		"EnhancedStorage(StandardEdition)",
 		"Avali",
 		"dyemod",
-		"PerennialCrops"
+		"PerennialCrops",
+		"Kineptic",
+		"madtulip",
+		"Avali",
+		"dyemod"
 	],
-	"metadata" : 
+	"includes": [],
+	"metadata":
 	{
-		"displayName" : "LillyMod",
-		"author": "thakyZ",
-		"version": "1.2.5",
-		"description": "Adds compatibility between mods."
+		"properties":
+		{
+			"author": "thakyZ",
+			"version": "0.02.7-alpha",
+			"description": "This includes pataches for LillyPak-Starbound.",
+			"thanks": [ "TheSidofEvil", "Dolphinowl245" ],
+			"credit": "All the thanks!!!",
+			"documentation": "http://thakyz.github.io/LillyPak-Starbound/s",
+			"repository": "https://github.com/thakyZ/LillyPak-Starbound"
+		}
 	}
 }

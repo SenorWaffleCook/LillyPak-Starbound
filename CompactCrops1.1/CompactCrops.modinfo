@@ -1,0 +1,11 @@
+{
+	"name" : "CompactCrops",
+	"version" : "Beta v. Upbeat Giraffe",
+	"path" : ".",
+	"dependencies" : [],
+	"metadata" : {
+		"author" : "Mackinz",
+		"version" : "1.10",
+		"description" : "Grow more on less."
+	}
+}
