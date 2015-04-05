@@ -1,8 +1,16 @@
 {
-	"name": "LillyMod",
+	"name": "LillyPak-Additions",
 	"path": ".",
 	"version": "Beta v. Upbeat Giraffe",
-	"requires": [],
+	"requires":
+	[
+ 		"EnhancedStorage(StandardEdition)",
+		"Avali",
+		"dyemod",
+		"PerennialCrops",
+		"Kineptic",
+		"madtulip"
+	],
 	"includes": [],
 	"metadata":
 	{
@@ -10,7 +18,7 @@
 		{
 			"author": "thakyZ",
 			"version": "0.02.7-alpha",
-			"description": "This includes items and objects from thakyZ for the mod pack LillyPak",
+			"description": "This includes patches for LillyPak-Starbound.",
 			"thanks": [ "TheSidofEvil", "Dolphinowl245" ],
 			"credit": "All the thanks!!!",
 			"documentation": "http://thakyz.github.io/LillyPak-Starbound/",
