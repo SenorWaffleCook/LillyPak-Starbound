@@ -1,13 +1,12 @@
 # **LillyPak-Starbound**
 This is my mod pack for **Starbound Beta v. Upbeat Giraffe**.   
+This branch of my mod is for the **Stable** branch of Starbound.   
 
 Site: [http://thakyz.github.io/LillyPak-Starbound](http://thakyz.github.io/LillyPak-Starbound)   
 
----
-
 ## Branches
 
-**Bolded** Branch is current branch   
+**Bolded** branch is current branch.   
 
 | Branches                                                                   | Starbound Versions      |
 |----------------------------------------------------------------------------|-------------------------|
@@ -15,8 +14,6 @@ Site: [http://thakyz.github.io/LillyPak-Starbound](http://thakyz.github.io/Lilly
 | [dev](https://github.com/thakyZ/LillyPak-Starbound/tree/dev)               | Stable Branch           |
 | [unstable](https://github.com/thakyZ/LillyPak-Starbound/tree/unstable)     | Unstable/Nightly Branch |
 | gh-pages                                                                   | None                    |
-
----
 
 ## **Included Mods**:
 
@@ -91,16 +88,12 @@ Site: [http://thakyz.github.io/LillyPak-Starbound](http://thakyz.github.io/Lilly
 - [x] Wired Padlocks
 - [x] Wire Overhaul
 
----
-
 ## **Legal**:
 
-Most of these mod(s) of these mods are not owned by Nire Inicana, or thakyZ.   
-I did not ask for permission to use these mods in my mod pack - **YET**   
-This mod pack is supposed to be private (for now) but is posted on here for the convenience of Github.   
-
----
+Most of these mod(s) of these mods are not owned by thakyZ.   
+I am currently getting all the permissions for these mods, so that I can release this mod pack publicly.   
+This mod pack is supposed to be private (**for now**) but is posted on here for the convenience of Github.   
 
 ## **My mods Legal**:
 
-The Lilly Co. Mods are under the **Apache License**.
+The Lilly Co. Mods are under the **Apache License**.   
