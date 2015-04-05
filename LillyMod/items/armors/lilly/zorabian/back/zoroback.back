@@ -1,48 +1,25 @@
 {
-	"itemName": "zorochest",
-	"inventoryIcon": "icons.png:chest",
+	"itemName": "zoroback",
+	"inventoryIcon": "backicon.png",
 	"dropCollision": [-4.0, -3.0, 4.0, 3.0],
+	"rarity": "Legendary",
+	"description": "A pack stocked up on everything from food, to tools to bend space and time.",
+	"shortdescription": "Zorabian Troop Backpack",
+
+	"maleFrames": "back.png",
+	"femaleFrames": "back.png",
 	"maxStack": 1,
-	"rarity": "legendary",
-	"description": "The armor of the Void.",
-	"shortdescription": "Zorabian troop chestplate",
-	"tooltipKind": "armor",
 
-	"maleFrames" :
-	{
-		"body": "chestm.png",
-		"backSleeve": "bsleeve.png",
-		"frontSleeve": "fsleeve.png"
-	},
-	"femaleFrames" :
-	{
-		"body": "chestf.png",
-		"backSleeve": "bsleeve.png",
-		"frontSleeve": "fsleeve.png"
-	},
-
-	"statusEffects" :
+	"statusEffects":
 	[
 		{
-			"stat": "protection",
-			"amount": 445
-		},
-		{
-			"stat": "maxEnergy",
-			"amount": 585
-		},
-		{
-			"stat": "maxHealth",
-			"amount": 265
-		},
-		{
-			"stat": "madtulip_vacuum_chest_immunity",
+			"stat": "madtulip_vacuum_back_immunity",
 			"amount": 1
 		},
-		"regeneration1"
+		"glow"
 	],
 
-	"colorOptions" :
+	"colorOptions":
 	[
 		/* Ghost White */
 		{ "6f2919": "adadad", "a85636": "c0c0c0", "e0975c": "cbd1d8", "ffca8a": "ececec", "1b8d78": "ff0000", "156D5C": "D3113D" },
