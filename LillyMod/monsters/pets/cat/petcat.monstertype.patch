@@ -1,7 +1,0 @@
-[
-	{ "op": "add", "path": "/scripts/-", "value": "/monsters/capturepod.lua" },
-	{ "op": "add", "path": "/captureHealthFraction", "value": 1 },
-	{ "op": "add", "path": "/killsPerLevel", "value": 1 },
-	{ "op": "add", "path": "/captureParticles", "value": "captureParticles" },
-	{ "op": "add", "path": "/levelUpParticles", "value": "levelUp" }
-]
