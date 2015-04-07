@@ -1,0 +1,184 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Enable Wire Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I could give you the wire tool, it's kinda cool I guess, I don't really understand it.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Alrighty, here you are. ^green;With the wire tool, you can make circuts and stuff.^#B9E7FF; Honestly, I don't have the patience for that stuff...or a physical body.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Enable Wire Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I could give you the wire tool, it's kinda cool I guess, I don't really understand it.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Alrighty, here you are. ^green;With the wire tool, you can make circuts and stuff.^#B9E7FF; Honestly, I don't have the patience for that stuff...or a physical body.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Enable Wire Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I could give you the wire tool, it's kinda cool I guess, I don't really understand it.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Alrighty, here you are. ^green;With the wire tool, you can make circuts and stuff.^#B9E7FF; Honestly, I don't have the patience for that stuff...or a physical body.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Enable Wire Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I could give you the wire tool, it's kinda cool I guess, I don't really understand it.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Alrighty, here you are. ^green;With the wire tool, you can make circuts and stuff.^#B9E7FF; Honestly, I don't have the patience for that stuff...or a physical body.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Enable Wire Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I could give you the wire tool, it's kinda cool I guess, I don't really understand it.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Alrighty, here you are. ^green;With the wire tool, you can make circuts and stuff.^#B9E7FF; Honestly, I don't have the patience for that stuff...or a physical body.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Enable Wire Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I could give you the wire tool, it's kinda cool I guess, I don't really understand it.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Alrighty, here you are. ^green;With the wire tool, you can make circuts and stuff.^#B9E7FF; Honestly, I don't have the patience for that stuff...or a physical body.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Enable Wire Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I could give you the wire tool, it's kinda cool I guess, I don't really understand it.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Alrighty, here you are. ^green;With the wire tool, you can make circuts and stuff.^#B9E7FF; Honestly, I don't have the patience for that stuff...or a physical body.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

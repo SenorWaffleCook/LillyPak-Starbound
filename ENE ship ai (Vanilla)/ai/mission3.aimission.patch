@@ -1,0 +1,93 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Mysterious Party",
+      "repeatButtonText" : "Revisit Mysterious Party",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Master! you've been invited to a party! A party, I can hardly belive it, to think YOU of all people would get around, heh. Oh well, you'll probably end up embarassing youself over there anyways, so there's no chance i'm missing out on this. Hurry up and go!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Mysterious Party",
+      "repeatButtonText" : "Revisit Mysterious Party",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Master! you've been invited to a party! A party, I can hardly belive it, to think YOU of all people would get around, heh. Oh well, you'll probably end up embarassing youself over there anyways, so there's no chance i'm missing out on this. Hurry up and go!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Mysterious Party",
+      "repeatButtonText" : "Revisit Mysterious Party",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Master! you've been invited to a party! A party, I can hardly belive it, to think YOU of all people would get around, heh. Oh well, you'll probably end up embarassing youself over there anyways, so there's no chance i'm missing out on this. Hurry up and go!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Mysterious Party",
+      "repeatButtonText" : "Revisit Mysterious Party",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Master! you've been invited to a party! A party, I can hardly belive it, to think YOU of all people would get around, heh. Oh well, you'll probably end up embarassing youself over there anyways, so there's no chance i'm missing out on this. Hurry up and go!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Mysterious Party",
+      "repeatButtonText" : "Revisit Mysterious Party",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Master! you've been invited to a party! A party, I can hardly belive it, to think YOU of all people would get around, heh. Oh well, you'll probably end up embarassing youself over there anyways, so there's no chance i'm missing out on this. Hurry up and go!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Mysterious Party",
+      "repeatButtonText" : "Revisit Mysterious Party",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Master! you've been invited to a party! A party, I can hardly belive it, to think YOU of all people would get around, heh. Oh well, you'll probably end up embarassing youself over there anyways, so there's no chance i'm missing out on this. Hurry up and go!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Mysterious Party",
+      "repeatButtonText" : "Revisit Mysterious Party",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Master! you've been invited to a party! A party, I can hardly belive it, to think YOU of all people would get around, heh. Oh well, you'll probably end up embarassing youself over there anyways, so there's no chance i'm missing out on this. Hurry up and go!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

@@ -1,0 +1,93 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Erchius Mining Facility",
+      "repeatButtonText" : "Repeat Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! I've found a place where we can get some ^orange;Erchius Crystal Stuff, ^green;to repair the FTL drive!^#B9E7FF; It's from some weird Erhi-whatsitsface mining mission thingy, whatever, it's not important! just hurry up and grab some and hurry back! They did come up as a distress signal, but that's probably just a marketing ploy, I'm sure it's fine!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Erchius Mining Facility",
+      "repeatButtonText" : "Repeat Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! I've found a place where we can get some ^orange;Erchius Crystal Stuff, ^green;to repair the FTL drive!^#B9E7FF; It's from some weird Erhi-whatsitsface mining mission thingy, whatever, it's not important! just hurry up and grab some and hurry back! They did come up as a distress signal, but that's probably just a marketing ploy, I'm sure it's fine!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Erchius Mining Facility",
+      "repeatButtonText" : "Repeat Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! I've found a place where we can get some ^orange;Erchius Crystal Stuff, ^green;to repair the FTL drive!^#B9E7FF; It's from some weird Erhi-whatsitsface mining mission thingy, whatever, it's not important! just hurry up and grab some and hurry back! They did come up as a distress signal, but that's probably just a marketing ploy, I'm sure it's fine!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Erchius Mining Facility",
+      "repeatButtonText" : "Repeat Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! I've found a place where we can get some ^orange;Erchius Crystal Stuff, ^green;to repair the FTL drive!^#B9E7FF; It's from some weird Erhi-whatsitsface mining mission thingy, whatever, it's not important! just hurry up and grab some and hurry back! They did come up as a distress signal, but that's probably just a marketing ploy, I'm sure it's fine!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Erchius Mining Facility",
+      "repeatButtonText" : "Repeat Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! I've found a place where we can get some ^orange;Erchius Crystal Stuff, ^green;to repair the FTL drive!^#B9E7FF; It's from some weird Erhi-whatsitsface mining mission thingy, whatever, it's not important! just hurry up and grab some and hurry back! They did come up as a distress signal, but that's probably just a marketing ploy, I'm sure it's fine!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Erchius Mining Facility",
+      "repeatButtonText" : "Repeat Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! I've found a place where we can get some ^orange;Erchius Crystal Stuff, ^green;to repair the FTL drive!^#B9E7FF; It's from some weird Erhi-whatsitsface mining mission thingy, whatever, it's not important! just hurry up and grab some and hurry back! They did come up as a distress signal, but that's probably just a marketing ploy, I'm sure it's fine!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Erchius Mining Facility",
+      "repeatButtonText" : "Repeat Erchius Mining Facility",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey! I've found a place where we can get some ^orange;Erchius Crystal Stuff, ^green;to repair the FTL drive!^#B9E7FF; It's from some weird Erhi-whatsitsface mining mission thingy, whatever, it's not important! just hurry up and grab some and hurry back! They did come up as a distress signal, but that's probably just a marketing ploy, I'm sure it's fine!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

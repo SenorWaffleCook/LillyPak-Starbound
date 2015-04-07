@@ -1,0 +1,184 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Aparently we can use ^orange;20 of these 'Erchius crystals' things ^green; to fix up our FTL drive. ^#B9E7FF;I can't seem to find any of these crystal things in this system. ^green;I know! lets check out that ^orange;stargate warpy things^green; and see where it goes!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Bam! all fixed up! ^green;with enough fuel, we can go almost anywhere we want!^green; Now, what are you waiting for, let get going!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Master, what are you fooling around for?^green; Let's get this over with, sitting around is really boring.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Aparently we can use ^orange;20 of these 'Erchius crystals' things ^green; to fix up our FTL drive. ^#B9E7FF;I can't seem to find any of these crystal things in this system. ^green;I know! lets check out that ^orange;stargate warpy things^green; and see where it goes!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Bam! all fixed up! ^green;with enough fuel, we can go almost anywhere we want!^green; Now, what are you waiting for, let get going!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Master, what are you fooling around for?^green; Let's get this over with, sitting around is really boring.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Aparently we can use ^orange;20 of these 'Erchius crystals' things ^green; to fix up our FTL drive. ^#B9E7FF;I can't seem to find any of these crystal things in this system. ^green;I know! lets check out that ^orange;stargate warpy things^green; and see where it goes!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Bam! all fixed up! ^green;with enough fuel, we can go almost anywhere we want!^green; Now, what are you waiting for, let get going!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Master, what are you fooling around for?^green; Let's get this over with, sitting around is really boring.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Aparently we can use ^orange;20 of these 'Erchius crystals' things ^green; to fix up our FTL drive. ^#B9E7FF;I can't seem to find any of these crystal things in this system. ^green;I know! lets check out that ^orange;stargate warpy things^green; and see where it goes!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Bam! all fixed up! ^green;with enough fuel, we can go almost anywhere we want!^green; Now, what are you waiting for, let get going!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Master, what are you fooling around for?^green; Let's get this over with, sitting around is really boring.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Aparently we can use ^orange;20 of these 'Erchius crystals' things ^green; to fix up our FTL drive. ^#B9E7FF;I can't seem to find any of these crystal things in this system. ^green;I know! lets check out that ^orange;stargate warpy things^green; and see where it goes!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Bam! all fixed up! ^green;with enough fuel, we can go almost anywhere we want!^green; Now, what are you waiting for, let get going!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Master, what are you fooling around for?^green; Let's get this over with, sitting around is really boring.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Aparently we can use ^orange;20 of these 'Erchius crystals' things ^green; to fix up our FTL drive. ^#B9E7FF;I can't seem to find any of these crystal things in this system. ^green;I know! lets check out that ^orange;stargate warpy things^green; and see where it goes!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Bam! all fixed up! ^green;with enough fuel, we can go almost anywhere we want!^green; Now, what are you waiting for, let get going!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Master, what are you fooling around for?^green; Let's get this over with, sitting around is really boring.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Repair Ship's FTL drive",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Aparently we can use ^orange;20 of these 'Erchius crystals' things ^green; to fix up our FTL drive. ^#B9E7FF;I can't seem to find any of these crystal things in this system. ^green;I know! lets check out that ^orange;stargate warpy things^green; and see where it goes!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Bam! all fixed up! ^green;with enough fuel, we can go almost anywhere we want!^green; Now, what are you waiting for, let get going!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Master, what are you fooling around for?^green; Let's get this over with, sitting around is really boring.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

@@ -1,0 +1,184 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Enable Really Awesome Lazer Beam Axe Thing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Check out what I found, I found schematics to 3d print this ^green;really awesome lazer beam axe thing,^#B9E7FF; want it?",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "As you requested. ^green;The really awesome lazer beam axe thing^#B9E7FF; lets you pick up almost whatever the hell you want! The schematics were kinda expensive, so I used your billing information, I hope you don't mind.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Enable Really Awesome Lazer Beam Axe Thing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Check out what I found, I found schematics to 3d print this ^green;really awesome lazer beam axe thing,^#B9E7FF; want it?",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "As you requested. ^green;The really awesome lazer beam axe thing^#B9E7FF; lets you pick up almost whatever the hell you want! The schematics were kinda expensive, so I used your billing information, I hope you don't mind.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Enable Really Awesome Lazer Beam Axe Thing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Check out what I found, I found schematics to 3d print this ^green;really awesome lazer beam axe thing,^#B9E7FF; want it?",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "As you requested. ^green;The really awesome lazer beam axe thing^#B9E7FF; lets you pick up almost whatever the hell you want! The schematics were kinda expensive, so I used your billing information, I hope you don't mind.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Enable Really Awesome Lazer Beam Axe Thing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Check out what I found, I found schematics to 3d print this ^green;really awesome lazer beam axe thing,^#B9E7FF; want it?",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "As you requested. ^green;The really awesome lazer beam axe thing^#B9E7FF; lets you pick up almost whatever the hell you want! The schematics were kinda expensive, so I used your billing information, I hope you don't mind.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Enable Really Awesome Lazer Beam Axe Thing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Check out what I found, I found schematics to 3d print this ^green;really awesome lazer beam axe thing,^#B9E7FF; want it?",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "As you requested. ^green;The really awesome lazer beam axe thing^#B9E7FF; lets you pick up almost whatever the hell you want! The schematics were kinda expensive, so I used your billing information, I hope you don't mind.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Enable Really Awesome Lazer Beam Axe Thing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Check out what I found, I found schematics to 3d print this ^green;really awesome lazer beam axe thing,^#B9E7FF; want it?",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "As you requested. ^green;The really awesome lazer beam axe thing^#B9E7FF; lets you pick up almost whatever the hell you want! The schematics were kinda expensive, so I used your billing information, I hope you don't mind.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Enable Really Awesome Lazer Beam Axe Thing",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Check out what I found, I found schematics to 3d print this ^green;really awesome lazer beam axe thing,^#B9E7FF; want it?",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "As you requested. ^green;The really awesome lazer beam axe thing^#B9E7FF; lets you pick up almost whatever the hell you want! The schematics were kinda expensive, so I used your billing information, I hope you don't mind.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]
