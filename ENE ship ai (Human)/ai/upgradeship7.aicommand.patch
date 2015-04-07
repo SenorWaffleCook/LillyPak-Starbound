@@ -1,0 +1,28 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Upgrade Ship to Eagle Class",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "W-What? ^orange;an Eagle license!^#B9E7FF; More upgrades! Amazing! ^green;Alright! looks like we'll need ^orange;10 plutonium rods, 3 Impervium Compound, 3 Cerulium Compound and 3 Ferozium Compound",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah, This is wonderful! Look how far we've come! This is amazing, it's so roomy!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "No, no, no, you're short on resources, Master!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

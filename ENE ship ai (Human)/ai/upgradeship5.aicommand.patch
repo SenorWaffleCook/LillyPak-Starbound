@@ -1,0 +1,28 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Upgrade Ship to Kestrel Class",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "What? ^orange;a Kestrel license? ^#B9E7FF;I can get upgraded again?! Amazing! ^green;Aparently we need ^orange;20 uranium rods and 10 Durasteel bars ^green;To do the upgrade!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah! Wonderful! So much more room! It's even better than the last time!.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Again?! Just hurry up and get the resources!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

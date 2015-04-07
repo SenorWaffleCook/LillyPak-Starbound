@@ -1,0 +1,28 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Upgrade Ship to Sparrow Class",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "What's that Master? ^orange;a Sparrow license. ^green;Oh, Awesome! You can upgrade me with ^orange;10 uranium rods and 10 titanium bars! ^green;Hurry up and get them, I want to be upgraded!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Aw, this is amazing! so roomy! I feel so refreshed and new! I've never been upgraded before, We should do this more often!.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "Master, you really should cut it out, this is really annoing, you wont accompish anything until you get what I need!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]
