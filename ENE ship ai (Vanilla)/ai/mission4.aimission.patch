@@ -1,0 +1,93 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Weapon Testing Site",
+      "repeatButtonText" : "Revisit Weapon Testing Site",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey, so some weapons need to be tested? Cool! you get to try out awesome lazer flak cannons and miniguns that shoot forks! Who knows what kind of cool weapons you'll get to try out!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Weapon Testing Site",
+      "repeatButtonText" : "Revisit Weapon Testing Site",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey, so some weapons need to be tested? Cool! you get to try out awesome lazer flak cannons and miniguns that shoot forks! Who knows what kind of cool weapons you'll get to try out!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Weapon Testing Site",
+      "repeatButtonText" : "Revisit Weapon Testing Site",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey, so some weapons need to be tested? Cool! you get to try out awesome lazer flak cannons and miniguns that shoot forks! Who knows what kind of cool weapons you'll get to try out!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Weapon Testing Site",
+      "repeatButtonText" : "Revisit Weapon Testing Site",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey, so some weapons need to be tested? Cool! you get to try out awesome lazer flak cannons and miniguns that shoot forks! Who knows what kind of cool weapons you'll get to try out!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Weapon Testing Site",
+      "repeatButtonText" : "Revisit Weapon Testing Site",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey, so some weapons need to be tested? Cool! you get to try out awesome lazer flak cannons and miniguns that shoot forks! Who knows what kind of cool weapons you'll get to try out!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Weapon Testing Site",
+      "repeatButtonText" : "Revisit Weapon Testing Site",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey, so some weapons need to be tested? Cool! you get to try out awesome lazer flak cannons and miniguns that shoot forks! Who knows what kind of cool weapons you'll get to try out!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Weapon Testing Site",
+      "repeatButtonText" : "Revisit Weapon Testing Site",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Hey, so some weapons need to be tested? Cool! you get to try out awesome lazer flak cannons and miniguns that shoot forks! Who knows what kind of cool weapons you'll get to try out!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

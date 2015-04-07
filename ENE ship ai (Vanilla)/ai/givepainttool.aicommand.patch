@@ -1,0 +1,184 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Enable Paint Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With this cool paint tool, you can paint naughty things all over public areas!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Aha! The here's your paint tool! ^green;now you can color all sorts of random stuff!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Enable Paint Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With this cool paint tool, you can paint naughty things all over public areas!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Aha! The here's your paint tool! ^green;now you can color all sorts of random stuff!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Enable Paint Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With this cool paint tool, you can paint naughty things all over public areas!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Aha! The here's your paint tool! ^green;now you can color all sorts of random stuff!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Enable Paint Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With this cool paint tool, you can paint naughty things all over public areas!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Aha! The here's your paint tool! ^green;now you can color all sorts of random stuff!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Enable Paint Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With this cool paint tool, you can paint naughty things all over public areas!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Aha! The here's your paint tool! ^green;now you can color all sorts of random stuff!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Enable Paint Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With this cool paint tool, you can paint naughty things all over public areas!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Aha! The here's your paint tool! ^green;now you can color all sorts of random stuff!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Enable Paint Tool",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With this cool paint tool, you can paint naughty things all over public areas!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Aha! The here's your paint tool! ^green;now you can color all sorts of random stuff!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

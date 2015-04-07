@@ -1,0 +1,93 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Rechallenge Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Some guy wants you to take out a pirate guy? like, the 'ahoy matey! Arg!' kind? Hah! you have freaking lazer swords and photon guns and stuff! this'll be a peice of cake!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Rechallenge Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Some guy wants you to take out a pirate guy? like, the 'ahoy matey! Arg!' kind? Hah! you have freaking lazer swords and photon guns and stuff! this'll be a peice of cake!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Rechallenge Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Some guy wants you to take out a pirate guy? like, the 'ahoy matey! Arg!' kind? Hah! you have freaking lazer swords and photon guns and stuff! this'll be a peice of cake!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Rechallenge Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Some guy wants you to take out a pirate guy? like, the 'ahoy matey! Arg!' kind? Hah! you have freaking lazer swords and photon guns and stuff! this'll be a peice of cake!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Rechallenge Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Some guy wants you to take out a pirate guy? like, the 'ahoy matey! Arg!' kind? Hah! you have freaking lazer swords and photon guns and stuff! this'll be a peice of cake!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Rechallenge Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Some guy wants you to take out a pirate guy? like, the 'ahoy matey! Arg!' kind? Hah! you have freaking lazer swords and photon guns and stuff! this'll be a peice of cake!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Dreadwing",
+      "repeatButtonText" : "Rechallenge Dreadwing",
+      "selectSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Some guy wants you to take out a pirate guy? like, the 'ahoy matey! Arg!' kind? Hah! you have freaking lazer swords and photon guns and stuff! this'll be a peice of cake!",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]
