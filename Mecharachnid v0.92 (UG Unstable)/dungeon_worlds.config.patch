@@ -1,3 +1,0 @@
-[
-{"op":"add","path":"/spidermechmission","value":{"primaryDungeon":"spidermechmission","threatLevel":6,"gravity":60,"worldSize":[2000,2000],"dungeonBaseHeight":1000,"dungeonSurfaceHeight":810,"ambientLightLevel":[32,32,32],"biome":"tundra","musicTrack":"/music/arctic-battle2.ogg"}}
-]

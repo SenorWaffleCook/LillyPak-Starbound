@@ -1,9 +1,0 @@
-{
-  "name" : "scriptbugspidermechrightbackleg",
-  "category" : "scriptbugspidermechrightbackleg",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "scriptbug.png"
-  }
-}
