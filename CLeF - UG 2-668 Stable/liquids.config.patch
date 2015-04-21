@@ -1,0 +1,33 @@
+[
+  // Water + Healing water = Healing Water
+  { "op" : "add", "path" : "/liquids/1/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 6 } },
+  // Magmarock interactions for Lava
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 3, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 4, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 6, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 7, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 9, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/liquids/3/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } },
+  // Poison + Healing Water = Water
+  { "op" : "add", "path" : "/liquids/3/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } },
+  // Alien Juice + Water = Alien Juice
+  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 1, "liquidResult" : 4 } },
+  // Alien Juice + Poison = Alien Juice
+  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 3, "liquidResult" : 4 } },
+  // Alien Juice + Healing Water = Alien Juice
+  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 4 } },
+  // Alien Juice + Milk = Alien Juice
+  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 7, "liquidResult" : 4 } },
+  // Alien Juice + Coffee = Alien Juice
+  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 9, "liquidResult" : 4 } },  
+  { "op" : "add", "path" : "/liquids/8/itemDrop", "value" : "liquidlava" },
+  { "op" : "add", "path" : "/liquids/8/interactions", "value" :
+    [
+      { "liquid" : 1, "materialResult" : "magmarock" },
+      { "liquid" : 3, "materialResult" : "magmarock" },
+      { "liquid" : 4, "materialResult" : "magmarock" },
+      { "liquid" : 6, "materialResult" : "magmarock" },
+      { "liquid" : 7, "materialResult" : "magmarock" }
+    ]
+  }
+]

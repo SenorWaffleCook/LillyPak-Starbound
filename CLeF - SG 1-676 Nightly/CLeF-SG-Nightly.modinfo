@@ -1,0 +1,15 @@
+{
+	"name" : "CLeF-SG-Nightly",
+	"version" : "Beta v. Spirited Giraffe",
+	"path" : ".",
+	"requires" : [ "CLeF" ],
+	"includes" : [],
+	"metadata" : {
+	  "displayName" : "CLeF SG Nightly Module",
+		"author" : "dsp2003",
+		"description" : "",
+		"support_url" : "https://github/dsp2003/clf/",
+		"version" : "",
+		"thanks" : ""
+	}
+}
