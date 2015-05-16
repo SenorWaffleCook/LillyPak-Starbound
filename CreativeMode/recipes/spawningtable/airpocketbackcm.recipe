@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "airpocketback", "count" : 1 },
-	"groups" : [ "spawningtable", "armor" ]
-}

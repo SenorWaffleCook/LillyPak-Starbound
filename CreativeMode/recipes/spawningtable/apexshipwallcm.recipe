@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "apexshipwall", "count" : 1 },
-	"groups" : [ "spawningtable", "blocks" ]
-}

@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "geometricchest", "count" : 1 },
-	"groups" : [ "furnituretable", "biomefurn" ]
-}

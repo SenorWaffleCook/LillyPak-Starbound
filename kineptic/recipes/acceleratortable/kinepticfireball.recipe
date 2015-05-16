@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "corefragmentore", "count" : 20 },
-	{ "item" : "liquidlava", "count" : 50 }
-  ],
-  "output" : { "item" : "kinepticfireball", "count" : 1 },
-  "groups" : [ "acceleratortable", "all" ]
-}

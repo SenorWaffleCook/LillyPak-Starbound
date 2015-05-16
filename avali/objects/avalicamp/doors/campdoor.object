@@ -1,8 +1,7 @@
 {
   "objectName" : "campdoor",
   "rarity" : "Common",
-  "objectType" : "wire",
-
+  
   "category" : "door",
   "price" : 50,
   "printable" : false,

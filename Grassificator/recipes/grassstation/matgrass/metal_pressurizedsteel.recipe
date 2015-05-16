@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "pressurizedsteel", "count" : 10 },
-	{ "item" : "steelbar", "count" : 1}
-  ],
-  "output" : { "item" : "pressurizedsteel_metal", "count" : 10 },
-  "groups" : [ "grassstation", "matgrass" ]
-}

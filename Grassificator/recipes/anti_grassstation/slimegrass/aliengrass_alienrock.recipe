@@ -1,7 +1,0 @@
-{
-  "input" : [
-	{ "item" : "alienrock_aliengrass", "count" : 10}
-  ],
-  "output" : { "item" : "alienrock", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

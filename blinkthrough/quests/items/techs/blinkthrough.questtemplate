@@ -1,0 +1,17 @@
+  {
+  "id" : "blinkthrough.gearup",
+  "title" : "^green;Tech Advancement",
+  "text" : "^green;Unlocked: ^orange;Targeted Blink Through ^white;(Pick up TBT Tech Chip to complete.)",
+  "completionText" : "^green;Unlocked: ^orange;Targeted Blink Through",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "targetblinkthroughChip", 1], "consume" : true }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "enableTech" : ["targetblinkthroughTech"],
+  "canBeAbandoned" : false,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

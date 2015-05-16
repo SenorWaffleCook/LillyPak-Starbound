@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "musicbox", "count" : 1 },
-	"groups" : [ "spawningtable", "misc" ]
-}

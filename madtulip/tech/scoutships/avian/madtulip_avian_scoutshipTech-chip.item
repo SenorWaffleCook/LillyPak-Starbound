@@ -1,8 +1,0 @@
-{
-  "itemName" : "madtulip_avian_scoutshipTech-chip",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/madtulip_chip.png",
-  "description" : "Unlocks Avian Scout Ship tech.",
-  "shortdescription" : "Avian Scout Ship Unlocker",
-  "pickupQuestTemplates" : ["madtulip_avian_scoutship.gearup"]
-}

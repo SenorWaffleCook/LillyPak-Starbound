@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "woodenplatform", "count" : 500 }],
-	"output" : { "item" : "paper", "count" : 1 },
-	"groups" : [ "recycled", "flora", "created" ]
-}

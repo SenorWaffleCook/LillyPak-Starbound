@@ -1,7 +1,0 @@
-{
-  "input" : [
-	{ "item" : "goldbar", "count" : 1 }
-  ],
-  "output" : { "item" : "kinepticearring", "count" : 1 },
-  "groups" : [ "spinningwheel", "armor", "head" ]
-}

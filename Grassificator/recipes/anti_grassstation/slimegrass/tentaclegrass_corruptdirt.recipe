@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "corruptdirt_tentaclegrass", "count" : 10 }
-  ],
-  "output" : { "item" : "corruptdirtmaterial", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

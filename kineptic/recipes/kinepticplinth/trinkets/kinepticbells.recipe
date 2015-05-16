@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "silverbar", "count" : 1 },
-	{ "item" : "fabric", "count" : 1 }
-  ],
-  "output" : { "item" : "kinepticbells", "count" : 1 },
-  "groups" : [ "kinepticplinth", "furniture", "objects", "all" ]
-}

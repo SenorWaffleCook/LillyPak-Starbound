@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "tier5chair", "count" : 1 },
-	"groups" : [ "furnituretable", "tieredfurn" ]
-}

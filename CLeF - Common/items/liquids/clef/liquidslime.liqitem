@@ -1,0 +1,12 @@
+{
+  "itemName" : "liquidslime",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidslimeicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Liquid Slime",
+  "description" : "A measure of liquid slime.",
+
+  "liquid" : "slimeliquid",
+  
+  "learnBlueprintsOnPickup" : [ "greenslime" ]
+}

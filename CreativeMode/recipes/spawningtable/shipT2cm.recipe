@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "shipT2", "count" : 1 },
-	"groups" : [ "spawningtable", "tech" ]
-}

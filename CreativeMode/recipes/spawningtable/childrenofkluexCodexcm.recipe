@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "childrenofkluexCodex", "count" : 1 },
-	"groups" : [ "spawningtable", "codex" ]
-}

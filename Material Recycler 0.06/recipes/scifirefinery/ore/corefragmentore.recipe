@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "corefragmentore", "count" : 1 }
-  ],
-  "output" : { "item" : "liquidfuel", "count" : 10 },
-  "groups" : [ "scifirefinery", "ore" ]
-}

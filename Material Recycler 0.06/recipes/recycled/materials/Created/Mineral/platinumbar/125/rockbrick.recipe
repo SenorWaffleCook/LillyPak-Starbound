@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "rockbrickmaterial", "count" : 125 }],
-	"output" : { "item" : "platinumbar", "count" : 1 },
-	"groups" : [ "recycled", "mineral", "created" ]
-}

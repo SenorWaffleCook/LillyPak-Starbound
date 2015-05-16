@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "medievalmap", "count" : 1 },
-	"groups" : [ "furnituretable", "glitch" ]
-}

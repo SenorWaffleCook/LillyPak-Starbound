@@ -1,9 +1,0 @@
-{
-  "itemName" : "madtulip_TS_glass",
-  "rarity" : "Common",
-  "inventoryIcon" : "madtulip_TS_glass_icon.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Glass Tileset",
-  "shortdescription" : "Glass Tileset",
-  "materialId" : 30022
-}

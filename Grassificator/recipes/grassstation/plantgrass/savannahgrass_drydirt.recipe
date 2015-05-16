@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "drydirt", "count" : 10 },
-	{ "item" : "seed_savannahgrass", "count" : 1}
-  ],
-  "output" : { "item" : "drydirt_savannahgrass", "count" : 10 },
-  "groups" : [ "grassstation", "plantgrass" ]
-}

@@ -1,0 +1,184 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/apex"
+	, "value" : {
+      "buttonText" : "Repair Ship's Thrusters",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can fix up those ship thrusters if you'd like, ^green;but I'll need about ^orange;20 core fragments ^green;from the planet we're above ^orange; Head on down there and grab some and I'll fix things up!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah, with our thrusters working, we can ^green;travel anywhere in the system, ^orange;Aparently there's some kinda stargate or time warp thingy nearby, ^green;Maybe it will help us find the solution to our broken FTL drive",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "What are you doing? You don't actually have anything I need.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/avian"
+	, "value" : {
+      "buttonText" : "Repair Ship's Thrusters",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can fix up those ship thrusters if you'd like, ^green;but I'll need about ^orange;20 core fragments ^green;from the planet we're above ^orange; Head on down there and grab some and I'll fix things up!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah, with our thrusters working, we can ^green;travel anywhere in the system, ^orange;Aparently there's some kinda stargate or time warp thingy nearby, ^green;Maybe it will help us find the solution to our broken FTL drive",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "What are you doing? You don't actually have anything I need.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/floran"
+	, "value" : {
+      "buttonText" : "Repair Ship's Thrusters",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can fix up those ship thrusters if you'd like, ^green;but I'll need about ^orange;20 core fragments ^green;from the planet we're above ^orange; Head on down there and grab some and I'll fix things up!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah, with our thrusters working, we can ^green;travel anywhere in the system, ^orange;Aparently there's some kinda stargate or time warp thingy nearby, ^green;Maybe it will help us find the solution to our broken FTL drive",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "What are you doing? You don't actually have anything I need.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/glitch"
+	, "value" : {
+      "buttonText" : "Repair Ship's Thrusters",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can fix up those ship thrusters if you'd like, ^green;but I'll need about ^orange;20 core fragments ^green;from the planet we're above ^orange; Head on down there and grab some and I'll fix things up!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah, with our thrusters working, we can ^green;travel anywhere in the system, ^orange;Aparently there's some kinda stargate or time warp thingy nearby, ^green;Maybe it will help us find the solution to our broken FTL drive",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "What are you doing? You don't actually have anything I need.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/human"
+	, "value" : {
+      "buttonText" : "Repair Ship's Thrusters",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can fix up those ship thrusters if you'd like, ^green;but I'll need about ^orange;20 core fragments ^green;from the planet we're above ^orange; Head on down there and grab some and I'll fix things up!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah, with our thrusters working, we can ^green;travel anywhere in the system, ^orange;Aparently there's some kinda stargate or time warp thingy nearby, ^green;Maybe it will help us find the solution to our broken FTL drive",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "What are you doing? You don't actually have anything I need.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/hylotl"
+	, "value" : {
+      "buttonText" : "Repair Ship's Thrusters",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can fix up those ship thrusters if you'd like, ^green;but I'll need about ^orange;20 core fragments ^green;from the planet we're above ^orange; Head on down there and grab some and I'll fix things up!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah, with our thrusters working, we can ^green;travel anywhere in the system, ^orange;Aparently there's some kinda stargate or time warp thingy nearby, ^green;Maybe it will help us find the solution to our broken FTL drive",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "What are you doing? You don't actually have anything I need.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }},
+	{"op" : "replace"
+	,"path" : "/speciesText/novakid"
+	, "value" : {
+      "buttonText" : "Repair Ship's Thrusters",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "I can fix up those ship thrusters if you'd like, ^green;but I'll need about ^orange;20 core fragments ^green;from the planet we're above ^orange; Head on down there and grab some and I'll fix things up!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "yell",
+          "text" : "Ah, with our thrusters working, we can ^green;travel anywhere in the system, ^orange;Aparently there's some kinda stargate or time warp thingy nearby, ^green;Maybe it will help us find the solution to our broken FTL drive",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "refuse",
+          "text" : "What are you doing? You don't actually have anything I need.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

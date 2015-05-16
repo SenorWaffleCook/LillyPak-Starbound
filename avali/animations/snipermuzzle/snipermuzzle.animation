@@ -3,5 +3,5 @@
   "variants" : 1,
   "frameNumber" : 5,
   "animationCycle" : 0.3,
-  "offset" : [-260, 0]
+  "offset" : [32.5, 0]
 }

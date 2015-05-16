@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "cornseed", "count" : 1 },
-	"groups" : [ "spawningtable", "farmables" ]
-}

@@ -1,14 +1,11 @@
 {
 	"name" : "Avali",
-	"version" : "Beta v. Upbeat Giraffe",
-	"path" : ".",
-	"requires" : [ "dyemod" ],
+  "includes" : [ "FrackinUniverse" ],
 	"metadata" : {
     "displayName" : "Avali Race Mod",
-		"author" : "RyuujinZERO",
+		"author" : "RyuujinZero",
 		"description" : "The only fluffy nomadic space raptors!",
-		"support_url" : "http://community.playstarbound.com/index.php?threads/avali-race-mod-the-second-thread.77465/",
-		"version" : "0.11.1 Community Update",
-		"thanks": "Mackinz, Quilavabom, GROVER CURES HOUSES"
+		"support_url" : "http://community.playstarbound.com/resources/avali-triage.2852/",
+		"thanks": "Mackinz, Devani, Thakyz, Sparrows, Gatosardina"
 	}
 }

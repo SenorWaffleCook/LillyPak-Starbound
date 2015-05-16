@@ -1,0 +1,12 @@
+{
+"name" : "ENE ship ai -Avali",
+"version" : "",
+"path" : ".",
+"dependencies" : ["Avali"],
+"includes" : ["Avali"],
+"metadata": {
+"author" : "",
+"description" : "",
+"support_url" : ""
+}
+}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "steelbar", "count" : 1 },
-	{ "item" : "goldbar", "count" : 1 }
-  ],
-  "output" : { "item" : "kinepticearguard", "count" : 1 },
-  "groups" : [ "spinningwheel", "armor", "head" ]
-}

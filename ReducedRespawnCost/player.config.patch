@@ -1,0 +1,4 @@
+[ 
+{"op" : "replace","path" : "/reviveCost/percentile","value" : 10.0} 
+]
+  //By changing the number after the "value" text, you could customize the respawn cost

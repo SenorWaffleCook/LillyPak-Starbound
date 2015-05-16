@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "ash", "count" : 10 },
-	{ "item" : "sample_blackash", "count" : 1}
-  ],
-  "output" : { "item" : "ash_blackash", "count" : 10 },
-  "groups" : [ "grassstation", "matgrass" ]
-}

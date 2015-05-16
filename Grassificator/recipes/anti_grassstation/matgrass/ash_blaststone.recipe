@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "blaststone_ash", "count" : 10 }
-  ],
-  "output" : { "item" : "blaststone", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

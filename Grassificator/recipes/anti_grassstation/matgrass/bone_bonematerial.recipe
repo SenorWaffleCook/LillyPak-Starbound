@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "bonematerial_bone", "count" : 10 }
-  ],
-  "output" : { "item" : "bonematerial", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

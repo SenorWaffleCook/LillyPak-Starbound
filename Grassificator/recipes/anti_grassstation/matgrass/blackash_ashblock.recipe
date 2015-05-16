@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ash_blackash", "count" : 10 }
-  ],
-  "output" : { "item" : "ash", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "tombbrick", "count" : 125 }],
-	"output" : { "item" : "goldbar", "count" : 1 },
-	"groups" : [ "recycled", "mineral", "created" ]
-}

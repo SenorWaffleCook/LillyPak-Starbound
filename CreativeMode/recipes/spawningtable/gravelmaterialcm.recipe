@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "gravelmaterial", "count" : 1 },
-	"groups" : [ "spawningtable", "blocks" ]
-}

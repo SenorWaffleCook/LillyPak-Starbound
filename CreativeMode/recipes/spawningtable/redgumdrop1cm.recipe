@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "redgumdrop1", "count" : 1 },
-	"groups" : [ "spawningtable", "season" ]
-}

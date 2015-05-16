@@ -17,7 +17,7 @@
   "glitchDescription" : "Uncertainty> I am unsure if this is a robotic transport or a container.",
   "humanDescription" : "What's in the box? Can I afford to not find out?",
   "hylotlDescription" : "A cargo container, looks like the sort of thing a barge might carry.",
-  "avaliDescription" : "The crate has it's own electronic manifest. It reads the RFID tags of the items inside and automaticlly generates an inventory, it can even pass the location of an object to my HUD",
+  "avaliDescription" : "The crate has it's own electronic manifest. It reads the RFID tags of the items inside and automatically generates an inventory, it can even pass the location of an object to my HUD",
 
   "inventoryIcon" : "avalicontainer1icon.png",
   "orientations" : [

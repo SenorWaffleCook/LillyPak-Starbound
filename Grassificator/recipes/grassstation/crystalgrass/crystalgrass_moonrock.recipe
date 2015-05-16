@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "moonrock", "count" : 10 },
-	{ "item" : "crystal", "count" : 1}
-  ],
-  "output" : { "item" : "moonrock_crystalgrass", "count" : 10 },
-  "groups" : [ "grassstation", "crystalgrass" ]
-}
