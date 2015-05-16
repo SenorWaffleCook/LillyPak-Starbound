@@ -13,7 +13,7 @@ function goodReception()
   bounds[3] = tr[1]
   bounds[4] = tr[2]
   
-  return not world.rectCollision(bounds, true)
+  return not world.rectTileCollision(bounds, "Dynamic")
 end
 
 function init(args)

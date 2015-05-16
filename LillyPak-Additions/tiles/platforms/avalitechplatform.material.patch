@@ -1,0 +1,3 @@
+[
+	{ "op": "replace", "path": "/renderParameters/texture", "value": "avalitechplatform2.png" }
+]

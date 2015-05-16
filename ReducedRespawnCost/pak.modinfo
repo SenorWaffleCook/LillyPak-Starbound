@@ -1,0 +1,14 @@
+{
+  "name" : "ReducedRespawnCost",
+  "version" : "Beta v. Spirited Giraffe",
+  "path" : ".",
+  "requires" : [],
+  "includes" : [],
+  "metadata": 
+     {
+       "author" : "Retr0",
+       "version" : "1.2",
+       "description" : "Changes respawn pixel cost to 10%",
+       "support_url" : ""
+     }
+}

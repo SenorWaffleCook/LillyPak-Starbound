@@ -2,12 +2,12 @@
   "name" : "EnhancedStorage(StandardEdition)",
   "path" : "./EnhancedStorage(StandardEdition).pak",
   "requires" : [],
-  "includes" : [ "MedicalPotions", "CreativeMode", "Pixel Goods Store", "Print & Pack 3.0", "Viera", "madtulip", "FrackinUniverse" ],
+  "includes" : [ "MedicalPotions", "CreativeMode", "Pixel Goods Store", "Print & Pack 3.1", "Viera", "madtulip", "FrackinUniverse" ],
   "metadata" :{
     "displayName" : "EnhancedStorage(StandardEdition)",
     "author" : "NeoVanAlemania",
     "description" : "Increased capacity for all storage containers, which will kept all their stored items after smashing.",
     "support_url" : "http://community.playstarbound.com/index.php?resources/enhanced-storage.2450",
-    "version" : "1.05"
+    "version" : "1.061"
   }
 }

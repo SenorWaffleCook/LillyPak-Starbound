@@ -1,0 +1,8 @@
+{
+  "itemName" : "targetblinkthroughChip",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/items/generic/other/blanktechcard.png",
+  "description" : "^green;Unlocks ^white;Targeted Blink Through tech on pickup!",
+  "shortdescription" : "^white;TBT Tech Chip",
+  "pickupQuestTemplates" : [ "blinkthrough.gearup" ]
+}
