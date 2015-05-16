@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "proximitywallsensor", "count" : 1 },
-	"groups" : [ "spawningtable", "wired" ]
-}

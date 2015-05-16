@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "outpostwall2", "count" : 1 },
-	"groups" : [ "spawningtable", "blocks" ]
-}

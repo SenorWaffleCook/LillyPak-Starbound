@@ -1,9 +1,0 @@
-{
-  "itemName" : "madtulip_TS_apex_2",
-  "rarity" : "Common",
-  "inventoryIcon" : "madtulip_TS_apex_2_icon.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Apex Tileset 2",
-  "shortdescription" : "Apex Tileset 2",
-  "materialId" : 30002
-}

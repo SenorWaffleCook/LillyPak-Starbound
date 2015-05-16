@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "consoletribalwall", "count" : 1 },
-	"groups" : [ "furnituretable", "avian" ]
-}

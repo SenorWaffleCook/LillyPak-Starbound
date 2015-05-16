@@ -7,6 +7,13 @@
       "fill" : [ { "item" : [ "corefragmentore", 21 ] }, { "item" : [ "moltencore", 5 ] }, { "item" : "bossdreadwingCodex" } ]
     }]
   ],
+  // temporary placeholder before I'll re-add required files
+  // Fatal Circuit
+  "clefFatalCircuit" : [
+    [1, {
+      "fill" : [ {"item" : [ "corefragmentore", 21]}, {"item" : [ "moltencore", 5]}, {"item" : "bossdreadwingCodex"}]
+    }]
+  ],
   "clefBoneDragon" : [
     [1, {
       "fill" : [ { "item" : [ "dragonbone", 5 ] }, { "item" : "bossbonedragonCodex" } ]

@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "blueflask", "count" : 1 },
-	"groups" : [ "furnituretable", "apex" ]
-}

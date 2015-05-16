@@ -1,0 +1,15 @@
+{
+	"name" : "CLeF-SG-Stable",
+	"version" : "",
+	"path" : ".",
+	"requires" : [ "CLeF" ],
+	"includes" : [],
+	"metadata" : {
+	  "displayName" : "CLeF Spirited Giraffe Stable Module",
+		"author" : "dsp2003",
+		"description" : "",
+		"support_url" : "https://github/dsp2003/clf/",
+		"version" : "",
+		"thanks" : ""
+	}
+}

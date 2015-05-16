@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "timer", "count" : 1 },
-	"groups" : [ "spawningtable", "wired" ]
-}

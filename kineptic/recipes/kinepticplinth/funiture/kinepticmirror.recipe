@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "silverbar", "count" : 2 },
-	{ "item" : "glassmaterial", "count" : 8 },
-	{ "item" : "darkwoodmaterial", "count" : 10 }
-  ],
-  "output" : { "item" : "kinepticmirror", "count" : 1 },
-  "groups" : [ "kinepticplinth", "furniture", "objects", "all" ]
-}

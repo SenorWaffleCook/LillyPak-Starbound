@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "limestone", "count" : 250 }],
-	"output" : { "item" : "silverore", "count" : 1 },
-	"groups" : [ "recycled", "mineral", "natural" ]
-}

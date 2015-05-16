@@ -1,8 +1,0 @@
-{
-  "input" : [
-	{ "item" : "milk", "count" : 1 },
-	{ "item" : "cobblestonematerial", "count" : 1 }
-  ],
-  "output" : { "item" : "kinepticbuttertray", "count" : 1 },
-  "groups" : [ "kinepticplinth", "furniture", "objects", "all" ]
-}

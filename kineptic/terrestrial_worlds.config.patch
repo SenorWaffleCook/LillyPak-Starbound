@@ -1,5 +1,0 @@
-[
-	{ "op":"add", "path": "/planetTypes/desert/layers/surface/dungeons/-", "value": "kinepticsettlement" },
-	{ "op":"add", "path": "/planetTypes/forest/layers/surface/dungeons/-", "value": "kinepticsettlement" },
-	{ "op":"add", "path": "/planetTypes/alien/layers/surface/dungeons/-", "value": "kinepticsettlement" }
-]

@@ -10,7 +10,7 @@
   "renderParameters" : {
     "texture" : "avalitilled.png",
     "variants" : 1,
-    "multiColored" : false,
+    "multiColored" : true,
     "zLevel" : 0
   }
 }

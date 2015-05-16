@@ -1,5 +1,6 @@
 {
   "objectName" : "avaliteleporter",
+  "printable" : false,
   "rarity" : "Common",
   "description" : "Trusty teleporter, what would I do without you? Of Avali design.",
   "shortdescription" : "Teleporter",
@@ -19,7 +20,7 @@
   "flickerTiming" : 4,
 
   "interactAction" : "OpenTeleportDialog",
-  "interactData" : "/interface/warpmenu/shipteleporter.config",
+  "interactData" : "/interface/warping/shipteleporter.config",
 
   "inventoryIcon" : "teleportericon.png",
   "orientations" : [

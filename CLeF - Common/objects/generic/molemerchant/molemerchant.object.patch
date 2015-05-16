@@ -1,0 +1,12 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "A mole merchant. What it really is, or what it wants, nobody knows." },
+  { "op" : "replace", "path" : "/apexDescription", "value" : "A silent mole merchant. Unusual." },
+  { "op" : "replace", "path" : "/avianDescription", "value" : "Who is this curious merchant?" },
+  { "op" : "replace", "path" : "/floranDescription", "value" : "Floran ssslightly ssscared by sssilent mole." },
+  { "op" : "replace", "path" : "/glitchDescription", "value" : "Concerned. This mole seems unwilling to communicate." },
+  { "op" : "replace", "path" : "/humanDescription", "value" : "Doesn't look like a sharp-eyed merchant, is he?" },
+  { "op" : "replace", "path" : "/hylotlDescription", "value" : "This silent creature is not one of us." },
+  { "op" : "add", "path" : "/novakidDescription", "value" : "Shoot! Looks like this lil' guy traveled tons of miles barefoot." },
+  { "op" : "replace", "path" : "/shortdescription", "value" : "Mole Merchant" },
+  { "op" : "replace", "path" : "/unbreakable", "value" : false }
+]

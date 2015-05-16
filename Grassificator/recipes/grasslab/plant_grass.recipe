@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "seed_grass", "count" : 1 }
-  ],
-  "output" : { "item" : "plant_grass", "count" : 1 },
-  "groups" : [ "grasslab" ]
-}

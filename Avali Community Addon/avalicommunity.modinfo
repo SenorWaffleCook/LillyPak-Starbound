@@ -1,0 +1,10 @@
+{
+	"name" : "avalicommunity",
+	"requires" : [ "Avali" ],
+	"metadata" : {
+    "displayName" : "Avali Community Additions",
+		"author" : "Community",
+		"description" : "Community-made additions to the Avali mod",
+		"thanks": "Mackinz, Devani, Thakyz, Sparrows, Gatosardina"
+	}
+}

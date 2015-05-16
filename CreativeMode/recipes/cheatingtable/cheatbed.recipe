@@ -1,7 +1,0 @@
-{
-  "input" : [
-
-  ],
-  "output" : { "item" : "cheatbed", "count" : 1 },
-  "groups" : [ "cheatingtable", "misc", "all" ]
-}

@@ -1,9 +1,0 @@
-{
-  "input" : [
-	{ "item" : "steelbar", "count" : 2 },
-	{ "item" : "fabric", "count" : 5 },
-	{ "item" : "leather", "count" : 6 }
-  ],
-  "output" : { "item" : "kinepticnexvest", "count" : 1 },
-  "groups" : [ "spinningwheel", "armor", "chest", "pants" ]
-}

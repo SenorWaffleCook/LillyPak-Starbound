@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "tribalplatform", "count" : 1 },
-	"groups" : [ "spawningtable", "blocks" ]
-}

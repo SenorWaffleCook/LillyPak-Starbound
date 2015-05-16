@@ -1,0 +1,40 @@
+{
+  "objectName" : "techcraft",
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "techChip" ]
+  },  "printable" : false,
+  "description" : "Craft up some tech!",
+  "shortdescription" : "^orange;Tech Craft",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 500,
+
+  "apexDescription" : "A useful tool for creating tech.",
+  "avianDescription" : "A machine used to develop tech.",
+  "floranDescription" : "Floran ussse upgradesss.",
+  "glitchDescription" : "Tech development tools activating.",
+  "humanDescription" : "I can make some tech here.",
+  "hylotlDescription" : "A chance to tech up.",
+
+  "inventoryIcon" : "techcrafticon.png",
+  
+  "orientations" : [
+    {
+      "image" : "techcraft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 21,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+	  "flipImages" : false,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/scififurnace.wav",
+
+  "learnBlueprintsOnPickup" : ["techcraft", "targetblinkthroughChip"]
+}

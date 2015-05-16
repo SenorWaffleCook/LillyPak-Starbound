@@ -1,5 +1,0 @@
-{
-	"input" : [ { "item" : "rainbowwoodblock", "count" : 500 }],
-	"output" : { "item" : "rainbowwood", "count" : 1 },
-	"groups" : [ "recycled", "flora", "created" ]
-}

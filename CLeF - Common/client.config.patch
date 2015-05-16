@@ -1,7 +1,4 @@
 [
-  { "op" : "replace", "path" : "/combatTrack/day/tracks", "value" : [ "/music/gravitational-collapse.ogg", "/music/event-horizon.ogg", "/music/impact-event.ogg" ] },
-  { "op" : "replace", "path" : "/combatTrack/night/tracks", "value" : [ "/music/gravitational-collapse.ogg", "/music/event-horizon.ogg", "/music/impact-event.ogg" ] },
-  { "op" : "replace", "path" : "/combatTrackMixSettings/mixCombatIn", "value" : [0.55, 0, 3] },
-  { "op" : "replace", "path" : "/combatTrackMixSettings/mixMusicOut", "value" : [0.40, 0, 3] },
-  { "op" : "replace", "path" : "/combatTrackMixSettings/mixMusicIn", "value" : [0.45, 0, 3] }
+  { "op" : "replace", "path" : "/playerWarpDelay", "value" : 0.7 },
+  { "op" : "replace", "path" : "/playerWarpCinemaMinimumTime", "value" : 0.7 }
 ]

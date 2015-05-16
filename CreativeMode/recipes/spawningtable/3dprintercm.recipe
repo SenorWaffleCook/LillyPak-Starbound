@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "3dprinter", "count" : 1 },
-	"groups" : [ "spawningtable", "techy" ]
-}

@@ -1,8 +1,0 @@
-{
-  "itemName" : "shieldkeyoff",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "shieldkeyoff.png",
-  "description" : "ADMIN ONLY ITEM",
-  "shortdescription" : "Shield Removal Key",
-  "maxStack" : 1
-}

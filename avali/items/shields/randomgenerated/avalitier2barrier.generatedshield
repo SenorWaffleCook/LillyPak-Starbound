@@ -30,6 +30,6 @@
   },
   "nameGenerator" : "avalitier2names.config:nameGen",
   "tooltipKind" : "shield",
-  "health" : 100.0,
+  "health" : 150.0,
   "healthRegen" : 0.10
 }

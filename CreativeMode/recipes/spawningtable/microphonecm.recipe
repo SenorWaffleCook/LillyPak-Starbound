@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "microphone", "count" : 1 },
-	"groups" : [ "spawningtable", "misc" ]
-}

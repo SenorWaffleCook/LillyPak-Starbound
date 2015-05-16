@@ -1,0 +1,28 @@
+[
+	{"op" : "replace"
+	,"path" : "/speciesText/avali"
+	, "value" : {
+      "buttonText" : "Reboot ship AI",
+      "selectSpeech" : [
+        {
+          "animation" : "unique",
+          "text" : "Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot Reboot ",
+          "speedModifier" : 0.5
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Aw jeez, that was horrible! Hello Master! ^orange;I'm E.N.E.^#B9E7FF; I'm the brains of this ship! I can do anything from changing you desktop background to changing all the images in your 'special folder' to pictures of tapeworms!",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure",
+          "speedModifier" : 1.0
+        }
+      ]
+    }}
+]

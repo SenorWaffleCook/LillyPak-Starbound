@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "humanteleporterTier0", "count" : 1 },
-	"groups" : [ "furnituretable", "human" ]
-}

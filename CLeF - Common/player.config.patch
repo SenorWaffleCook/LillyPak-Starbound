@@ -1,23 +1,4 @@
 [
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bonusarmorhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bonusarmorchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "bonusarmorpants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverpants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldpants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumpants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamondarmorhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamondarmorchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamondarmorpants" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "pioneer2head" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "pioneer2chest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "pioneer2pants" } },  
-
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brainextractor" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "artificialbrain" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "robothead" } },
@@ -57,6 +38,22 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiyhead" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiychest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiylegs" } },
+
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonhead" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonpants" } },
+
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "teleportercore" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "blackteleporter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "brassteleporter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "futureteleporter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "scienceteleporter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "stoneteleporter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tombteleporter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "woodenteleporter" } },
+
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "orangeteleportercore" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "portableteleporter" } },
 
   { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 }
 ]

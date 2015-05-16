@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "drydirt_grass", "count" : 10 }
-  ],
-  "output" : { "item" : "drydirt", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

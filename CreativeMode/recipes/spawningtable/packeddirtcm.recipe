@@ -1,5 +1,0 @@
-{
-	"input" : [ ],
-	"output" : { "item" : "packeddirt", "count" : 1 },
-	"groups" : [ "spawningtable", "blocks" ]
-}

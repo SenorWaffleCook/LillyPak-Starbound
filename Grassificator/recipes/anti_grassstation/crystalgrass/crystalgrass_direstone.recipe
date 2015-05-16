@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "direstone_crystalgrass", "count" : 10 }
-  ],
-  "output" : { "item" : "direstone", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

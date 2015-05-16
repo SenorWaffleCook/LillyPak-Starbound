@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "fleshblock_fleshgrass", "count" : 10 }
-  ],
-  "output" : { "item" : "fleshblock", "count" : 10 },
-  "groups" : [ "anti_grass" ]
-}

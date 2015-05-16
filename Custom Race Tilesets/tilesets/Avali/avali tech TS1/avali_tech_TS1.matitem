@@ -1,9 +1,0 @@
-{
-  "itemName" : "avali_tech_TS1",
-  "rarity" : "Common",
-  "inventoryIcon" : "avali_tech_TS1_icon.png",
-  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
-  "description" : "Avali Tech Tileset",
-  "shortdescription" : "Avali Tech Tileset",
-  "materialId" : 40024
-}
