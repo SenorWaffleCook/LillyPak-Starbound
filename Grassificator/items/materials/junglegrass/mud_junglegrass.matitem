@@ -1,0 +1,12 @@
+{
+  "itemName" : "mud_junglegrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "mud_junglegrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Thick and sticky mud with Jungle Grass.",
+  "shortdescription" : "Jungle Grass on Mud",
+  "glitchDescription" : "Statement. The muddiest of mud with Jungle Grass.",
+  "floranDescription" : "Mud. With Jungle Grass! Floran like make messsss.",
+
+  "materialId" : 20434
+}

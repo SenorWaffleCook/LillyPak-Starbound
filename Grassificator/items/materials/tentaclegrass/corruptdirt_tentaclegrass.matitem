@@ -1,0 +1,12 @@
+{
+  "itemName" : "corruptdirt_tentaclegrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "corruptdirt_tentaclegrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ick. Corrupted dirt coated in Tentacle Grass.",
+  "shortdescription" : "Tentacle Grass Coated Corrupt Dirt",
+  "glitchDescription" : "Statement. Corrupted dirt. Observation. It's coated in Tentacle Grass.",
+  "floranDescription" : "Sssick dirt coated in Tentacle Grassss.",
+
+  "materialId" : 20449
+}

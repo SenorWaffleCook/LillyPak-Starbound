@@ -1,0 +1,25 @@
+{
+  "materialId" : 20430,
+  "materialName" : "brains_heckgrass",
+  "particleColor" : [161, 129, 99, 255],
+  "itemDrop" : "brains_heckgrass",
+  "description" : "Pulsating brain matter coated in heck grass.. I wonder what it's thinking.",
+  "shortdescription" : "Heck Grass Coated Brains",
+  "glitchDescription" : "Analysis. Brain patterns suggest this brain belonged to a genius. Observation. It's coated in Heck Grass.",
+  "floranDescription" : "Floran want to ssstab sssquishy heck grassss coated brain.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "brains_heckgrass.png",
+  "variants" : 4,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

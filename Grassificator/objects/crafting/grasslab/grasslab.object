@@ -1,0 +1,51 @@
+{
+  "objectName" : "grasslab",
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/grasslab.config",
+    "filter" : [ "grasslab" ]
+  },
+  "printable" : false,
+  "description" : "A Grass Lab for Preparing Grass Plants and Samples.",
+  "shortdescription" : "^green;Grass Lab^green;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+
+  "apexDescription" : "A Grass Preparation Lab, reminds me of Minikog Bio-Engineering, only less sinister.",
+  "avianDescription" : "This Lab would be controversial on Avos, cultivation of grass would likely be seen as Sacrilegious.",
+  "floranDescription" : "Floran Grow Grass with sshiny table!!",
+  "glitchDescription" : "Observation. A Grass Preparation Lab. Grass Sprouts and Samples are prepared here.",
+  "humanDescription" : "Wow, it's just like Biology Class!",
+  "hylotlDescription" : "A curious collection of objects. I imagine capitalists would make a fortune selling the grasses they prepare here.",
+
+  "inventoryIcon" : "grasslabicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "grasslab.png:<color>.<frame>",
+	  "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "dualImage" : "grasslab.png:<color>.<frame>",
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

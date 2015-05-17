@@ -26,7 +26,7 @@
 
       "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ]
-    }.
+    },
     {
       "dualImage" : "apexshipdoor.png:default",
       "imagePosition" : [-16, -6],

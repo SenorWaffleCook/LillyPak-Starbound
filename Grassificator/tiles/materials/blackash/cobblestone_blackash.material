@@ -1,0 +1,23 @@
+{
+  "materialId" : 20410,
+  "materialName" : "cobblestone_blackash",
+  "particleColor" : [149, 149, 149, 255],
+  "itemDrop" : "cobblestone_blackash",
+  "shortdescription" : "Black Ash Covered Cobblestone",
+  "description" : "Hard stones, smooth to the touch. They're covered in Black Ash.",
+  "glitchDescription" : "Statement. Cobblestones. Observation. Covered in Black Ash.",
+  "floranDescription" : "Dark Assshhy Cobblessstone.",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "health" : 8,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "cobblestone_blackash.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

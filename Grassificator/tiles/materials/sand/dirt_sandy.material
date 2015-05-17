@@ -1,0 +1,25 @@
+{
+  "materialId" : 20438,
+  "materialName" : "dirt_sandy",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "dirt_sandy",
+  "description" : "Dirty looking dirt coated in Sand.",
+  "shortdescription" : "Sand Covered Dirt",
+  "glitchDescription" : "Statement. Dirt. Clarification. Dirt covered in Sand.",
+  "floranDescription" : "Filthy dirt! With Sssand!",
+  "footstepSound" : "/sfx/blocks/footstep_sand.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 2.3,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "dirt_sandy.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

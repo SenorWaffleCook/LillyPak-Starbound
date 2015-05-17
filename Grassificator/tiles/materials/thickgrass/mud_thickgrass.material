@@ -1,0 +1,25 @@
+{
+  "materialId" : 20452,
+  "materialName" : "mud_thickgrass",
+  "particleColor" : [127, 121, 102, 255],
+  "itemDrop" : "mud_thickgrass",
+  "description" : "Thick and sticky mud. Thick Grass is growing on it.",
+  "shortdescription" : "Thick Grass on Mud",
+  "glitchDescription" : "Statement. The muddiest of mud. Observation. Thick Grass is growing on it.",
+  "floranDescription" : "Thick Grassss on Mud. Floran like make messsss.",
+  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "mud_thickgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

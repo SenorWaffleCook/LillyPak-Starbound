@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "cobblestone_blackash", "count" : 10 }
+  ],
+  "output" : { "item" : "cobblestonematerial", "count" : 10 },
+  "groups" : [ "anti_grass" ]
+}

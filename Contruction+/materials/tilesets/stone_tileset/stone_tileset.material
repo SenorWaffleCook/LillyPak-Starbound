@@ -1,0 +1,22 @@
+{
+  "materialId" : 44001,
+  "materialName" : "stone_tileset",
+  "particleColor" : [194, 194, 194, 255],
+  "itemDrop" : "stone_tileset",
+  "shortdescription" : "stone_tileset",
+  "description" : "stone_tileset",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.wav",
+  "drawBackground" : true,
+  "health" : 10,
+  "category": "materials",
+
+  "renderTemplate" : "/materials/tilesets/madtulip_tileset.config",
+  "renderParameters" : {
+    "texture" : "stone_tileset.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 10
+  }
+}

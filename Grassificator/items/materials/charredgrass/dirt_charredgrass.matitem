@@ -1,0 +1,12 @@
+{
+  "itemName" : "dirt_charredgrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "dirt_charredgrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Dirty looking dirt.",
+  "shortdescription" : "Charred Grass on Dirt",
+  "glitchDescription" : "Statement. Dirt. Clarification. It's covered in Charred Grass.",
+  "floranDescription" : "Filthy dirt! With Charred Grassss!",
+
+  "materialId" : 20417
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 20431,
+  "materialName" : "fleshblock_heckgrass",
+  "particleColor" : [166, 27, 32, 255],
+  "itemDrop" : "fleshblock_heckgrass",
+  "description" : "A hideous, foul-smelling heck grass coated block made of some kind of flesh.",
+  "shortdescription" : "Heck Grass Coated Flesh Block",
+  "glitchDescription" : "Disgust. A heck grass coated block made of flesh.",
+  "floranDescription" : "Sssquishy meaty heck grassss coated block.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 3.5,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "fleshblock_heckgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

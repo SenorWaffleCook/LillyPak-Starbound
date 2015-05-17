@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ashblock_ash", "count" : 10 }
+  ],
+  "output" : { "item" : "ash", "count" : 10 },
+  "groups" : [ "anti_grass" ]
+}

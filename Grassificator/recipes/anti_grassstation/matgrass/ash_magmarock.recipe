@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "magmarock_ash", "count" : 10 }
+  ],
+  "output" : { "item" : "magmarock", "count" : 10 },
+  "groups" : [ "anti_grass" ]
+}

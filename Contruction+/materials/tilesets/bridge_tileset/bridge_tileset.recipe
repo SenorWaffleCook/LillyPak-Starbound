@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "bridge_tileset",
+    "count" : 4
+  },
+  "groups" : [ "laser_crafting_table", "all", "tileset" ]
+}

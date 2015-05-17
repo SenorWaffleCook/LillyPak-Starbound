@@ -1,0 +1,22 @@
+{
+  "materialId" : 44003,
+  "materialName" : "fence_tileset",
+  "particleColor" : [194, 194, 194, 255],
+  "itemDrop" : "fence_tileset",
+  "shortdescription" : "fence_tileset",
+  "description" : "fence_tileset",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "drawBackground" : true,
+  "health" : 10,
+  "category": "materials",
+
+  "renderTemplate" : "/materials/tilesets/madtulip_tileset.config",
+  "renderParameters" : {
+    "texture" : "fence_tileset.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 10
+  }
+}

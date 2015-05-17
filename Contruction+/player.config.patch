@@ -1,0 +1,16 @@
+[
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"laser_crafting_table"}},
+		
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"stone_tileset"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"stone_tileset_slab"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"stone_tileset_full"}},
+		
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"fence_tileset"}},
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"bridge_tileset"}},
+		
+		
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"crystal_tileset"}},
+		
+		{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"stone_door"}}
+
+]

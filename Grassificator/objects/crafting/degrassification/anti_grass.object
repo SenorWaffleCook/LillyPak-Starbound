@@ -1,0 +1,148 @@
+{
+  "objectName" : "grassificator_anti",
+  "printable" : true,
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "objectType" : "container",
+  "price" : 300,
+
+  "lightColor" : [20, 20, 20],
+
+  "description" : "A De-Grassificator, advanced reversal technology.",
+  "shortdescription" : "De-Grassificator",
+  "race" : "generic",
+  "apexDescription" : "A De-Grassificator, fantastic for separation.",
+  "avianDescription" : "I can use this to remove grass from things.",
+  "floranDescription" : "Floran use box to kill grassss!",
+  "glitchDescription" : "Impressed. This process is invaluable.",
+  "humanDescription" : "A De-Grassificator, I guess not everyone loves grass.",
+  "hylotlDescription" : "This is a strange device. Why grow grass only to reverse the process?",
+
+
+  "inventoryIcon" : "anti_grass_icon.png",
+  "orientations" : [
+    {
+	  "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "right",
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+	
+	{
+	  "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "right",
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+	
+	{
+      "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "right",
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+	
+	{
+      "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "right",
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+	
+	{
+      "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+	
+	{
+	  "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "right",
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+	},
+	
+	{
+	  "imageLayers" : [ { "image" : "anti_grass.png:<color>.<frame>", "fullbright" : true }, { "image" : "anti_grasslit.png:<color>.<frame>" } ],
+	  "direction" : "left",
+	  "flipImages" : true,
+      "imagePosition" : [-8, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+	}
+  ],
+
+  "recipeGroup" : "anti_grass",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/removegrass.config",
+  "frameCooldown" : 1,
+  "autoCloseCooldown" : 3600,
+  
+  "soundEffect" : "/sfx/objects/stationrumble.wav",
+  "soundEffectRadius" : 60
+}

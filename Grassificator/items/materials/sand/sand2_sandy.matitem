@@ -1,0 +1,12 @@
+{
+  "itemName" : "sand2_sandy",
+  "rarity" : "Common",
+  "inventoryIcon" : "sand2_sandy.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Soft and warm sand. Covered in more Sand.",
+  "shortdescription" : "Sand Covered Sand",
+  "glitchDescription" : "Statement. Sand. Observation. It's covered in more Sand.",
+  "floranDescription" : "Sssand with more sssand.",
+
+  "materialId" : 20441
+}

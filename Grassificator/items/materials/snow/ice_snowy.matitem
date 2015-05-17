@@ -1,0 +1,12 @@
+{
+  "itemName" : "ice_snowy",
+  "rarity" : "Common",
+  "inventoryIcon" : "ice_snowy.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Snow Covered Ice",
+  "description" : "Solid ice, tingly to the touch. It's covered in Snow.",
+  "glitchDescription" : "Statement. Cold, cold ice. Observation. It's covered in Snow.",
+  "floranDescription" : "Sssnowy Ice. Sssmooth to the touch.",
+
+  "materialId" : 20445
+}

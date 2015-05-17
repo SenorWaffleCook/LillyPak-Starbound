@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pressurizedsteel_metal", "count" : 10 }
+  ],
+  "output" : { "item" : "pressurizedsteel", "count" : 10 },
+  "groups" : [ "anti_grass" ]
+}

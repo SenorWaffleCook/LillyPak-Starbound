@@ -1,0 +1,24 @@
+{
+  "materialId" : 44005,
+  "materialName" : "crystal_tileset",
+  "particleColor" : [225, 156, 244, 255],
+  "itemDrop" : "crystal_tileset",
+  "description" : "-todo",
+  "shortdescription" : "crystal_tileset",
+  "glitchDescription" : "crystal_tileset",
+  "floranDescription" : "Ssshiny block.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
+  "health" : 5,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "crystal_tileset.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 99,
+    "radiantLight" : [0.5, 0, 0.5]
+  }
+}

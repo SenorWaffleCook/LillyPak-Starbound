@@ -1,0 +1,12 @@
+{
+  "itemName" : "cobblestone_ash",
+  "rarity" : "Common",
+  "inventoryIcon" : "cobblestone_ash.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Ash Covered Cobblestone",
+  "description" : "Hard stones, smooth to the touch. They're covered in Ash.",
+  "glitchDescription" : "Statement. Cobblestones. Observation. Covered in Ash.",
+  "floranDescription" : "Assshhy Cobblessstone.",
+
+  "materialId" : 20405
+}

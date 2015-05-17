@@ -1,0 +1,12 @@
+{
+  "itemName" : "bonematerial_bone",
+  "rarity" : "Common",
+  "inventoryIcon" : "bonematerial_bone.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Polished bone made into a building material. Covered in more Bones.",
+  "shortdescription" : "Bone Covered Bone Block",
+  "glitchDescription" : "Analysis. This bone came from a huge creature. Observation. It's covered in more bones.",
+  "floranDescription" : "Bonesss! Ssso many!",
+
+  "materialId" : 20413
+}

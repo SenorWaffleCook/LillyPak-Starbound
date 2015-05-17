@@ -1,0 +1,38 @@
+{
+  "objectName" : "laser_crafting_table",
+  "rarity" : "Common",
+
+  //"objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/objects/laser crafting table/laser_crafting_table.config",
+    "filter" : [ "laser_crafting_table" ]
+  },
+  "description" : "A table designed for building complex items",
+  "shortdescription" : "Laser Crafting Table",
+  "race" : "generic",
+  "category" : "crafting",
+  "printable" : false,
+  "price" : 200,
+
+  "apexDescription" : "A Laser. Useful.",
+  "avianDescription" : "I can use this crafting table to make things.",
+  "floranDescription" : "Floran create magic bang bangs!",
+  "glitchDescription" : "Admiration. An extremely advanced table.",
+  "humanDescription" : "A laser crafting table. I can create awesome stuff here!",
+  "hylotlDescription" : "This table looks decent enough.",
+  
+  "inventoryIcon" : "laser_crafting_table_inv.png",
+  "orientations" : [
+    {
+      "dualImage" : "laser_crafting_table.png:<color>.<frame>",
+      "imagePosition" : [-25, -8],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

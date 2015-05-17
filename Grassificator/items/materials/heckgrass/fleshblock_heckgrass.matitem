@@ -1,0 +1,12 @@
+{
+  "itemName" : "fleshblock_heckgrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "fleshblock_heckgrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A hideous, foul-smelling heck grass coated block made of some kind of flesh.",
+  "shortdescription" : "Heck Grass Coated Flesh Block",
+  "glitchDescription" : "Disgust. A heck grass coated block made of flesh.",
+  "floranDescription" : "Sssquishy meaty heck grassss coated block.",
+
+  "materialId" : 20431
+}

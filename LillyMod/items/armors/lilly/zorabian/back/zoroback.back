@@ -16,7 +16,8 @@
 			"stat": "madtulip_vacuum_back_immunity",
 			"amount": 1
 		},
-		"glow"
+		"glow",
+		"energyregen672"
 	],
 
 	"colorOptions":

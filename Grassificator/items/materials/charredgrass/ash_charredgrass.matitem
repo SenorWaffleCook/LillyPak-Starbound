@@ -1,0 +1,12 @@
+{
+  "itemName" : "ash_charredgrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "ash_charredgrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ash packed tight into a solid block. It's covered in a layer of Charred Grass",
+  "shortdescription" : "Charred Grass on Ash",
+  "glitchDescription" : "Curious. A block of ash. Clarification. It's covered in Charred Grass",
+  "floranDescription" : "Burny block. With Charred Grassss!",
+
+  "materialId" : 20416
+}

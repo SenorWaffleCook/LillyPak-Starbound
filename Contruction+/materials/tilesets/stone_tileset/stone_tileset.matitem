@@ -1,0 +1,9 @@
+{
+  "itemName" : "stone_tileset",
+  "rarity" : "Common",
+  "inventoryIcon" : "stone_tileset_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "stone_tileset",
+  "shortdescription" : "stone_tileset",
+  "materialId" : 44001
+}

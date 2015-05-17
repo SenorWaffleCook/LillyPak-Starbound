@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "moondust", "count" : 10 },
+	{ "item" : "sand", "count" : 1}
+  ],
+  "output" : { "item" : "moondust_sandy", "count" : 10 },
+  "groups" : [ "grassstation", "matgrass" ]
+}

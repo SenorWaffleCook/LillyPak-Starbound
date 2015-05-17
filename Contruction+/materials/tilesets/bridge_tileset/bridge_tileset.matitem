@@ -1,0 +1,9 @@
+{
+  "itemName" : "bridge_tileset",
+  "rarity" : "Common",
+  "inventoryIcon" : "bridge_tileset_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "bridge_tileset",
+  "shortdescription" : "bridge_tileset",
+  "materialId" : 44006
+}

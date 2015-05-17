@@ -1,0 +1,23 @@
+{
+  "materialId" : 20450,
+  "materialName" : "fleshblock_tentaclegrass",
+  "particleColor" : [166, 27, 32, 255],
+  "itemDrop" : "fleshblock_tentaclegrass",
+  "description" : "A hideous, foul-smelling block made of some kind of flesh. It's coated in Tentacle Grass.",
+  "shortdescription" : "Tentacle Grass Coated Flesh Block",
+  "glitchDescription" : "Disgust. A Tentacle Grass coated block made of flesh.",
+  "floranDescription" : "Sssquishy meat block coated in Tentacle Grassss.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 3.5,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "fleshblock_tentaclegrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

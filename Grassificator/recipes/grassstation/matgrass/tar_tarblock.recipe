@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "tar", "count" : 11 }
+  ],
+  "output" : { "item" : "tar_targunked", "count" : 10 },
+  "groups" : [ "grassstation", "matgrass" ]
+}

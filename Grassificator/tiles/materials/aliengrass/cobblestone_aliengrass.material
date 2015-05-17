@@ -1,0 +1,23 @@
+{
+  "materialId" : 20454,
+  "materialName" : "cobblestone_aliengrass",
+  "particleColor" : [149, 149, 149, 255],
+  "itemDrop" : "cobblestone_aliengrass",
+  "shortdescription" : "Alien Grass on Cobblestone",
+  "description" : "Hard stones, smooth to the touch covered in Dense Alien Grass.",
+  "glitchDescription" : "Statement. Cobblestones. Observation. A layer of Alien Grass is atop it.",
+  "floranDescription" : "Cobblessstoness and Alien Grasss.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.wav",
+  "health" : 4,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "cobblestone_aliengrass.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -39,7 +39,8 @@
 			"stat": "madtulip_vacuum_chest_immunity",
 			"amount": 1
 		},
-		"regeneration1"
+		"regeneration1",
+		"energyregen672"
 	],
 
 	"colorOptions" :

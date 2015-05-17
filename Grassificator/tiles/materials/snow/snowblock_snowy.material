@@ -1,0 +1,25 @@
+{
+  "materialId" : 20446,
+  "materialName" : "snow_snowy",
+  "particleColor" : [245, 249, 250, 255],
+  "itemDrop" : "snow_snowy",
+  "shortdescription" : "Snow Covered Snow",
+  "description" : "Soft and fluffy snow. Covered in more Snow.",
+  "glitchDescription" : "Statement. Snow. Observation. It's covered in more Snow.",
+  "floranDescription" : "Sssnowy ssstuff with more sssnow.",
+  "footstepSound" : "/sfx/blocks/footstep_snow.wav",
+  "health" : 1.3,
+  "category": "materials",
+  "soil" : true,
+  "damageTable" : "/tiles/flammableDamage.config",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "snow_snowy.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

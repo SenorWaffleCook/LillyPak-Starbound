@@ -1,0 +1,25 @@
+{
+  "materialId" : 20400,
+  "materialName" : "dirt_aridgrass",
+  "particleColor" : [112, 72, 39, 255],
+  "itemDrop" : "dirt_aridgrass",
+  "description" : "Dirty looking dirt. Arid Grass is growing on it.",
+  "shortdescription" : "Arid Grass on Dirt",
+  "glitchDescription" : "Statement. Dirt. Clarification. Dirt with Arid grass on it.",
+  "floranDescription" : "Filthy dirt! With Arid Grassss!",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 2.1,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+	"renderParameters" : {
+    "texture" : "dirt_aridgrass.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

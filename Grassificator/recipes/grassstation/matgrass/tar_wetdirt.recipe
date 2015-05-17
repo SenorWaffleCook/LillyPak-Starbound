@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "wetdirt", "count" : 10},
+    { "item" : "tar", "count" : 1 }
+  ],
+  "output" : { "item" : "wetdirt_targunked", "count" : 10 },
+  "groups" : [ "grassstation", "matgrass" ]
+}

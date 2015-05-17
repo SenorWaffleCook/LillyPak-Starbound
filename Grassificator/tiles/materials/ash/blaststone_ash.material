@@ -1,0 +1,23 @@
+{
+  "materialId" : 20404,
+  "materialName" : "blaststone_ash",
+  "particleColor" : [100, 106, 106, 255],
+  "itemDrop" : "blaststone_ash",
+  "description" : "Sharp rocks produced by blasts of enormous heat. Covered in Ash.",
+  "shortdescription" : "Ash Covered Blaststone Block",
+  "glitchDescription" : "Analysis. Blaststone. Observation. It's covered in Ash.",
+  "floranDescription" : "Floran make asshhy ssstone go boom.",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "health" : 30,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "blaststone_ash.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

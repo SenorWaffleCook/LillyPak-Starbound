@@ -1,0 +1,9 @@
+{
+  "itemName" : "stone_tileset_slab",
+  "rarity" : "Common",
+  "inventoryIcon" : "stone_tileset_slab_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "stone_tileset_slab",
+  "shortdescription" : "stone_tileset_slab",
+  "materialId" : 44002
+}

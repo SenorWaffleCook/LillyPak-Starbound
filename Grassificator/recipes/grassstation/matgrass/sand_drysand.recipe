@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "drysand", "count" : 10 },
+	{ "item" : "sand", "count" : 1}
+  ],
+  "output" : { "item" : "drysand_sandy", "count" : 10 },
+  "groups" : [ "grassstation", "matgrass" ]
+}

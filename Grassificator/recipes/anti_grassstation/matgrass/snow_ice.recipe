@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ice_snowy", "count" : 10 }
+  ],
+  "output" : { "item" : "ice", "count" : 10 },
+  "groups" : [ "anti_grass" ]
+}

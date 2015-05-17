@@ -1,0 +1,8 @@
+{
+  "name" : "biomeprotectionTech",
+  "type" : "suit",
+  "suitOverlay" : "/tech/skins/biomeprotection/suits/<species>-<gender>2.png",
+
+  "scripts" : ["biomeprotection.lua"],
+  "actions" : [""]
+}

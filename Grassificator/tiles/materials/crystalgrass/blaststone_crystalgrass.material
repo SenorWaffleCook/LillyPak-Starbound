@@ -1,0 +1,23 @@
+{
+  "materialId" : 20418,
+  "materialName" : "blaststone_crystalgrass",
+  "particleColor" : [100, 106, 106, 255],
+  "itemDrop" : "blaststone_crystalgrass",
+  "description" : "Sharp rocks produced by blasts of enormous heat. It's coated in crystals.",
+  "shortdescription" : "Crystal Covered Blaststone Block",
+  "glitchDescription" : "Analysis. Blaststone. Observation. It's Coated in Crystals.",
+  "floranDescription" : "Floran make cryssstaly ssstone go boom.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.wav",
+  "health" : 30,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "blaststone_crystalgrass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "materialId" : 20428,
+  "materialName" : "drydirt_grass",
+  "particleColor" : [201, 137, 100, 255],
+  "itemDrop" : "drydirt_grass",
+  "description" : "Dirt, dried solid in the sun. Grass is growing on it.",
+  "shortdescription" : "Grass on Dry Dirt",
+  "glitchDescription" : "Statement. Dirt. Clarification. Dried dirt with Grass on it.",
+  "floranDescription" : "Filthy dry dirt! With Grass!",
+  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 1.5,
+  "category": "materials",
+  
+    "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+  "texture" : "drydirt_grass.png",
+  "variants" : 5,
+  "lightTransparent" : false,
+  "multiColored" : false,
+  "occludesBelow" : true,
+  "zLevel" : 0
+  }
+}

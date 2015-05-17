@@ -1,0 +1,12 @@
+{
+  "itemName" : "alienrock_aliengrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "alienrock_aliengrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "This rock and the grass on it came from an Alien world.",
+  "shortdescription" : "Alien Grass on Alien Rock",
+  "glitchDescription" : "Analysis. This rock and grass is of an alien origin.",
+  "floranDescription" : "Floran like weird rockss and weird grasss!",
+
+  "materialId" : 20453
+}

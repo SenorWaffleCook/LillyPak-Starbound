@@ -1,0 +1,9 @@
+{
+  "itemName" : "fence_tileset",
+  "rarity" : "Common",
+  "inventoryIcon" : "fence_tileset_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "fence_tileset",
+  "shortdescription" : "fence_tileset",
+  "materialId" : 44003
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "biomeprotectionTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/skins/biomeprotection/overlay2.png",
+  "description" : "Protects the wearer from all environmental extremities.",
+  "shortdescription" : "Biome Protection",
+
+  "techModule" : "biomeprotectionTech"
+}

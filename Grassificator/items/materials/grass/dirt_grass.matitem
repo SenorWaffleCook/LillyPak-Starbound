@@ -1,0 +1,12 @@
+{
+  "itemName" : "dirt_grass",
+  "rarity" : "Common",
+  "inventoryIcon" : "dirt_grass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Dirty looking dirt. Grass is growing on it.",
+  "shortdescription" : "Grass on Dirt",
+  "glitchDescription" : "Statement. Dirt. Clarification. Dirt with Grass on it.",
+  "floranDescription" : "Filthy dirt! With Grassss!",
+
+  "materialId" : 20427
+}

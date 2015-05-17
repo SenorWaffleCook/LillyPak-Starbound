@@ -1,0 +1,12 @@
+{
+  "itemName" : "corruptdirt_fleshgrass",
+  "rarity" : "Common",
+  "inventoryIcon" : "corruptdirt_fleshgrass.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ick. Corrupted dirt. It's coated in fleshy grass.",
+  "shortdescription" : "Flesh Grass Coated Corrupt Dirt Block",
+  "glitchDescription" : "Statement. Corrupted dirt. Observation. It's coated in Fleshy Grass.",
+  "floranDescription" : "Sssick dirt coated in flesssh.",
+
+  "materialId" : 20425
+}

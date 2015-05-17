@@ -1,0 +1,10 @@
+{
+  "itemName" : "crystal_tileset",
+  "rarity" : "Common",
+  "inventoryIcon" : "crystal_tileset_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A crystal.",
+  "shortdescription" : "crystal_tileset",
+
+  "materialId" : 44005
+}

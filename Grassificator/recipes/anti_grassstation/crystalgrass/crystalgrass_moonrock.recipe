@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "moonrock_crystalgrass", "count" : 10 }
+  ],
+  "output" : { "item" : "moonrock", "count" : 10 },
+  "groups" : [ "anti_grass" ]
+}

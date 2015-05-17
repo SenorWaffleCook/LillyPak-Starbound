@@ -1,0 +1,103 @@
+{
+  "objectName" : "stone_door",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 2000,
+  "printable" : false,
+
+  "description" : "A reinforced space-grade Air-Lock that can be placed dynamically.",
+  "shortdescription" : "stone_door",
+  "race" : "apex",
+
+  "apexDescription" : "This door looks strong enough to keep anything out... or everyone in.",
+  "avianDescription" : "A strong door. Not even the breeze could slip through.",
+  "floranDescription" : "Door of great ssstrength.",
+  "glitchDescription" : "Jealousy. Such strong materials.",
+  "humanDescription" : "A huge, heavy security door.",
+  "hylotlDescription" : "This looks strong enough to hold back the ocean.",
+
+  "inventoryIcon" : "stone_door_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "stone_door.png:default",
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom", "top"],
+      "animationParts" :
+      {
+        "door" : "stone_door.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "stone_door_4.png:default",
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom", "top"],
+      "animationParts" :
+      {
+        "door" : "stone_door_4.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "stone_door_6.png:default",
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom", "top"],
+      "animationParts" :
+      {
+        "door" : "stone_door_6.png"
+      },
+      "animationPosition" : [-20, 0]
+    },
+    {
+      "dualImage" : "stone_door_h.png:default",
+      "imagePosition" : [0, -20],
+      "spaceScan" : 0.1,
+      "anchors" : ["left", "right"],
+      "animationParts" :
+      {
+        "door" : "stone_door_h.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "stone_door_h_4.png:default",
+      "imagePosition" : [0, -20],
+      "spaceScan" : 0.1,
+      "anchors" : ["left", "right"],
+      "animationParts" :
+      {
+        "door" : "stone_door_h_4.png"
+      },
+      "animationPosition" : [0, -20]
+    },
+    {
+      "dualImage" : "stone_door_h_6.png:default",
+      "imagePosition" : [0, -20],
+      "spaceScan" : 0.1,
+      "anchors" : ["left", "right"],
+      "animationParts" :
+      {
+        "door" : "stone_door_h_6.png"
+      },
+      "animationPosition" : [0, -20]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.wav" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.wav" ]
+    }
+  },
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}
