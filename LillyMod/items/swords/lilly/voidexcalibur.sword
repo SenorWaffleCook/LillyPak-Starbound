@@ -7,56 +7,13 @@
 	"description" : "The Void Excaibur. A sword that'll cut through anything.",
 	"shortdescription" : "Void Excalibur",
 	"tooltipKind" : "sword",
-	"kind" : "Broadsword",
+	"weaponType" : "Broadsword",
 	
 	"image" : "voidexcalibur.png",
 	"firePosition" : [15.5, 4.5],
 	"fireTime" : 0.5,
 	"fireAfterWindup" : true,
 	"soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_twohanded.wav" } ] },
-	
-	"parryBlockCooldown" : 1.2,
-	"parrySound" : "/sfx/melee/sword_parry.wav",
-	"parryParticle" : "shieldspark",
-
-	"primaryStances" :
-	{
-		"directional" : false,
-		"projectileType": "testswoosh3",
-		"projectile":
-		{
-			"speed": 0.1,
-			"power": 500
-		},
-		"idle" :
-		{
-			"twoHanded" : false,
-			"armAngle" : -90,
-			"swordAngle" : -90,
-			"handPosition" : [-6.0, -17.0],
-			"duration" : 0.1
-		},
-		"windup" :
-		{
-			"twoHanded" : false,
-			"armAngle" : 90,
-			"swordAngle" : 90,
-			"handPosition" : [-6.0, -17.0],
-			"duration" : 0.3,
-			"statusEffects" :
-			[]
-		},
-		"cooldown" :
-		{
-			"twoHanded" : false,
-			"armAngle" : -45,
-			"swordAngle" : -90,
-			"handPosition" : [-6.0, -27.5],
-			"duration" : 0.1,
-			"statusEffects" :
-			[]
-		}
-	},
 
 	"colorOptions" :
 	[
@@ -84,5 +41,40 @@
 		{ "ffca8a" : "eab3db", "e0975c" : "d35eae", "a85636" : "97276d", "6f2919" : "59163f" },
 		/* BROWN */
 		{ "ffca8a" : "ccae7c", "e0975c" : "a47844", "a85636" : "754c23", "6f2919" : "472b13" }
-	]
+	],
+	
+	"primaryStances" :
+	{
+		"directional" : false,
+		"projectileType": "testswoosh3",
+		"projectile":
+		{
+			"speed": 0.1,
+			"power": 100
+		},
+		"idle" :
+		{
+			"twoHanded" : false,
+			"armAngle" : -90,
+			"swordAngle" : -90,
+			"handPosition" : [-6.0, -17.0],
+			"duration" : 0.1
+		},
+		"windup" :
+		{
+			"twoHanded" : false,
+			"armAngle" : 90,
+			"swordAngle" : 90,
+			"handPosition" : [-6.0, -17.0],
+			"duration" : 0.2
+		},
+		"cooldown" :
+		{
+			"twoHanded" : false,
+			"armAngle" : -45,
+			"swordAngle" : -90,
+			"handPosition" : [-6.0, -27.5],
+			"duration" : 0.4
+		}
+	}
 }

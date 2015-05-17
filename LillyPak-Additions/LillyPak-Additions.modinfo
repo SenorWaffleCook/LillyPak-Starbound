@@ -2,16 +2,15 @@
 	"name": "LillyPak-Additions",
 	"path": ".",
 	"version": "Beta v. Upbeat Giraffe",
-	"requires":
+	"requires": [],
+	"includes":
 	[
  		"EnhancedStorage(StandardEdition)",
 		"Avali",
 		"dyemod",
 		"PerennialCrops",
-		"Kineptic",
 		"madtulip"
 	],
-	"includes": [],
 	"metadata":
 	{
 		"properties":
