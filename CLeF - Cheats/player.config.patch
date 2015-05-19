@@ -1,4 +1,0 @@
-[
-  { "op" : "replace", "path" : "/normalModeDeathDrops", "value" : [ ] },
-  { "op" : "replace", "path" : "/reviveCost/percentile", "value" : 0.0 }
-]

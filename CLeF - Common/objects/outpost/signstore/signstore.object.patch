@@ -1,0 +1,6 @@
+[
+  { "op" : "replace", "path" : "/printable", "value" : true },
+  { "op" : "replace", "path" : "/hasObjectItem", "value" : true },
+  { "op" : "remove", "path" : "/breakDropOptions" },
+  { "op" : "add", "path" : "/price", "value" : 500 }
+]

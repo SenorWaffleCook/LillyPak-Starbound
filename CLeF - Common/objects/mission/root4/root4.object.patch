@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/printable", "value" : true },
+  { "op" : "replace", "path" : "/hasObjectItem", "value" : true }
+]

@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/sitStatusEffects", "value" : [ "regeneration1", "intents", "invisible" ] }
-]
